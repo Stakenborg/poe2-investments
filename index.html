@@ -1,0 +1,1477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Vault — PoE2 Crafting Fund</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&family=Cinzel:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg-0: #08090c;
+  --bg-1: #0e1015;
+  --bg-2: #14161c;
+  --bg-3: #1a1d25;
+  --bg-4: #21242e;
+  --border: rgba(255,255,255,0.06);
+  --border-hover: rgba(255,255,255,0.1);
+  --accent: #c9a84c;
+  --accent-bright: #e4c65a;
+  --accent-dim: #8a7130;
+  --accent-bg: rgba(201,168,76,0.06);
+  --accent-border: rgba(201,168,76,0.15);
+  --text-0: #eceae4;
+  --text-1: #b0ada4;
+  --text-2: #918e85;
+  --text-3: #706d64;
+  --green: #34d399;
+  --red: #f87171;
+  --rarity-normal: #c8c8c8;
+  --rarity-magic: #8888ff;
+  --rarity-rare: #ffff77;
+  --rarity-unique: #af6025;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --scroll-y: 0;
+}
+
+html { font-size: 16px; -webkit-font-smoothing: antialiased; }
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  background: var(--bg-0);
+  color: var(--text-0);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ========================================
+   HERO SECTION
+   ======================================== */
+
+#hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+/* --- Ambient gradient mesh background --- */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 30%, rgba(201,168,76,0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 80% at 80% 70%, rgba(100,80,200,0.06) 0%, transparent 70%),
+    radial-gradient(ellipse 90% 50% at 50% 50%, rgba(201,168,76,0.04) 0%, transparent 60%);
+  animation: meshShift 20s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes meshShift {
+  0%   { transform: translateY(calc(var(--scroll-y) * -0.1px)) scale(1); }
+  33%  { transform: translateY(calc(var(--scroll-y) * -0.1px)) scale(1.05) rotate(1deg); }
+  66%  { transform: translateY(calc(var(--scroll-y) * -0.1px)) scale(0.98) rotate(-0.5deg); }
+  100% { transform: translateY(calc(var(--scroll-y) * -0.1px)) scale(1.03) rotate(0.5deg); }
+}
+
+/* --- Floating orbs --- */
+.hero-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.5;
+  z-index: 0;
+  will-change: transform;
+}
+
+.hero-orb--1 {
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(201,168,76,0.15), transparent 70%);
+  top: 10%; left: 10%;
+  animation: orbFloat1 16s ease-in-out infinite alternate;
+  transform: translateY(calc(var(--scroll-y) * -0.3px));
+}
+
+.hero-orb--2 {
+  width: 300px; height: 300px;
+  background: radial-gradient(circle, rgba(100,80,200,0.12), transparent 70%);
+  top: 60%; right: 10%;
+  animation: orbFloat2 20s ease-in-out infinite alternate;
+  transform: translateY(calc(var(--scroll-y) * -0.2px));
+}
+
+.hero-orb--3 {
+  width: 250px; height: 250px;
+  background: radial-gradient(circle, rgba(201,168,76,0.1), transparent 70%);
+  bottom: 15%; left: 40%;
+  animation: orbFloat3 14s ease-in-out infinite alternate;
+  transform: translateY(calc(var(--scroll-y) * -0.15px));
+}
+
+.hero-orb--4 {
+  width: 200px; height: 200px;
+  background: radial-gradient(circle, rgba(52,211,153,0.08), transparent 70%);
+  top: 25%; right: 25%;
+  animation: orbFloat4 18s ease-in-out infinite alternate;
+  transform: translateY(calc(var(--scroll-y) * -0.25px));
+}
+
+@keyframes orbFloat1 {
+  0%   { transform: translate(0, calc(var(--scroll-y) * -0.3px)); }
+  100% { transform: translate(40px, calc(-60px + var(--scroll-y) * -0.3px)); }
+}
+@keyframes orbFloat2 {
+  0%   { transform: translate(0, calc(var(--scroll-y) * -0.2px)); }
+  100% { transform: translate(-50px, calc(40px + var(--scroll-y) * -0.2px)); }
+}
+@keyframes orbFloat3 {
+  0%   { transform: translate(0, calc(var(--scroll-y) * -0.15px)); }
+  100% { transform: translate(30px, calc(-45px + var(--scroll-y) * -0.15px)); }
+}
+@keyframes orbFloat4 {
+  0%   { transform: translate(0, calc(var(--scroll-y) * -0.25px)); }
+  100% { transform: translate(-35px, calc(50px + var(--scroll-y) * -0.25px)); }
+}
+
+/* --- Hero content --- */
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+  transform: translateY(calc(var(--scroll-y) * -0.05px));
+  will-change: transform;
+}
+
+/* --- Choreographed entrance --- */
+.hero-brand,
+.hero-value-wrap,
+.hero-stats-row,
+.hero-updated,
+.hero-scroll-hint {
+  opacity: 0;
+  animation: heroFadeIn 0.8s ease-out forwards;
+}
+
+.hero-brand         { animation-delay: 0.1s; }
+.hero-value-wrap    { animation-delay: 0.35s; }
+.hero-stats-row     { animation-delay: 0.6s; }
+.hero-updated       { animation-delay: 0.85s; }
+.hero-scroll-hint   { animation-delay: 1.1s; }
+
+@keyframes heroFadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Hero brand --- */
+.hero-brand {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-1);
+}
+
+.hero-brand span {
+  color: var(--accent);
+  text-shadow: 0 0 30px rgba(201,168,76,0.2);
+}
+
+/* --- Hero value --- */
+.hero-value-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hero-value-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.hero-value {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 700;
+  font-size: clamp(4rem, 12vw, 10rem);
+  letter-spacing: -0.03em;
+  color: var(--accent-bright);
+  line-height: 1;
+  text-shadow: 0 0 80px rgba(201,168,76,0.25);
+}
+
+.hero-value .unit {
+  font-size: 0.3em;
+  font-weight: 500;
+  color: var(--accent-dim);
+  margin-left: 0.15em;
+  vertical-align: 0.15em;
+}
+
+/* --- Hero secondary stats --- */
+.hero-stats-row {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.hero-stat-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.hero-stat-value {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+  color: var(--text-0);
+  line-height: 1;
+}
+
+.hero-stat-value .unit {
+  font-size: 0.45em;
+  font-weight: 500;
+  color: var(--text-2);
+  margin-left: 0.15em;
+}
+
+/* --- Hero updated badge --- */
+.hero-updated {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-2);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.85rem;
+  border-radius: 20px;
+  margin-top: 0.5rem;
+}
+
+/* --- Scroll hint chevron --- */
+.hero-scroll-hint {
+  position: absolute;
+  bottom: -4rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text-3);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.hero-scroll-hint svg {
+  width: 28px;
+  height: 28px;
+  animation: scrollBounce 2s ease-in-out infinite;
+}
+
+@keyframes scrollBounce {
+  0%, 100% { transform: translateY(0); opacity: 0.5; }
+  50%      { transform: translateY(6px); opacity: 1; }
+}
+
+/* ========================================
+   MAIN CONTENT
+   ======================================== */
+
+#content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem 6rem;
+}
+
+/* --- Collapsible Section --- */
+.section { margin-bottom: 1.5rem; }
+
+.section-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem 1.5rem;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all 0.2s;
+  -webkit-appearance: none;
+  appearance: none;
+  color: inherit;
+  font: inherit;
+}
+
+.section-toggle:hover {
+  background: var(--bg-3);
+  border-color: var(--border-hover);
+}
+
+.section.open .section-toggle {
+  border-radius: var(--radius) var(--radius) 0 0;
+  border-bottom-color: transparent;
+}
+
+.section-toggle-left {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.section-title {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: -0.01em;
+}
+
+.section-badge {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.25rem 0.65rem;
+  border-radius: 20px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+}
+
+.section-toggle-right {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.section-stat {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.section-chevron {
+  width: 22px;
+  height: 22px;
+  color: var(--text-3);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  flex-shrink: 0;
+}
+
+.section.open .section-chevron { transform: rotate(180deg); }
+
+.section-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section.open .section-body { grid-template-rows: 1fr; }
+
+.section-body-inner { overflow: hidden; }
+
+.section-content {
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 var(--radius) var(--radius);
+  background: var(--bg-1);
+}
+
+/* --- Item Grid --- */
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1px;
+  background: var(--border);
+}
+
+.item-card {
+  background: var(--bg-1);
+  padding: 1.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.item-card::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.item-card:hover { background: var(--bg-3); }
+.item-card:hover::after { opacity: 1; }
+
+.item-card[data-rarity="Normal"]::after { background: var(--rarity-normal); }
+.item-card[data-rarity="Magic"]::after { background: var(--rarity-magic); }
+.item-card[data-rarity="Rare"]::after { background: var(--rarity-rare); }
+.item-card[data-rarity="Unique"]::after { background: var(--rarity-unique); }
+
+.item-icon-wrap {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-0);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  padding: 8px;
+}
+
+.item-icon {
+  max-width: 100%;
+  max-height: 100%;
+  image-rendering: auto;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.5));
+  transition: transform 0.2s;
+}
+
+.item-card:hover .item-icon { transform: scale(1.12); }
+
+.item-name {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.item-card[data-rarity="Normal"] .item-name { color: var(--rarity-normal); }
+.item-card[data-rarity="Magic"] .item-name { color: var(--rarity-magic); }
+.item-card[data-rarity="Rare"] .item-name { color: var(--rarity-rare); }
+.item-card[data-rarity="Unique"] .item-name { color: var(--rarity-unique); }
+
+.item-base {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--text-2);
+  text-align: center;
+}
+
+.item-price {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--accent);
+  margin-top: auto;
+  padding-top: 0.25rem;
+}
+
+.item-time {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-2);
+}
+
+.empty-section {
+  padding: 2.5rem;
+  text-align: center;
+  color: var(--text-3);
+  font-size: 1rem;
+}
+
+/* --- Modal --- */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.modal-overlay.active {
+  display: flex;
+  animation: fadeIn 0.15s ease;
+}
+
+.modal-card {
+  background: var(--bg-2);
+  border: 1px solid var(--border-hover);
+  border-radius: var(--radius);
+  max-width: 520px;
+  width: 100%;
+  animation: modalIn 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: calc(100vh - 4rem);
+  box-shadow: 0 24px 64px rgba(0,0,0,0.6);
+}
+
+.modal-icon-area {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem 2rem;
+  background: var(--bg-0);
+  min-height: 160px;
+  align-items: center;
+}
+
+.modal-icon-area img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5));
+}
+
+.modal-header {
+  padding: 1.25rem 1.75rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-item-name {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
+}
+
+.modal-item-base {
+  font-size: 1.05rem;
+  color: var(--text-2);
+  margin-top: 0.25rem;
+}
+
+.modal-mods {
+  padding: 1.1rem 1.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-mods:empty { display: none; }
+
+.modal-mod-group { margin-bottom: 0.85rem; }
+.modal-mod-group:last-child { margin-bottom: 0; }
+
+.modal-mod-group-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.35rem;
+}
+
+.modal-mod {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #9898ff;
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.modal-mod.enchant { color: #b4b4ff; }
+.modal-mod.desecrated { color: var(--green); }
+.modal-mod.fractured { color: #d4a537; }
+
+.modal-mod-tier {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-2);
+  background: var(--bg-0);
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.modal-mod-tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 500;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.modal-mod-tag.desecrated {
+  color: var(--green);
+  background: rgba(52,211,153,0.1);
+  border: 1px solid rgba(52,211,153,0.2);
+}
+
+.modal-mod-tag.fractured {
+  color: #d4a537;
+  background: rgba(212,165,55,0.1);
+  border: 1px solid rgba(212,165,55,0.2);
+}
+
+.modal-flavour {
+  padding: 0.85rem 1.75rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--rarity-unique);
+  line-height: 1.4;
+  text-align: center;
+}
+
+.modal-footer {
+  padding: 0.85rem 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-ilvl {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-2);
+}
+
+.modal-corrupted {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--red);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
+
+.modal-sanctified {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--accent-bright);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
+
+.modal-properties {
+  padding: 0.85rem 1.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-props-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+}
+
+.modal-props-row + .modal-props-row { margin-top: 0.35rem; }
+
+.modal-prop {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--text-2);
+}
+
+.modal-prop-note {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-3);
+  width: 100%;
+}
+
+.modal-prop-value {
+  color: var(--text-0);
+  font-weight: 500;
+}
+
+.modal-prop-value.augmented { color: #8888ff; }
+
+.modal-gem-tags {
+  padding: 0.5rem 1.75rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.modal-gem-tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  background: var(--bg-0);
+  color: var(--text-2);
+  border: 1px solid var(--border);
+}
+
+.modal-socketed {
+  padding: 0.85rem 1.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-socketed-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.modal-socketed-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.4));
+  border-radius: 3px;
+}
+
+.modal-socketed-name {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-1);
+}
+
+.modal-socketed-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-left: auto;
+}
+
+.modal-rune-mod {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #7ecba1;
+}
+
+.modal-granted-skill {
+  padding: 0.75rem 1.75rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgba(201,168,76,0.04);
+}
+
+.modal-granted-skill-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.4));
+}
+
+.modal-granted-skill-text {
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.modal-price-bar {
+  padding: 1.25rem 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--accent-bg);
+}
+
+.modal-price-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.modal-price-value {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent-bright);
+}
+
+.modal-price-value .unit {
+  font-size: 0.6em;
+  font-weight: 500;
+  color: var(--accent-dim);
+}
+
+.modal-sold-time {
+  padding: 0.75rem 1.75rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-2);
+  text-align: center;
+  border-top: 1px solid var(--border);
+  background: var(--bg-3);
+}
+
+/* --- Loading --- */
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 1.25rem;
+}
+
+.spinner {
+  width: 36px;
+  height: 36px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+.loading-text { font-size: 0.95rem; color: var(--text-3); }
+
+.error-msg { text-align: center; padding: 4rem 2rem; color: var(--text-2); font-size: 1.1rem; }
+
+.error-msg code {
+  background: var(--bg-3);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.95rem;
+}
+
+/* --- Scroll Reveal --- */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- Animations --- */
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes modalIn { from { opacity: 0; transform: translateY(12px) scale(0.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ========================================
+   REDUCED MOTION
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .hero-bg { animation: none; }
+
+  .hero-orb { animation: none; }
+
+  .hero-brand,
+  .hero-value-wrap,
+  .hero-stats-row,
+  .hero-updated,
+  .hero-scroll-hint {
+    opacity: 1;
+    animation: none;
+    transform: none;
+  }
+
+  .hero-scroll-hint svg { animation: none; }
+
+  .scroll-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .hero-content { transform: none; }
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+@media (max-width: 768px) {
+  html { font-size: 16px; }
+
+  #hero { padding: 1.5rem; min-height: 100svh; }
+
+  .hero-brand { font-size: 1rem; }
+
+  .hero-stats-row { gap: 2rem; }
+
+  .hero-stat-value { font-size: 1.5rem; }
+
+  #content { padding: 2.5rem 1rem 4rem; }
+
+  .item-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  .modal-card { max-width: calc(100vw - 2rem); max-height: calc(100vh - 2rem); }
+  .section-toggle-right .section-stat { display: none; }
+
+  .hero-orb--1 { width: 250px; height: 250px; }
+  .hero-orb--2 { width: 200px; height: 200px; }
+  .hero-orb--3 { width: 150px; height: 150px; }
+  .hero-orb--4 { width: 120px; height: 120px; }
+}
+
+@media (max-width: 480px) {
+  .hero-stats-row { gap: 1.5rem; }
+  .hero-stat-value { font-size: 1.25rem; }
+  .item-grid { grid-template-columns: repeat(2, 1fr); }
+  .hero-scroll-hint { bottom: -3rem; }
+}
+</style>
+</head>
+<body>
+
+<div id="app">
+  <div class="loading">
+    <div class="spinner"></div>
+    <div class="loading-text">Loading fund data</div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal">
+  <div class="modal-card" id="modal-card"></div>
+</div>
+
+<script>
+const DATA_URL = 'data/dashboard.json';
+
+const chevronSVG = `<svg class="section-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
+
+const scrollChevronSVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
+
+function fmt(n) {
+  if (n === '' || n == null) return '\u2014';
+  return Math.round(n).toLocaleString();
+}
+
+function fmtPrice(amount, currency) {
+  return `${fmt(amount)} ${currency}`;
+}
+
+function timeAgo(iso) {
+  const d = Date.now() - new Date(iso).getTime();
+  const m = Math.floor(d / 60000);
+  if (m < 1) return 'just now';
+  if (m < 60) return m + 'm ago';
+  const h = Math.floor(m / 60);
+  if (h < 24) return h + 'h ago';
+  return Math.floor(h / 24) + 'd ago';
+}
+
+function within24h(iso) {
+  return (Date.now() - new Date(iso).getTime()) < 86400000;
+}
+
+function strip(text) {
+  return text.replace(/\[[^\|]*\|([^\]]*)\]/g, '$1').replace(/\[[^\]]*\]/g, '');
+}
+
+// Unified item card for both listings and sales
+function renderItemCard(item, i, type) {
+  const price = type === 'listing'
+    ? fmtPrice(item.listed_price, item.currency)
+    : fmtPrice(item.sale_price, item.currency);
+
+  const time = item.timestamp
+    ? `<span class="item-time">Sold ${timeAgo(item.timestamp)}</span>`
+    : '';
+
+  return `
+    <div class="item-card" data-rarity="${item.rarity}" onclick="showModal('${type}', ${i})">
+      ${item.icon ? `<div class="item-icon-wrap"><img class="item-icon" src="${item.icon}" alt="${item.item_name}" loading="lazy"></div>` : ''}
+      <span class="item-name">${item.item_name}</span>
+      <span class="item-base">${item.base_type}</span>
+      <span class="item-price">${price}</span>
+      ${time}
+    </div>
+  `;
+}
+
+/* =============================================
+   COUNT-UP ANIMATION
+   ============================================= */
+
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function easeOutQuint(t) {
+  return 1 - Math.pow(1 - t, 5);
+}
+
+function countUp(el, target, duration, delay) {
+  if (prefersReducedMotion) {
+    el.textContent = fmt(target);
+    return;
+  }
+
+  el.textContent = '0';
+  const startTime = performance.now() + delay;
+
+  function tick(now) {
+    const elapsed = now - startTime;
+    if (elapsed < 0) {
+      requestAnimationFrame(tick);
+      return;
+    }
+    const progress = Math.min(elapsed / duration, 1);
+    const easedProgress = easeOutQuint(progress);
+    const current = Math.round(easedProgress * target);
+    el.textContent = current.toLocaleString();
+    if (progress < 1) {
+      requestAnimationFrame(tick);
+    }
+  }
+
+  requestAnimationFrame(tick);
+}
+
+/* =============================================
+   SCROLL REVEALS (IntersectionObserver)
+   ============================================= */
+
+function initScrollReveals() {
+  const elements = document.querySelectorAll('.scroll-reveal');
+  if (!elements.length) return;
+
+  if (prefersReducedMotion) {
+    elements.forEach(el => el.classList.add('revealed'));
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        observer.unobserve(entry.target);
+
+        // Trigger count-up for any data-countup elements inside
+        const countEls = entry.target.querySelectorAll('[data-countup]');
+        countEls.forEach((el, i) => {
+          const target = parseFloat(el.dataset.countup);
+          if (!isNaN(target)) {
+            countUp(el, target, 1200, i * 100);
+          }
+        });
+      }
+    });
+  }, {
+    threshold: 0.15,
+    rootMargin: '0px 0px -40px 0px'
+  });
+
+  elements.forEach(el => observer.observe(el));
+}
+
+/* =============================================
+   PARALLAX (single passive scroll listener)
+   ============================================= */
+
+function initParallax() {
+  if (prefersReducedMotion) return;
+
+  let ticking = false;
+
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      requestAnimationFrame(() => {
+        document.documentElement.style.setProperty('--scroll-y', window.scrollY);
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+}
+
+/* =============================================
+   RENDER DASHBOARD
+   ============================================= */
+
+function renderDashboard(data) {
+  const sales24h = data.recent_sales.filter(s => within24h(s.timestamp));
+  const rev24h = sales24h.reduce((s, t) => s + (typeof t.div_equivalent === 'number' ? t.div_equivalent : 0), 0);
+  const listingTotal = data.listings.reduce((s, l) => s + (typeof l.div_equivalent === 'number' ? l.div_equivalent : 0), 0);
+
+  document.getElementById('app').innerHTML = `
+    <section id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-orb hero-orb--1"></div>
+      <div class="hero-orb hero-orb--2"></div>
+      <div class="hero-orb hero-orb--3"></div>
+      <div class="hero-orb hero-orb--4"></div>
+
+      <div class="hero-content">
+        <div class="hero-brand">The <span>Vault</span></div>
+
+        <div class="hero-value-wrap">
+          <span class="hero-value-label">Total Fund Value</span>
+          <div class="hero-value">
+            <span class="hero-value-number" data-hero-countup="${data.total_nav}">0</span><span class="unit">div</span>
+          </div>
+        </div>
+
+        <div class="hero-stats-row">
+          <div class="hero-stat">
+            <span class="hero-stat-label">Liquid</span>
+            <span class="hero-stat-value"><span class="hero-stat-number" data-hero-countup="${data.raw_divines}">0</span><span class="unit">div</span></span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-label">Listed</span>
+            <span class="hero-stat-value"><span class="hero-stat-number" data-hero-countup="${data.listed_value}">0</span><span class="unit">div</span></span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-label">24h Revenue</span>
+            <span class="hero-stat-value"><span class="hero-stat-number" data-hero-countup="${rev24h}">0</span><span class="unit">div</span></span>
+          </div>
+        </div>
+
+        <div class="hero-updated">Updated ${timeAgo(data.updated_at)}</div>
+
+        <div class="hero-scroll-hint">
+          Scroll
+          ${scrollChevronSVG}
+        </div>
+      </div>
+    </section>
+
+    <main id="content">
+      <section class="section scroll-reveal" id="sales-section">
+        <button class="section-toggle" onclick="toggleSection('sales-section')">
+          <div class="section-toggle-left">
+            <span class="section-title">Recent Sales</span>
+            <span class="section-badge">${sales24h.length} in 24h</span>
+          </div>
+          <div class="section-toggle-right">
+            <span class="section-stat">${fmt(rev24h)} div revenue</span>
+            ${chevronSVG}
+          </div>
+        </button>
+        <div class="section-body">
+          <div class="section-body-inner">
+            <div class="section-content">
+              ${sales24h.length > 0 ? `
+                <div class="item-grid">
+                  ${sales24h.map((s, i) => renderItemCard(s, i, 'sale')).join('')}
+                </div>
+              ` : '<div class="empty-section">No sales in the last 24 hours</div>'}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section open scroll-reveal" id="listings-section">
+        <button class="section-toggle" onclick="toggleSection('listings-section')">
+          <div class="section-toggle-left">
+            <span class="section-title">Active Listings</span>
+            <span class="section-badge">${data.listings.length} items</span>
+          </div>
+          <div class="section-toggle-right">
+            <span class="section-stat">${fmt(listingTotal)} div total</span>
+            ${chevronSVG}
+          </div>
+        </button>
+        <div class="section-body">
+          <div class="section-body-inner">
+            <div class="section-content">
+              <div class="item-grid">
+                ${data.listings.map((item, i) => renderItemCard(item, i, 'listing')).join('')}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  `;
+
+  // --- Fire hero count-ups after entrance animation ---
+  const heroMainEl = document.querySelector('.hero-value-number');
+  if (heroMainEl) {
+    const heroTarget = parseFloat(heroMainEl.dataset.heroCountup);
+    if (!isNaN(heroTarget)) {
+      countUp(heroMainEl, heroTarget, 1800, 500);
+    }
+  }
+
+  const heroStatEls = document.querySelectorAll('.hero-stat-number');
+  heroStatEls.forEach((el, i) => {
+    const target = parseFloat(el.dataset.heroCountup);
+    if (!isNaN(target)) {
+      countUp(el, target, 1200, 700 + i * 100);
+    }
+  });
+
+  // --- Init scroll reveals & parallax ---
+  initScrollReveals();
+  initParallax();
+}
+
+function toggleSection(id) {
+  document.getElementById(id).classList.toggle('open');
+}
+
+let currentData = null;
+
+function showModal(type, index) {
+  const item = type === 'listing' ? currentData.listings[index] : currentData.recent_sales.filter(s => within24h(s.timestamp))[index];
+  if (!item) return;
+
+  const modal = document.getElementById('modal');
+  const card = document.getElementById('modal-card');
+
+  card.setAttribute('data-rarity', item.rarity);
+
+  const rarityColor = {
+    Normal: 'var(--rarity-normal)',
+    Magic: 'var(--rarity-magic)',
+    Rare: 'var(--rarity-rare)',
+    Unique: 'var(--rarity-unique)',
+  }[item.rarity] || 'var(--text-0)';
+
+  // --- Tier extraction from extended mod data ---
+  function getModTier(modType, index) {
+    const hashes = item.extended_hashes?.[modType] || [];
+    const mods = item.extended_mods?.[modType] || [];
+    if (index < hashes.length) {
+      const modIndex = hashes[index]?.[1]?.[0];
+      if (modIndex !== undefined && mods[modIndex]) {
+        const raw = mods[modIndex].tier || '';
+        if (!raw) return '';
+        const m = raw.match(/[A-Za-z](\d+)/);
+        return m ? `T${m[1]}` : raw;
+      }
+    }
+    return '';
+  }
+
+  function renderMod(text, tier, cssClass, tag) {
+    const tierHTML = tier ? `<span class="modal-mod-tier">${tier}</span>` : '';
+    const tagHTML = tag ? `<span class="modal-mod-tag ${tag}">${tag}</span>` : '';
+    return `<div class="modal-mod${cssClass ? ' ' + cssClass : ''}">${tierHTML}<span>${strip(text)}</span>${tagHTML}</div>`;
+  }
+
+  let modsHTML = '';
+
+  if (item.enchant_mods?.length) {
+    modsHTML += `<div class="modal-mod-group"><div class="modal-mod-group-label">Enchant</div>`;
+    modsHTML += item.enchant_mods.map((m, i) => renderMod(m, getModTier('enchant', i), 'enchant', null)).join('');
+    modsHTML += `</div>`;
+  }
+
+  if (item.implicit_mods?.length) {
+    modsHTML += `<div class="modal-mod-group"><div class="modal-mod-group-label">Implicit</div>`;
+    modsHTML += item.implicit_mods.map((m, i) => renderMod(m, getModTier('implicit', i), null, null)).join('');
+    modsHTML += `</div>`;
+  }
+
+  const hasExplicit = item.explicit_mods?.length;
+  const hasDesecrated = item.desecrated_mods?.length;
+  const hasFractured = item.fractured_mods?.length;
+
+  if (hasExplicit || hasDesecrated || hasFractured) {
+    modsHTML += `<div class="modal-mod-group"><div class="modal-mod-group-label">Explicit</div>`;
+    if (hasExplicit) {
+      modsHTML += item.explicit_mods.map((m, i) => renderMod(m, getModTier('explicit', i), null, null)).join('');
+    }
+    if (hasFractured) {
+      modsHTML += item.fractured_mods.map((m, i) => renderMod(m, getModTier('fractured', i), 'fractured', 'fractured')).join('');
+    }
+    if (hasDesecrated) {
+      modsHTML += item.desecrated_mods.map((m, i) => renderMod(m, getModTier('desecrated', i), 'desecrated', 'desecrated')).join('');
+    }
+    modsHTML += `</div>`;
+  }
+
+  // --- Properties (gem level, quality, gem tags, etc.) ---
+  const props = item.properties || [];
+  let gemTagsHTML = '';
+  let propsHTML = '';
+
+  // First property with no name value and tags-like content = gem tags
+  const tagProp = props.find(p => p.values?.length === 0 && p.name && p.name.includes('['));
+  if (tagProp) {
+    const tags = tagProp.name.replace(/\[([^\]|]*?)(?:\|[^\]]*)?\]/g, '$1').split(',').map(t => t.trim()).filter(Boolean);
+    if (tags.length) {
+      gemTagsHTML = `<div class="modal-gem-tags">${tags.map(t => `<span class="modal-gem-tag">${t}</span>`).join('')}</div>`;
+    }
+  }
+
+  // Split properties into key stats, notes, and other props
+  const keyStats = [];   // Level, Quality, Sockets — inline row
+  const noteLines = [];  // Unnamed notes like "+1 Level from Corruption"
+  const otherProps = []; // Cost, Cooldown, Armour, etc.
+
+  for (const p of props) {
+    if (!p.values?.length) continue;
+    const val = p.values[0][0];
+    const augmented = p.values[0][1] === 1;
+    if (p.type === 5) {
+      keyStats.push({ label: 'Level', value: strip(val), augmented });
+    } else if (p.type === 6) {
+      keyStats.push({ label: 'Quality', value: strip(val), augmented });
+    } else if (!p.name && val) {
+      noteLines.push({ value: strip(val), augmented });
+    } else if (p.name && !p.name.startsWith('[') && p.name !== '') {
+      otherProps.push({ label: strip(p.name), value: strip(val), augmented });
+    }
+  }
+
+  // Socket count (gems or runes)
+  const sockets = item.sockets || [];
+  if (sockets.length) {
+    keyStats.push({ label: 'Sockets', value: String(sockets.length), augmented: false });
+  }
+
+  if (keyStats.length || noteLines.length || otherProps.length) {
+    propsHTML = `<div class="modal-properties">`;
+    if (keyStats.length) {
+      propsHTML += `<div class="modal-props-row">${keyStats.map(p =>
+        `<span class="modal-prop">${p.label}: <span class="modal-prop-value${p.augmented ? ' augmented' : ''}">${p.value}</span></span>`
+      ).join('')}</div>`;
+    }
+    if (noteLines.length) {
+      propsHTML += `<div class="modal-props-row">${noteLines.map(n =>
+        `<span class="modal-prop-note"><span class="${n.augmented ? 'modal-prop-value augmented' : ''}">${n.value}</span></span>`
+      ).join('')}</div>`;
+    }
+    if (otherProps.length) {
+      propsHTML += `<div class="modal-props-row">${otherProps.map(p =>
+        `<span class="modal-prop">${p.label}: <span class="modal-prop-value${p.augmented ? ' augmented' : ''}">${p.value}</span></span>`
+      ).join('')}</div>`;
+    }
+    propsHTML += `</div>`;
+  }
+
+  // --- Granted skills (implicit skills on weapons/items) ---
+  let grantedHTML = '';
+  const grantedSkills = item.granted_skills || [];
+  if (grantedSkills.length) {
+    grantedHTML = grantedSkills.map(gs => {
+      const skillText = gs.values?.[0]?.[0] || '';
+      const skillIcon = gs.icon || '';
+      return `<div class="modal-granted-skill">
+        ${skillIcon ? `<img class="modal-granted-skill-icon" src="${skillIcon}" alt="">` : ''}
+        <span class="modal-granted-skill-text">${strip(skillText)}</span>
+      </div>`;
+    }).join('');
+  }
+
+  // --- Socketed items (runes only — filter out granted skill gems) ---
+  let socketedHTML = '';
+  const grantedNames = new Set(grantedSkills.map(gs => {
+    const text = gs.values?.[0]?.[0] || '';
+    return text.replace(/^Level \d+ /, '');
+  }));
+  const socketedItems = (item.socketed_items || []).filter(si => {
+    const siName = si.typeLine || si.baseType || '';
+    return !grantedNames.has(siName);
+  });
+  const runeMods = item.rune_mods || [];
+
+  if (socketedItems.length || runeMods.length) {
+    socketedHTML = `<div class="modal-socketed">`;
+    for (const si of socketedItems) {
+      const siName = si.name || si.typeLine || si.baseType || '';
+      socketedHTML += `<div class="modal-socketed-header">`;
+      if (si.icon) socketedHTML += `<img class="modal-socketed-icon" src="${si.icon}" alt="${siName}">`;
+      socketedHTML += `<span class="modal-socketed-name">${siName}</span>`;
+      socketedHTML += `<span class="modal-socketed-label">Socketed</span>`;
+      socketedHTML += `</div>`;
+    }
+    if (runeMods.length) {
+      socketedHTML += runeMods.map(m => `<div class="modal-rune-mod">${strip(m)}</div>`).join('');
+    }
+    socketedHTML += `</div>`;
+  }
+
+  const priceAmount = type === 'listing' ? item.listed_price : item.sale_price;
+  const priceLabel = type === 'listing' ? 'Listed Price' : 'Sold For';
+  const typeLine = item.type_line || '';
+
+  card.innerHTML = `
+    ${item.icon ? `<div class="modal-icon-area"><img src="${item.icon}" alt="${item.item_name}"></div>` : ''}
+    <div class="modal-header">
+      <div class="modal-item-name" style="color: ${rarityColor}">${item.item_name}</div>
+      ${typeLine && typeLine !== item.item_name ? `<div class="modal-item-base">${typeLine}</div>` : ''}
+    </div>
+    ${gemTagsHTML}
+    ${propsHTML}
+    ${grantedHTML}
+    ${modsHTML ? `<div class="modal-mods">${modsHTML}</div>` : ''}
+    ${socketedHTML}
+    ${item.flavour_text?.length ? `<div class="modal-flavour">${item.flavour_text.join('<br>')}</div>` : ''}
+    <div class="modal-footer">
+      ${item.ilvl ? `<span class="modal-ilvl">ilvl ${item.ilvl}</span>` : '<span></span>'}
+      ${item.sanctified ? `<span class="modal-sanctified">Sanctified</span>` : ''}
+      ${item.corrupted ? `<span class="modal-corrupted">${item.double_corrupted ? 'Double Corrupted' : 'Corrupted'}</span>` : ''}
+    </div>
+    <div class="modal-price-bar">
+      <span class="modal-price-label">${priceLabel}</span>
+      <span class="modal-price-value">${fmt(priceAmount)} <span class="unit">${item.currency}</span></span>
+    </div>
+    ${item.timestamp ? `<div class="modal-sold-time">Sold ${timeAgo(item.timestamp)}</div>` : ''}
+  `;
+
+  modal.classList.add('active');
+}
+
+document.getElementById('modal').addEventListener('click', (e) => {
+  if (e.target === e.currentTarget) e.currentTarget.classList.remove('active');
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') document.getElementById('modal').classList.remove('active');
+});
+
+fetch(DATA_URL)
+  .then(r => { if (!r.ok) throw new Error('No data'); return r.json(); })
+  .then(data => { currentData = data; renderDashboard(data); })
+  .catch(() => {
+    document.getElementById('app').innerHTML = `
+      <div class="error-msg">
+        <p>Could not load fund data.</p>
+        <p style="margin-top: 0.75rem;">Run <code>./run.sh --divines 0</code> to generate dashboard data.</p>
+      </div>
+    `;
+  });
+</script>
+</body>
+</html>
