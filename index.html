@@ -1417,7 +1417,7 @@ function within24h(iso) {
 }
 
 function strip(text) {
-  return text.replace(/\[[^\|]*\|([^\]]*)\]/g, '$1').replace(/\[[^\]]*\]/g, '');
+  return text.replace(/\[[^\|]*\|([^\]]*)\]/g, '$1').replace(/\[([^\]]*)\]/g, '$1');
 }
 
 // Unified item card for both listings and sales
