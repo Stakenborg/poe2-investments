@@ -306,17 +306,19 @@ def save_dashboard(data):
         json.dump(data, f, indent=2)
 
 
-def build_dashboard(trades, listings, raw_divines, rates, inv_data=None):
+def build_dashboard(trades, listings, currencies, rates, inv_data=None):
     parsed_listings = [parse_listing(l, rates) for l in listings]
     listed_value = sum(
         l["div_equivalent"] for l in parsed_listings
         if isinstance(l["div_equivalent"], (int, float))
     )
 
-    adjusted_nav = calc_nav(raw_divines, listed_value)
+    raw_divines = currencies_to_divine(currencies, rates)
+    adjusted_nav = calc_nav(currencies, rates, listed_value)
 
     dashboard = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
+        "currencies": currencies,
         "raw_divines": raw_divines,
         "listed_value": listed_value,
         "total_nav": adjusted_nav,
@@ -391,7 +393,9 @@ def push_to_sheets(trades, config):
 # --- Investor Management ---
 
 def load_investors():
-    """Load private investors file (has plaintext codes)."""
+    """Load private investors file (has plaintext codes). Decrypts from .enc if needed."""
+    if not INVESTORS_FILE.exists():
+        decrypt_investors()
     if INVESTORS_FILE.exists():
         with open(INVESTORS_FILE) as f:
             return json.load(f)
@@ -406,6 +410,7 @@ def save_investors(data):
 
 def _default_fund_config():
     return {
+        "currencies": {"divine": 0},
         "total_units": 0,
         "unit_price": 1.0,
         "hwm": 1.0,
@@ -417,13 +422,27 @@ def _default_fund_config():
     }
 
 
+def migrate_fund_data(inv_data, prev_dashboard):
+    """Migrate fund data to multi-currency format if needed."""
+    fund = inv_data["fund"]
+    if "currencies" not in fund:
+        fund["currencies"] = {"divine": prev_dashboard.get("raw_divines", 0)}
+    return inv_data
+
+
+def currencies_to_divine(currencies, rates):
+    """Sum all currency values in divine terms."""
+    return sum(amt * rates.get(cur, 0) for cur, amt in currencies.items() if rates.get(cur) is not None)
+
+
 def hash_code(code):
     return hashlib.sha256(code.encode()).hexdigest()
 
 
-def calc_nav(raw_divines, listed_value):
-    """NAV = liquid + listed * haircut."""
-    return raw_divines + listed_value * HAIRCUT
+def calc_nav(currencies, rates, listed_value):
+    """NAV = liquid (all currencies in divine terms) + listed * haircut."""
+    liquid = currencies_to_divine(currencies, rates)
+    return liquid + listed_value * HAIRCUT
 
 
 def recalc_investors(inv_data, nav):
@@ -516,7 +535,7 @@ def create_investor(inv_data, name):
     return inv_data
 
 
-def create_pending(inv_data, name, amount, nav, req_type):
+def create_pending(inv_data, name, amount, currency, nav, rates, req_type):
     """Create a pending deposit or withdrawal request locked at current unit price."""
     fund = inv_data["fund"]
     total_units = fund["total_units"]
@@ -531,22 +550,30 @@ def create_pending(inv_data, name, amount, nav, req_type):
         print(f"Error: {name} already has a pending {investor['pending']['type']} request.")
         return None
 
+    # Convert to divine equivalent for unit pricing
+    div_equivalent = to_divine(amount, currency, rates)
+    if div_equivalent is None:
+        print(f"Error: No exchange rate for {currency}.")
+        return None
+
     if req_type == "withdraw":
         current_value = investor["units"] * unit_price
-        if amount > current_value:
-            print(f"Error: Requested {amount:,.2f} div but position is only worth {current_value:,.2f} div.")
+        if div_equivalent > current_value:
+            print(f"Error: Requested {div_equivalent:,.2f} div equivalent but position is only worth {current_value:,.2f} div.")
             return None
 
     investor["pending"] = {
         "type": req_type,
-        "amount": amount,
+        "amount": round(div_equivalent, 2),
+        "original_amount": amount,
+        "currency": currency,
         "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "locked_price": round(unit_price, 6),
     }
 
     label = "Deposit" if req_type == "deposit" else "Withdrawal"
     print(f"\n{label} request created for {investor['name']}:")
-    print(f"  Amount: {amount:,.2f} div")
+    print(f"  Amount: {amount:,.2f} {currency} ({div_equivalent:,.2f} div)")
     print(f"  Locked unit price: {unit_price:,.4f}")
 
     return inv_data
@@ -566,26 +593,37 @@ def process_fulfill(inv_data, name):
         print(f"Error: No pending request for {name}.")
         return None
 
-    amount = pending["amount"]
+    amount = pending["amount"]  # divine equivalent
     locked_price = pending["locked_price"]
     req_type = pending["type"]
+    currency = pending.get("currency", "divine")
+    original_amount = pending.get("original_amount", amount)
+
+    # Update fund currency balance
+    if "currencies" not in fund:
+        fund["currencies"] = {"divine": 0}
 
     if req_type == "deposit":
         units_issued = amount / locked_price
         investor["units"] += units_issued
         investor["deposited"] += amount
         fund["total_units"] += units_issued
+        fund["currencies"][currency] = fund["currencies"].get(currency, 0) + original_amount
 
         investor["pending"] = None
-        investor["history"].append({
+        history_entry = {
             "type": "deposit",
             "amount": amount,
             "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
             "unit_price": locked_price,
-        })
+        }
+        if currency != "divine":
+            history_entry["currency"] = currency
+            history_entry["original_amount"] = original_amount
+        investor["history"].append(history_entry)
 
         print(f"\nFulfilling deposit for {investor['name']}:")
-        print(f"  Amount: {amount:,.2f} div")
+        print(f"  Amount: {original_amount:,.2f} {currency} ({amount:,.2f} div)")
         print(f"  Units issued: {units_issued:,.4f}")
         print(f"  Total units (fund): {fund['total_units']:,.4f}")
 
@@ -595,17 +633,22 @@ def process_fulfill(inv_data, name):
         pct_withdrawn = units_burned / (investor["units"] + units_burned) if (investor["units"] + units_burned) > 0 else 1.0
         investor["deposited"] = round(investor["deposited"] * (1 - pct_withdrawn), 2)
         fund["total_units"] -= units_burned
+        fund["currencies"][currency] = fund["currencies"].get(currency, 0) - original_amount
 
         investor["pending"] = None
-        investor["history"].append({
+        history_entry = {
             "type": "withdraw",
             "amount": amount,
             "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
             "unit_price": locked_price,
-        })
+        }
+        if currency != "divine":
+            history_entry["currency"] = currency
+            history_entry["original_amount"] = original_amount
+        investor["history"].append(history_entry)
 
         print(f"\nFulfilling withdrawal for {investor['name']}:")
-        print(f"  Amount: {amount:,.2f} div")
+        print(f"  Amount: {original_amount:,.2f} {currency} ({amount:,.2f} div)")
         print(f"  Units burned: {units_burned:,.4f}")
         print(f"  Remaining units (fund): {fund['total_units']:,.4f}")
 
@@ -672,32 +715,206 @@ def print_summary(new_trades, listings_summary):
         print(f"\nCurrent listings: {listings_summary['count']} items, ~{listings_summary['value']:,.0f} divine listed value")
 
 
-def git_push():
-    """Commit and push dashboard.json to the remote."""
-    repo_root = Path(__file__).parent
+def encrypt_investors():
+    """Encrypt investors.json to investors.json.enc using INVESTORS_KEY."""
+    key = os.getenv("INVESTORS_KEY")
+    if not key:
+        print("Warning: INVESTORS_KEY not set, skipping encryption.")
+        return False
     try:
         subprocess.run(
-            ["git", "add", "-f", "data/dashboard.json"],
+            ["openssl", "enc", "-aes-256-cbc", "-pbkdf2", "-salt",
+             "-in", str(INVESTORS_FILE),
+             "-out", str(INVESTORS_FILE) + ".enc",
+             "-pass", f"pass:{key}"],
+            check=True, capture_output=True,
+        )
+        return True
+    except subprocess.CalledProcessError as e:
+        print(f"Encryption failed: {e.stderr.decode().strip() if e.stderr else e}")
+        return False
+
+
+def decrypt_investors():
+    """Decrypt investors.json.enc to investors.json using INVESTORS_KEY."""
+    enc_file = Path(str(INVESTORS_FILE) + ".enc")
+    if not enc_file.exists():
+        return False
+    key = os.getenv("INVESTORS_KEY")
+    if not key:
+        return False
+    try:
+        subprocess.run(
+            ["openssl", "enc", "-aes-256-cbc", "-pbkdf2", "-d",
+             "-in", str(enc_file),
+             "-out", str(INVESTORS_FILE),
+             "-pass", f"pass:{key}"],
+            check=True, capture_output=True,
+        )
+        print("Decrypted investors.json from encrypted store.")
+        return True
+    except subprocess.CalledProcessError as e:
+        print(f"Decryption failed: {e.stderr.decode().strip() if e.stderr else e}")
+        return False
+
+
+def git_push():
+    """Encrypt investors.json, commit and push dashboard + encrypted investors."""
+    repo_root = Path(__file__).parent
+    try:
+        # Encrypt investors.json before committing
+        encrypt_investors()
+
+        subprocess.run(
+            ["git", "add", "-f", "data/dashboard.json", "data/investors.json.enc"],
             cwd=repo_root, check=True, capture_output=True,
         )
         result = subprocess.run(
-            ["git", "status", "--porcelain", "data/dashboard.json"],
+            ["git", "status", "--porcelain", "data/dashboard.json", "data/investors.json.enc"],
             cwd=repo_root, check=True, capture_output=True, text=True,
         )
         if not result.stdout.strip():
             print("No data changes to push.")
             return
         subprocess.run(
-            ["git", "commit", "-m", "Update dashboard data"],
+            ["git", "commit", "-m", "Update fund data"],
             cwd=repo_root, check=True, capture_output=True,
         )
         subprocess.run(
             ["git", "push"],
             cwd=repo_root, check=True, capture_output=True,
         )
-        print("Pushed dashboard data to remote.")
+        print("Pushed fund data to remote.")
     except subprocess.CalledProcessError as e:
         print(f"Git push failed: {e.stderr.decode().strip() if e.stderr else e}")
+
+
+def process_batch(payload_str, config, prev_dashboard, inv_data):
+    """Process a batch payload from the manager console / GitHub Actions."""
+    payload = json.loads(payload_str)
+    inv_data = migrate_fund_data(inv_data, prev_dashboard)
+    currencies = inv_data["fund"]["currencies"]
+    rates = prev_dashboard.get("exchange_rates", {"divine": 1.0})
+
+    should_fetch = payload.get("fetch", False)
+    should_fulfill = payload.get("fulfill", False)
+    currency_overrides = payload.get("currencies", {})
+    operations = payload.get("operations", [])
+
+    seen = load_seen_trades()
+    new_trades = []
+    listings = []
+
+    # Step 1: Fetch trades + listings if requested
+    if should_fetch:
+        session = make_session(config["poesessid"])
+
+        print("Fetching exchange rates...")
+        fetched_rates = fetch_exchange_rates(config["league"])
+        if fetched_rates:
+            rates = fetched_rates
+
+        fetched = []
+        print(f"Fetching trade history for {config['league']}...")
+        try:
+            fetched = fetch_trades(session, config["league"])
+            print(f"Fetched {len(fetched)} trades from API")
+        except requests.exceptions.HTTPError as e:
+            if e.response is not None and e.response.status_code == 429:
+                print(f"  Trade history rate limited — skipping")
+            else:
+                raise
+
+        new_trades = find_new_trades(fetched, seen) if fetched else []
+
+        print("Fetching current listings...")
+        listings = fetch_listings(session, config["league"], config["account"])
+        print(f"Found {len(listings)} active listings")
+
+        # Add trade revenue per-currency
+        if new_trades:
+            new_parsed_tmp = [parse_trade(t, rates) for t in new_trades]
+            for t in new_parsed_tmp:
+                cur = t.get("currency", "divine")
+                amt = t.get("sale_price", 0)
+                if cur and amt > 0:
+                    currencies[cur] = currencies.get(cur, 0) + amt
+                    print(f"  +{amt:,.0f} {cur} from trade")
+
+    # Step 2: Apply currency overrides (only changed fields)
+    for cur, amt in currency_overrides.items():
+        currencies[cur] = amt
+        print(f"  Currency override: {cur} = {amt:,.0f}")
+
+    # Step 3: Create pending for each operation
+    listed_value = prev_dashboard.get("listed_value", 0)
+    if should_fetch and listings:
+        parsed_listings = [parse_listing(l, rates) for l in listings]
+        listed_value = sum(l["div_equivalent"] for l in parsed_listings if isinstance(l["div_equivalent"], (int, float)))
+
+    nav = calc_nav(currencies, rates, listed_value)
+
+    for op in operations:
+        action = op["action"]
+        investor_name = op["investor"]
+        amount = op["amount"]
+        currency = op.get("currency", "divine")
+        result = create_pending(inv_data, investor_name, amount, currency, nav, rates, action)
+        if result:
+            inv_data = result
+
+    # Step 4: Fulfill all pending if requested
+    if should_fulfill:
+        fulfilled_any = False
+        for inv in list(inv_data["investors"]):
+            if inv.get("pending"):
+                result = process_fulfill(inv_data, inv["name"])
+                if result:
+                    inv_data = result
+                    fulfilled_any = True
+        if fulfilled_any:
+            inv_data = recalc_investors(inv_data, nav)
+        else:
+            print("No pending requests to fulfill.")
+
+    # Recalculate NAV after all mutations
+    nav = calc_nav(currencies, rates, listed_value)
+
+    # Step 5: Save everything
+    inv_data["fund"]["currencies"] = currencies
+    save_investors(inv_data)
+
+    all_trades = (([parse_trade(t, rates) for t in new_trades] + seen) if new_trades else seen)
+    if new_trades:
+        save_trades(all_trades)
+
+    if should_fetch and listings:
+        dashboard = build_dashboard(all_trades, listings, currencies, rates, inv_data)
+    else:
+        raw_divines = currencies_to_divine(currencies, rates)
+        prev_listings = prev_dashboard.get("listings", [])
+        dashboard = {
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+            "currencies": currencies,
+            "raw_divines": raw_divines,
+            "listed_value": listed_value,
+            "total_nav": nav,
+            "raw_nav": raw_divines + listed_value,
+            "haircut": HAIRCUT,
+            "exchange_rates": rates,
+            "listings": prev_listings,
+            "recent_sales": all_trades[:50],
+        }
+        if inv_data.get("investors"):
+            inv_data = recalc_investors(inv_data, nav)
+            save_investors(inv_data)
+            pub = investors_to_dashboard(inv_data)
+            dashboard["fund"] = pub["fund"]
+            dashboard["investors"] = pub["investors"]
+
+    save_dashboard(dashboard)
+    print(f"Dashboard data saved to {DASHBOARD_FILE}")
+    return dashboard
 
 
 def main():
@@ -715,6 +932,7 @@ def main():
     parser.add_argument("--gen-code", type=str, metavar="NAME", help="Generate new invite code for investor")
     parser.add_argument("--set-webhook", type=str, metavar="URL", help="Set Discord webhook URL for investor requests")
     parser.add_argument("--fetch", action="store_true", help="Fetch trades and listings from PoE2 API")
+    parser.add_argument("--batch", type=str, metavar="PAYLOAD", help="Process batch JSON payload (from manager console)")
 
     args = parser.parse_args()
 
@@ -722,10 +940,27 @@ def main():
 
     # Load previous dashboard for persisted values
     prev_dashboard = load_dashboard()
-    raw_divines = args.divines if args.divines is not None else prev_dashboard.get("raw_divines", 0)
 
     # Load investor data
     inv_data = load_investors()
+
+    # Batch mode: short-circuit
+    if args.batch:
+        process_batch(args.batch, config, prev_dashboard, inv_data)
+        if args.push:
+            git_push()
+        return
+
+    # Migrate to multi-currency format
+    inv_data = migrate_fund_data(inv_data, prev_dashboard)
+    currencies = inv_data["fund"]["currencies"]
+
+    # --divines flag sets divine currency (backward compat)
+    if args.divines is not None:
+        currencies["divine"] = args.divines
+
+    # Default rates for no-fetch path
+    rates = prev_dashboard.get("exchange_rates", {"divine": 1.0})
 
     # --- Handle investor-only operations ---
 
@@ -741,7 +976,7 @@ def main():
 
     # Calculate current NAV from stored data if skipping fetch
     listed_value = prev_dashboard.get("listed_value", 0)
-    nav = calc_nav(raw_divines, listed_value)
+    nav = calc_nav(currencies, rates, listed_value)
 
     if args.gen_code:
         result = generate_invite_code(inv_data, args.gen_code)
@@ -760,7 +995,7 @@ def main():
     if args.add_investor and args.deposit:
         # --add-investor NAME --deposit AMOUNT
         amount = float(args.deposit[0])
-        result = create_pending(inv_data, args.add_investor, amount, nav, "deposit")
+        result = create_pending(inv_data, args.add_investor, amount, "divine", nav, rates, "deposit")
         if result:
             inv_data = result
             save_investors(inv_data)
@@ -770,14 +1005,14 @@ def main():
             print("Usage: --deposit NAME AMOUNT")
             sys.exit(1)
         name, amount = args.deposit[0], float(args.deposit[1])
-        result = create_pending(inv_data, name, amount, nav, "deposit")
+        result = create_pending(inv_data, name, amount, "divine", nav, rates, "deposit")
         if result:
             inv_data = result
             save_investors(inv_data)
 
     if args.withdraw:
         name, amount = args.withdraw[0], float(args.withdraw[1])
-        result = create_pending(inv_data, name, amount, nav, "withdraw")
+        result = create_pending(inv_data, name, amount, "divine", nav, rates, "withdraw")
         if result:
             inv_data = result
             save_investors(inv_data)
@@ -801,15 +1036,17 @@ def main():
         if not args.dry_run:
             all_trades = load_seen_trades()
             listings = prev_dashboard.get("listings", [])
+            raw_divines = currencies_to_divine(currencies, rates)
             # Re-use existing parsed listings directly
             dashboard = {
                 "updated_at": datetime.now(timezone.utc).isoformat(),
+                "currencies": currencies,
                 "raw_divines": raw_divines,
                 "listed_value": listed_value,
                 "total_nav": nav,
                 "raw_nav": raw_divines + listed_value,
                 "haircut": HAIRCUT,
-                "exchange_rates": prev_dashboard.get("exchange_rates", {}),
+                "exchange_rates": rates,
                 "listings": listings,
                 "recent_sales": all_trades[:50],
             }
@@ -827,9 +1064,11 @@ def main():
 
     session = make_session(config["poesessid"])
 
-    # Fetch exchange rates
+    # Fetch exchange rates (overrides default rates)
     print("Fetching exchange rates...")
-    rates = fetch_exchange_rates(config["league"])
+    fetched_rates = fetch_exchange_rates(config["league"])
+    if fetched_rates:
+        rates = fetched_rates
     if rates:
         non_divine = {k: v for k, v in rates.items() if k != "divine"}
         if non_divine:
@@ -864,17 +1103,24 @@ def main():
         listed_value = sum(l["div_equivalent"] for l in parsed_listings if isinstance(l["div_equivalent"], (int, float)))
         listings_summary = {"count": len(listings), "value": listed_value}
 
-    # Add net new sales to liquid divines
+    # Add net new sales to fund currencies (per-currency)
     if new_trades:
         new_parsed_tmp = [parse_trade(t, rates) for t in new_trades]
-        new_revenue = sum(t["div_equivalent"] for t in new_parsed_tmp if isinstance(t["div_equivalent"], (int, float)))
-        if new_revenue > 0:
-            print(f"\nAdding {new_revenue:,.0f} div from {len(new_parsed_tmp)} new sale(s) to liquid divines")
-            raw_divines += new_revenue
+        revenue_by_currency = {}
+        for t in new_parsed_tmp:
+            cur = t.get("currency", "divine")
+            amt = t.get("sale_price", 0)
+            if cur and amt > 0:
+                revenue_by_currency[cur] = revenue_by_currency.get(cur, 0) + amt
+        if revenue_by_currency:
+            print(f"\nAdding trade revenue from {len(new_parsed_tmp)} new sale(s):")
+            for cur, amt in revenue_by_currency.items():
+                currencies[cur] = currencies.get(cur, 0) + amt
+                print(f"  +{amt:,.0f} {cur}")
 
     # Recalculate NAV with fresh data
     fresh_listed = listings_summary["value"] if listings_summary else 0
-    nav = calc_nav(raw_divines, fresh_listed)
+    nav = calc_nav(currencies, rates, fresh_listed)
 
     # Print summary
     if new_trades:
@@ -885,7 +1131,12 @@ def main():
         if listings_summary:
             print(f"\nCurrent listings: {listings_summary['count']} items, ~{listings_summary['value']:,.0f} divine listed value")
 
-    print(f"\nRaw divines: {raw_divines:,.0f}")
+    raw_divines = currencies_to_divine(currencies, rates)
+    print(f"\nCurrencies:")
+    for cur, amt in currencies.items():
+        if amt != 0:
+            print(f"  {cur}: {amt:,.0f}")
+    print(f"Liquid (divine equivalent): {raw_divines:,.0f}")
     print(f"Listed value: {fresh_listed:,.0f} divine")
     print(f"Adjusted NAV (with {int((1-HAIRCUT)*100)}% haircut): {nav:,.0f} divine")
     print(f"Raw NAV (no haircut): {raw_divines + fresh_listed:,.0f} divine")
@@ -903,9 +1154,13 @@ def main():
         export_csv(new_trades, csv_path)
         print(f"\nExported to {csv_path}")
 
+    # Save currencies back to investors.json
+    inv_data["fund"]["currencies"] = currencies
+    save_investors(inv_data)
+
     # Build and save dashboard
     all_trades = (([parse_trade(t, rates) for t in new_trades] + seen) if new_trades else seen)
-    dashboard = build_dashboard(all_trades, listings, raw_divines, rates, inv_data)
+    dashboard = build_dashboard(all_trades, listings, currencies, rates, inv_data)
     save_dashboard(dashboard)
     print(f"Dashboard data saved to {DASHBOARD_FILE}")
 

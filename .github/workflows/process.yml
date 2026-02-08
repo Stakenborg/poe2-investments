@@ -1,0 +1,28 @@
+name: Process Fund Update
+on:
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: 'JSON payload'
+        required: true
+        type: string
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests python-dotenv
+      - name: Create .env
+        run: |
+          echo "POESESSID=${{ secrets.POESESSID }}" >> .env
+          echo "LEAGUE=${{ secrets.LEAGUE }}" >> .env
+          echo "ACCOUNT=${{ secrets.ACCOUNT }}" >> .env
+          echo "INVESTORS_KEY=${{ secrets.INVESTORS_KEY }}" >> .env
+      - name: Process
+        run: python fetch_trades.py --batch '${{ inputs.payload }}' --push

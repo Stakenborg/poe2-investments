@@ -1155,7 +1155,8 @@ body {
   background: var(--bg-3);
 }
 
-.request-form input[type="number"] {
+.request-form input[type="number"],
+.request-form select {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.9rem;
   padding: 0.5rem 0.75rem;
@@ -1168,7 +1169,8 @@ body {
   transition: border-color 0.15s;
 }
 
-.request-form input[type="number"]:focus {
+.request-form input[type="number"]:focus,
+.request-form select:focus {
   border-color: var(--accent);
 }
 
@@ -1274,6 +1276,294 @@ body {
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* ========================================
+   MANAGER CONSOLE
+   ======================================== */
+
+.manager-console {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.manager-console-title {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.manager-panel {
+  background: var(--bg-2);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.manager-section {
+  border-bottom: 1px solid var(--border);
+}
+
+.manager-section:last-child { border-bottom: none; }
+
+.manager-section-header {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-3);
+  padding: 0.85rem 1.25rem 0.5rem;
+}
+
+.manager-section-body { padding: 0.5rem 1.25rem 1rem; }
+
+/* Currency balances */
+.manager-currency-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.manager-currency-row:last-child { margin-bottom: 0; }
+
+.manager-currency-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-1);
+  min-width: 80px;
+  text-transform: capitalize;
+}
+
+.manager-currency-input {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.6rem;
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-0);
+  width: 140px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.manager-currency-input:focus { border-color: var(--accent); }
+
+.manager-currency-input.dirty { border-color: var(--accent-dim); background: var(--accent-bg); }
+
+.manager-currency-div-eq {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-3);
+}
+
+.manager-add-currency {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--accent-dim);
+  background: none;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-top: 0.35rem;
+}
+
+.manager-add-currency:hover { color: var(--accent); border-color: var(--accent-dim); }
+
+/* Pending requests */
+.manager-pending-item {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--text-1);
+  padding: 0.35rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.manager-pending-type { text-transform: capitalize; }
+.manager-pending-type.deposit { color: var(--green); }
+.manager-pending-type.withdraw { color: var(--red); }
+
+.manager-no-pending {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-3);
+  font-style: italic;
+}
+
+/* Operations */
+.manager-op-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.manager-op-row:last-child { margin-bottom: 0; }
+
+.manager-op-select,
+.manager-op-input {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.6rem;
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-0);
+  outline: none;
+}
+
+.manager-op-select { cursor: pointer; }
+.manager-op-select:focus,
+.manager-op-input:focus { border-color: var(--accent); }
+
+.manager-op-input { width: 100px; }
+
+.manager-op-remove {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--text-3);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+  transition: color 0.15s;
+}
+
+.manager-op-remove:hover { color: var(--red); }
+
+.manager-add-op {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--accent-dim);
+  background: none;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-top: 0.35rem;
+}
+
+.manager-add-op:hover { color: var(--accent); border-color: var(--accent-dim); }
+
+/* Options */
+.manager-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.manager-option label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--text-1);
+  cursor: pointer;
+}
+
+.manager-option input[type="checkbox"] {
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+/* Process button */
+.manager-process-area {
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.manager-process-btn {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  background: var(--accent);
+  color: var(--bg-0);
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.15s;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.manager-process-btn:hover { background: var(--accent-bright); }
+.manager-process-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.manager-process-status {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-2);
+}
+
+.manager-process-status.success { color: var(--green); }
+.manager-process-status.error { color: var(--red); }
+
+/* PAT Settings */
+.manager-settings {
+  margin-top: 0.75rem;
+}
+
+.manager-settings summary {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-3);
+  cursor: pointer;
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.manager-settings summary::-webkit-details-marker { display: none; }
+
+.manager-settings-body {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.manager-pat-input {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  padding: 0.35rem 0.6rem;
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-0);
+  width: 280px;
+  outline: none;
+}
+
+.manager-pat-input:focus { border-color: var(--accent); }
+
+.manager-pat-save {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  padding: 0.35rem 0.6rem;
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-1);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.manager-pat-save:hover { border-color: var(--accent-dim); color: var(--accent); }
+
+/* ========================================
    REDUCED MOTION
    ======================================== */
 @media (prefers-reduced-motion: reduce) {
@@ -1342,7 +1632,13 @@ body {
   .cap-table tbody td { padding: 0.65rem 0.75rem; font-size: 0.8rem; }
 
   .request-form-row { flex-direction: column; align-items: stretch; }
-  .request-form input[type="number"] { width: 100%; }
+  .request-form input[type="number"],
+  .request-form select { width: 100%; }
+
+  .manager-op-row { flex-direction: column; align-items: stretch; }
+  .manager-op-input { width: 100%; }
+  .manager-pat-input { width: 100%; }
+  .manager-settings-body { flex-direction: column; align-items: stretch; }
 }
 
 @media (max-width: 480px) {
@@ -1383,6 +1679,7 @@ async function sha256(message) {
 
 let currentInvestor = null;
 let inviteCode = null;
+let isManager = false;
 
 async function resolveInvestor(data) {
   const params = new URLSearchParams(window.location.search);
@@ -1536,6 +1833,295 @@ function initParallax() {
 }
 
 /* =============================================
+   MANAGER CONSOLE
+   ============================================= */
+
+let managerOps = [];
+let managerOpId = 0;
+
+function renderManagerConsole(data) {
+  if (!isManager) return '';
+
+  const fund = data.fund || {};
+  const currencies = data.currencies || {};
+  const exchangeRates = data.exchange_rates || {};
+  const investors = data.investors || [];
+  const pat = localStorage.getItem('vault_manager_pat') || '';
+
+  // Currency balances
+  const currencyKeys = Object.keys(currencies).filter(c => currencies[c] !== 0 || c === 'divine');
+  const availableCurrencies = Object.keys(exchangeRates).filter(c => !currencyKeys.includes(c) && exchangeRates[c] > 0);
+
+  let currencyRows = currencyKeys.map(cur => {
+    const amt = currencies[cur] || 0;
+    const rate = exchangeRates[cur] || 0;
+    const divEq = cur === 'divine' ? '' : ` = ${fmt(amt * rate)} div`;
+    return `
+      <div class="manager-currency-row">
+        <span class="manager-currency-label">${cur}</span>
+        <input type="number" class="manager-currency-input" data-currency="${cur}" data-original="${amt}" value="${amt}" step="1" oninput="markCurrencyDirty(this)">
+        <span class="manager-currency-div-eq">${divEq}</span>
+      </div>
+    `;
+  }).join('');
+
+  if (availableCurrencies.length) {
+    currencyRows += `<button class="manager-add-currency" onclick="addCurrency()">+ Add currency</button>`;
+  }
+
+  // Pending requests
+  const pendings = investors.filter(inv => inv.pending);
+  let pendingHTML = pendings.length ? pendings.map(inv => {
+    const p = inv.pending;
+    const cur = p.currency || 'divine';
+    const origAmt = p.original_amount || p.amount;
+    const amtStr = cur !== 'divine' ? `${fmt(origAmt)} ${cur} (${fmt(p.amount)} div)` : `${fmt(p.amount)} div`;
+    return `
+      <div class="manager-pending-item">
+        <span><span class="manager-pending-type ${p.type}">${p.type}</span> — ${inv.name}</span>
+        <span>${amtStr}</span>
+      </div>
+    `;
+  }).join('') : '<div class="manager-no-pending">No pending requests</div>';
+
+  // Operations rows
+  let opsHTML = managerOps.map(op => {
+    const investorOptions = investors.map(inv => `<option value="${inv.name}" ${inv.name === op.investor ? 'selected' : ''}>${inv.name}</option>`).join('');
+    const currencyOptions = Object.keys(exchangeRates).filter(c => exchangeRates[c] > 0).map(c => `<option value="${c}" ${c === op.currency ? 'selected' : ''}>${c}</option>`).join('');
+    return `
+      <div class="manager-op-row" data-op-id="${op.id}">
+        <select class="manager-op-select" onchange="updateOp(${op.id}, 'action', this.value)">
+          <option value="deposit" ${op.action === 'deposit' ? 'selected' : ''}>Deposit</option>
+          <option value="withdraw" ${op.action === 'withdraw' ? 'selected' : ''}>Withdraw</option>
+        </select>
+        <select class="manager-op-select" onchange="updateOp(${op.id}, 'investor', this.value)">
+          ${investorOptions}
+        </select>
+        <input type="number" class="manager-op-input" placeholder="Amount" value="${op.amount || ''}" min="1" step="1" onchange="updateOp(${op.id}, 'amount', parseFloat(this.value))">
+        <select class="manager-op-select" onchange="updateOp(${op.id}, 'currency', this.value)">
+          ${currencyOptions}
+        </select>
+        <button class="manager-op-remove" onclick="removeOp(${op.id})">x</button>
+      </div>
+    `;
+  }).join('');
+
+  return `
+    <section class="manager-console scroll-reveal">
+      <div class="manager-console-title">Manager Console</div>
+      <div class="manager-panel">
+        <div class="manager-section">
+          <div class="manager-section-header">Currency Balances</div>
+          <div class="manager-section-body" id="manager-currencies">${currencyRows}</div>
+        </div>
+
+        <div class="manager-section">
+          <div class="manager-section-header">Pending Requests</div>
+          <div class="manager-section-body">${pendingHTML}</div>
+        </div>
+
+        <div class="manager-section">
+          <div class="manager-section-header">New Operations</div>
+          <div class="manager-section-body">
+            <div id="manager-ops">${opsHTML}</div>
+            <button class="manager-add-op" onclick="addOp()">+ Add operation</button>
+          </div>
+        </div>
+
+        <div class="manager-section">
+          <div class="manager-section-header">Options</div>
+          <div class="manager-section-body">
+            <div class="manager-option">
+              <input type="checkbox" id="manager-fetch">
+              <label for="manager-fetch">Fetch new trades & listings</label>
+            </div>
+            <div class="manager-option">
+              <input type="checkbox" id="manager-fulfill" checked>
+              <label for="manager-fulfill">Fulfill all pending requests</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="manager-process-area">
+          <button class="manager-process-btn" id="manager-process-btn" onclick="processManager()">Process</button>
+          <span class="manager-process-status" id="manager-status"></span>
+        </div>
+      </div>
+
+      <details class="manager-settings">
+        <summary>Settings</summary>
+        <div class="manager-settings-body">
+          <input type="password" class="manager-pat-input" id="manager-pat" placeholder="GitHub Personal Access Token" value="${pat}">
+          <button class="manager-pat-save" onclick="savePat()">Save</button>
+        </div>
+      </details>
+    </section>
+  `;
+}
+
+function markCurrencyDirty(el) {
+  const original = parseFloat(el.dataset.original);
+  const current = parseFloat(el.value);
+  el.classList.toggle('dirty', current !== original && !isNaN(current));
+}
+
+function addCurrency() {
+  const currencies = currentData.currencies || {};
+  const rates = currentData.exchange_rates || {};
+  const existing = Object.keys(currencies).filter(c => currencies[c] !== 0 || c === 'divine');
+  const available = Object.keys(rates).filter(c => !existing.includes(c) && rates[c] > 0);
+  if (!available.length) return;
+
+  const cur = available[0];
+  currencies[cur] = 0;
+  currentData.currencies = currencies;
+  renderDashboard(currentData);
+}
+
+function addOp() {
+  const investors = currentData.investors || [];
+  const defaultInvestor = investors.length > 1 ? investors[1].name : (investors[0]?.name || '');
+  managerOps.push({ id: ++managerOpId, action: 'deposit', investor: defaultInvestor, amount: 0, currency: 'divine' });
+  renderDashboard(currentData);
+}
+
+function removeOp(id) {
+  managerOps = managerOps.filter(op => op.id !== id);
+  renderDashboard(currentData);
+}
+
+function updateOp(id, field, value) {
+  const op = managerOps.find(o => o.id === id);
+  if (op) op[field] = value;
+}
+
+function savePat() {
+  const pat = document.getElementById('manager-pat').value.trim();
+  if (pat) {
+    localStorage.setItem('vault_manager_pat', pat);
+  } else {
+    localStorage.removeItem('vault_manager_pat');
+  }
+}
+
+async function processManager() {
+  const pat = localStorage.getItem('vault_manager_pat');
+  if (!pat) {
+    const statusEl = document.getElementById('manager-status');
+    statusEl.textContent = 'Set your GitHub PAT in Settings first.';
+    statusEl.className = 'manager-process-status error';
+    return;
+  }
+
+  const btn = document.getElementById('manager-process-btn');
+  const statusEl = document.getElementById('manager-status');
+  btn.disabled = true;
+  statusEl.textContent = 'Dispatching workflow...';
+  statusEl.className = 'manager-process-status';
+
+  // Gather dirty currencies
+  const dirtyInputs = document.querySelectorAll('.manager-currency-input.dirty');
+  const currencyOverrides = {};
+  dirtyInputs.forEach(input => {
+    const cur = input.dataset.currency;
+    const val = parseFloat(input.value);
+    if (!isNaN(val)) currencyOverrides[cur] = val;
+  });
+
+  // Gather operations
+  const operations = managerOps.filter(op => op.amount > 0).map(op => ({
+    action: op.action,
+    investor: op.investor,
+    amount: op.amount,
+    currency: op.currency,
+  }));
+
+  const payload = {
+    currencies: currencyOverrides,
+    operations: operations,
+    fetch: document.getElementById('manager-fetch')?.checked || false,
+    fulfill: document.getElementById('manager-fulfill')?.checked || false,
+  };
+
+  try {
+    const resp = await fetch('https://api.github.com/repos/Stakenborg/poe2-investments/actions/workflows/process.yml/dispatches', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${pat}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        ref: 'master',
+        inputs: { payload: JSON.stringify(payload) },
+      }),
+    });
+
+    if (!resp.ok) {
+      const err = await resp.text();
+      throw new Error(`GitHub API ${resp.status}: ${err}`);
+    }
+
+    statusEl.textContent = 'Workflow dispatched. Polling for updates...';
+    statusEl.className = 'manager-process-status';
+
+    // Poll for dashboard update
+    const startedAt = currentData.updated_at;
+    const startTime = Date.now();
+    const timeout = 120000;
+    const interval = 5000;
+
+    const poll = async () => {
+      if (Date.now() - startTime > timeout) {
+        statusEl.textContent = 'Timeout — check GitHub Actions tab.';
+        statusEl.className = 'manager-process-status error';
+        btn.disabled = false;
+        return;
+      }
+
+      try {
+        const r = await fetch('data/dashboard.json?t=' + Date.now(), { cache: 'no-store' });
+        if (r.ok) {
+          const newData = await r.json();
+          if (newData.updated_at !== startedAt) {
+            currentData = newData;
+            managerOps = [];
+            statusEl.textContent = 'Done!';
+            statusEl.className = 'manager-process-status success';
+            btn.disabled = false;
+            renderDashboard(currentData);
+            return;
+          }
+        }
+      } catch (e) {}
+
+      setTimeout(poll, interval);
+    };
+
+    setTimeout(poll, interval);
+  } catch (err) {
+    statusEl.textContent = `Error: ${err.message}`;
+    statusEl.className = 'manager-process-status error';
+    btn.disabled = false;
+  }
+}
+
+function renderCurrencyBreakdown(data) {
+  const currencies = data.currencies || {};
+  const nonDivine = Object.entries(currencies).filter(([c, amt]) => c !== 'divine' && amt > 0);
+  if (!nonDivine.length) return '';
+
+  const rates = data.exchange_rates || {};
+  const items = nonDivine.map(([cur, amt]) => {
+    const rate = rates[cur] || 0;
+    const divEq = rate > 0 ? ` (${fmt(amt * rate)} div)` : '';
+    return `${fmt(amt)} ${cur}${divEq}`;
+  }).join(' &middot; ');
+
+  return `<div class="hero-nav-footnote" style="animation-delay: 0.65s;">${fmt(currencies.divine || 0)} divine + ${items}</div>`;
+}
+
+/* =============================================
    RENDER DASHBOARD
    ============================================= */
 
@@ -1618,6 +2204,7 @@ function renderDashboard(data) {
             <span class="hero-stat-value"><span class="hero-stat-number" data-hero-countup="${rev24h}">0</span><span class="unit">div</span></span>
           </div>
         </div>
+        ${renderCurrencyBreakdown(data)}
 
         ${investorPositionHTML}
 
@@ -1631,6 +2218,7 @@ function renderDashboard(data) {
     </section>
 
     <main id="content">
+      ${isManager ? renderManagerConsole(data) : ''}
       ${currentInvestor ? renderInvestorDetail(currentInvestor, data) : ''}
 
       <section class="section scroll-reveal" id="sales-section">
@@ -1796,14 +2384,18 @@ function renderInvestorDetail(investor, data) {
     const rows = history.map(h => {
       const typeLabel = h.type === 'deposit' ? 'Deposit' : h.type === 'fee' ? 'Perf. Fee' : 'Withdraw';
       const typeColor = h.type === 'deposit' ? 'var(--green)' : h.type === 'fee' ? 'var(--accent)' : 'var(--red)';
-      const amountStr = h.type === 'withdraw' ? `-${fmt(h.amount)}` : `+${fmt(h.amount)}`;
+      const sign = h.type === 'withdraw' ? '-' : '+';
+      let amountStr = `${sign}${fmt(h.amount)} div`;
+      if (h.currency && h.currency !== 'divine' && h.original_amount) {
+        amountStr = `${sign}${fmt(h.amount)} div (${fmt(h.original_amount)} ${h.currency})`;
+      }
       const feeStr = h.fee ? ` (fee: ${fmt(h.fee)})` : '';
       const sourceStr = h.source ? ` from ${h.source}` : '';
       return `
         <tr>
           <td>${h.date}</td>
           <td style="color: ${typeColor}">${typeLabel}</td>
-          <td>${amountStr} div${feeStr}${sourceStr}</td>
+          <td>${amountStr}${feeStr}${sourceStr}</td>
           <td>${h.unit_price?.toFixed(4) || '\u2014'}</td>
         </tr>
       `;
@@ -1823,16 +2415,24 @@ function renderInvestorDetail(investor, data) {
   if (pending) {
     const typeLabel = pending.type === 'deposit' ? 'Deposit' : 'Withdrawal';
     const statusNote = pending._local ? ' \u2014 awaiting manager' : '';
+    const pendCur = pending.currency || 'divine';
+    const pendOrigAmt = pending.original_amount || pending.amount;
+    const pendAmtStr = pendCur !== 'divine' && pending.original_amount ? `${fmt(pendOrigAmt)} ${pendCur} (${fmt(pending.amount)} div)` : `${fmt(pending.amount)} div`;
     pendingHTML = `
       <div class="investor-pending">
         <div class="investor-pending-label">Pending Request${statusNote}</div>
-        ${typeLabel} \u2014 ${fmt(pending.amount)} div (requested ${pending.date})
+        ${typeLabel} \u2014 ${pendAmtStr} (requested ${pending.date})
       </div>
     `;
   }
 
   let formHTML = '';
   if (webhook && !pending) {
+    const currencyKeys = Object.keys(data.currencies || {divine: 1});
+    const rateKeys = Object.keys(data.exchange_rates || {});
+    const allCurrencies = [...new Set([...currencyKeys, ...rateKeys])].filter(c => (data.exchange_rates || {})[c] > 0 || c === 'divine');
+    const currencyOptions = allCurrencies.map(c => `<option value="${c}">${c}</option>`).join('');
+
     formHTML = `
       <div class="request-form">
         <div class="request-form-title">Request Deposit / Withdrawal</div>
@@ -1845,8 +2445,12 @@ function renderInvestorDetail(investor, data) {
             </div>
           </div>
           <div class="request-form-group">
-            <label>Amount (div)</label>
+            <label>Amount</label>
             <input type="number" id="request-amount" placeholder="0" min="1" step="1">
+          </div>
+          <div class="request-form-group">
+            <label>Currency</label>
+            <select id="request-currency" class="manager-op-select">${currencyOptions}</select>
           </div>
           <button class="request-form-submit" id="request-submit" onclick="submitRequest()">Submit Request</button>
         </div>
@@ -1879,9 +2483,11 @@ async function submitRequest() {
   if (!currentInvestor || !currentData) return;
 
   const amountInput = document.getElementById('request-amount');
+  const currencySelect = document.getElementById('request-currency');
   const statusEl = document.getElementById('request-status');
   const submitBtn = document.getElementById('request-submit');
   const amount = parseFloat(amountInput.value);
+  const currency = currencySelect?.value || 'divine';
 
   if (!amount || amount <= 0) {
     statusEl.textContent = 'Enter a valid amount.';
@@ -1889,10 +2495,16 @@ async function submitRequest() {
     return;
   }
 
-  if (requestType === 'withdraw' && amount > (currentInvestor.value || 0)) {
-    statusEl.textContent = `Amount exceeds your position value (${fmt(currentInvestor.value)} div).`;
-    statusEl.className = 'request-form-status error';
-    return;
+  // For withdrawals, check value in divine terms
+  if (requestType === 'withdraw') {
+    const rates = currentData.exchange_rates || {};
+    const rate = rates[currency] || (currency === 'divine' ? 1 : 0);
+    const divEquiv = amount * rate;
+    if (divEquiv > (currentInvestor.value || 0)) {
+      statusEl.textContent = `Amount exceeds your position value (${fmt(currentInvestor.value)} div).`;
+      statusEl.className = 'request-form-status error';
+      return;
+    }
   }
 
   const webhook = currentData.fund?.discord_webhook;
@@ -1907,7 +2519,7 @@ async function submitRequest() {
   const now = new Date().toISOString().replace('T', ' ').split('.')[0] + ' UTC';
 
   const message = {
-    content: `${emoji} **${currentInvestor.name}** requests ${typeLabel} of **${amount} div**\n*${now}*`
+    content: `${emoji} **${currentInvestor.name}** requests ${typeLabel} of **${fmt(amount)} ${currency}**\n*${now}*`
   };
 
   submitBtn.disabled = true;
@@ -1926,6 +2538,7 @@ async function submitRequest() {
       localStorage.setItem(pendingKey, JSON.stringify({
         type: requestType,
         amount: amount,
+        currency: currency,
         date: new Date().toISOString().split('T')[0],
       }));
       localStorage.setItem(pendingKey + '_hlen', String(currentInvestor.history?.length || 0));
@@ -2167,6 +2780,7 @@ fetch(DATA_URL, { cache: 'no-store' })
   .then(async data => {
     currentData = data;
     currentInvestor = await resolveInvestor(data);
+    isManager = currentInvestor && data.investors?.length > 0 && data.investors[0].hash === currentInvestor.hash;
     renderDashboard(data);
   })
   .catch(() => {
