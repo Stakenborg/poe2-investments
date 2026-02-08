@@ -97,10 +97,9 @@ def fetch_exchange_rates(league):
         c1_price = float(pair["CurrencyOneData"]["RelativePrice"])
         c2_price = float(pair["CurrencyTwoData"]["RelativePrice"])
 
-        if c1_id == "divine" and c2_id in ("exalted", "chaos", "mirror"):
-            # c2 per divine = c2_price / c1_price... we want divine per c2
+        if c1_id == "divine" and c2_id not in rates:
             rates[c2_id] = c2_price / c1_price if c1_price else 0
-        elif c2_id == "divine" and c1_id in ("exalted", "chaos", "mirror"):
+        elif c2_id == "divine" and c1_id not in rates:
             rates[c1_id] = c1_price / c2_price if c2_price else 0
 
     return rates

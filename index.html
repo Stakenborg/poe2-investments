@@ -1414,6 +1414,25 @@ body {
 
 .manager-currency-add-card:hover span { color: var(--accent); }
 
+.manager-currency-picker {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  background: transparent;
+  border: none;
+  color: var(--text-3);
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  padding: 0.2rem;
+}
+
+.manager-currency-picker:focus { color: var(--text-0); }
+
+.manager-currency-picker option {
+  background: var(--bg-2);
+  color: var(--text-0);
+}
+
 /* Pending requests */
 .manager-pending-item {
   font-family: 'IBM Plex Mono', monospace;
@@ -1907,7 +1926,15 @@ function renderManagerConsole(data) {
   }).join('');
 
   if (availableCurrencies.length) {
-    currencyCards += `<div class="manager-currency-add-card" onclick="addCurrency()"><span>+ Add currency</span></div>`;
+    const options = availableCurrencies.sort().map(c => `<option value="${c}">${c}</option>`).join('');
+    currencyCards += `
+      <div class="manager-currency-add-card">
+        <select class="manager-currency-picker" id="currency-picker" onchange="addCurrency(this.value)">
+          <option value="">+ Add currency...</option>
+          ${options}
+        </select>
+      </div>
+    `;
   }
 
   // Pending requests
@@ -2008,14 +2035,9 @@ function markCurrencyDirty(el) {
   el.classList.toggle('dirty', current !== original && !isNaN(current));
 }
 
-function addCurrency() {
+function addCurrency(cur) {
+  if (!cur) return;
   const currencies = currentData.currencies || {};
-  const rates = currentData.exchange_rates || {};
-  const existing = Object.keys(currencies);
-  const available = Object.keys(rates).filter(c => !existing.includes(c) && rates[c] > 0);
-  if (!available.length) return;
-
-  const cur = available[0];
   currencies[cur] = 0;
   currentData.currencies = currencies;
   renderDashboard(currentData);
