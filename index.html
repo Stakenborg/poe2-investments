@@ -842,6 +842,388 @@ body {
   background: var(--bg-3);
 }
 
+/* ========================================
+   CAP TABLE
+   ======================================== */
+
+.cap-table-section {
+  margin-top: 2.5rem;
+}
+
+.cap-table-title {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--text-0);
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.cap-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.cap-table thead th {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-3);
+  padding: 0.85rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-1);
+}
+
+.cap-table thead th:not(:first-child) { text-align: right; }
+
+.cap-table tbody td {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-1);
+}
+
+.cap-table tbody td:not(:first-child) { text-align: right; }
+
+.cap-table tbody tr:last-child td { border-bottom: none; }
+
+.cap-table tbody tr:hover { background: var(--bg-3); }
+
+.cap-table tbody tr.highlighted {
+  background: rgba(201,168,76,0.06);
+  border-left: 2px solid var(--accent);
+}
+
+.cap-table .investor-name { color: var(--text-0); font-weight: 500; }
+.cap-table .manager-tag {
+  font-size: 0.65rem;
+  color: var(--accent);
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
+.cap-table .profit-positive { color: var(--green); }
+.cap-table .profit-negative { color: var(--red); }
+
+.cap-fund-total {
+  margin-top: 1rem;
+  padding: 1.1rem 1.5rem;
+  background: var(--bg-2);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cap-fund-total-value {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--accent-bright);
+}
+
+.cap-fund-total-value .unit {
+  font-size: 0.55em;
+  font-weight: 500;
+  color: var(--accent-dim);
+  margin-left: 0.15em;
+}
+
+.cap-fund-total-profit {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.cap-table-footer {
+  margin-top: 0.75rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-3);
+  font-style: italic;
+}
+
+/* ========================================
+   INVESTOR POSITION CARD (hero area)
+   ======================================== */
+
+.investor-position {
+  background: var(--bg-2);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius);
+  padding: 1.25rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 0.5rem;
+  opacity: 0;
+  animation: heroFadeIn 0.8s ease-out forwards;
+  animation-delay: 0.9s;
+}
+
+.investor-position-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.2rem;
+}
+
+.investor-position-name {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.investor-position-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.investor-position-stat-value {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--text-0);
+}
+
+.investor-position-stat-value .unit {
+  font-size: 0.5em;
+  font-weight: 500;
+  color: var(--text-2);
+  margin-left: 0.1em;
+}
+
+.investor-position-stat-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ========================================
+   INVESTOR DETAIL SECTION
+   ======================================== */
+
+.investor-detail {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.investor-detail-title {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--text-0);
+  margin-bottom: 1rem;
+}
+
+.investor-history {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 1.25rem;
+}
+
+.investor-history thead th {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-3);
+  padding: 0.75rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-1);
+}
+
+.investor-history tbody td {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  padding: 0.65rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-1);
+}
+
+.investor-history tbody tr:last-child td { border-bottom: none; }
+
+.investor-pending {
+  padding: 1rem 1.25rem;
+  background: rgba(201,168,76,0.06);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius);
+  margin-bottom: 1.25rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  color: var(--accent);
+}
+
+.investor-pending-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-3);
+  margin-bottom: 0.3rem;
+}
+
+/* ========================================
+   REQUEST FORM
+   ======================================== */
+
+.request-form {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.request-form-title {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-0);
+  margin-bottom: 1rem;
+}
+
+.request-form-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.request-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.request-form-group label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-3);
+}
+
+.request-form-toggle {
+  display: flex;
+  gap: 0;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.request-form-toggle button {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  background: var(--bg-1);
+  color: var(--text-2);
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.request-form-toggle button.active {
+  background: var(--accent);
+  color: var(--bg-0);
+}
+
+.request-form-toggle button:hover:not(.active) {
+  background: var(--bg-3);
+}
+
+.request-form input[type="number"] {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-0);
+  width: 140px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.request-form input[type="number"]:focus {
+  border-color: var(--accent);
+}
+
+.request-form input[type="number"]::placeholder {
+  color: var(--text-3);
+}
+
+.request-form-submit {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  background: var(--accent);
+  color: var(--bg-0);
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.15s;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.request-form-submit:hover {
+  background: var(--accent-bright);
+}
+
+.request-form-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.request-form-status {
+  margin-top: 0.75rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+}
+
+.request-form-status.success { color: var(--green); }
+.request-form-status.error { color: var(--red); }
+
+/* ========================================
+   NAV FOOTNOTE
+   ======================================== */
+
+.hero-nav-footnote {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-3);
+  text-align: center;
+  margin-top: 0.25rem;
+  opacity: 0;
+  animation: heroFadeIn 0.8s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
 /* --- Loading --- */
 .loading {
   display: flex;
@@ -916,6 +1298,8 @@ body {
   }
 
   .hero-scroll-hint svg { animation: none; }
+  .investor-position { opacity: 1; animation: none; }
+  .hero-nav-footnote { opacity: 1; animation: none; }
 
   .scroll-reveal {
     opacity: 1;
@@ -950,6 +1334,15 @@ body {
   .hero-orb--2 { width: 200px; height: 200px; }
   .hero-orb--3 { width: 150px; height: 150px; }
   .hero-orb--4 { width: 120px; height: 120px; }
+
+  .investor-position { flex-wrap: wrap; gap: 1.5rem; padding: 1rem 1.25rem; }
+  .investor-position-stat-value { font-size: 1.1rem; }
+
+  .cap-table thead th,
+  .cap-table tbody td { padding: 0.65rem 0.75rem; font-size: 0.8rem; }
+
+  .request-form-row { flex-direction: column; align-items: stretch; }
+  .request-form input[type="number"] { width: 100%; }
 }
 
 @media (max-width: 480px) {
@@ -979,6 +1372,26 @@ const DATA_URL = 'data/dashboard.json';
 const chevronSVG = `<svg class="section-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
 
 const scrollChevronSVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>`;
+
+// --- Invite code handling ---
+async function sha256(message) {
+  const msgBuffer = new TextEncoder().encode(message);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+let currentInvestor = null;
+let inviteCode = null;
+
+async function resolveInvestor(data) {
+  const params = new URLSearchParams(window.location.search);
+  inviteCode = params.get('code');
+  if (!inviteCode || !data.investors?.length) return null;
+
+  const hashed = await sha256(inviteCode);
+  return data.investors.find(inv => inv.hash === hashed) || null;
+}
 
 function fmt(n) {
   if (n === '' || n == null) return '\u2014';
@@ -1131,6 +1544,47 @@ function renderDashboard(data) {
   const rev24h = sales24h.reduce((s, t) => s + (typeof t.div_equivalent === 'number' ? t.div_equivalent : 0), 0);
   const listingTotal = data.listings.reduce((s, l) => s + (typeof l.div_equivalent === 'number' ? l.div_equivalent : 0), 0);
 
+  const hasInvestors = data.investors?.length > 0;
+  const haircut = data.haircut || 0.85;
+  const haircutPct = Math.round((1 - haircut) * 100);
+  const rawNav = data.raw_nav || (data.raw_divines + data.listed_value);
+
+  // Investor position card (only if viewing with valid invite code)
+  let investorPositionHTML = '';
+  if (currentInvestor) {
+    const profitClass = currentInvestor.profit >= 0 ? 'profit-positive' : 'profit-negative';
+    const profitSign = currentInvestor.profit >= 0 ? '+' : '';
+    const hasPct = currentInvestor.pct_change != null;
+    const pctStr = hasPct ? `(${currentInvestor.pct_change >= 0 ? '+' : ''}${currentInvestor.pct_change.toFixed(0)}%)` : '(fee)';
+    investorPositionHTML = `
+      <div class="investor-position">
+        <div class="investor-position-stat">
+          <span class="investor-position-label">Your Position</span>
+          <span class="investor-position-name">${currentInvestor.name}</span>
+        </div>
+        <div class="investor-position-stat">
+          <span class="investor-position-stat-value">${fmt(currentInvestor.value)}<span class="unit">div</span></span>
+          <span class="investor-position-stat-label">Value</span>
+        </div>
+        <div class="investor-position-stat">
+          <span class="investor-position-stat-value">${(currentInvestor.share * 100).toFixed(1)}%</span>
+          <span class="investor-position-stat-label">Share</span>
+        </div>
+        <div class="investor-position-stat">
+          <span class="investor-position-stat-value ${profitClass}">${profitSign}${fmt(currentInvestor.profit)}<span class="unit">div</span></span>
+          <span class="investor-position-stat-label">Profit <span style="opacity:0.6;font-size:0.75em">${pctStr}</span></span>
+        </div>
+      </div>
+    `;
+  }
+
+  // NAV footnote
+  const navFootnote = hasInvestors ? `
+    <div class="hero-nav-footnote">
+      *Listed value: ${fmt(listingTotal)} div. Adjusted NAV applies a ${haircutPct}% haircut to listed items.
+    </div>
+  ` : '';
+
   document.getElementById('app').innerHTML = `
     <section id="hero">
       <div class="hero-bg"></div>
@@ -1143,10 +1597,11 @@ function renderDashboard(data) {
         <div class="hero-brand">The <span>Vault</span></div>
 
         <div class="hero-value-wrap">
-          <span class="hero-value-label">Total Fund Value</span>
+          <span class="hero-value-label">Total Fund Value${hasInvestors ? '*' : ''}</span>
           <div class="hero-value">
             <span class="hero-value-number" data-hero-countup="${data.total_nav}">0</span><span class="unit">div</span>
           </div>
+          ${navFootnote}
         </div>
 
         <div class="hero-stats-row">
@@ -1164,6 +1619,8 @@ function renderDashboard(data) {
           </div>
         </div>
 
+        ${investorPositionHTML}
+
         <div class="hero-updated">Updated ${timeAgo(data.updated_at)}</div>
 
         <div class="hero-scroll-hint">
@@ -1174,6 +1631,8 @@ function renderDashboard(data) {
     </section>
 
     <main id="content">
+      ${currentInvestor ? renderInvestorDetail(currentInvestor, data) : ''}
+
       <section class="section scroll-reveal" id="sales-section">
         <button class="section-toggle" onclick="toggleSection('sales-section')">
           <div class="section-toggle-left">
@@ -1219,6 +1678,8 @@ function renderDashboard(data) {
           </div>
         </div>
       </section>
+
+      ${hasInvestors ? renderCapTable(data) : ''}
     </main>
   `;
 
@@ -1242,6 +1703,204 @@ function renderDashboard(data) {
   // --- Init scroll reveals & parallax ---
   initScrollReveals();
   initParallax();
+}
+
+function renderCapTable(data) {
+  const investors = data.investors || [];
+  const fund = data.fund || {};
+  const totalValue = investors.reduce((s, inv) => s + (inv.value || 0), 0);
+  const totalProfit = investors.reduce((s, inv) => s + (inv.profit || 0), 0);
+  const profitClass = totalProfit >= 0 ? 'profit-positive' : 'profit-negative';
+  const profitSign = totalProfit >= 0 ? '+' : '';
+
+  const rows = investors.map(inv => {
+    const isHighlighted = currentInvestor && inv.hash === currentInvestor.hash;
+    const isManager = inv.name === investors[0]?.name; // First investor is typically the manager
+    const pClass = inv.profit >= 0 ? 'profit-positive' : 'profit-negative';
+    const pSign = inv.profit >= 0 ? '+' : '';
+    const hasPct = inv.pct_change != null;
+    const pctStr = hasPct ? `(${inv.pct_change >= 0 ? '+' : ''}${inv.pct_change.toFixed(0)}%)` : '(fee)';
+    return `
+      <tr class="${isHighlighted ? 'highlighted' : ''}">
+        <td><span class="investor-name">${inv.name}</span>${isManager ? '<span class="manager-tag">&#9881;</span>' : ''}</td>
+        <td>${fmt(inv.value)} div</td>
+        <td>${(inv.share * 100).toFixed(1)}%</td>
+        <td class="${pClass}">${pSign}${fmt(inv.profit)} div <span style="opacity:0.6;font-size:0.8em">${pctStr}</span></td>
+      </tr>
+    `;
+  }).join('');
+
+  return `
+    <section class="cap-table-section scroll-reveal">
+      <div class="cap-table-title">Cap Table</div>
+      <table class="cap-table">
+        <thead>
+          <tr>
+            <th>Investor</th>
+            <th>Value</th>
+            <th>Share</th>
+            <th>Profit</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+      <div class="cap-fund-total">
+        <span class="cap-fund-total-value">${fmt(totalValue)}<span class="unit">div</span></span>
+        <span class="cap-fund-total-profit ${profitClass}">${profitSign}${fmt(totalProfit)} div profit</span>
+      </div>
+      <div class="cap-table-footer">25% performance fee on gains above high-water mark</div>
+    </section>
+  `;
+}
+
+function renderInvestorDetail(investor, data) {
+  const history = investor.history || [];
+  const pending = investor.pending;
+  const fund = data.fund || {};
+  const webhook = fund.discord_webhook || '';
+
+  let historyHTML = '';
+  if (history.length) {
+    const rows = history.map(h => {
+      const typeLabel = h.type === 'deposit' ? 'Deposit' : h.type === 'fee' ? 'Perf. Fee' : 'Withdraw';
+      const typeColor = h.type === 'deposit' ? 'var(--green)' : h.type === 'fee' ? 'var(--accent)' : 'var(--red)';
+      const amountStr = h.type === 'withdraw' ? `-${fmt(h.amount)}` : `+${fmt(h.amount)}`;
+      const feeStr = h.fee ? ` (fee: ${fmt(h.fee)})` : '';
+      const sourceStr = h.source ? ` from ${h.source}` : '';
+      return `
+        <tr>
+          <td>${h.date}</td>
+          <td style="color: ${typeColor}">${typeLabel}</td>
+          <td>${amountStr} div${feeStr}${sourceStr}</td>
+          <td>${h.unit_price?.toFixed(4) || '\u2014'}</td>
+        </tr>
+      `;
+    }).join('');
+
+    historyHTML = `
+      <table class="investor-history">
+        <thead>
+          <tr><th>Date</th><th>Type</th><th>Amount</th><th>Unit Price</th></tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    `;
+  }
+
+  let pendingHTML = '';
+  if (pending) {
+    const typeLabel = pending.type === 'deposit' ? 'Deposit' : 'Withdrawal';
+    pendingHTML = `
+      <div class="investor-pending">
+        <div class="investor-pending-label">Pending Request</div>
+        ${typeLabel} \u2014 ${fmt(pending.amount)} div (requested ${pending.date})
+      </div>
+    `;
+  }
+
+  let formHTML = '';
+  if (webhook) {
+    formHTML = `
+      <div class="request-form">
+        <div class="request-form-title">Request Deposit / Withdrawal</div>
+        <div class="request-form-row">
+          <div class="request-form-group">
+            <label>Type</label>
+            <div class="request-form-toggle" id="request-type-toggle">
+              <button class="active" data-type="deposit" onclick="setRequestType('deposit')">Deposit</button>
+              <button data-type="withdraw" onclick="setRequestType('withdraw')">Withdraw</button>
+            </div>
+          </div>
+          <div class="request-form-group">
+            <label>Amount (div)</label>
+            <input type="number" id="request-amount" placeholder="0" min="1" step="1">
+          </div>
+          <button class="request-form-submit" id="request-submit" onclick="submitRequest()">Submit Request</button>
+        </div>
+        <div class="request-form-status" id="request-status"></div>
+      </div>
+    `;
+  }
+
+  return `
+    <section class="investor-detail scroll-reveal">
+      <div class="investor-detail-title">Your Transactions</div>
+      ${pendingHTML}
+      ${historyHTML}
+      ${!history.length && !pending ? '<div style="color: var(--text-3); font-size: 0.9rem; margin-bottom: 1rem;">No transactions yet.</div>' : ''}
+      ${formHTML}
+    </section>
+  `;
+}
+
+let requestType = 'deposit';
+
+function setRequestType(type) {
+  requestType = type;
+  document.querySelectorAll('#request-type-toggle button').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.type === type);
+  });
+}
+
+async function submitRequest() {
+  if (!currentInvestor || !currentData) return;
+
+  const amountInput = document.getElementById('request-amount');
+  const statusEl = document.getElementById('request-status');
+  const submitBtn = document.getElementById('request-submit');
+  const amount = parseFloat(amountInput.value);
+
+  if (!amount || amount <= 0) {
+    statusEl.textContent = 'Enter a valid amount.';
+    statusEl.className = 'request-form-status error';
+    return;
+  }
+
+  if (requestType === 'withdraw' && amount > (currentInvestor.value || 0)) {
+    statusEl.textContent = `Amount exceeds your position value (${fmt(currentInvestor.value)} div).`;
+    statusEl.className = 'request-form-status error';
+    return;
+  }
+
+  const webhook = currentData.fund?.discord_webhook;
+  if (!webhook) {
+    statusEl.textContent = 'No webhook configured.';
+    statusEl.className = 'request-form-status error';
+    return;
+  }
+
+  const unitPrice = currentData.fund?.unit_price || 1;
+  const emoji = requestType === 'deposit' ? '\ud83d\udce5' : '\ud83d\udce4';
+  const typeLabel = requestType === 'deposit' ? 'deposit' : 'withdrawal';
+  const now = new Date().toISOString().replace('T', ' ').split('.')[0] + ' UTC';
+
+  const message = {
+    content: `${emoji} **${currentInvestor.name}** requests ${typeLabel} of **${amount} div**\nUnit price at request: **${unitPrice.toFixed(4)}**\n*${now}*`
+  };
+
+  submitBtn.disabled = true;
+  statusEl.textContent = 'Sending...';
+  statusEl.className = 'request-form-status';
+
+  try {
+    const resp = await fetch(webhook, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(message),
+    });
+    if (resp.ok || resp.status === 204) {
+      statusEl.textContent = 'Request sent! The fund manager will process it shortly.';
+      statusEl.className = 'request-form-status success';
+      amountInput.value = '';
+    } else {
+      throw new Error(`Status ${resp.status}`);
+    }
+  } catch (err) {
+    statusEl.textContent = 'Failed to send request. Try again later.';
+    statusEl.className = 'request-form-status error';
+  } finally {
+    submitBtn.disabled = false;
+  }
 }
 
 function toggleSection(id) {
@@ -1463,7 +2122,11 @@ document.addEventListener('keydown', (e) => {
 
 fetch(DATA_URL)
   .then(r => { if (!r.ok) throw new Error('No data'); return r.json(); })
-  .then(data => { currentData = data; renderDashboard(data); })
+  .then(async data => {
+    currentData = data;
+    currentInvestor = await resolveInvestor(data);
+    renderDashboard(data);
+  })
   .catch(() => {
     document.getElementById('app').innerHTML = `
       <div class="error-msg">

@@ -3,7 +3,9 @@
 
 import argparse
 import csv
+import hashlib
 import json
+import secrets
 import subprocess
 import sys
 import time
@@ -20,6 +22,10 @@ load_dotenv()
 DATA_DIR = Path(__file__).parent / "data"
 TRADES_FILE = DATA_DIR / "trades.json"
 DASHBOARD_FILE = DATA_DIR / "dashboard.json"
+INVESTORS_FILE = DATA_DIR / "investors.json"
+
+HAIRCUT = 0.85
+PERF_FEE_PCT = 0.25
 
 HISTORY_URL = "https://www.pathofexile.com/api/trade2/history/{league}"
 SEARCH_URL = "https://www.pathofexile.com/api/trade2/search/poe2/{league}"
@@ -300,22 +306,36 @@ def save_dashboard(data):
         json.dump(data, f, indent=2)
 
 
-def build_dashboard(trades, listings, raw_divines, rates):
+def build_dashboard(trades, listings, raw_divines, rates, inv_data=None):
     parsed_listings = [parse_listing(l, rates) for l in listings]
     listed_value = sum(
         l["div_equivalent"] for l in parsed_listings
         if isinstance(l["div_equivalent"], (int, float))
     )
 
-    return {
+    adjusted_nav = calc_nav(raw_divines, listed_value)
+
+    dashboard = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "raw_divines": raw_divines,
         "listed_value": listed_value,
-        "total_nav": raw_divines + listed_value,
+        "total_nav": adjusted_nav,
+        "raw_nav": raw_divines + listed_value,
+        "haircut": HAIRCUT,
         "exchange_rates": rates,
         "listings": parsed_listings,
         "recent_sales": trades[:50],  # Last 50 sales for the dashboard
     }
+
+    # Include investor data if available
+    if inv_data and inv_data.get("investors"):
+        inv_data = recalc_investors(inv_data, adjusted_nav)
+        save_investors(inv_data)
+        pub = investors_to_dashboard(inv_data)
+        dashboard["fund"] = pub["fund"]
+        dashboard["investors"] = pub["investors"]
+
+    return dashboard
 
 
 # --- CSV Export ---
@@ -368,6 +388,273 @@ def push_to_sheets(trades, config):
         print(f"Pushed {len(rows)} rows to Google Sheets")
 
 
+# --- Investor Management ---
+
+def load_investors():
+    """Load private investors file (has plaintext codes)."""
+    if INVESTORS_FILE.exists():
+        with open(INVESTORS_FILE) as f:
+            return json.load(f)
+    return {"fund": _default_fund_config(), "investors": []}
+
+
+def save_investors(data):
+    DATA_DIR.mkdir(exist_ok=True)
+    with open(INVESTORS_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+
+
+def _default_fund_config():
+    return {
+        "total_units": 0,
+        "unit_price": 1.0,
+        "hwm": 1.0,
+        "haircut": HAIRCUT,
+        "perf_fee_pct": PERF_FEE_PCT,
+        "total_deposited": 0,
+        "total_profit": 0,
+        "discord_webhook": "",
+    }
+
+
+def hash_code(code):
+    return hashlib.sha256(code.encode()).hexdigest()
+
+
+def calc_nav(raw_divines, listed_value):
+    """NAV = liquid + listed * haircut."""
+    return raw_divines + listed_value * HAIRCUT
+
+
+def recalc_investors(inv_data, nav):
+    """Recalculate all investor values, shares, and profits from current NAV."""
+    fund = inv_data["fund"]
+    total_units = fund["total_units"]
+    unit_price = nav / total_units if total_units > 0 else 1.0
+
+    # --- Crystallize performance fee if price > HWM ---
+    hwm = fund.get("hwm", 1.0)
+    if unit_price > hwm and total_units > 0 and len(inv_data["investors"]) > 0:
+        gain_per_unit = unit_price - hwm
+        # Fee applies to all non-manager units
+        manager = inv_data["investors"][0]
+        non_manager_units = total_units - manager["units"]
+        if non_manager_units > 0:
+            fee_value = gain_per_unit * non_manager_units * PERF_FEE_PCT
+            fee_units = fee_value / unit_price
+            manager["units"] += fee_units
+            fund["total_units"] += fee_units
+            total_units = fund["total_units"]
+            # Recalc unit price after minting (NAV unchanged, more units)
+            unit_price = nav / total_units
+            fund["hwm"] = round(nav / total_units, 6)  # HWM = new unit price post-mint
+            print(f"  Performance fee crystallized: {fee_value:,.2f} div ({fee_units:,.4f} units minted to {manager['name']})")
+
+    fund["unit_price"] = round(unit_price, 6)
+
+    total_value = 0
+    total_profit = 0
+    total_deposited = 0
+
+    for investor in inv_data["investors"]:
+        value = round(investor["units"] * unit_price, 2)
+        profit = round(value - investor["deposited"], 2)
+        share = investor["units"] / total_units if total_units > 0 else 0
+
+        pct_change = ((value - investor["deposited"]) / investor["deposited"] * 100) if investor["deposited"] > 0 else None
+
+        investor["value"] = value
+        investor["profit"] = profit
+        investor["share"] = round(share, 6)
+        investor["pct_change"] = round(pct_change, 1) if pct_change is not None else None
+
+        total_value += value
+        total_profit += profit
+        total_deposited += investor["deposited"]
+
+    fund["total_deposited"] = round(total_deposited, 2)
+    fund["total_profit"] = round(total_profit, 2)
+
+    return inv_data
+
+
+def find_investor(inv_data, name):
+    for inv in inv_data["investors"]:
+        if inv["name"].lower() == name.lower():
+            return inv
+    return None
+
+
+def process_deposit(inv_data, name, amount, nav):
+    """Process a deposit: issue units at current price."""
+    fund = inv_data["fund"]
+    total_units = fund["total_units"]
+    unit_price = nav / total_units if total_units > 0 else 1.0
+
+    units_issued = amount / unit_price
+
+    investor = find_investor(inv_data, name)
+    if not investor:
+        # Create new investor
+        confirm = input(f"Investor '{name}' not found. Create new investor? [y/N] ")
+        if confirm.lower() != "y":
+            print("Cancelled.")
+            return None
+
+        code = secrets.token_urlsafe(16)
+        investor = {
+            "name": name,
+            "code": code,
+            "hash": hash_code(code),
+            "units": 0,
+            "deposited": 0,
+            "value": 0,
+            "share": 0,
+            "profit": 0,
+            "pending": None,
+            "history": [],
+        }
+        inv_data["investors"].append(investor)
+        print(f"Created investor: {name}")
+        print(f"Invite code: {code}")
+        print(f"Share this code with them — it's their key to the personalized view.")
+
+    investor["units"] += units_issued
+    investor["deposited"] += amount
+    fund["total_units"] += units_issued
+
+    investor["history"].append({
+        "type": "deposit",
+        "amount": amount,
+        "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "unit_price": round(unit_price, 6),
+    })
+
+    print(f"\nDeposit processed for {investor['name']}:")
+    print(f"  Amount: {amount:,.2f} div")
+    print(f"  Unit price: {unit_price:,.4f}")
+    print(f"  Units issued: {units_issued:,.4f}")
+    print(f"  Total units (fund): {fund['total_units']:,.4f}")
+
+    return inv_data
+
+
+def process_withdraw_request(inv_data, name, amount, nav):
+    """Create a withdrawal request locked at current unit price."""
+    fund = inv_data["fund"]
+    total_units = fund["total_units"]
+    unit_price = nav / total_units if total_units > 0 else 1.0
+
+    investor = find_investor(inv_data, name)
+    if not investor:
+        print(f"Error: Investor '{name}' not found.")
+        return None
+
+    current_value = investor["units"] * unit_price
+    if amount > current_value:
+        print(f"Error: Requested {amount:,.2f} div but position is only worth {current_value:,.2f} div.")
+        return None
+
+    if investor["pending"]:
+        print(f"Error: {name} already has a pending {investor['pending']['type']} request.")
+        return None
+
+    investor["pending"] = {
+        "type": "withdraw",
+        "amount": amount,
+        "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "locked_price": round(unit_price, 6),
+    }
+
+    print(f"\nWithdrawal request created for {investor['name']}:")
+    print(f"  Amount: {amount:,.2f} div")
+    print(f"  Locked unit price: {unit_price:,.4f}")
+    print(f"  Run --fulfill \"{name}\" to process.")
+
+    return inv_data
+
+
+def process_fulfill(inv_data, name):
+    """Fulfill a pending withdrawal request."""
+    fund = inv_data["fund"]
+
+    investor = find_investor(inv_data, name)
+    if not investor:
+        print(f"Error: Investor '{name}' not found.")
+        return None
+
+    pending = investor.get("pending")
+    if not pending or pending["type"] != "withdraw":
+        print(f"Error: No pending withdrawal for {name}.")
+        return None
+
+    amount = pending["amount"]
+    locked_price = pending["locked_price"]
+    units_burned = amount / locked_price
+
+    # No per-withdrawal fee — performance fee is crystallized on every recalc
+
+    # Update investor
+    investor["units"] -= units_burned
+    # Proportionally reduce deposited amount
+    pct_withdrawn = units_burned / (investor["units"] + units_burned) if (investor["units"] + units_burned) > 0 else 1.0
+    investor["deposited"] = round(investor["deposited"] * (1 - pct_withdrawn), 2)
+    fund["total_units"] -= units_burned
+
+    investor["pending"] = None
+    investor["history"].append({
+        "type": "withdraw",
+        "amount": amount,
+        "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "unit_price": locked_price,
+    })
+
+    print(f"\nFulfilling withdrawal for {investor['name']}:")
+    print(f"  Amount: {amount:,.2f} div")
+    print(f"  Units burned: {units_burned:,.4f}")
+    print(f"  Remaining units (fund): {fund['total_units']:,.4f}")
+
+    return inv_data
+
+
+def generate_invite_code(inv_data, name):
+    """Generate a new invite code for an investor."""
+    investor = find_investor(inv_data, name)
+    if not investor:
+        print(f"Error: Investor '{name}' not found.")
+        return None
+
+    code = secrets.token_urlsafe(16)
+    investor["code"] = code
+    investor["hash"] = hash_code(code)
+
+    print(f"\nNew invite code for {investor['name']}: {code}")
+    print(f"Hash: {investor['hash']}")
+    print("Share the code (not the hash) with them.")
+
+    return inv_data
+
+
+def investors_to_dashboard(inv_data):
+    """Convert private investor data to public dashboard format (no plaintext codes)."""
+    fund = {k: v for k, v in inv_data["fund"].items()}
+    investors = []
+    for inv in inv_data["investors"]:
+        investors.append({
+            "name": inv["name"],
+            "hash": inv["hash"],
+            "units": inv["units"],
+            "deposited": inv["deposited"],
+            "value": inv.get("value", 0),
+            "share": inv.get("share", 0),
+            "profit": inv.get("profit", 0),
+            "pct_change": inv.get("pct_change", 0),
+            "pending": inv.get("pending"),
+            "history": inv.get("history", []),
+        })
+    return {"fund": fund, "investors": investors}
+
+
 # --- CLI ---
 
 def print_summary(new_trades, listings_summary):
@@ -395,7 +682,7 @@ def git_push():
     repo_root = Path(__file__).parent
     try:
         subprocess.run(
-            ["git", "add", "data/dashboard.json"],
+            ["git", "add", "-f", "data/dashboard.json"],
             cwd=repo_root, check=True, capture_output=True,
         )
         result = subprocess.run(
@@ -419,19 +706,128 @@ def git_push():
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Fetch PoE2 trade history")
+    parser = argparse.ArgumentParser(description="Fetch PoE2 trade history + manage fund investors")
     parser.add_argument("--sheets", action="store_true", help="Push new trades to Google Sheets")
     parser.add_argument("--dry-run", action="store_true", help="Fetch and display without saving")
     parser.add_argument("--divines", type=float, help="Update raw divine count in the fund")
     parser.add_argument("--push", action="store_true", help="Git commit + push dashboard data after update")
+
+    # Investor management
+    parser.add_argument("--add-investor", type=str, metavar="NAME", help="Add a new investor (combine with --deposit)")
+    parser.add_argument("--deposit", nargs="+", metavar="ARG", help="Process deposit: --deposit NAME AMOUNT or --add-investor NAME --deposit AMOUNT")
+    parser.add_argument("--withdraw", nargs=2, metavar=("NAME", "AMOUNT"), help="Create withdrawal request")
+    parser.add_argument("--fulfill", type=str, metavar="NAME", help="Fulfill pending withdrawal")
+    parser.add_argument("--gen-code", type=str, metavar="NAME", help="Generate new invite code for investor")
+    parser.add_argument("--set-webhook", type=str, metavar="URL", help="Set Discord webhook URL for investor requests")
+    parser.add_argument("--no-fetch", action="store_true", help="Skip trade/listing fetch (investor ops only)")
+
     args = parser.parse_args()
 
     config = get_config()
-    session = make_session(config["poesessid"])
 
     # Load previous dashboard for persisted values
     prev_dashboard = load_dashboard()
     raw_divines = args.divines if args.divines is not None else prev_dashboard.get("raw_divines", 0)
+
+    # Load investor data
+    inv_data = load_investors()
+
+    # --- Handle investor-only operations ---
+
+    is_investor_op = any([args.add_investor, args.deposit, args.withdraw, args.fulfill, args.gen_code, args.set_webhook])
+
+    if args.set_webhook:
+        inv_data["fund"]["discord_webhook"] = args.set_webhook
+        save_investors(inv_data)
+        print(f"Discord webhook set.")
+        if not is_investor_op or args.set_webhook == args.set_webhook:  # only op
+            pass  # continue to potentially do other ops
+
+    # Calculate current NAV from stored data if skipping fetch
+    listed_value = prev_dashboard.get("listed_value", 0)
+    nav = calc_nav(raw_divines, listed_value)
+
+    if args.gen_code:
+        result = generate_invite_code(inv_data, args.gen_code)
+        if result:
+            save_investors(result)
+        if not args.deposit and not args.withdraw and not args.fulfill and not args.add_investor:
+            return
+
+    if args.add_investor and args.deposit:
+        # --add-investor NAME --deposit AMOUNT
+        amount = float(args.deposit[0])
+        result = process_deposit(inv_data, args.add_investor, amount, nav)
+        if result:
+            inv_data = result
+            inv_data = recalc_investors(inv_data, nav)
+            save_investors(inv_data)
+    elif args.deposit:
+        # --deposit NAME AMOUNT
+        if len(args.deposit) != 2:
+            print("Usage: --deposit NAME AMOUNT")
+            sys.exit(1)
+        name, amount = args.deposit[0], float(args.deposit[1])
+        result = process_deposit(inv_data, name, amount, nav)
+        if result:
+            inv_data = result
+            inv_data = recalc_investors(inv_data, nav)
+            save_investors(inv_data)
+    elif args.add_investor:
+        # --add-investor NAME without deposit
+        result = process_deposit(inv_data, args.add_investor, 0, nav)
+        if result:
+            # Remove the 0-amount history entry
+            inv = find_investor(result, args.add_investor)
+            if inv and inv["history"] and inv["history"][-1]["amount"] == 0:
+                inv["history"].pop()
+            inv_data = result
+            save_investors(inv_data)
+
+    if args.withdraw:
+        name, amount = args.withdraw[0], float(args.withdraw[1])
+        result = process_withdraw_request(inv_data, name, amount, nav)
+        if result:
+            inv_data = result
+            save_investors(inv_data)
+
+    if args.fulfill:
+        result = process_fulfill(inv_data, args.fulfill)
+        if result:
+            inv_data = result
+            inv_data = recalc_investors(inv_data, nav)
+            save_investors(inv_data)
+
+    # If --no-fetch, just rebuild dashboard from stored data and exit
+    if args.no_fetch:
+        if not args.dry_run:
+            all_trades = load_seen_trades()
+            listings = prev_dashboard.get("listings", [])
+            # Re-use existing parsed listings directly
+            dashboard = {
+                "updated_at": datetime.now(timezone.utc).isoformat(),
+                "raw_divines": raw_divines,
+                "listed_value": listed_value,
+                "total_nav": nav,
+                "raw_nav": raw_divines + listed_value,
+                "haircut": HAIRCUT,
+                "exchange_rates": prev_dashboard.get("exchange_rates", {}),
+                "listings": listings,
+                "recent_sales": all_trades[:50],
+            }
+            if inv_data.get("investors"):
+                inv_data = recalc_investors(inv_data, nav)
+                save_investors(inv_data)
+                pub = investors_to_dashboard(inv_data)
+                dashboard["fund"] = pub["fund"]
+                dashboard["investors"] = pub["investors"]
+            save_dashboard(dashboard)
+            print(f"Dashboard data saved to {DASHBOARD_FILE}")
+            if args.push:
+                git_push()
+        return
+
+    session = make_session(config["poesessid"])
 
     # Fetch exchange rates
     print("Fetching exchange rates...")
@@ -470,6 +866,10 @@ def main():
         listed_value = sum(l["div_equivalent"] for l in parsed_listings if isinstance(l["div_equivalent"], (int, float)))
         listings_summary = {"count": len(listings), "value": listed_value}
 
+    # Recalculate NAV with fresh data
+    fresh_listed = listings_summary["value"] if listings_summary else 0
+    nav = calc_nav(raw_divines, fresh_listed)
+
     # Print summary
     if new_trades:
         new_trades.sort(key=lambda t: t.get("time", ""), reverse=True)
@@ -480,8 +880,9 @@ def main():
             print(f"\nCurrent listings: {listings_summary['count']} items, ~{listings_summary['value']:,.0f} divine listed value")
 
     print(f"\nRaw divines: {raw_divines:,.0f}")
-    nav = raw_divines + (listings_summary["value"] if listings_summary else 0)
-    print(f"Total NAV: {nav:,.0f} divine")
+    print(f"Listed value: {fresh_listed:,.0f} divine")
+    print(f"Adjusted NAV (with {int((1-HAIRCUT)*100)}% haircut): {nav:,.0f} divine")
+    print(f"Raw NAV (no haircut): {raw_divines + fresh_listed:,.0f} divine")
 
     if args.dry_run:
         print("\n(dry run — nothing saved)")
@@ -498,7 +899,7 @@ def main():
 
     # Build and save dashboard
     all_trades = (([parse_trade(t, rates) for t in new_trades] + seen) if new_trades else seen)
-    dashboard = build_dashboard(all_trades, listings, raw_divines, rates)
+    dashboard = build_dashboard(all_trades, listings, raw_divines, rates, inv_data)
     save_dashboard(dashboard)
     print(f"Dashboard data saved to {DASHBOARD_FILE}")
 

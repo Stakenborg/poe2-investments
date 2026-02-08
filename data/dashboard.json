@@ -1,13 +1,15 @@
 {
-  "updated_at": "2026-02-07T20:58:23.407607+00:00",
+  "updated_at": "2026-02-08T04:16:18.426215+00:00",
   "raw_divines": 3715.0,
-  "listed_value": 63772.64,
-  "total_nav": 67487.64,
+  "listed_value": 62627.6,
+  "total_nav": 56948.46,
+  "raw_nav": 66342.6,
+  "haircut": 0.85,
   "exchange_rates": {
     "divine": 1.0,
-    "chaos": 0.025047213730899534,
-    "mirror": 8918.105263118152,
-    "exalted": 0.003108413940215959
+    "chaos": 0.026180117685961457,
+    "mirror": 8791.2650603459,
+    "exalted": 0.0030132301548365945
   },
   "listings": [
     {
@@ -313,157 +315,6 @@
       }
     },
     {
-      "item_id": "9d2f2bbb509cbad0ee81831ef7ba9548bdccd2971cfdfc5310d6a614ceee8fb8",
-      "item_name": "Andvarius",
-      "base_type": "Gold Ring",
-      "rarity": "Unique",
-      "listed_price": 24,
-      "currency": "divine",
-      "div_equivalent": 24,
-      "indexed": "2026-02-05T13:53:11Z",
-      "stash": "Cheap",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVW5pcXVlcy9BbmR2YXJpdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/62ed73e3a0/Andvarius.png",
-      "ilvl": 82,
-      "corrupted": true,
-      "double_corrupted": true,
-      "sanctified": false,
-      "implicit_mods": [
-        "15% increased [ItemRarity|Rarity of Items] found"
-      ],
-      "explicit_mods": [
-        "76% increased [ItemRarity|Rarity of Items] found",
-        "+8 to [Dexterity|Dexterity]",
-        "-22% to all [ElementalDamage|Elemental] [Resistances]"
-      ],
-      "enchant_mods": [
-        "6% increased [SkillSpeed|Skill Speed]"
-      ],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [
-        "Danger is the price of wealth."
-      ],
-      "frame_type": 3,
-      "type_line": "Gold Ring",
-      "properties": [
-        {
-          "name": "Ring",
-          "values": [],
-          "displayMode": 0
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3261801346",
-                "min": "10",
-                "max": "10"
-              }
-            ]
-          },
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3917489142",
-                "min": "50",
-                "max": "70"
-              }
-            ]
-          },
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_2901986750",
-                "min": "-20",
-                "max": "-20"
-              }
-            ]
-          }
-        ],
-        "implicit": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 50,
-            "magnitudes": [
-              {
-                "hash": "implicit.stat_3917489142",
-                "min": "6",
-                "max": "15"
-              }
-            ]
-          }
-        ],
-        "enchant": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "enchant.stat_970213192",
-                "min": "4",
-                "max": "6"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_3917489142",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_3261801346",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_2901986750",
-            [
-              2
-            ]
-          ]
-        ],
-        "implicit": [
-          [
-            "implicit.stat_3917489142",
-            [
-              0
-            ]
-          ]
-        ],
-        "enchant": [
-          [
-            "enchant.stat_970213192",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
       "item_id": "481e2b8ba1490bba326fcea13e43a31fa2720056d635230364785778b37b8269",
       "item_name": "Grim Feast",
       "base_type": "Grim Feast",
@@ -575,280 +426,68 @@
       "extended_hashes": {}
     },
     {
-      "item_id": "e83ce5d8585887682c02e9939466e63901150c98d0e1a8d3be861536d75efe6a",
-      "item_name": "Dread Talons",
-      "base_type": "Massive Mitts",
-      "rarity": "Rare",
-      "listed_price": 100,
+      "item_id": "a11948dbc1a73b06a6fb8057e9db57017d8adfbb3153f073fe18433b63c79446",
+      "item_name": "Mystic Sapphire of Annihilating",
+      "base_type": "Sapphire",
+      "rarity": "Magic",
+      "listed_price": 199,
       "currency": "divine",
-      "div_equivalent": 100,
-      "indexed": "2026-02-07T04:16:06Z",
+      "div_equivalent": 199,
+      "indexed": "2026-02-07T22:58:17Z",
       "stash": "Pricy",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc1N0cjA2IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/20c9cbb22c/GlovesStr06.png",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
       "ilvl": 82,
       "corrupted": true,
-      "double_corrupted": false,
+      "double_corrupted": true,
       "sanctified": false,
       "implicit_mods": [],
       "explicit_mods": [
-        "Adds 2 to 47 [Lightning] damage to [Attack|Attacks]",
-        "+120 to maximum Mana",
-        "+2 to Level of all [Melee|Melee] Skills",
-        "60% increased effect of Socketed Items"
+        "15% increased [Spell] Damage",
+        "15% increased [Critical|Critical Hit Chance] for [Spell|Spells]"
       ],
       "enchant_mods": [
-        "7% increased Quantity of Gold Dropped by Slain Enemies"
+        "+5 to [Dexterity|Dexterity]",
+        "+4 to [Intelligence|Intelligence]"
       ],
-      "desecrated_mods": [
-        "+34% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]"
-      ],
-      "fractured_mods": [
-        "+134 to maximum Life"
-      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
       "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Massive Mitts",
+      "frame_type": 1,
+      "type_line": "Mystic Sapphire of Annihilating",
       "properties": [
         {
-          "name": "Gloves",
+          "name": "[Jewel]",
           "values": [],
           "displayMode": 0
-        },
-        {
-          "name": "[Quality]",
-          "values": [
-            [
-              "+20%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        },
-        {
-          "name": "[Armour]",
-          "values": [
-            [
-              "296",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 16
         }
       ],
-      "sockets": [
-        {
-          "group": 0,
-          "type": "rune",
-          "item": "rune"
-        },
-        {
-          "group": 1,
-          "type": "rune",
-          "item": "rune"
-        }
-      ],
-      "socketed_items": [
-        {
-          "realm": "poe2",
-          "verified": true,
-          "w": 1,
-          "h": 1,
-          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
-          "stackSize": 1,
-          "maxStackSize": 10,
-          "league": "Fate of the Vaal",
-          "id": "88ab4356bf12ac855b25332fb599af93baf48a60804bfadd5deaa9568dc6c16b",
-          "name": "",
-          "typeLine": "Greater Iron Rune",
-          "baseType": "Greater Iron Rune",
-          "ilvl": 0,
-          "identified": true,
-          "properties": [
-            {
-              "name": "Stack Size",
-              "values": [
-                [
-                  "1/10",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 32
-            },
-            {
-              "name": "[Rune|Rune]",
-              "values": [],
-              "displayMode": 0
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Level",
-              "values": [
-                [
-                  "30",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 62
-            }
-          ],
-          "explicitMods": [
-            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
-            "Wand or Staff: 30% increased [Spell] Damage",
-            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
-          ],
-          "bondedMods": [
-            "[ShamanOnlyMods|Bonded]:",
-            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
-            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
-            "Armour:",
-            "+10 to maximum Life",
-            "+10 to maximum Mana"
-          ],
-          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
-          "frameType": 5,
-          "socket": 0
-        },
-        {
-          "realm": "poe2",
-          "verified": true,
-          "w": 1,
-          "h": 1,
-          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
-          "stackSize": 1,
-          "maxStackSize": 10,
-          "league": "Fate of the Vaal",
-          "id": "ed275b75e056f5d6544c04f03b5fa1f11a8d061ca56639801abbbfeb24b57e0c",
-          "name": "",
-          "typeLine": "Greater Iron Rune",
-          "baseType": "Greater Iron Rune",
-          "ilvl": 0,
-          "identified": true,
-          "properties": [
-            {
-              "name": "Stack Size",
-              "values": [
-                [
-                  "1/10",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 32
-            },
-            {
-              "name": "[Rune|Rune]",
-              "values": [],
-              "displayMode": 0
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Level",
-              "values": [
-                [
-                  "30",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 62
-            }
-          ],
-          "explicitMods": [
-            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
-            "Wand or Staff: 30% increased [Spell] Damage",
-            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
-          ],
-          "bondedMods": [
-            "[ShamanOnlyMods|Bonded]:",
-            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
-            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
-            "Armour:",
-            "+10 to maximum Life",
-            "+10 to maximum Mana"
-          ],
-          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
-          "frameType": 5,
-          "socket": 1
-        }
-      ],
-      "rune_mods": [
-        "56% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]",
-        "[ShamanOnlyMods|Bonded]: +32 to maximum Life",
-        "[ShamanOnlyMods|Bonded]: +32 to maximum Mana"
-      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
       "granted_skills": [],
       "extended_mods": {
         "explicit": [
           {
-            "name": "of Dueling",
-            "tier": "S1",
-            "level": 41,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_9187492",
-                "min": "2",
-                "max": "2"
-              }
-            ]
-          },
-          {
-            "name": "of the Essence",
-            "tier": "S0",
+            "name": "Mystic",
+            "tier": "P1",
             "level": 1,
             "magnitudes": [
               {
-                "hash": "explicit.stat_2081918629",
-                "min": "60",
-                "max": "60"
+                "hash": "explicit.stat_2974417149",
+                "min": "5",
+                "max": "15"
               }
             ]
           },
           {
-            "name": "Chalybeous",
-            "tier": "P1",
-            "level": 60,
+            "name": "of Annihilating",
+            "tier": "S1",
+            "level": 1,
             "magnitudes": [
               {
-                "hash": "explicit.stat_1050105434",
-                "min": "105",
-                "max": "124"
-              }
-            ]
-          },
-          {
-            "name": "Shocking",
-            "tier": "P3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1754445556",
-                "min": "1",
-                "max": "2"
-              },
-              {
-                "hash": "explicit.stat_1754445556",
-                "min": "41",
-                "max": "47"
-              }
-            ]
-          }
-        ],
-        "fractured": [
-          {
-            "name": "Athlete's",
-            "tier": "P1",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "fractured.stat_3299347043",
-                "min": "120",
-                "max": "149"
+                "hash": "explicit.stat_737908626",
+                "min": "5",
+                "max": "15"
               }
             ]
           }
@@ -860,23 +499,21 @@
             "level": 1,
             "magnitudes": [
               {
-                "hash": "enchant.stat_3175163625",
-                "min": "5",
-                "max": "10"
+                "hash": "enchant.stat_328541901",
+                "min": "4",
+                "max": "6"
               }
             ]
-          }
-        ],
-        "desecrated": [
+          },
           {
-            "name": "of Padding",
-            "tier": "S2",
-            "level": 48,
+            "name": "",
+            "tier": "",
+            "level": 1,
             "magnitudes": [
               {
-                "hash": "desecrated.stat_3362812763",
-                "min": "32",
-                "max": "37"
+                "hash": "enchant.stat_3261801346",
+                "min": "4",
+                "max": "6"
               }
             ]
           }
@@ -885,63 +522,27 @@
       "extended_hashes": {
         "explicit": [
           [
-            "explicit.stat_1754445556",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_1050105434",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_9187492",
+            "explicit.stat_2974417149",
             [
               0
             ]
           ],
           [
-            "explicit.stat_2081918629",
+            "explicit.stat_737908626",
             [
               1
             ]
           ]
         ],
-        "fractured": [
-          [
-            "fractured.stat_3299347043",
-            [
-              0
-            ]
-          ]
-        ],
         "enchant": [
           [
-            "enchant.stat_3175163625",
+            "enchant.stat_3261801346",
             [
-              0
+              1
             ]
-          ]
-        ],
-        "rune": [
-          [
-            "rune.stat_3523867985",
-            null
           ],
           [
-            "rune.stat_2280525771",
-            null
-          ],
-          [
-            "rune.stat_2926029365",
-            null
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_3362812763",
+            "enchant.stat_328541901",
             [
               0
             ]
@@ -954,10 +555,10 @@
       "item_name": "Behemoth Paw",
       "base_type": "Vaal Gloves",
       "rarity": "Rare",
-      "listed_price": 275,
+      "listed_price": 200,
       "currency": "divine",
-      "div_equivalent": 275,
-      "indexed": "2026-02-07T14:55:56Z",
+      "div_equivalent": 200,
+      "indexed": "2026-02-07T22:54:29Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0ludDA1IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b273510d40/GlovesInt05.png",
       "ilvl": 80,
@@ -1310,10 +911,10 @@
       "item_name": "Pandemonium Slippers",
       "base_type": "Vaal Greaves",
       "rarity": "Rare",
-      "listed_price": 350,
+      "listed_price": 349,
       "currency": "divine",
-      "div_equivalent": 350,
-      "indexed": "2026-02-07T20:11:21Z",
+      "div_equivalent": 349,
+      "indexed": "2026-02-07T22:54:29Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9CYXNldHlwZXMvQm9vdHNTdHIwNSIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3bc62e552f/BootsStr05.png",
       "ilvl": 82,
@@ -1656,10 +1257,10 @@
       "item_name": "Prismatic Sapphire of Potency",
       "base_type": "Sapphire",
       "rarity": "Magic",
-      "listed_price": 425,
+      "listed_price": 398,
       "currency": "divine",
-      "div_equivalent": 425,
-      "indexed": "2026-02-07T20:11:21Z",
+      "div_equivalent": 398,
+      "indexed": "2026-02-07T22:54:29Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
       "ilvl": 69,
@@ -1758,34 +1359,34 @@
       }
     },
     {
-      "item_id": "259c4a7d2c792488a5137a53aa7ea97a0b6e961c840f16b0af6a5b66646a6f95",
-      "item_name": "Mystic Sapphire of Unmaking",
+      "item_id": "9042191843711094d39e10f7963d8086c55f8c33033cc4df105b0f7a7ded9852",
+      "item_name": "Mystic Sapphire of Annihilating",
       "base_type": "Sapphire",
       "rarity": "Magic",
-      "listed_price": 525,
+      "listed_price": 399,
       "currency": "divine",
-      "div_equivalent": 525,
-      "indexed": "2026-02-07T20:11:21Z",
+      "div_equivalent": 399,
+      "indexed": "2026-02-07T22:58:17Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
-      "ilvl": 80,
+      "ilvl": 83,
       "corrupted": true,
       "double_corrupted": true,
       "sanctified": false,
       "implicit_mods": [],
       "explicit_mods": [
         "15% increased [Spell] Damage",
-        "20% increased [CriticalDamageBonus|Critical Spell Damage Bonus]"
+        "15% increased [Critical|Critical Hit Chance] for [Spell|Spells]"
       ],
       "enchant_mods": [
-        "+6 to [Dexterity|Dexterity]",
-        "You cannot be Hindered"
+        "+5% to [Resistances|Cold Resistance]",
+        "Cannot be [Blind|Blinded]"
       ],
       "desecrated_mods": [],
       "fractured_mods": [],
       "flavour_text": [],
       "frame_type": 1,
-      "type_line": "Mystic Sapphire of Unmaking",
+      "type_line": "Mystic Sapphire of Annihilating",
       "properties": [
         {
           "name": "[Jewel]",
@@ -1800,24 +1401,24 @@
       "extended_mods": {
         "explicit": [
           {
-            "name": "of Unmaking",
-            "tier": "S1",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_274716455",
-                "min": "10",
-                "max": "20"
-              }
-            ]
-          },
-          {
             "name": "Mystic",
             "tier": "P1",
             "level": 1,
             "magnitudes": [
               {
                 "hash": "explicit.stat_2974417149",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          },
+          {
+            "name": "of Annihilating",
+            "tier": "S1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_737908626",
                 "min": "5",
                 "max": "15"
               }
@@ -1831,7 +1432,7 @@
             "level": 1,
             "magnitudes": [
               {
-                "hash": "enchant.stat_721014846",
+                "hash": "enchant.stat_1436284579",
                 "min": "1",
                 "max": "1"
               }
@@ -1843,9 +1444,9 @@
             "level": 1,
             "magnitudes": [
               {
-                "hash": "enchant.stat_3261801346",
-                "min": "4",
-                "max": "6"
+                "hash": "enchant.stat_4220027924",
+                "min": "5",
+                "max": "10"
               }
             ]
           }
@@ -1856,25 +1457,25 @@
           [
             "explicit.stat_2974417149",
             [
-              1
+              0
             ]
           ],
           [
-            "explicit.stat_274716455",
+            "explicit.stat_737908626",
             [
-              0
+              1
             ]
           ]
         ],
         "enchant": [
           [
-            "enchant.stat_3261801346",
+            "enchant.stat_4220027924",
             [
               1
             ]
           ],
           [
-            "enchant.stat_721014846",
+            "enchant.stat_1436284579",
             [
               0
             ]
@@ -1887,10 +1488,10 @@
       "item_name": "Prismatic Sapphire of Potency",
       "base_type": "Sapphire",
       "rarity": "Magic",
-      "listed_price": 575,
+      "listed_price": 500,
       "currency": "divine",
-      "div_equivalent": 575,
-      "indexed": "2026-02-07T20:11:21Z",
+      "div_equivalent": 500,
+      "indexed": "2026-02-07T22:54:29Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
       "ilvl": 81,
@@ -2008,139 +1609,14 @@
       }
     },
     {
-      "item_id": "80986629c772dc9f1452536048db4bcfa3edb1d7149418b863cc0506a7447652",
-      "item_name": "Mystic Sapphire of Potency",
-      "base_type": "Sapphire",
-      "rarity": "Magic",
-      "listed_price": 700,
-      "currency": "divine",
-      "div_equivalent": 700,
-      "indexed": "2026-02-07T20:11:21Z",
-      "stash": "Pricy",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
-      "ilvl": 81,
-      "corrupted": true,
-      "double_corrupted": true,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "15% increased [Spell] Damage",
-        "20% increased [CriticalDamageBonus|Critical Damage Bonus]"
-      ],
-      "enchant_mods": [
-        "+6 to [Strength|Strength]",
-        "+8% to [Resistances|Cold Resistance]"
-      ],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 1,
-      "type_line": "Mystic Sapphire of Potency",
-      "properties": [
-        {
-          "name": "[Jewel]",
-          "values": [],
-          "displayMode": 0
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "Mystic",
-            "tier": "P1",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_2974417149",
-                "min": "5",
-                "max": "15"
-              }
-            ]
-          },
-          {
-            "name": "of Potency",
-            "tier": "S1",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3556824919",
-                "min": "10",
-                "max": "20"
-              }
-            ]
-          }
-        ],
-        "enchant": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "enchant.stat_4220027924",
-                "min": "5",
-                "max": "10"
-              }
-            ]
-          },
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "enchant.stat_4080418644",
-                "min": "4",
-                "max": "6"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_2974417149",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_3556824919",
-            [
-              1
-            ]
-          ]
-        ],
-        "enchant": [
-          [
-            "enchant.stat_4080418644",
-            [
-              1
-            ]
-          ],
-          [
-            "enchant.stat_4220027924",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
       "item_id": "0ffed7b17eef50b2939084dd36559ef8515e72bd88e9c55781209b87024a49ac",
       "item_name": "Mystic Sapphire of Potency",
       "base_type": "Sapphire",
       "rarity": "Magic",
-      "listed_price": 800,
+      "listed_price": 549,
       "currency": "divine",
-      "div_equivalent": 800,
-      "indexed": "2026-02-07T20:11:21Z",
+      "div_equivalent": 549,
+      "indexed": "2026-02-07T22:54:29Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
       "ilvl": 65,
@@ -2262,10 +1738,10 @@
       "item_name": "Prismatic Sapphire of Unmaking",
       "base_type": "Sapphire",
       "rarity": "Magic",
-      "listed_price": 1150,
+      "listed_price": 999,
       "currency": "divine",
-      "div_equivalent": 1150,
-      "indexed": "2026-02-07T20:11:21Z",
+      "div_equivalent": 999,
+      "indexed": "2026-02-07T22:54:29Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
       "ilvl": 80,
@@ -2387,10 +1863,10 @@
       "item_name": "Damnation Sole",
       "base_type": "Sekhema Sandals",
       "rarity": "Rare",
-      "listed_price": 1250,
+      "listed_price": 999,
       "currency": "divine",
-      "div_equivalent": 1250,
-      "indexed": "2026-02-07T20:11:21Z",
+      "div_equivalent": 999,
+      "indexed": "2026-02-07T22:54:29Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9CYXNldHlwZXMvQm9vdHNJbnQwNiIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0fe23f857a/BootsInt06.png",
       "ilvl": 82,
@@ -2729,14 +2205,139 @@
       }
     },
     {
+      "item_id": "789c9cb3df329e7fb6b48cce207c2b2fcb9c8f83b92d2961fcbd38a362213ca4",
+      "item_name": "Mystic Sapphire of Potency",
+      "base_type": "Sapphire",
+      "rarity": "Magic",
+      "listed_price": 1199,
+      "currency": "divine",
+      "div_equivalent": 1199,
+      "indexed": "2026-02-07T23:01:23Z",
+      "stash": "Pricy",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 80,
+      "corrupted": true,
+      "double_corrupted": true,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "15% increased [Spell] Damage",
+        "20% increased [CriticalDamageBonus|Critical Damage Bonus]"
+      ],
+      "enchant_mods": [
+        "+5% to [Resistances|Cold Resistance]",
+        "+9% to [Resistances|Lightning Resistance]"
+      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 1,
+      "type_line": "Mystic Sapphire of Potency",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of Potency",
+            "tier": "S1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3556824919",
+                "min": "10",
+                "max": "20"
+              }
+            ]
+          },
+          {
+            "name": "Mystic",
+            "tier": "P1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_2974417149",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          }
+        ],
+        "enchant": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_1671376347",
+                "min": "5",
+                "max": "10"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_4220027924",
+                "min": "5",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2974417149",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3556824919",
+            [
+              0
+            ]
+          ]
+        ],
+        "enchant": [
+          [
+            "enchant.stat_4220027924",
+            [
+              1
+            ]
+          ],
+          [
+            "enchant.stat_1671376347",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "item_id": "33ff97ecf7890e0329bad83e5be7f18af6e37b22f8e5dc6986a47d516b31a7dd",
       "item_name": "Prismatic Sapphire of Unmaking",
       "base_type": "Sapphire",
       "rarity": "Magic",
-      "listed_price": 4000,
+      "listed_price": 3999,
       "currency": "divine",
-      "div_equivalent": 4000,
-      "indexed": "2026-02-07T20:11:21Z",
+      "div_equivalent": 3999,
+      "indexed": "2026-02-07T22:54:29Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
       "ilvl": 81,
@@ -2854,13 +2455,138 @@
       }
     },
     {
+      "item_id": "1ec151d312c98091fa5d3984a7ab1b2675ab34658735fdbaa941d3eb0689de74",
+      "item_name": "Shimmering Sapphire of Annihilating",
+      "base_type": "Sapphire",
+      "rarity": "Magic",
+      "listed_price": 1,
+      "currency": "mirror",
+      "div_equivalent": 8791.27,
+      "indexed": "2026-02-06T23:18:46Z",
+      "stash": "Pricy",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 80,
+      "corrupted": true,
+      "double_corrupted": true,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "20% increased maximum [EnergyShield|Energy Shield]",
+        "15% increased [Critical|Critical Hit Chance] for [Spell|Spells]"
+      ],
+      "enchant_mods": [
+        "+10% to [Resistances|Cold Resistance]",
+        "+7% to [Resistances|Chaos Resistance]"
+      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 1,
+      "type_line": "Shimmering Sapphire of Annihilating",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of Annihilating",
+            "tier": "S1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_737908626",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          },
+          {
+            "name": "Shimmering",
+            "tier": "P1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_2482852589",
+                "min": "10",
+                "max": "20"
+              }
+            ]
+          }
+        ],
+        "enchant": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_4220027924",
+                "min": "5",
+                "max": "10"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_2923486259",
+                "min": "3",
+                "max": "7"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2482852589",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_737908626",
+            [
+              0
+            ]
+          ]
+        ],
+        "enchant": [
+          [
+            "enchant.stat_4220027924",
+            [
+              0
+            ]
+          ],
+          [
+            "enchant.stat_2923486259",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "item_id": "a6c54d5d0a8ecd4d9699dec01ab971893254ed74307a9bfcf3abfc9445ad3d6d",
       "item_name": "Pain Roar",
       "base_type": "Sanctified Staff",
       "rarity": "Rare",
       "listed_price": 1,
       "currency": "mirror",
-      "div_equivalent": 8918.11,
+      "div_equivalent": 8791.27,
       "indexed": "2026-02-01T21:33:20Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9TdGF2ZXMvQmFzZXR5cGVzL1N0YWZmMDEiLCJ3IjoxLCJoIjo0LCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9d50d5c541/Staff01.png",
@@ -3342,138 +3068,13 @@
       }
     },
     {
-      "item_id": "1ec151d312c98091fa5d3984a7ab1b2675ab34658735fdbaa941d3eb0689de74",
-      "item_name": "Shimmering Sapphire of Annihilating",
-      "base_type": "Sapphire",
-      "rarity": "Magic",
-      "listed_price": 1,
-      "currency": "mirror",
-      "div_equivalent": 8918.11,
-      "indexed": "2026-02-06T23:18:46Z",
-      "stash": "Pricy",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
-      "ilvl": 80,
-      "corrupted": true,
-      "double_corrupted": true,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "20% increased maximum [EnergyShield|Energy Shield]",
-        "15% increased [Critical|Critical Hit Chance] for [Spell|Spells]"
-      ],
-      "enchant_mods": [
-        "+10% to [Resistances|Cold Resistance]",
-        "+7% to [Resistances|Chaos Resistance]"
-      ],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 1,
-      "type_line": "Shimmering Sapphire of Annihilating",
-      "properties": [
-        {
-          "name": "[Jewel]",
-          "values": [],
-          "displayMode": 0
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "of Annihilating",
-            "tier": "S1",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_737908626",
-                "min": "5",
-                "max": "15"
-              }
-            ]
-          },
-          {
-            "name": "Shimmering",
-            "tier": "P1",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_2482852589",
-                "min": "10",
-                "max": "20"
-              }
-            ]
-          }
-        ],
-        "enchant": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "enchant.stat_4220027924",
-                "min": "5",
-                "max": "10"
-              }
-            ]
-          },
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "enchant.stat_2923486259",
-                "min": "3",
-                "max": "7"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_2482852589",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_737908626",
-            [
-              0
-            ]
-          ]
-        ],
-        "enchant": [
-          [
-            "enchant.stat_4220027924",
-            [
-              0
-            ]
-          ],
-          [
-            "enchant.stat_2923486259",
-            [
-              1
-            ]
-          ]
-        ]
-      }
-    },
-    {
       "item_id": "c3d76cafe7dbd897e7b6b3f44b4cb099d5bf555887fbaa98c1ef3c979f6b7578",
       "item_name": "Plague Branch",
       "base_type": "Dueling Wand",
       "rarity": "Rare",
       "listed_price": 4,
       "currency": "mirror",
-      "div_equivalent": 35672.42,
+      "div_equivalent": 35165.06,
       "indexed": "2026-02-04T06:01:54Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9CYXNldHlwZXMvV2FuZDEzIiwidyI6MSwiaCI6Mywic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/eafbb19c97/Wand13.png",
@@ -3879,6 +3480,389 @@
     }
   ],
   "recent_sales": [
+    {
+      "timestamp": "2026-02-08T03:03:34+00:00",
+      "item_name": "Mystic Sapphire of Unmaking",
+      "base_type": "Sapphire",
+      "rarity": "Magic",
+      "sale_price": 400,
+      "currency": "divine",
+      "div_equivalent": 400,
+      "item_id": "259c4a7d2c792488a5137a53aa7ea97a0b6e961c840f16b0af6a5b66646a6f95",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 80,
+      "corrupted": true,
+      "double_corrupted": true,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "15% increased [Spell] Damage",
+        "20% increased [CriticalDamageBonus|Critical Spell Damage Bonus]"
+      ],
+      "enchant_mods": [
+        "+6 to [Dexterity|Dexterity]",
+        "You cannot be Hindered"
+      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 1,
+      "type_line": "Mystic Sapphire of Unmaking",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-02-08T00:36:49+00:00",
+      "item_name": "Dread Talons",
+      "base_type": "Massive Mitts",
+      "rarity": "Rare",
+      "sale_price": 99,
+      "currency": "divine",
+      "div_equivalent": 99,
+      "item_id": "e83ce5d8585887682c02e9939466e63901150c98d0e1a8d3be861536d75efe6a",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc1N0cjA2IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/20c9cbb22c/GlovesStr06.png",
+      "ilvl": 82,
+      "corrupted": true,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "Adds 2 to 47 [Lightning] damage to [Attack|Attacks]",
+        "+120 to maximum Mana",
+        "+2 to Level of all [Melee|Melee] Skills",
+        "60% increased effect of Socketed Items"
+      ],
+      "enchant_mods": [
+        "7% increased Quantity of Gold Dropped by Slain Enemies"
+      ],
+      "desecrated_mods": [
+        "+34% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]"
+      ],
+      "fractured_mods": [
+        "+134 to maximum Life"
+      ],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Massive Mitts",
+      "properties": [
+        {
+          "name": "Gloves",
+          "values": [],
+          "displayMode": 0
+        },
+        {
+          "name": "[Quality]",
+          "values": [
+            [
+              "+20%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        },
+        {
+          "name": "[Armour]",
+          "values": [
+            [
+              "296",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 16
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune",
+          "item": "rune"
+        },
+        {
+          "group": 1,
+          "type": "rune",
+          "item": "rune"
+        }
+      ],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Fate of the Vaal",
+          "id": "88ab4356bf12ac855b25332fb599af93baf48a60804bfadd5deaa9568dc6c16b",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+10 to maximum Life",
+            "+10 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "socket": 0
+        },
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Fate of the Vaal",
+          "id": "ed275b75e056f5d6544c04f03b5fa1f11a8d061ca56639801abbbfeb24b57e0c",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+10 to maximum Life",
+            "+10 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "socket": 1
+        }
+      ],
+      "rune_mods": [
+        "56% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]",
+        "[ShamanOnlyMods|Bonded]: +32 to maximum Life",
+        "[ShamanOnlyMods|Bonded]: +32 to maximum Mana"
+      ],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-02-07T23:38:31+00:00",
+      "item_name": "Mystic Sapphire of Potency",
+      "base_type": "Sapphire",
+      "rarity": "Magic",
+      "sale_price": 499,
+      "currency": "divine",
+      "div_equivalent": 499,
+      "item_id": "9e4414d2143a1ee4ecf015f4d8a2c25fe53a646e3a199f4742812002196ea1a1",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 82,
+      "corrupted": true,
+      "double_corrupted": true,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "15% increased [Spell] Damage",
+        "20% increased [CriticalDamageBonus|Critical Damage Bonus]"
+      ],
+      "enchant_mods": [
+        "+6 to [Strength|Strength]",
+        "+6% to [Resistances|Cold Resistance]"
+      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 1,
+      "type_line": "Mystic Sapphire of Potency",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-02-07T23:24:15+00:00",
+      "item_name": "Andvarius",
+      "base_type": "Gold Ring",
+      "rarity": "Unique",
+      "sale_price": 24,
+      "currency": "divine",
+      "div_equivalent": 24,
+      "item_id": "9d2f2bbb509cbad0ee81831ef7ba9548bdccd2971cfdfc5310d6a614ceee8fb8",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVW5pcXVlcy9BbmR2YXJpdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/62ed73e3a0/Andvarius.png",
+      "ilvl": 82,
+      "corrupted": true,
+      "double_corrupted": true,
+      "sanctified": false,
+      "implicit_mods": [
+        "15% increased [ItemRarity|Rarity of Items] found"
+      ],
+      "explicit_mods": [
+        "76% increased [ItemRarity|Rarity of Items] found",
+        "+8 to [Dexterity|Dexterity]",
+        "-22% to all [ElementalDamage|Elemental] [Resistances]"
+      ],
+      "enchant_mods": [
+        "6% increased [SkillSpeed|Skill Speed]"
+      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [
+        "Danger is the price of wealth."
+      ],
+      "frame_type": 3,
+      "type_line": "Gold Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-02-07T22:54:28+00:00",
+      "item_name": "Mystic Sapphire of Potency",
+      "base_type": "Sapphire",
+      "rarity": "Magic",
+      "sale_price": 599,
+      "currency": "divine",
+      "div_equivalent": 599,
+      "item_id": "80986629c772dc9f1452536048db4bcfa3edb1d7149418b863cc0506a7447652",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 81,
+      "corrupted": true,
+      "double_corrupted": true,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "15% increased [Spell] Damage",
+        "20% increased [CriticalDamageBonus|Critical Damage Bonus]"
+      ],
+      "enchant_mods": [
+        "+6 to [Strength|Strength]",
+        "+8% to [Resistances|Cold Resistance]"
+      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 1,
+      "type_line": "Mystic Sapphire of Potency",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-02-07T17:16:16+00:00",
       "item_name": "Grim Feast",
@@ -5049,151 +5033,104 @@
       "flavour_text": [],
       "frame_type": 4,
       "type_line": "Blink"
+    }
+  ],
+  "fund": {
+    "total_units": 1238.2354702579398,
+    "unit_price": 45.991624,
+    "hwm": 46.777649,
+    "haircut": 0.85,
+    "perf_fee_pct": 0.25,
+    "total_deposited": 1474,
+    "total_profit": 55474.46,
+    "discord_webhook": ""
+  },
+  "investors": [
+    {
+      "name": "Stake",
+      "hash": "2ab61af1d45185eab09e328c5aacef3c2c7ff88e732e8e986e5abf98c87978ee",
+      "units": 244.23547025793977,
+      "deposited": 0,
+      "value": 11232.79,
+      "share": 0.197245,
+      "profit": 11232.79,
+      "pct_change": null,
+      "pending": null,
+      "history": []
     },
     {
-      "timestamp": "2026-02-05T01:58:48+00:00",
-      "item_name": "Andvarius",
-      "base_type": "Gold Ring",
-      "rarity": "Unique",
-      "sale_price": 25,
-      "currency": "divine",
-      "div_equivalent": 25,
-      "item_id": "70cdb09a9b7b1f2fee9aac70620cc53c14a86b10af1ed95bdba36891eab6b5b8",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVW5pcXVlcy9BbmR2YXJpdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/62ed73e3a0/Andvarius.png",
-      "ilvl": 82,
-      "corrupted": true,
-      "double_corrupted": true,
-      "implicit_mods": [
-        "15% increased [ItemRarity|Rarity of Items] found"
-      ],
-      "explicit_mods": [
-        "76% increased [ItemRarity|Rarity of Items] found",
-        "+10 to [Dexterity|Dexterity]",
-        "-24% to all [ElementalDamage|Elemental] [Resistances]"
-      ],
-      "enchant_mods": [
-        "25% increased Life Regeneration rate"
-      ],
-      "desecrated_mods": [],
-      "flavour_text": [
-        "Danger is the price of wealth."
-      ],
-      "frame_type": 3,
-      "type_line": "Gold Ring"
+      "name": "Peiw",
+      "hash": "80b671a2485579906fbf77a73c26b38178eb125509ee1a7b51fb1bda166354f2",
+      "units": 333,
+      "deposited": 333,
+      "value": 15315.21,
+      "share": 0.268931,
+      "profit": 14982.21,
+      "pct_change": 4499.2,
+      "pending": {
+        "type": "withdraw",
+        "amount": 3000,
+        "date": "2026-02-06",
+        "locked_price": 55.0
+      },
+      "history": [
+        {
+          "type": "deposit",
+          "amount": 333,
+          "date": "2026-01-15",
+          "unit_price": 1.0
+        }
+      ]
     },
     {
-      "timestamp": "2026-02-04T20:32:34+00:00",
-      "item_name": "Andvarius",
-      "base_type": "Gold Ring",
-      "rarity": "Unique",
-      "sale_price": 3,
-      "currency": "divine",
-      "div_equivalent": 3,
-      "item_id": "760fcfb9473320123f93c602c73ea91f69f9f5482bd4a54674fcb65a9133b0ae",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVW5pcXVlcy9BbmR2YXJpdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/62ed73e3a0/Andvarius.png",
-      "ilvl": 80,
-      "corrupted": true,
-      "double_corrupted": true,
-      "implicit_mods": [
-        "15% increased [ItemRarity|Rarity of Items] found"
-      ],
-      "explicit_mods": [
-        "72% increased [ItemRarity|Rarity of Items] found",
-        "+14 to [Dexterity|Dexterity]",
-        "-22% to all [ElementalDamage|Elemental] [Resistances]"
-      ],
-      "enchant_mods": [
-        "6% increased [SkillSpeed|Skill Speed]"
-      ],
-      "desecrated_mods": [],
-      "flavour_text": [
-        "Danger is the price of wealth."
-      ],
-      "frame_type": 3,
-      "type_line": "Gold Ring"
+      "name": "Monsta",
+      "hash": "51245d534a58ede45deb777821332cf7f53c1af3d5b1e6f045d89b1cd64fb16a",
+      "units": 353,
+      "deposited": 833,
+      "value": 16235.04,
+      "share": 0.285083,
+      "profit": 15402.04,
+      "pct_change": 1849.0,
+      "pending": null,
+      "history": [
+        {
+          "type": "deposit",
+          "amount": 333,
+          "date": "2026-01-15",
+          "unit_price": 1.0
+        },
+        {
+          "type": "deposit",
+          "amount": 500,
+          "date": "2026-01-28",
+          "unit_price": 25.0
+        }
+      ]
     },
     {
-      "timestamp": "2026-02-04T19:59:15+00:00",
-      "item_name": "Andvarius",
-      "base_type": "Gold Ring",
-      "rarity": "Unique",
-      "sale_price": 4,
-      "currency": "divine",
-      "div_equivalent": 4,
-      "item_id": "2d7991cd4028f7a44601e6518087505c0938da24bee1c4fe091154fb4f517b1b",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVW5pcXVlcy9BbmR2YXJpdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/62ed73e3a0/Andvarius.png",
-      "ilvl": 82,
-      "corrupted": true,
-      "double_corrupted": true,
-      "implicit_mods": [
-        "15% increased [ItemRarity|Rarity of Items] found"
-      ],
-      "explicit_mods": [
-        "73% increased [ItemRarity|Rarity of Items] found",
-        "+9 to [Dexterity|Dexterity]",
-        "-17% to all [ElementalDamage|Elemental] [Resistances]"
-      ],
-      "enchant_mods": [
-        "+14 to [Strength|Strength]"
-      ],
-      "desecrated_mods": [],
-      "flavour_text": [
-        "Danger is the price of wealth."
-      ],
-      "frame_type": 3,
-      "type_line": "Gold Ring"
-    },
-    {
-      "timestamp": "2026-02-04T18:42:28+00:00",
-      "item_name": "Freezing Mark",
-      "base_type": "Freezing Mark",
-      "rarity": "",
-      "sale_price": 69,
-      "currency": "divine",
-      "div_equivalent": 69,
-      "item_id": "a6a9bac2932a138d45452e1b263b9c96e834de233e2a6830ef78ae69887d30b3",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvRnJlZXppbmdNYXJrU2tpbGxHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cbcf0b9c69/FreezingMarkSkillGem.png",
-      "ilvl": 0,
-      "corrupted": true,
-      "double_corrupted": true,
-      "implicit_mods": [],
-      "explicit_mods": [],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "flavour_text": [],
-      "frame_type": 4,
-      "type_line": "Freezing Mark"
-    },
-    {
-      "timestamp": "2026-02-04T18:18:35+00:00",
-      "item_name": "Andvarius",
-      "base_type": "Gold Ring",
-      "rarity": "Unique",
-      "sale_price": 4,
-      "currency": "divine",
-      "div_equivalent": 4,
-      "item_id": "8b71ee2baca415cb452aab7d263e768df48a3880f01db65d6d8ad68ed325fba6",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVW5pcXVlcy9BbmR2YXJpdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/62ed73e3a0/Andvarius.png",
-      "ilvl": 82,
-      "corrupted": true,
-      "double_corrupted": true,
-      "implicit_mods": [
-        "15% increased [ItemRarity|Rarity of Items] found"
-      ],
-      "explicit_mods": [
-        "72% increased [ItemRarity|Rarity of Items] found",
-        "+8 to [Dexterity|Dexterity]",
-        "-24% to all [ElementalDamage|Elemental] [Resistances]"
-      ],
-      "enchant_mods": [
-        "25% increased Damage"
-      ],
-      "desecrated_mods": [],
-      "flavour_text": [
-        "Danger is the price of wealth."
-      ],
-      "frame_type": 3,
-      "type_line": "Gold Ring"
+      "name": "Cybersuit",
+      "hash": "6e1f84dec565236f08699612c33f84160ba8a01ac21ea47e85ca46ef7d8cfd7f",
+      "units": 308,
+      "deposited": 308,
+      "value": 14165.42,
+      "share": 0.248741,
+      "profit": 13857.42,
+      "pct_change": 4499.2,
+      "pending": null,
+      "history": [
+        {
+          "type": "deposit",
+          "amount": 333,
+          "date": "2026-01-15",
+          "unit_price": 1.0
+        },
+        {
+          "type": "withdraw",
+          "amount": 1000,
+          "date": "2026-02-03",
+          "unit_price": 40.0
+        }
+      ]
     }
   ]
 }
