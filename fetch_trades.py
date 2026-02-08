@@ -969,7 +969,7 @@ def main():
     # --- Handle investor-only operations ---
 
     is_investor_op = any([args.add_investor, args.deposit, args.withdraw, args.fulfill, args.gen_code, args.set_webhook])
-    should_fetch = args.fetch or not is_investor_op
+    should_fetch = args.fetch
 
     if args.set_webhook:
         inv_data["fund"]["discord_webhook"] = args.set_webhook
