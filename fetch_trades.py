@@ -864,6 +864,14 @@ def main():
         listed_value = sum(l["div_equivalent"] for l in parsed_listings if isinstance(l["div_equivalent"], (int, float)))
         listings_summary = {"count": len(listings), "value": listed_value}
 
+    # Add net new sales to liquid divines
+    if new_trades:
+        new_parsed_tmp = [parse_trade(t, rates) for t in new_trades]
+        new_revenue = sum(t["div_equivalent"] for t in new_parsed_tmp if isinstance(t["div_equivalent"], (int, float)))
+        if new_revenue > 0:
+            print(f"\nAdding {new_revenue:,.0f} div from {len(new_parsed_tmp)} new sale(s) to liquid divines")
+            raw_divines += new_revenue
+
     # Recalculate NAV with fresh data
     fresh_listed = listings_summary["value"] if listings_summary else 0
     nav = calc_nav(raw_divines, fresh_listed)
