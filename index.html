@@ -1754,7 +1754,7 @@ function renderCapTable(data) {
 }
 
 function renderInvestorDetail(investor, data) {
-  const history = investor.history || [];
+  const history = [...(investor.history || [])].reverse();
   const fund = data.fund || {};
   const webhook = fund.discord_webhook || '';
 
@@ -1770,14 +1770,22 @@ function renderInvestorDetail(investor, data) {
       const stored = localStorage.getItem(pendingKey);
       if (stored) {
         const localPending = JSON.parse(stored);
-        // If history has grown since we stored the pending, manager processed it
-        const historyCount = parseInt(localStorage.getItem(pendingKey + '_hlen') || '0');
-        if (history.length > historyCount) {
+        // Compare last history entry date+type against the pending request
+        const lastH = history[0]; // reversed, so [0] is most recent
+        if (lastH && lastH.type === localPending.type && lastH.date === localPending.date) {
+          // Most recent transaction matches the pending — it was processed
           localStorage.removeItem(pendingKey);
           localStorage.removeItem(pendingKey + '_hlen');
         } else {
-          pending = localPending;
-          pending._local = true;
+          // Also fall back to history length check
+          const historyCount = parseInt(localStorage.getItem(pendingKey + '_hlen') || '0');
+          if (history.length > historyCount) {
+            localStorage.removeItem(pendingKey);
+            localStorage.removeItem(pendingKey + '_hlen');
+          } else {
+            pending = localPending;
+            pending._local = true;
+          }
         }
       }
     } catch (e) {}
