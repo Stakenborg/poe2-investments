@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-02-08T04:48:46.604419+00:00",
-  "raw_divines": 3715.0,
-  "listed_value": 62627.6,
-  "total_nav": 56948.46,
-  "raw_nav": 66342.6,
+  "updated_at": "2026-02-08T05:30:36.774050+00:00",
+  "raw_divines": 1210.0,
+  "listed_value": 64075.32,
+  "total_nav": 55674.022,
+  "raw_nav": 65285.32,
   "haircut": 0.85,
   "exchange_rates": {
     "divine": 1.0,
-    "chaos": 0.026180117685961457,
-    "mirror": 8791.2650603459,
-    "exalted": 0.0030132301548365945
+    "chaos": 0.024306161134437523,
+    "mirror": 8754.885496279612,
+    "exalted": 0.003027752006885618
   },
   "listings": [
     {
@@ -17,10 +17,10 @@
       "item_name": "Andvarius",
       "base_type": "Gold Ring",
       "rarity": "Unique",
-      "listed_price": 5,
+      "listed_price": 4,
       "currency": "divine",
-      "div_equivalent": 5,
-      "indexed": "2026-02-05T13:36:15Z",
+      "div_equivalent": 4,
+      "indexed": "2026-02-08T05:06:12Z",
       "stash": "Cheap",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVW5pcXVlcy9BbmR2YXJpdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/62ed73e3a0/Andvarius.png",
       "ilvl": 82,
@@ -168,10 +168,10 @@
       "item_name": "Andvarius",
       "base_type": "Gold Ring",
       "rarity": "Unique",
-      "listed_price": 6,
+      "listed_price": 5,
       "currency": "divine",
-      "div_equivalent": 6,
-      "indexed": "2026-02-05T13:36:15Z",
+      "div_equivalent": 5,
+      "indexed": "2026-02-08T05:06:12Z",
       "stash": "Cheap",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVW5pcXVlcy9BbmR2YXJpdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/62ed73e3a0/Andvarius.png",
       "ilvl": 82,
@@ -307,6 +307,131 @@
         "enchant": [
           [
             "enchant.stat_3261801346",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "99abd669d6cc8c48a4149ac0409854018a0524951bed9432639faf16df715920",
+      "item_name": "Chimeric Prism",
+      "base_type": "Sapphire",
+      "rarity": "Rare",
+      "listed_price": 10,
+      "currency": "divine",
+      "div_equivalent": 10,
+      "indexed": "2026-02-08T05:06:12Z",
+      "stash": "Cheap",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 81,
+      "corrupted": true,
+      "double_corrupted": true,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "15% increased [Spell] Damage",
+        "8% increased [Cold] Damage",
+        "15% increased [Critical|Critical Hit] Chance"
+      ],
+      "enchant_mods": [
+        "+5 to [Strength|Strength]"
+      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sapphire",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of Annihilation",
+            "tier": "S1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_587431675",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          },
+          {
+            "name": "Mystic",
+            "tier": "P1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_2974417149",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          },
+          {
+            "name": "Chilling",
+            "tier": "P1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3291658075",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          }
+        ],
+        "enchant": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_4080418644",
+                "min": "4",
+                "max": "6"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2974417149",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3291658075",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_587431675",
+            [
+              0
+            ]
+          ]
+        ],
+        "enchant": [
+          [
+            "enchant.stat_4080418644",
             [
               0
             ]
@@ -543,6 +668,112 @@
           ],
           [
             "enchant.stat_328541901",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "d471a6504286a3814e526f412004110978a092dbf6e2d53162bc0e055ff04bc1",
+      "item_name": "Prismatic Sapphire of Annihilation",
+      "base_type": "Sapphire",
+      "rarity": "Magic",
+      "listed_price": 200,
+      "currency": "divine",
+      "div_equivalent": 200,
+      "indexed": "2026-02-08T05:08:06Z",
+      "stash": "Pricy",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 81,
+      "corrupted": true,
+      "double_corrupted": true,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "15% increased [Critical|Critical Hit] Chance",
+        "15% increased [ElementalDamage|Elemental Damage]"
+      ],
+      "enchant_mods": [
+        "Immune to [Maim]"
+      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 1,
+      "type_line": "Prismatic Sapphire of Annihilation",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of Annihilation",
+            "tier": "S1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_587431675",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          },
+          {
+            "name": "Prismatic",
+            "tier": "P1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3141070085",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          }
+        ],
+        "enchant": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_3429557654",
+                "min": "1",
+                "max": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_587431675",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3141070085",
+            [
+              1
+            ]
+          ]
+        ],
+        "enchant": [
+          [
+            "enchant.stat_3429557654",
             [
               0
             ]
@@ -899,6 +1130,256 @@
         "desecrated": [
           [
             "desecrated.stat_3299347043",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "2ae490d2f33cf535187b453e20adb6019d03de329ebf9bd1b5d36e3850e5670d",
+      "item_name": "Mystic Sapphire of Annihilation",
+      "base_type": "Sapphire",
+      "rarity": "Magic",
+      "listed_price": 260,
+      "currency": "divine",
+      "div_equivalent": 260,
+      "indexed": "2026-02-08T05:06:12Z",
+      "stash": "Pricy",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 80,
+      "corrupted": true,
+      "double_corrupted": true,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "15% increased [Spell] Damage",
+        "15% increased [Critical|Critical Hit] Chance"
+      ],
+      "enchant_mods": [
+        "+5 to [Strength|Strength]",
+        "+5 to [Dexterity|Dexterity]"
+      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 1,
+      "type_line": "Mystic Sapphire of Annihilation",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "Mystic",
+            "tier": "P1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_2974417149",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          },
+          {
+            "name": "of Annihilation",
+            "tier": "S1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_587431675",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          }
+        ],
+        "enchant": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_3261801346",
+                "min": "4",
+                "max": "6"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_4080418644",
+                "min": "4",
+                "max": "6"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2974417149",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_587431675",
+            [
+              1
+            ]
+          ]
+        ],
+        "enchant": [
+          [
+            "enchant.stat_4080418644",
+            [
+              1
+            ]
+          ],
+          [
+            "enchant.stat_3261801346",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "df502f375095a4ab6d7f1eb75b27d4353f20dfe679cd7c68a6c4b18a8dda415f",
+      "item_name": "Prismatic Sapphire of Annihilating",
+      "base_type": "Sapphire",
+      "rarity": "Magic",
+      "listed_price": 299,
+      "currency": "divine",
+      "div_equivalent": 299,
+      "indexed": "2026-02-08T05:29:02Z",
+      "stash": "Pricy",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 82,
+      "corrupted": true,
+      "double_corrupted": true,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "15% increased [Critical|Critical Hit Chance] for [Spell|Spells]",
+        "15% increased [ElementalDamage|Elemental Damage]"
+      ],
+      "enchant_mods": [
+        "+6 to [Dexterity|Dexterity]",
+        "+5% to [Resistances|Fire Resistance]"
+      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 1,
+      "type_line": "Prismatic Sapphire of Annihilating",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "Prismatic",
+            "tier": "P1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3141070085",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          },
+          {
+            "name": "of Annihilating",
+            "tier": "S1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_737908626",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          }
+        ],
+        "enchant": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_3372524247",
+                "min": "5",
+                "max": "10"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_3261801346",
+                "min": "4",
+                "max": "6"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_737908626",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3141070085",
+            [
+              0
+            ]
+          ]
+        ],
+        "enchant": [
+          [
+            "enchant.stat_3261801346",
+            [
+              1
+            ]
+          ],
+          [
+            "enchant.stat_3372524247",
             [
               0
             ]
@@ -1734,34 +2215,34 @@
       }
     },
     {
-      "item_id": "1f5453e1892e6ccd3c4627a2ceda8c7b063c4f802a5d825612df453ae92a9a15",
-      "item_name": "Prismatic Sapphire of Unmaking",
+      "item_id": "e89e6e8ee4fd7fe0e88698376e08afb2ffd6b7a431bb6ca1529bdb2fdbf743bd",
+      "item_name": "Prismatic Sapphire of Annihilation",
       "base_type": "Sapphire",
       "rarity": "Magic",
-      "listed_price": 999,
+      "listed_price": 899,
       "currency": "divine",
-      "div_equivalent": 999,
-      "indexed": "2026-02-07T22:54:29Z",
+      "div_equivalent": 899,
+      "indexed": "2026-02-08T05:29:32Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
-      "ilvl": 80,
+      "ilvl": 82,
       "corrupted": true,
       "double_corrupted": true,
       "sanctified": false,
       "implicit_mods": [],
       "explicit_mods": [
-        "20% increased [CriticalDamageBonus|Critical Spell Damage Bonus]",
+        "15% increased [Critical|Critical Hit] Chance",
         "15% increased [ElementalDamage|Elemental Damage]"
       ],
       "enchant_mods": [
-        "+6 to [Strength|Strength]",
-        "+5% to [Resistances|Lightning Resistance]"
+        "+5 to [Dexterity|Dexterity]",
+        "+9% to [Resistances|Cold Resistance]"
       ],
       "desecrated_mods": [],
       "fractured_mods": [],
       "flavour_text": [],
       "frame_type": 1,
-      "type_line": "Prismatic Sapphire of Unmaking",
+      "type_line": "Prismatic Sapphire of Annihilation",
       "properties": [
         {
           "name": "[Jewel]",
@@ -1776,24 +2257,24 @@
       "extended_mods": {
         "explicit": [
           {
-            "name": "of Unmaking",
-            "tier": "S1",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_274716455",
-                "min": "10",
-                "max": "20"
-              }
-            ]
-          },
-          {
             "name": "Prismatic",
             "tier": "P1",
             "level": 1,
             "magnitudes": [
               {
                 "hash": "explicit.stat_3141070085",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          },
+          {
+            "name": "of Annihilation",
+            "tier": "S1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_587431675",
                 "min": "5",
                 "max": "15"
               }
@@ -1807,7 +2288,7 @@
             "level": 1,
             "magnitudes": [
               {
-                "hash": "enchant.stat_1671376347",
+                "hash": "enchant.stat_4220027924",
                 "min": "5",
                 "max": "10"
               }
@@ -1819,7 +2300,7 @@
             "level": 1,
             "magnitudes": [
               {
-                "hash": "enchant.stat_4080418644",
+                "hash": "enchant.stat_3261801346",
                 "min": "4",
                 "max": "6"
               }
@@ -1830,27 +2311,27 @@
       "extended_hashes": {
         "explicit": [
           [
-            "explicit.stat_274716455",
+            "explicit.stat_587431675",
             [
-              0
+              1
             ]
           ],
           [
             "explicit.stat_3141070085",
             [
-              1
+              0
             ]
           ]
         ],
         "enchant": [
           [
-            "enchant.stat_4080418644",
+            "enchant.stat_3261801346",
             [
               1
             ]
           ],
           [
-            "enchant.stat_1671376347",
+            "enchant.stat_4220027924",
             [
               0
             ]
@@ -2205,6 +2686,131 @@
       }
     },
     {
+      "item_id": "1f5453e1892e6ccd3c4627a2ceda8c7b063c4f802a5d825612df453ae92a9a15",
+      "item_name": "Prismatic Sapphire of Unmaking",
+      "base_type": "Sapphire",
+      "rarity": "Magic",
+      "listed_price": 999,
+      "currency": "divine",
+      "div_equivalent": 999,
+      "indexed": "2026-02-07T22:54:29Z",
+      "stash": "Pricy",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 80,
+      "corrupted": true,
+      "double_corrupted": true,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "20% increased [CriticalDamageBonus|Critical Spell Damage Bonus]",
+        "15% increased [ElementalDamage|Elemental Damage]"
+      ],
+      "enchant_mods": [
+        "+6 to [Strength|Strength]",
+        "+5% to [Resistances|Lightning Resistance]"
+      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 1,
+      "type_line": "Prismatic Sapphire of Unmaking",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of Unmaking",
+            "tier": "S1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_274716455",
+                "min": "10",
+                "max": "20"
+              }
+            ]
+          },
+          {
+            "name": "Prismatic",
+            "tier": "P1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3141070085",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          }
+        ],
+        "enchant": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_1671376347",
+                "min": "5",
+                "max": "10"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_4080418644",
+                "min": "4",
+                "max": "6"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_274716455",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3141070085",
+            [
+              1
+            ]
+          ]
+        ],
+        "enchant": [
+          [
+            "enchant.stat_4080418644",
+            [
+              1
+            ]
+          ],
+          [
+            "enchant.stat_1671376347",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "item_id": "789c9cb3df329e7fb6b48cce207c2b2fcb9c8f83b92d2961fcbd38a362213ca4",
       "item_name": "Mystic Sapphire of Potency",
       "base_type": "Sapphire",
@@ -2455,13 +3061,138 @@
       }
     },
     {
+      "item_id": "1ec151d312c98091fa5d3984a7ab1b2675ab34658735fdbaa941d3eb0689de74",
+      "item_name": "Shimmering Sapphire of Annihilating",
+      "base_type": "Sapphire",
+      "rarity": "Magic",
+      "listed_price": 1,
+      "currency": "mirror",
+      "div_equivalent": 8754.89,
+      "indexed": "2026-02-06T23:18:46Z",
+      "stash": "Pricy",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 80,
+      "corrupted": true,
+      "double_corrupted": true,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "20% increased maximum [EnergyShield|Energy Shield]",
+        "15% increased [Critical|Critical Hit Chance] for [Spell|Spells]"
+      ],
+      "enchant_mods": [
+        "+10% to [Resistances|Cold Resistance]",
+        "+7% to [Resistances|Chaos Resistance]"
+      ],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 1,
+      "type_line": "Shimmering Sapphire of Annihilating",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of Annihilating",
+            "tier": "S1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_737908626",
+                "min": "5",
+                "max": "15"
+              }
+            ]
+          },
+          {
+            "name": "Shimmering",
+            "tier": "P1",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_2482852589",
+                "min": "10",
+                "max": "20"
+              }
+            ]
+          }
+        ],
+        "enchant": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_4220027924",
+                "min": "5",
+                "max": "10"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "enchant.stat_2923486259",
+                "min": "3",
+                "max": "7"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2482852589",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_737908626",
+            [
+              0
+            ]
+          ]
+        ],
+        "enchant": [
+          [
+            "enchant.stat_4220027924",
+            [
+              0
+            ]
+          ],
+          [
+            "enchant.stat_2923486259",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "item_id": "a6c54d5d0a8ecd4d9699dec01ab971893254ed74307a9bfcf3abfc9445ad3d6d",
       "item_name": "Pain Roar",
       "base_type": "Sanctified Staff",
       "rarity": "Rare",
       "listed_price": 1,
       "currency": "mirror",
-      "div_equivalent": 8791.27,
+      "div_equivalent": 8754.89,
       "indexed": "2026-02-01T21:33:20Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9TdGF2ZXMvQmFzZXR5cGVzL1N0YWZmMDEiLCJ3IjoxLCJoIjo0LCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9d50d5c541/Staff01.png",
@@ -2943,138 +3674,13 @@
       }
     },
     {
-      "item_id": "1ec151d312c98091fa5d3984a7ab1b2675ab34658735fdbaa941d3eb0689de74",
-      "item_name": "Shimmering Sapphire of Annihilating",
-      "base_type": "Sapphire",
-      "rarity": "Magic",
-      "listed_price": 1,
-      "currency": "mirror",
-      "div_equivalent": 8791.27,
-      "indexed": "2026-02-06T23:18:46Z",
-      "stash": "Pricy",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
-      "ilvl": 80,
-      "corrupted": true,
-      "double_corrupted": true,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "20% increased maximum [EnergyShield|Energy Shield]",
-        "15% increased [Critical|Critical Hit Chance] for [Spell|Spells]"
-      ],
-      "enchant_mods": [
-        "+10% to [Resistances|Cold Resistance]",
-        "+7% to [Resistances|Chaos Resistance]"
-      ],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 1,
-      "type_line": "Shimmering Sapphire of Annihilating",
-      "properties": [
-        {
-          "name": "[Jewel]",
-          "values": [],
-          "displayMode": 0
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "of Annihilating",
-            "tier": "S1",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_737908626",
-                "min": "5",
-                "max": "15"
-              }
-            ]
-          },
-          {
-            "name": "Shimmering",
-            "tier": "P1",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_2482852589",
-                "min": "10",
-                "max": "20"
-              }
-            ]
-          }
-        ],
-        "enchant": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "enchant.stat_4220027924",
-                "min": "5",
-                "max": "10"
-              }
-            ]
-          },
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "enchant.stat_2923486259",
-                "min": "3",
-                "max": "7"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_2482852589",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_737908626",
-            [
-              0
-            ]
-          ]
-        ],
-        "enchant": [
-          [
-            "enchant.stat_4220027924",
-            [
-              0
-            ]
-          ],
-          [
-            "enchant.stat_2923486259",
-            [
-              1
-            ]
-          ]
-        ]
-      }
-    },
-    {
       "item_id": "c3d76cafe7dbd897e7b6b3f44b4cb099d5bf555887fbaa98c1ef3c979f6b7578",
       "item_name": "Plague Branch",
       "base_type": "Dueling Wand",
       "rarity": "Rare",
       "listed_price": 4,
       "currency": "mirror",
-      "div_equivalent": 35165.06,
+      "div_equivalent": 35019.54,
       "indexed": "2026-02-04T06:01:54Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9CYXNldHlwZXMvV2FuZDEzIiwidyI6MSwiaCI6Mywic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/eafbb19c97/Wand13.png",
@@ -5037,12 +5643,12 @@
   ],
   "fund": {
     "total_units": 1192.7728773753554,
-    "unit_price": 47.744597,
+    "unit_price": 46.67613,
     "hwm": 47.912384,
     "haircut": 0.85,
     "perf_fee_pct": 0.25,
     "total_deposited": 2040.63,
-    "total_profit": 54907.83,
+    "total_profit": 53633.39,
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd"
   },
   "investors": [
@@ -5051,9 +5657,9 @@
       "hash": "2ab61af1d45185eab09e328c5aacef3c2c7ff88e732e8e986e5abf98c87978ee",
       "units": 251.16414566266727,
       "deposited": 0,
-      "value": 11991.73,
+      "value": 11723.37,
       "share": 0.210572,
-      "profit": 11991.73,
+      "profit": 11723.37,
       "pct_change": null,
       "pending": null,
       "history": []
@@ -5063,10 +5669,10 @@
       "hash": "80b671a2485579906fbf77a73c26b38178eb125509ee1a7b51fb1bda166354f2",
       "units": 286.8989501902178,
       "deposited": 710.11,
-      "value": 13697.87,
+      "value": 13391.33,
       "share": 0.240531,
-      "profit": 12987.76,
-      "pct_change": 1829.0,
+      "profit": 12681.22,
+      "pct_change": 1785.8,
       "pending": null,
       "history": [
         {
@@ -5124,10 +5730,10 @@
       "hash": "51245d534a58ede45deb777821332cf7f53c1af3d5b1e6f045d89b1cd64fb16a",
       "units": 357.19347898501957,
       "deposited": 1033.0,
-      "value": 17054.06,
+      "value": 16672.41,
       "share": 0.299465,
-      "profit": 16021.06,
-      "pct_change": 1550.9,
+      "profit": 15639.41,
+      "pct_change": 1514.0,
       "pending": null,
       "history": [
         {
@@ -5155,10 +5761,10 @@
       "hash": "6e1f84dec565236f08699612c33f84160ba8a01ac21ea47e85ca46ef7d8cfd7f",
       "units": 297.51630253745105,
       "deposited": 297.52,
-      "value": 14204.8,
+      "value": 13886.91,
       "share": 0.249432,
-      "profit": 13907.28,
-      "pct_change": 4674.4,
+      "profit": 13589.39,
+      "pct_change": 4567.6,
       "pending": null,
       "history": [
         {
