@@ -716,10 +716,10 @@ def main():
     parser.add_argument("--add-investor", type=str, metavar="NAME", help="Add a new investor (combine with --deposit)")
     parser.add_argument("--deposit", nargs="+", metavar="ARG", help="Process deposit: --deposit NAME AMOUNT or --add-investor NAME --deposit AMOUNT")
     parser.add_argument("--withdraw", nargs=2, metavar=("NAME", "AMOUNT"), help="Create withdrawal request")
-    parser.add_argument("--fulfill", type=str, metavar="NAME", help="Fulfill pending withdrawal")
+    parser.add_argument("--fulfill", action="store_true", help="Fulfill all pending requests")
     parser.add_argument("--gen-code", type=str, metavar="NAME", help="Generate new invite code for investor")
     parser.add_argument("--set-webhook", type=str, metavar="URL", help="Set Discord webhook URL for investor requests")
-    parser.add_argument("--no-fetch", action="store_true", help="Skip trade/listing fetch (investor ops only)")
+    parser.add_argument("--fetch", action="store_true", help="Fetch trades and listings from PoE2 API")
 
     args = parser.parse_args()
 
@@ -735,6 +735,7 @@ def main():
     # --- Handle investor-only operations ---
 
     is_investor_op = any([args.add_investor, args.deposit, args.withdraw, args.fulfill, args.gen_code, args.set_webhook])
+    should_fetch = args.fetch
 
     if args.set_webhook:
         inv_data["fund"]["discord_webhook"] = args.set_webhook
@@ -792,14 +793,21 @@ def main():
             save_investors(inv_data)
 
     if args.fulfill:
-        result = process_fulfill(inv_data, args.fulfill)
-        if result:
-            inv_data = result
+        fulfilled_any = False
+        for inv in list(inv_data["investors"]):
+            if inv.get("pending"):
+                result = process_fulfill(inv_data, inv["name"])
+                if result:
+                    inv_data = result
+                    fulfilled_any = True
+        if fulfilled_any:
             inv_data = recalc_investors(inv_data, nav)
             save_investors(inv_data)
+        else:
+            print("No pending requests to fulfill.")
 
-    # If --no-fetch, just rebuild dashboard from stored data and exit
-    if args.no_fetch:
+    # Unless --fetch, just rebuild dashboard from stored data and exit
+    if not should_fetch:
         if not args.dry_run:
             all_trades = load_seen_trades()
             listings = prev_dashboard.get("listings", [])

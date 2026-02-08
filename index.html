@@ -1894,13 +1894,12 @@ async function submitRequest() {
     return;
   }
 
-  const unitPrice = currentData.fund?.unit_price || 1;
   const emoji = requestType === 'deposit' ? '\ud83d\udce5' : '\ud83d\udce4';
   const typeLabel = requestType === 'deposit' ? 'deposit' : 'withdrawal';
   const now = new Date().toISOString().replace('T', ' ').split('.')[0] + ' UTC';
 
   const message = {
-    content: `${emoji} **${currentInvestor.name}** requests ${typeLabel} of **${amount} div**\nUnit price at request: **${unitPrice.toFixed(4)}**\n*${now}*`
+    content: `${emoji} **${currentInvestor.name}** requests ${typeLabel} of **${amount} div**\n*${now}*`
   };
 
   submitBtn.disabled = true;
@@ -1920,7 +1919,6 @@ async function submitRequest() {
         type: requestType,
         amount: amount,
         date: new Date().toISOString().split('T')[0],
-        locked_price: unitPrice,
       }));
       statusEl.textContent = 'Request sent! The fund manager will process it shortly.';
       statusEl.className = 'request-form-status success';
