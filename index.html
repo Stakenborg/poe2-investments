@@ -1341,7 +1341,18 @@ body {
 .manager-currency-card-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.manager-currency-card-header .manager-currency-remove {
+  margin-left: auto;
+}
+
+.manager-currency-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.4));
 }
 
 .manager-currency-label {
@@ -1349,7 +1360,6 @@ body {
   font-size: 0.8rem;
   font-weight: 600;
   color: var(--text-2);
-  text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 
@@ -1901,6 +1911,7 @@ function renderManagerConsole(data) {
   const fund = data.fund || {};
   const currencies = data.currencies || {};
   const exchangeRates = data.exchange_rates || {};
+  const meta = data.currency_meta || {};
   const investors = data.investors || [];
   const pat = localStorage.getItem('vault_manager_pat') || '';
 
@@ -1913,20 +1924,26 @@ function renderManagerConsole(data) {
     const rate = exchangeRates[cur] || 0;
     const divEq = cur === 'divine' ? '' : `${fmt(amt * rate)} div`;
     const removable = cur !== 'divine' && amt === 0;
+    const icon = meta[cur]?.icon || '';
+    const displayName = meta[cur]?.name || cur;
     return `
       <div class="manager-currency-card">
         <div class="manager-currency-card-header">
-          <span class="manager-currency-label">${cur}</span>
+          ${icon ? `<img class="manager-currency-icon" src="${icon}" alt="${displayName}" loading="lazy">` : ''}
+          <span class="manager-currency-label">${displayName}</span>
           ${removable ? `<button class="manager-currency-remove" onclick="removeCurrency('${cur}')">x</button>` : ''}
         </div>
-        <input type="number" class="manager-currency-input" data-currency="${cur}" data-original="${amt}" value="${amt}" step="1" oninput="markCurrencyDirty(this)">
-        ${divEq ? `<span class="manager-currency-div-eq">${divEq}</span>` : ''}
+        <input type="number" class="manager-currency-input" data-currency="${cur}" data-rate="${rate}" data-original="${amt}" value="${amt}" step="1" oninput="updateCurrencyCard(this)">
+        <span class="manager-currency-div-eq" id="div-eq-${cur}">${divEq}</span>
       </div>
     `;
   }).join('');
 
   if (availableCurrencies.length) {
-    const options = availableCurrencies.sort().map(c => `<option value="${c}">${c}</option>`).join('');
+    const options = availableCurrencies.sort().map(c => {
+      const name = meta[c]?.name || c;
+      return `<option value="${c}">${name}</option>`;
+    }).join('');
     currencyCards += `
       <div class="manager-currency-add-card">
         <select class="manager-currency-picker" id="currency-picker" onchange="addCurrency(this.value)">
@@ -2029,10 +2046,18 @@ function renderManagerConsole(data) {
   `;
 }
 
-function markCurrencyDirty(el) {
+function updateCurrencyCard(el) {
   const original = parseFloat(el.dataset.original);
   const current = parseFloat(el.value);
+  const rate = parseFloat(el.dataset.rate);
+  const cur = el.dataset.currency;
   el.classList.toggle('dirty', current !== original && !isNaN(current));
+
+  // Update divine equivalent live
+  const eqEl = document.getElementById('div-eq-' + cur);
+  if (eqEl && rate && cur !== 'divine') {
+    eqEl.textContent = !isNaN(current) ? `${fmt(current * rate)} div` : '';
+  }
 }
 
 function addCurrency(cur) {

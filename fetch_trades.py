@@ -88,21 +88,31 @@ def fetch_exchange_rates(league):
         pairs = resp.json()
     except Exception as e:
         print(f"Warning: Could not fetch exchange rates: {e}")
-        return {}
+        return None
 
     rates = {"divine": 1.0}
+    currency_meta = {}
     for pair in pairs:
-        c1_id = pair["CurrencyOne"]["apiId"]
-        c2_id = pair["CurrencyTwo"]["apiId"]
+        c1 = pair["CurrencyOne"]
+        c2 = pair["CurrencyTwo"]
+        c1_id, c2_id = c1["apiId"], c2["apiId"]
         c1_price = float(pair["CurrencyOneData"]["RelativePrice"])
         c2_price = float(pair["CurrencyTwoData"]["RelativePrice"])
+
+        # Collect metadata (icon, display name) for all currencies
+        for c in (c1, c2):
+            if c["apiId"] not in currency_meta:
+                currency_meta[c["apiId"]] = {
+                    "icon": c.get("iconUrl", ""),
+                    "name": c.get("text", c["apiId"]),
+                }
 
         if c1_id == "divine" and c2_id not in rates:
             rates[c2_id] = c2_price / c1_price if c1_price else 0
         elif c2_id == "divine" and c1_id not in rates:
             rates[c1_id] = c1_price / c2_price if c2_price else 0
 
-    return rates
+    return rates, currency_meta
 
 
 def to_divine(amount, currency, rates):
@@ -794,6 +804,7 @@ def process_batch(payload_str, config, prev_dashboard, inv_data):
     inv_data = migrate_fund_data(inv_data, prev_dashboard)
     currencies = inv_data["fund"]["currencies"]
     rates = prev_dashboard.get("exchange_rates", {"divine": 1.0})
+    currency_meta = prev_dashboard.get("currency_meta", {})
 
     should_fetch = payload.get("fetch", False)
     should_fulfill = payload.get("fulfill", False)
@@ -809,9 +820,12 @@ def process_batch(payload_str, config, prev_dashboard, inv_data):
         session = make_session(config["poesessid"])
 
         print("Fetching exchange rates...")
-        fetched_rates = fetch_exchange_rates(config["league"])
-        if fetched_rates:
-            rates = fetched_rates
+        result = fetch_exchange_rates(config["league"])
+        if result:
+            fetched_rates, fetched_meta = result
+            if fetched_rates:
+                rates = fetched_rates
+                currency_meta = fetched_meta
 
         fetched = []
         print(f"Fetching trade history for {config['league']}...")
@@ -911,6 +925,7 @@ def process_batch(payload_str, config, prev_dashboard, inv_data):
             dashboard["fund"] = pub["fund"]
             dashboard["investors"] = pub["investors"]
 
+    dashboard["currency_meta"] = currency_meta
     save_dashboard(dashboard)
     print(f"Dashboard data saved to {DASHBOARD_FILE}")
     return dashboard
@@ -960,6 +975,7 @@ def main():
 
     # Default rates for no-fetch path
     rates = prev_dashboard.get("exchange_rates", {"divine": 1.0})
+    currency_meta = prev_dashboard.get("currency_meta", {})
 
     # --- Handle investor-only operations ---
 
@@ -1055,6 +1071,7 @@ def main():
                 pub = investors_to_dashboard(inv_data)
                 dashboard["fund"] = pub["fund"]
                 dashboard["investors"] = pub["investors"]
+            dashboard["currency_meta"] = currency_meta
             save_dashboard(dashboard)
             print(f"Dashboard data saved to {DASHBOARD_FILE}")
             if args.push:
@@ -1065,9 +1082,12 @@ def main():
 
     # Fetch exchange rates (overrides default rates)
     print("Fetching exchange rates...")
-    fetched_rates = fetch_exchange_rates(config["league"])
-    if fetched_rates:
-        rates = fetched_rates
+    result = fetch_exchange_rates(config["league"])
+    if result:
+        fetched_rates, fetched_meta = result
+        if fetched_rates:
+            rates = fetched_rates
+            currency_meta = fetched_meta
     if rates:
         non_divine = {k: v for k, v in rates.items() if k != "divine"}
         if non_divine:
@@ -1160,6 +1180,7 @@ def main():
     # Build and save dashboard
     all_trades = (([parse_trade(t, rates) for t in new_trades] + seen) if new_trades else seen)
     dashboard = build_dashboard(all_trades, listings, currencies, rates, inv_data)
+    dashboard["currency_meta"] = currency_meta
     save_dashboard(dashboard)
     print(f"Dashboard data saved to {DASHBOARD_FILE}")
 
