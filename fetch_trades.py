@@ -1110,6 +1110,21 @@ def main():
         listed_value = sum(l["div_equivalent"] for l in parsed_listings if isinstance(l["div_equivalent"], (int, float)))
         listings_summary = {"count": len(listings), "value": listed_value}
 
+    # Add net new sales to fund currencies (per-currency)
+    if new_trades:
+        new_parsed_tmp = [parse_trade(t, rates) for t in new_trades]
+        revenue_by_currency = {}
+        for t in new_parsed_tmp:
+            cur = t.get("currency", "divine")
+            amt = t.get("sale_price", 0)
+            if cur and amt > 0:
+                revenue_by_currency[cur] = revenue_by_currency.get(cur, 0) + amt
+        if revenue_by_currency:
+            print(f"\nAdding trade revenue from {len(new_parsed_tmp)} new sale(s):")
+            for cur, amt in revenue_by_currency.items():
+                currencies[cur] = currencies.get(cur, 0) + amt
+                print(f"  +{amt:,.0f} {cur}")
+
     # Recalculate NAV with fresh data
     fresh_listed = listings_summary["value"] if listings_summary else 0
     nav = calc_nav(currencies, rates, fresh_listed)
