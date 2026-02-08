@@ -2249,11 +2249,12 @@ async function processManager() {
     statusEl.textContent = 'Workflow dispatched. Polling for updates...';
     statusEl.className = 'manager-process-status';
 
-    // Poll for dashboard update
+    // Poll raw file from GitHub API (Pages CDN caches too aggressively)
     const startedAt = currentData.updated_at;
     const startTime = Date.now();
-    const timeout = 120000;
+    const timeout = 180000;
     const interval = 5000;
+    const rawUrl = 'https://api.github.com/repos/Stakenborg/poe2-investments/contents/data/dashboard.json';
 
     const poll = async () => {
       if (Date.now() - startTime > timeout) {
@@ -2264,7 +2265,13 @@ async function processManager() {
       }
 
       try {
-        const r = await fetch('data/dashboard.json?t=' + Date.now(), { cache: 'no-store' });
+        const r = await fetch(rawUrl, {
+          headers: {
+            'Authorization': `Bearer ${pat}`,
+            'Accept': 'application/vnd.github.v3.raw',
+          },
+          cache: 'no-store',
+        });
         if (r.ok) {
           const newData = await r.json();
           if (newData.updated_at !== startedAt) {
