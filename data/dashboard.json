@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-08T04:35:44.666321+00:00",
+  "updated_at": "2026-02-08T04:37:58.994881+00:00",
   "raw_divines": 3715.0,
   "listed_value": 62627.6,
   "total_nav": 56948.46,
@@ -5036,24 +5036,24 @@
     }
   ],
   "fund": {
-    "total_units": 1194.0608427798543,
-    "unit_price": 47.693097,
-    "hwm": 47.776845,
+    "total_units": 1188.595845715137,
+    "unit_price": 47.912384,
+    "hwm": 47.912384,
     "haircut": 0.85,
     "perf_fee_pct": 0.25,
-    "total_deposited": 1603.53,
-    "total_profit": 55344.92,
+    "total_deposited": 1793.05,
+    "total_profit": 55155.41,
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd"
   },
   "investors": [
     {
       "name": "Stake",
       "hash": "2ab61af1d45185eab09e328c5aacef3c2c7ff88e732e8e986e5abf98c87978ee",
-      "units": 250.33892424985504,
+      "units": 251.16414566266727,
       "deposited": 0,
-      "value": 11939.44,
-      "share": 0.209653,
-      "profit": 11939.44,
+      "value": 12033.87,
+      "share": 0.211312,
+      "profit": 12033.87,
       "pct_change": null,
       "pending": null,
       "history": []
@@ -5063,10 +5063,10 @@
       "hash": "80b671a2485579906fbf77a73c26b38178eb125509ee1a7b51fb1bda166354f2",
       "units": 282.72191852999936,
       "deposited": 462.53,
-      "value": 13483.88,
-      "share": 0.236773,
-      "profit": 13021.35,
-      "pct_change": 2815.2,
+      "value": 13545.88,
+      "share": 0.237862,
+      "profit": 13083.35,
+      "pct_change": 2828.6,
       "pending": null,
       "history": [
         {
@@ -5098,12 +5098,12 @@
     {
       "name": "Monsta",
       "hash": "51245d534a58ede45deb777821332cf7f53c1af3d5b1e6f045d89b1cd64fb16a",
-      "units": 353,
-      "deposited": 833,
-      "value": 16835.66,
-      "share": 0.29563,
-      "profit": 16002.66,
-      "pct_change": 1921.1,
+      "units": 357.19347898501957,
+      "deposited": 1033.0,
+      "value": 17113.99,
+      "share": 0.300517,
+      "profit": 16080.99,
+      "pct_change": 1556.7,
       "pending": null,
       "history": [
         {
@@ -5117,18 +5117,24 @@
           "amount": 500,
           "date": "2026-01-28",
           "unit_price": 25.0
+        },
+        {
+          "type": "deposit",
+          "amount": 200.0,
+          "date": "2026-02-08",
+          "unit_price": 47.693097
         }
       ]
     },
     {
       "name": "Cybersuit",
       "hash": "6e1f84dec565236f08699612c33f84160ba8a01ac21ea47e85ca46ef7d8cfd7f",
-      "units": 308,
-      "deposited": 308,
-      "value": 14689.47,
-      "share": 0.257943,
-      "profit": 14381.47,
-      "pct_change": 4669.3,
+      "units": 297.51630253745105,
+      "deposited": 297.52,
+      "value": 14254.72,
+      "share": 0.250309,
+      "profit": 13957.2,
+      "pct_change": 4691.2,
       "pending": null,
       "history": [
         {
@@ -5142,6 +5148,12 @@
           "amount": 1000,
           "date": "2026-02-03",
           "unit_price": 40.0
+        },
+        {
+          "type": "withdraw",
+          "amount": 500.0,
+          "date": "2026-02-08",
+          "unit_price": 47.693097
         }
       ]
     }
