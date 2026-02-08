@@ -1755,9 +1755,33 @@ function renderCapTable(data) {
 
 function renderInvestorDetail(investor, data) {
   const history = investor.history || [];
-  const pending = investor.pending;
   const fund = data.fund || {};
   const webhook = fund.discord_webhook || '';
+
+  // Check for pending: server data first, then localStorage fallback
+  const pendingKey = `vault_pending_${investor.hash}`;
+  let pending = investor.pending;
+  if (pending) {
+    // Server has a real pending — clear localStorage, server is source of truth now
+    localStorage.removeItem(pendingKey);
+  } else {
+    // No server pending — check localStorage for a request we submitted
+    try {
+      const stored = localStorage.getItem(pendingKey);
+      if (stored) {
+        const localPending = JSON.parse(stored);
+        // Check if a history entry exists after this request (meaning it was processed)
+        const lastHistory = history.length ? history[history.length - 1] : null;
+        if (lastHistory && lastHistory.date >= localPending.date && lastHistory.type === localPending.type) {
+          // Manager already processed it — clear
+          localStorage.removeItem(pendingKey);
+        } else {
+          pending = localPending;
+          pending._local = true;
+        }
+      }
+    } catch (e) {}
+  }
 
   let historyHTML = '';
   if (history.length) {
@@ -1790,16 +1814,17 @@ function renderInvestorDetail(investor, data) {
   let pendingHTML = '';
   if (pending) {
     const typeLabel = pending.type === 'deposit' ? 'Deposit' : 'Withdrawal';
+    const statusNote = pending._local ? ' \u2014 awaiting manager' : '';
     pendingHTML = `
       <div class="investor-pending">
-        <div class="investor-pending-label">Pending Request</div>
+        <div class="investor-pending-label">Pending Request${statusNote}</div>
         ${typeLabel} \u2014 ${fmt(pending.amount)} div (requested ${pending.date})
       </div>
     `;
   }
 
   let formHTML = '';
-  if (webhook) {
+  if (webhook && !pending) {
     formHTML = `
       <div class="request-form">
         <div class="request-form-title">Request Deposit / Withdrawal</div>
@@ -1889,9 +1914,19 @@ async function submitRequest() {
       body: JSON.stringify(message),
     });
     if (resp.ok || resp.status === 204) {
+      // Save pending request to localStorage for immediate feedback
+      const pendingKey = `vault_pending_${currentInvestor.hash}`;
+      localStorage.setItem(pendingKey, JSON.stringify({
+        type: requestType,
+        amount: amount,
+        date: new Date().toISOString().split('T')[0],
+        locked_price: unitPrice,
+      }));
       statusEl.textContent = 'Request sent! The fund manager will process it shortly.';
       statusEl.className = 'request-form-status success';
       amountInput.value = '';
+      // Re-render to show the pending request
+      renderDashboard(currentData);
     } else {
       throw new Error(`Status ${resp.status}`);
     }
