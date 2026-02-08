@@ -2162,7 +2162,7 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') document.getElementById('modal').classList.remove('active');
 });
 
-fetch(DATA_URL)
+fetch(DATA_URL, { cache: 'no-store' })
   .then(r => { if (!r.ok) throw new Error('No data'); return r.json(); })
   .then(async data => {
     currentData = data;
