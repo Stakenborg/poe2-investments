@@ -509,6 +509,35 @@ body {
   font-size: 1rem;
 }
 
+/* --- Public Currency Cards --- */
+.currency-card {
+  background: var(--bg-1);
+  padding: 1.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+.currency-card-name {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-align: center;
+  line-height: 1.3;
+  color: var(--accent);
+}
+.currency-card-amount {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.currency-card-eq {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-2);
+}
+
 /* --- Modal --- */
 .modal-overlay {
   display: none;
@@ -1921,22 +1950,7 @@ function renderManagerConsole(data) {
 
   let currencyCards = currencyKeys.map(cur => {
     const amt = currencies[cur] || 0;
-    const rate = exchangeRates[cur] || 0;
-    const divEq = cur === 'divine' ? '' : `${fmt(amt * rate)} div`;
-    const removable = cur !== 'divine' && amt === 0;
-    const icon = meta[cur]?.icon || '';
-    const displayName = meta[cur]?.name || cur;
-    return `
-      <div class="manager-currency-card">
-        <div class="manager-currency-card-header">
-          ${icon ? `<img class="manager-currency-icon" src="${icon}" alt="${displayName}" loading="lazy">` : ''}
-          <span class="manager-currency-label">${displayName}</span>
-          ${removable ? `<button class="manager-currency-remove" onclick="removeCurrency('${cur}')">x</button>` : ''}
-        </div>
-        <input type="number" class="manager-currency-input" data-currency="${cur}" data-rate="${rate}" data-original="${amt}" value="${amt}" step="1" oninput="updateCurrencyCard(this)">
-        <span class="manager-currency-div-eq" id="div-eq-${cur}">${divEq}</span>
-      </div>
-    `;
+    return makeCurrencyCardHTML(cur, amt, data);
   }).join('');
 
   if (availableCurrencies.length) {
@@ -1970,26 +1984,7 @@ function renderManagerConsole(data) {
   }).join('') : '<div class="manager-no-pending">No pending requests</div>';
 
   // Operations rows
-  let opsHTML = managerOps.map(op => {
-    const investorOptions = investors.map(inv => `<option value="${inv.name}" ${inv.name === op.investor ? 'selected' : ''}>${inv.name}</option>`).join('');
-    const currencyOptions = Object.keys(exchangeRates).filter(c => exchangeRates[c] > 0).map(c => `<option value="${c}" ${c === op.currency ? 'selected' : ''}>${c}</option>`).join('');
-    return `
-      <div class="manager-op-row" data-op-id="${op.id}">
-        <select class="manager-op-select" onchange="updateOp(${op.id}, 'action', this.value)">
-          <option value="deposit" ${op.action === 'deposit' ? 'selected' : ''}>Deposit</option>
-          <option value="withdraw" ${op.action === 'withdraw' ? 'selected' : ''}>Withdraw</option>
-        </select>
-        <select class="manager-op-select" onchange="updateOp(${op.id}, 'investor', this.value)">
-          ${investorOptions}
-        </select>
-        <input type="number" class="manager-op-input" placeholder="Amount" value="${op.amount || ''}" min="1" step="1" onchange="updateOp(${op.id}, 'amount', parseFloat(this.value))">
-        <select class="manager-op-select" onchange="updateOp(${op.id}, 'currency', this.value)">
-          ${currencyOptions}
-        </select>
-        <button class="manager-op-remove" onclick="removeOp(${op.id})">x</button>
-      </div>
-    `;
-  }).join('');
+  let opsHTML = managerOps.map(op => makeOpRowHTML(op, data)).join('');
 
   return `
     <section class="manager-console scroll-reveal">
@@ -2060,31 +2055,123 @@ function updateCurrencyCard(el) {
   }
 }
 
+function makeCurrencyCardHTML(cur, amt, data) {
+  const exchangeRates = data.exchange_rates || {};
+  const meta = data.currency_meta || {};
+  const rate = exchangeRates[cur] || 0;
+  const divEq = cur === 'divine' ? '' : `${fmt(amt * rate)} div`;
+  const removable = cur !== 'divine' && amt === 0;
+  const icon = meta[cur]?.icon || '';
+  const displayName = meta[cur]?.name || cur;
+  return `
+    <div class="manager-currency-card" data-card-currency="${cur}">
+      <div class="manager-currency-card-header">
+        ${icon ? `<img class="manager-currency-icon" src="${icon}" alt="${displayName}" loading="lazy">` : ''}
+        <span class="manager-currency-label">${displayName}</span>
+        ${removable ? `<button class="manager-currency-remove" onclick="removeCurrency('${cur}')">x</button>` : ''}
+      </div>
+      <input type="number" class="manager-currency-input" data-currency="${cur}" data-rate="${rate}" data-original="${amt}" value="${amt}" step="1" oninput="updateCurrencyCard(this)">
+      <span class="manager-currency-div-eq" id="div-eq-${cur}">${divEq}</span>
+    </div>
+  `;
+}
+
+function makeOpRowHTML(op, data) {
+  const investors = data.investors || [];
+  const exchangeRates = data.exchange_rates || {};
+  const investorOptions = investors.map(inv => `<option value="${inv.name}" ${inv.name === op.investor ? 'selected' : ''}>${inv.name}</option>`).join('');
+  const currencyOptions = Object.keys(exchangeRates).filter(c => exchangeRates[c] > 0).map(c => `<option value="${c}" ${c === op.currency ? 'selected' : ''}>${c}</option>`).join('');
+  return `
+    <div class="manager-op-row" data-op-id="${op.id}">
+      <select class="manager-op-select" onchange="updateOp(${op.id}, 'action', this.value)">
+        <option value="deposit" ${op.action === 'deposit' ? 'selected' : ''}>Deposit</option>
+        <option value="withdraw" ${op.action === 'withdraw' ? 'selected' : ''}>Withdraw</option>
+      </select>
+      <select class="manager-op-select" onchange="updateOp(${op.id}, 'investor', this.value)">
+        ${investorOptions}
+      </select>
+      <input type="number" class="manager-op-input" placeholder="Amount" value="${op.amount || ''}" min="1" step="1" onchange="updateOp(${op.id}, 'amount', parseFloat(this.value))">
+      <select class="manager-op-select" onchange="updateOp(${op.id}, 'currency', this.value)">
+        ${currencyOptions}
+      </select>
+      <button class="manager-op-remove" onclick="removeOp(${op.id})">x</button>
+    </div>
+  `;
+}
+
+function rebuildCurrencyPicker() {
+  const exchangeRates = currentData.exchange_rates || {};
+  const meta = currentData.currency_meta || {};
+  const currencies = currentData.currencies || {};
+  const currencyKeys = Object.keys(currencies);
+  const available = Object.keys(exchangeRates).filter(c => !currencyKeys.includes(c) && exchangeRates[c] > 0);
+  const grid = document.getElementById('manager-currencies');
+  if (!grid) return;
+  // Remove existing add-card
+  const oldPicker = grid.querySelector('.manager-currency-add-card');
+  if (oldPicker) oldPicker.remove();
+  // Add new one if there are available currencies
+  if (available.length) {
+    const options = available.sort().map(c => {
+      const name = meta[c]?.name || c;
+      return `<option value="${c}">${name}</option>`;
+    }).join('');
+    const addCard = document.createElement('div');
+    addCard.className = 'manager-currency-add-card';
+    addCard.innerHTML = `
+      <select class="manager-currency-picker" id="currency-picker" onchange="addCurrency(this.value)">
+        <option value="">+ Add currency...</option>
+        ${options}
+      </select>
+    `;
+    grid.appendChild(addCard);
+  }
+}
+
 function addCurrency(cur) {
   if (!cur) return;
   const currencies = currentData.currencies || {};
   currencies[cur] = 0;
   currentData.currencies = currencies;
-  renderDashboard(currentData);
+  // Insert new card before the picker in the grid
+  const grid = document.getElementById('manager-currencies');
+  if (grid) {
+    const picker = grid.querySelector('.manager-currency-add-card');
+    const temp = document.createElement('div');
+    temp.innerHTML = makeCurrencyCardHTML(cur, 0, currentData);
+    const card = temp.firstElementChild;
+    if (picker) grid.insertBefore(card, picker);
+    else grid.appendChild(card);
+    rebuildCurrencyPicker();
+  }
 }
 
 function removeCurrency(cur) {
   const currencies = currentData.currencies || {};
   delete currencies[cur];
   currentData.currencies = currencies;
-  renderDashboard(currentData);
+  const card = document.querySelector(`.manager-currency-card[data-card-currency="${cur}"]`);
+  if (card) card.remove();
+  rebuildCurrencyPicker();
 }
 
 function addOp() {
   const investors = currentData.investors || [];
   const defaultInvestor = investors.length > 1 ? investors[1].name : (investors[0]?.name || '');
-  managerOps.push({ id: ++managerOpId, action: 'deposit', investor: defaultInvestor, amount: 0, currency: 'divine' });
-  renderDashboard(currentData);
+  const op = { id: ++managerOpId, action: 'deposit', investor: defaultInvestor, amount: 0, currency: 'divine' };
+  managerOps.push(op);
+  const opsContainer = document.getElementById('manager-ops');
+  if (opsContainer) {
+    const temp = document.createElement('div');
+    temp.innerHTML = makeOpRowHTML(op, currentData);
+    opsContainer.appendChild(temp.firstElementChild);
+  }
 }
 
 function removeOp(id) {
   managerOps = managerOps.filter(op => op.id !== id);
-  renderDashboard(currentData);
+  const row = document.querySelector(`.manager-op-row[data-op-id="${id}"]`);
+  if (row) row.remove();
 }
 
 function updateOp(id, field, value) {
@@ -2205,17 +2292,51 @@ async function processManager() {
 
 function renderCurrencyBreakdown(data) {
   const currencies = data.currencies || {};
-  const nonDivine = Object.entries(currencies).filter(([c, amt]) => c !== 'divine' && amt > 0);
-  if (!nonDivine.length) return '';
+  const entries = Object.entries(currencies).filter(([c, amt]) => amt > 0);
+  if (!entries.length) return '';
 
   const rates = data.exchange_rates || {};
-  const items = nonDivine.map(([cur, amt]) => {
-    const rate = rates[cur] || 0;
-    const divEq = rate > 0 ? ` (${fmt(amt * rate)} div)` : '';
-    return `${fmt(amt)} ${cur}${divEq}`;
-  }).join(' &middot; ');
+  const meta = data.currency_meta || {};
+  const totalDiv = entries.reduce((sum, [c, amt]) => sum + amt * (rates[c] || 0), 0);
 
-  return `<div class="hero-nav-footnote" style="animation-delay: 0.65s;">${fmt(currencies.divine || 0)} divine + ${items}</div>`;
+  const cards = entries.map(([cur, amt]) => {
+    const rate = rates[cur] || 0;
+    const divEq = cur !== 'divine' && rate > 0 ? `<span class="currency-card-eq">${fmt(amt * rate)} div</span>` : '';
+    const icon = meta[cur]?.icon || '';
+    const displayName = meta[cur]?.name || cur;
+    return `
+      <div class="currency-card">
+        ${icon ? `<div class="item-icon-wrap"><img class="item-icon" src="${icon}" alt="${displayName}" loading="lazy"></div>` : ''}
+        <span class="currency-card-name">${displayName}</span>
+        <span class="currency-card-amount">${fmt(amt)}</span>
+        ${divEq}
+      </div>
+    `;
+  }).join('');
+
+  return `
+    <section class="section scroll-reveal" id="currency-section">
+      <button class="section-toggle" onclick="toggleSection('currency-section')">
+        <div class="section-toggle-left">
+          <span class="section-title">Currency Holdings</span>
+          <span class="section-badge">${entries.length} currencies</span>
+        </div>
+        <div class="section-toggle-right">
+          <span class="section-stat">${fmt(totalDiv)} div total</span>
+          ${chevronSVG}
+        </div>
+      </button>
+      <div class="section-body">
+        <div class="section-body-inner">
+          <div class="section-content">
+            <div class="item-grid">
+              ${cards}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
 }
 
 /* =============================================
@@ -2301,8 +2422,6 @@ function renderDashboard(data) {
             <span class="hero-stat-value"><span class="hero-stat-number" data-hero-countup="${rev24h}">0</span><span class="unit">div</span></span>
           </div>
         </div>
-        ${renderCurrencyBreakdown(data)}
-
         ${investorPositionHTML}
 
         <div class="hero-updated">Updated ${timeAgo(data.updated_at)}</div>
@@ -2317,6 +2436,7 @@ function renderDashboard(data) {
     <main id="content">
       ${isManager ? renderManagerConsole(data) : ''}
       ${currentInvestor ? renderInvestorDetail(currentInvestor, data) : ''}
+      ${renderCurrencyBreakdown(data)}
 
       <section class="section scroll-reveal" id="sales-section">
         <button class="section-toggle" onclick="toggleSection('sales-section')">

@@ -34,12 +34,8 @@ RATES_URL = "https://poe2scout.com/api/currencyExchange/SnapshotPairs?league={le
 
 
 def get_config():
-    poesessid = os.getenv("POESESSID")
-    if not poesessid:
-        print("Error: POESESSID not set in .env file")
-        sys.exit(1)
     return {
-        "poesessid": poesessid,
+        "poesessid": os.getenv("POESESSID", ""),
         "league": os.getenv("LEAGUE", "Fate of the Vaal"),
         "account": os.getenv("ACCOUNT", "Stakenborg#4677"),
         "sheet_id": os.getenv("SHEET_ID", ""),
@@ -49,6 +45,9 @@ def get_config():
 
 
 def make_session(poesessid):
+    if not poesessid:
+        print("Error: POESESSID not set in .env file")
+        sys.exit(1)
     s = requests.Session()
     s.cookies.set("POESESSID", poesessid)
     s.headers.update({
