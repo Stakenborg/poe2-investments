@@ -896,15 +896,15 @@ def process_batch(payload_str, config, prev_dashboard, inv_data):
     inv_data["fund"]["currencies"] = currencies
     save_investors(inv_data)
 
-    all_trades = (([parse_trade(t, rates) for t in new_trades] + seen) if new_trades else seen)
-    if new_trades:
-        save_trades(all_trades)
-
-    if should_fetch and listings:
+    if should_fetch:
+        all_trades = (([parse_trade(t, rates) for t in new_trades] + seen) if new_trades else seen)
+        if new_trades:
+            save_trades(all_trades)
         dashboard = build_dashboard(all_trades, listings, currencies, rates, inv_data)
     else:
         raw_divines = currencies_to_divine(currencies, rates)
         prev_listings = prev_dashboard.get("listings", [])
+        prev_sales = prev_dashboard.get("recent_sales", [])
         dashboard = {
             "updated_at": datetime.now(timezone.utc).isoformat(),
             "currencies": currencies,
@@ -915,7 +915,7 @@ def process_batch(payload_str, config, prev_dashboard, inv_data):
             "haircut": HAIRCUT,
             "exchange_rates": rates,
             "listings": prev_listings,
-            "recent_sales": all_trades[:50],
+            "recent_sales": prev_sales,
         }
         if inv_data.get("investors"):
             inv_data = recalc_investors(inv_data, nav)
@@ -1048,10 +1048,9 @@ def main():
     # Unless --fetch, just rebuild dashboard from stored data and exit
     if not should_fetch:
         if not args.dry_run:
-            all_trades = load_seen_trades()
-            listings = prev_dashboard.get("listings", [])
+            prev_listings = prev_dashboard.get("listings", [])
+            prev_sales = prev_dashboard.get("recent_sales", [])
             raw_divines = currencies_to_divine(currencies, rates)
-            # Re-use existing parsed listings directly
             dashboard = {
                 "updated_at": datetime.now(timezone.utc).isoformat(),
                 "currencies": currencies,
@@ -1061,8 +1060,8 @@ def main():
                 "raw_nav": raw_divines + listed_value,
                 "haircut": HAIRCUT,
                 "exchange_rates": rates,
-                "listings": listings,
-                "recent_sales": all_trades[:50],
+                "listings": prev_listings,
+                "recent_sales": prev_sales,
             }
             if inv_data.get("investors"):
                 inv_data = recalc_investors(inv_data, nav)
