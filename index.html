@@ -1770,11 +1770,11 @@ function renderInvestorDetail(investor, data) {
       const stored = localStorage.getItem(pendingKey);
       if (stored) {
         const localPending = JSON.parse(stored);
-        // Check if a history entry exists after this request (meaning it was processed)
-        const lastHistory = history.length ? history[history.length - 1] : null;
-        if (lastHistory && lastHistory.date >= localPending.date && lastHistory.type === localPending.type) {
-          // Manager already processed it — clear
+        // If history has grown since we stored the pending, manager processed it
+        const historyCount = parseInt(localStorage.getItem(pendingKey + '_hlen') || '0');
+        if (history.length > historyCount) {
           localStorage.removeItem(pendingKey);
+          localStorage.removeItem(pendingKey + '_hlen');
         } else {
           pending = localPending;
           pending._local = true;
@@ -1920,6 +1920,7 @@ async function submitRequest() {
         amount: amount,
         date: new Date().toISOString().split('T')[0],
       }));
+      localStorage.setItem(pendingKey + '_hlen', String(currentInvestor.history?.length || 0));
       statusEl.textContent = 'Request sent! The fund manager will process it shortly.';
       statusEl.className = 'request-form-status success';
       amountInput.value = '';
