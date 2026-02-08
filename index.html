@@ -1320,62 +1320,99 @@ body {
 
 .manager-section-body { padding: 0.5rem 1.25rem 1rem; }
 
-/* Currency balances */
-.manager-currency-row {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 0.5rem;
+/* Currency balances grid */
+.manager-currency-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
 }
 
-.manager-currency-row:last-child { margin-bottom: 0; }
+.manager-currency-card {
+  background: var(--bg-1);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.manager-currency-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .manager-currency-label {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--text-1);
-  min-width: 80px;
-  text-transform: capitalize;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
+
+.manager-currency-remove {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-3);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  transition: color 0.15s;
+}
+
+.manager-currency-remove:hover { color: var(--red); }
 
 .manager-currency-input {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 0.9rem;
-  padding: 0.4rem 0.6rem;
-  background: var(--bg-1);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.35rem 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
   color: var(--text-0);
-  width: 140px;
+  width: 100%;
   outline: none;
   transition: border-color 0.15s;
 }
 
-.manager-currency-input:focus { border-color: var(--accent); }
+.manager-currency-input:focus { border-bottom-color: var(--accent); }
 
-.manager-currency-input.dirty { border-color: var(--accent-dim); background: var(--accent-bg); }
+.manager-currency-input.dirty { border-bottom-color: var(--accent-dim); color: var(--accent); }
 
 .manager-currency-div-eq {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: var(--text-3);
 }
 
-.manager-add-currency {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 0.75rem;
-  color: var(--accent-dim);
-  background: none;
-  border: 1px dashed var(--border);
-  border-radius: var(--radius-sm);
-  padding: 0.3rem 0.6rem;
+.manager-currency-add-card {
+  background: var(--bg-1);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   transition: all 0.15s;
-  margin-top: 0.35rem;
+  min-height: 80px;
 }
 
-.manager-add-currency:hover { color: var(--accent); border-color: var(--accent-dim); }
+.manager-currency-add-card:hover { background: var(--bg-3); }
+
+.manager-currency-add-card span {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--text-3);
+  transition: color 0.15s;
+}
+
+.manager-currency-add-card:hover span { color: var(--accent); }
 
 /* Pending requests */
 .manager-pending-item {
@@ -1848,25 +1885,29 @@ function renderManagerConsole(data) {
   const investors = data.investors || [];
   const pat = localStorage.getItem('vault_manager_pat') || '';
 
-  // Currency balances
-  const currencyKeys = Object.keys(currencies).filter(c => currencies[c] !== 0 || c === 'divine');
+  // Currency balances — show all currencies in the dict (including zero-balance ones just added)
+  const currencyKeys = Object.keys(currencies);
   const availableCurrencies = Object.keys(exchangeRates).filter(c => !currencyKeys.includes(c) && exchangeRates[c] > 0);
 
-  let currencyRows = currencyKeys.map(cur => {
+  let currencyCards = currencyKeys.map(cur => {
     const amt = currencies[cur] || 0;
     const rate = exchangeRates[cur] || 0;
-    const divEq = cur === 'divine' ? '' : ` = ${fmt(amt * rate)} div`;
+    const divEq = cur === 'divine' ? '' : `${fmt(amt * rate)} div`;
+    const removable = cur !== 'divine' && amt === 0;
     return `
-      <div class="manager-currency-row">
-        <span class="manager-currency-label">${cur}</span>
+      <div class="manager-currency-card">
+        <div class="manager-currency-card-header">
+          <span class="manager-currency-label">${cur}</span>
+          ${removable ? `<button class="manager-currency-remove" onclick="removeCurrency('${cur}')">x</button>` : ''}
+        </div>
         <input type="number" class="manager-currency-input" data-currency="${cur}" data-original="${amt}" value="${amt}" step="1" oninput="markCurrencyDirty(this)">
-        <span class="manager-currency-div-eq">${divEq}</span>
+        ${divEq ? `<span class="manager-currency-div-eq">${divEq}</span>` : ''}
       </div>
     `;
   }).join('');
 
   if (availableCurrencies.length) {
-    currencyRows += `<button class="manager-add-currency" onclick="addCurrency()">+ Add currency</button>`;
+    currencyCards += `<div class="manager-currency-add-card" onclick="addCurrency()"><span>+ Add currency</span></div>`;
   }
 
   // Pending requests
@@ -1912,7 +1953,9 @@ function renderManagerConsole(data) {
       <div class="manager-panel">
         <div class="manager-section">
           <div class="manager-section-header">Currency Balances</div>
-          <div class="manager-section-body" id="manager-currencies">${currencyRows}</div>
+          <div class="manager-section-body">
+            <div class="manager-currency-grid" id="manager-currencies">${currencyCards}</div>
+          </div>
         </div>
 
         <div class="manager-section">
@@ -1968,12 +2011,19 @@ function markCurrencyDirty(el) {
 function addCurrency() {
   const currencies = currentData.currencies || {};
   const rates = currentData.exchange_rates || {};
-  const existing = Object.keys(currencies).filter(c => currencies[c] !== 0 || c === 'divine');
+  const existing = Object.keys(currencies);
   const available = Object.keys(rates).filter(c => !existing.includes(c) && rates[c] > 0);
   if (!available.length) return;
 
   const cur = available[0];
   currencies[cur] = 0;
+  currentData.currencies = currencies;
+  renderDashboard(currentData);
+}
+
+function removeCurrency(cur) {
+  const currencies = currentData.currencies || {};
+  delete currencies[cur];
   currentData.currencies = currencies;
   renderDashboard(currentData);
 }
