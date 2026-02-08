@@ -485,62 +485,39 @@ def find_investor(inv_data, name):
     return None
 
 
-def process_deposit(inv_data, name, amount, nav):
-    """Process a deposit: issue units at current price."""
-    fund = inv_data["fund"]
-    total_units = fund["total_units"]
-    unit_price = nav / total_units if total_units > 0 else 1.0
+def create_investor(inv_data, name):
+    """Create a new investor with no position."""
+    if find_investor(inv_data, name):
+        print(f"Investor '{name}' already exists.")
+        return inv_data
 
-    units_issued = amount / unit_price
+    confirm = input(f"Create new investor '{name}'? [y/N] ")
+    if confirm.lower() != "y":
+        print("Cancelled.")
+        return None
 
-    investor = find_investor(inv_data, name)
-    if not investor:
-        # Create new investor
-        confirm = input(f"Investor '{name}' not found. Create new investor? [y/N] ")
-        if confirm.lower() != "y":
-            print("Cancelled.")
-            return None
-
-        code = secrets.token_urlsafe(16)
-        investor = {
-            "name": name,
-            "code": code,
-            "hash": hash_code(code),
-            "units": 0,
-            "deposited": 0,
-            "value": 0,
-            "share": 0,
-            "profit": 0,
-            "pending": None,
-            "history": [],
-        }
-        inv_data["investors"].append(investor)
-        print(f"Created investor: {name}")
-        print(f"Invite code: {code}")
-        print(f"Share this code with them — it's their key to the personalized view.")
-
-    investor["units"] += units_issued
-    investor["deposited"] += amount
-    fund["total_units"] += units_issued
-
-    investor["history"].append({
-        "type": "deposit",
-        "amount": amount,
-        "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-        "unit_price": round(unit_price, 6),
-    })
-
-    print(f"\nDeposit processed for {investor['name']}:")
-    print(f"  Amount: {amount:,.2f} div")
-    print(f"  Unit price: {unit_price:,.4f}")
-    print(f"  Units issued: {units_issued:,.4f}")
-    print(f"  Total units (fund): {fund['total_units']:,.4f}")
-
+    code = secrets.token_urlsafe(16)
+    investor = {
+        "name": name,
+        "code": code,
+        "hash": hash_code(code),
+        "units": 0,
+        "deposited": 0,
+        "value": 0,
+        "share": 0,
+        "profit": 0,
+        "pending": None,
+        "history": [],
+    }
+    inv_data["investors"].append(investor)
+    print(f"Created investor: {name}")
+    print(f"Invite code: {code}")
+    print(f"Share this code with them — it's their key to the personalized view.")
     return inv_data
 
 
-def process_withdraw_request(inv_data, name, amount, nav):
-    """Create a withdrawal request locked at current unit price."""
+def create_pending(inv_data, name, amount, nav, req_type):
+    """Create a pending deposit or withdrawal request locked at current unit price."""
     fund = inv_data["fund"]
     total_units = fund["total_units"]
     unit_price = nav / total_units if total_units > 0 else 1.0
@@ -550,32 +527,33 @@ def process_withdraw_request(inv_data, name, amount, nav):
         print(f"Error: Investor '{name}' not found.")
         return None
 
-    current_value = investor["units"] * unit_price
-    if amount > current_value:
-        print(f"Error: Requested {amount:,.2f} div but position is only worth {current_value:,.2f} div.")
-        return None
-
     if investor["pending"]:
         print(f"Error: {name} already has a pending {investor['pending']['type']} request.")
         return None
 
+    if req_type == "withdraw":
+        current_value = investor["units"] * unit_price
+        if amount > current_value:
+            print(f"Error: Requested {amount:,.2f} div but position is only worth {current_value:,.2f} div.")
+            return None
+
     investor["pending"] = {
-        "type": "withdraw",
+        "type": req_type,
         "amount": amount,
         "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "locked_price": round(unit_price, 6),
     }
 
-    print(f"\nWithdrawal request created for {investor['name']}:")
+    label = "Deposit" if req_type == "deposit" else "Withdrawal"
+    print(f"\n{label} request created for {investor['name']}:")
     print(f"  Amount: {amount:,.2f} div")
     print(f"  Locked unit price: {unit_price:,.4f}")
-    print(f"  Run --fulfill \"{name}\" to process.")
 
     return inv_data
 
 
 def process_fulfill(inv_data, name):
-    """Fulfill a pending withdrawal request."""
+    """Fulfill a pending request (deposit or withdrawal)."""
     fund = inv_data["fund"]
 
     investor = find_investor(inv_data, name)
@@ -584,35 +562,52 @@ def process_fulfill(inv_data, name):
         return None
 
     pending = investor.get("pending")
-    if not pending or pending["type"] != "withdraw":
-        print(f"Error: No pending withdrawal for {name}.")
+    if not pending:
+        print(f"Error: No pending request for {name}.")
         return None
 
     amount = pending["amount"]
     locked_price = pending["locked_price"]
-    units_burned = amount / locked_price
+    req_type = pending["type"]
 
-    # No per-withdrawal fee — performance fee is crystallized on every recalc
+    if req_type == "deposit":
+        units_issued = amount / locked_price
+        investor["units"] += units_issued
+        investor["deposited"] += amount
+        fund["total_units"] += units_issued
 
-    # Update investor
-    investor["units"] -= units_burned
-    # Proportionally reduce deposited amount
-    pct_withdrawn = units_burned / (investor["units"] + units_burned) if (investor["units"] + units_burned) > 0 else 1.0
-    investor["deposited"] = round(investor["deposited"] * (1 - pct_withdrawn), 2)
-    fund["total_units"] -= units_burned
+        investor["pending"] = None
+        investor["history"].append({
+            "type": "deposit",
+            "amount": amount,
+            "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            "unit_price": locked_price,
+        })
 
-    investor["pending"] = None
-    investor["history"].append({
-        "type": "withdraw",
-        "amount": amount,
-        "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-        "unit_price": locked_price,
-    })
+        print(f"\nFulfilling deposit for {investor['name']}:")
+        print(f"  Amount: {amount:,.2f} div")
+        print(f"  Units issued: {units_issued:,.4f}")
+        print(f"  Total units (fund): {fund['total_units']:,.4f}")
 
-    print(f"\nFulfilling withdrawal for {investor['name']}:")
-    print(f"  Amount: {amount:,.2f} div")
-    print(f"  Units burned: {units_burned:,.4f}")
-    print(f"  Remaining units (fund): {fund['total_units']:,.4f}")
+    elif req_type == "withdraw":
+        units_burned = amount / locked_price
+        investor["units"] -= units_burned
+        pct_withdrawn = units_burned / (investor["units"] + units_burned) if (investor["units"] + units_burned) > 0 else 1.0
+        investor["deposited"] = round(investor["deposited"] * (1 - pct_withdrawn), 2)
+        fund["total_units"] -= units_burned
+
+        investor["pending"] = None
+        investor["history"].append({
+            "type": "withdraw",
+            "amount": amount,
+            "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            "unit_price": locked_price,
+        })
+
+        print(f"\nFulfilling withdrawal for {investor['name']}:")
+        print(f"  Amount: {amount:,.2f} div")
+        print(f"  Units burned: {units_burned:,.4f}")
+        print(f"  Remaining units (fund): {fund['total_units']:,.4f}")
 
     return inv_data
 
@@ -755,13 +750,19 @@ def main():
         if not args.deposit and not args.withdraw and not args.fulfill and not args.add_investor:
             return
 
+    if args.add_investor:
+        result = create_investor(inv_data, args.add_investor)
+        if not result:
+            return
+        inv_data = result
+        save_investors(inv_data)
+
     if args.add_investor and args.deposit:
         # --add-investor NAME --deposit AMOUNT
         amount = float(args.deposit[0])
-        result = process_deposit(inv_data, args.add_investor, amount, nav)
+        result = create_pending(inv_data, args.add_investor, amount, nav, "deposit")
         if result:
             inv_data = result
-            inv_data = recalc_investors(inv_data, nav)
             save_investors(inv_data)
     elif args.deposit:
         # --deposit NAME AMOUNT
@@ -769,25 +770,14 @@ def main():
             print("Usage: --deposit NAME AMOUNT")
             sys.exit(1)
         name, amount = args.deposit[0], float(args.deposit[1])
-        result = process_deposit(inv_data, name, amount, nav)
+        result = create_pending(inv_data, name, amount, nav, "deposit")
         if result:
-            inv_data = result
-            inv_data = recalc_investors(inv_data, nav)
-            save_investors(inv_data)
-    elif args.add_investor:
-        # --add-investor NAME without deposit
-        result = process_deposit(inv_data, args.add_investor, 0, nav)
-        if result:
-            # Remove the 0-amount history entry
-            inv = find_investor(result, args.add_investor)
-            if inv and inv["history"] and inv["history"][-1]["amount"] == 0:
-                inv["history"].pop()
             inv_data = result
             save_investors(inv_data)
 
     if args.withdraw:
         name, amount = args.withdraw[0], float(args.withdraw[1])
-        result = process_withdraw_request(inv_data, name, amount, nav)
+        result = create_pending(inv_data, name, amount, nav, "withdraw")
         if result:
             inv_data = result
             save_investors(inv_data)
