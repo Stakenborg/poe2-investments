@@ -810,7 +810,8 @@ def process_batch(payload_str, config, prev_dashboard, inv_data):
     currency_overrides = payload.get("currencies", {})
     operations = payload.get("operations", [])
 
-    seen = load_seen_trades()
+    # Use prev dashboard recent_sales as seen set (trades.json is gitignored, not on runner)
+    seen = prev_dashboard.get("recent_sales", [])
     new_trades = []
     listings = []
 
@@ -842,6 +843,21 @@ def process_batch(payload_str, config, prev_dashboard, inv_data):
         print("Fetching current listings...")
         listings = fetch_listings(session, config["league"], config["account"])
         print(f"Found {len(listings)} active listings")
+
+        # Add trade revenue per-currency
+        if new_trades:
+            new_parsed_tmp = [parse_trade(t, rates) for t in new_trades]
+            revenue_by_currency = {}
+            for t in new_parsed_tmp:
+                cur = t.get("currency", "divine")
+                amt = t.get("sale_price", 0)
+                if cur and amt > 0:
+                    revenue_by_currency[cur] = revenue_by_currency.get(cur, 0) + amt
+            if revenue_by_currency:
+                print(f"\nAdding trade revenue from {len(new_parsed_tmp)} new sale(s):")
+                for cur, amt in revenue_by_currency.items():
+                    currencies[cur] = currencies.get(cur, 0) + amt
+                    print(f"  +{amt:,.0f} {cur}")
 
     # Step 2: Apply currency overrides (only changed fields)
     for cur, amt in currency_overrides.items():
