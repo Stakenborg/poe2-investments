@@ -810,8 +810,9 @@ def process_batch(payload_str, config, prev_dashboard, inv_data):
     currency_overrides = payload.get("currencies", {})
     operations = payload.get("operations", [])
 
-    # Use prev dashboard recent_sales as seen set (trades.json is gitignored, not on runner)
-    seen = prev_dashboard.get("recent_sales", [])
+    # Use most recent sale timestamp to determine what's new (works without trades.json)
+    prev_sales = prev_dashboard.get("recent_sales", [])
+    latest_sale_time = prev_sales[0].get("timestamp", "") if prev_sales else ""
     new_trades = []
     listings = []
 
@@ -838,7 +839,11 @@ def process_batch(payload_str, config, prev_dashboard, inv_data):
             else:
                 raise
 
-        new_trades = find_new_trades(fetched, seen) if fetched else []
+        # Find trades newer than most recent known sale
+        if fetched and latest_sale_time:
+            new_trades = [t for t in fetched if t.get("time", "") > latest_sale_time]
+        elif fetched and not latest_sale_time:
+            new_trades = fetched  # First run, all are new
 
         print("Fetching current listings...")
         listings = fetch_listings(session, config["league"], config["account"])
@@ -854,7 +859,7 @@ def process_batch(payload_str, config, prev_dashboard, inv_data):
                 if cur and amt > 0:
                     revenue_by_currency[cur] = revenue_by_currency.get(cur, 0) + amt
             if revenue_by_currency:
-                print(f"\nAdding trade revenue from {len(new_parsed_tmp)} new sale(s):")
+                print(f"Adding trade revenue from {len(new_parsed_tmp)} new sale(s):")
                 for cur, amt in revenue_by_currency.items():
                     currencies[cur] = currencies.get(cur, 0) + amt
                     print(f"  +{amt:,.0f} {cur}")
@@ -903,9 +908,8 @@ def process_batch(payload_str, config, prev_dashboard, inv_data):
     save_investors(inv_data)
 
     if should_fetch:
-        all_trades = (([parse_trade(t, rates) for t in new_trades] + seen) if new_trades else seen)
-        if new_trades:
-            save_trades(all_trades)
+        new_parsed = [parse_trade(t, rates) for t in new_trades] if new_trades else []
+        all_trades = new_parsed + prev_sales
         dashboard = build_dashboard(all_trades, listings, currencies, rates, inv_data)
     else:
         raw_divines = currencies_to_divine(currencies, rates)
