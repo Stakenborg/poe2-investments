@@ -1,301 +1,664 @@
 {
-  "updated_at": "2026-03-25T15:46:48.424936+00:00",
+  "updated_at": "2026-03-26T01:41:39.101199+00:00",
   "currencies": {
-    "divine": 14107,
-    "omen-of-light": 5,
-    "fracturing-orb": 2,
-    "perfect-exalted-orb": 47,
+    "divine": 13588,
+    "omen-of-light": 3,
+    "fracturing-orb": 0,
+    "perfect-exalted-orb": 32,
     "perfect-chaos-orb": 8,
-    "greater-chaos-orb": 476,
+    "greater-chaos-orb": 238,
     "perfect-jewellers-orb": 15,
     "architects-orb": 45,
     "crystallised-corruption": 11,
-    "vaal-infuser": 97,
+    "vaal-infuser": 89,
     "preserved-cranium": 10,
     "reaver-catalyst": 0,
-    "omen-of-corruption": 56,
+    "omen-of-corruption": 55,
     "omen-of-whittling": 11,
     "omen-of-dextral-annulment": 0,
     "omen-of-dextral-erasure": 0,
     "omen-of-sinistral-erasure": 0,
-    "omen-of-sinistral-exaltation": 25,
-    "omen-of-dextral-exaltation": 12,
-    "omen-of-sinistral-crystallisation": 1,
+    "omen-of-sinistral-exaltation": 19,
+    "omen-of-dextral-exaltation": 6,
+    "omen-of-sinistral-crystallisation": 11,
     "omen-of-dextral-crystallisation": 6,
     "uncut-skill-gem-20": 35,
     "omen-of-abyssal-favours": 5,
     "ancient-jawbone": 1,
     "mirror": 3,
-    "ancient-rib": 0,
+    "ancient-rib": 1,
     "omen-of-sanctification": 0,
-    "essence-of-abyss": 4,
-    "annul": 321,
-    "perfect-orb-of-augmentation": 2,
-    "essence-of-horror": 1
+    "essence-of-abyss": 2,
+    "annul": 293,
+    "perfect-orb-of-augmentation": 114,
+    "essence-of-horror": 0
   },
-  "raw_divines": 39373.3621442409,
-  "listed_value": 45619.15,
-  "total_nav": 78149.6396442409,
-  "raw_nav": 84992.5121442409,
+  "raw_divines": 38399.29098266885,
+  "listed_value": 44954.56,
+  "total_nav": 76610.66698266884,
+  "raw_nav": 83353.85098266884,
   "haircut": 0.85,
   "exchange_rates": {
     "divine": 1.0,
-    "vaal": 0.010688873473589799,
-    "gcp": 0.01632054613243783,
-    "whetstone": 0.003998055878080967,
-    "perfect-orb-of-augmentation": 0.02162221234883568,
-    "greater-chaos-orb": 0.07732013528520275,
-    "transmute": 0,
-    "greater-jewellers-orb": 0.05764499346192106,
-    "greater-exalted-orb": 0.009373938563658204,
-    "perfect-orb-of-transmutation": 0.007877902290953951,
-    "chaos": 0.030425387302105054,
-    "mirror": 7941.716981138159,
-    "artificers": 0.021098007172830648,
-    "alch": 0.0017355970681389547,
-    "etcher": 0.02088272934742205,
-    "annul": 0.0786723236606492,
-    "fracturing-orb": 29.438416542731996,
-    "exalted": 0.004135101057136767,
-    "chance": 0.017538938532663247,
-    "perfect-regal-orb": 0.03582794917805524,
+    "vaal": 0.01235823046144043,
+    "gcp": 0.0340626836041239,
+    "whetstone": 0.007299033041968738,
+    "perfect-orb-of-augmentation": 0.03206899254713125,
+    "greater-chaos-orb": 0.08288138836487821,
+    "wisdom": 5.8690430153375785e-05,
+    "greater-jewellers-orb": 0.020848143181658077,
+    "greater-exalted-orb": 0.012390386711653602,
+    "perfect-orb-of-transmutation": 0.012014961417101382,
+    "chaos": 0.02938977264574471,
+    "mirror": 7851.5200001466355,
+    "artificers": 0.031521979933258566,
+    "alch": 0.004568505354038839,
+    "etcher": 0.03023262806610375,
+    "regal-shard": 0,
+    "annul": 0.07231912362943067,
+    "fracturing-orb": 28.876487165405987,
+    "exalted": 0.00434257158029536,
+    "chance": 0.012892650699226979,
+    "perfect-regal-orb": 0.021007846262028642,
     "regal": 0,
-    "bauble": 0.02327834597367196,
-    "hinekoras-lock": 1625.0085470097786,
-    "perfect-chaos-orb": 1.0959208770814934,
+    "greater-regal-orb": 0.1658970618087367,
+    "bauble": 0.00851931068367989,
+    "hinekoras-lock": 1635.9538461844113,
+    "perfect-chaos-orb": 1.2030653146787815,
     "lesser-jewellers-orb": 0,
-    "aug": 0,
-    "scrap": 0.02225699263887976,
-    "perfect-jewellers-orb": 0.13896686627308216,
-    "perfect-exalted-orb": 0.2099747759936853,
-    "faded-crisis-fragment": 0.4212227677615368,
-    "ancient-crisis-fragment": 3.7100981081067914,
-    "breach-splinter": 0.0553039102281799,
-    "simulacrum-splinter": 0.015389657394044003,
-    "victorious-fate": 27.362318840581555,
-    "greater-storm-rune": 0.23874153620688351,
-    "greater-rune-of-alacrity": 12.287107416266167,
+    "aug": 0.0017965152036354501,
+    "scrap": 0.021357751363403937,
+    "perfect-jewellers-orb": 0.12149002138126998,
+    "perfect-exalted-orb": 0.2166604502115068,
+    "faded-crisis-fragment": 0.8533726528419929,
+    "ancient-crisis-fragment": 5.688288510343562,
+    "breach-splinter": 0.05634507666465858,
+    "simulacrum-splinter": 0.016398405827760167,
+    "rite-of-passage": 0,
+    "victorious-fate": 27.048246422892635,
+    "greater-storm-rune": 0.21564821946764504,
+    "greater-rune-of-alacrity": 7.000000000127249,
     "saqawals-rune-of-memory": 1.0,
-    "greater-mind-rune": 0.3276662660765313,
-    "greater-rune-of-tithing": 30.00000000004243,
-    "lesser-storm-rune": 0,
-    "hedgewitch-assandras-rune-of-wisdom": 1.5830818536591205,
-    "the-greatwolfs-rune-of-claws": 0.11748564502867732,
-    "greater-glacial-rune": 0.047257202514101086,
-    "thane-myrks-rune-of-summer": 0,
-    "greater-iron-rune": 0.04372961382845443,
-    "lesser-iron-rune": 0,
-    "greater-body-rune": 0.036205826435785515,
-    "farruls-rune-of-the-hunt": 0.1685258073524452,
-    "essence-of-abyss": 1.8731856805317182,
-    "essence-of-insanity": 0,
-    "greater-essence-of-seeking": 0.18347219893371955,
-    "greater-essence-of-abrasion": 0.25469771779688216,
-    "perfect-essence-of-sorcery": 1.891740909036468,
-    "lesser-essence-of-thawing": 0,
-    "essence-of-hysteria": 2.322600024551899,
-    "greater-essence-of-the-infinite": 0,
-    "perfect-essence-of-ice": 0,
-    "essence-of-command": 2000.8000000015359,
-    "essence-of-horror": 20.960000000027154,
-    "perfect-essence-of-the-mind": 7.891875852396722,
-    "perfect-essence-of-the-infinite": 0.18884641806523733,
-    "estazuntis-soul-core-of-convalescence": 1.5836977305545283,
-    "soul-core-of-cholotl": 1.9915502869754838,
-    "soul-core-of-quipolatl": 6.031512940993728,
-    "uromotis-soul-core-of-attenuation": 0,
-    "tzamotos-soul-core-of-ferocity": 0.5084334702211535,
-    "soul-core-of-xopec": 0.8290889517491711,
-    "soul-core-of-zalatl": 2.0185185185067334,
-    "order-artifact": 0,
-    "omen-of-the-ancients": 0.7645579710479747,
-    "omen-of-bartering": 0.04844205354141455,
-    "omen-of-putrefaction": 0.22097409766934048,
-    "omen-of-the-blessed": 1.9427545651335822,
-    "omen-of-catalysing-exaltation": 0.1554198495621623,
-    "omen-of-dextral-exaltation": 0.3742883781422576,
-    "omen-of-amelioration": 0.21040329145334924,
-    "omen-of-resurgence": 0.02013597409561121,
-    "omen-of-sanctification": 3.8277355785592277,
-    "omen-of-corruption": 0.6308437880328394,
-    "omen-of-sinistral-erasure": 53.431818181877,
-    "omen-of-recombination": 0.23716610701942867,
-    "omen-of-whittling": 56.57507987222752,
-    "omen-of-dextral-necromancy": 0,
-    "omen-of-chaotic-monsters": 0.16474729407691321,
-    "omen-of-chaotic-rarity": 0.06857079607865016,
-    "omen-of-the-liege": 0,
-    "the-arbiters-reliquary-key": 77.00000000004243,
-    "the-trialmasters-reliquary-key": 2122.250000001644,
-    "skittering-catalyst": 0.968898763709803,
-    "tuls-catalyst": 0.31326837644353306,
-    "chayulas-catalyst": 0.10002443663631916,
-    "neural-catalyst": 1.7929711885427106,
-    "amanamus-gaze": 1.7020951738890557,
-    "preserved-collarbone": 0.11776576994604192,
-    "ulamans-gaze": 0.3333333333333333,
-    "preserved-rib": 0.010696799277721504,
-    "ancient-rib": 25.829787234047068,
-    "kurgals-gaze": 1.3375263890948526,
-    "uncut-skill-gem-20": 0.5065636474135411,
-    "uncut-spirit-gem-9": 10.736940087580816,
-    "uncut-skill-gem-10": 0,
-    "uncut-spirit-gem-7": 0,
-    "uncut-support-gem-3": 1.113192419202803,
-    "uncut-spirit-gem-20": 23.505657746193062,
-    "uncut-spirit-gem-11": 0,
-    "uncut-spirit-gem-17": 0.8354118600688324,
-    "uncut-spirit-gem-10": 0.7388934582581884,
-    "uncut-spirit-gem-16": 0,
-    "uncut-skill-gem-1": 0,
-    "uncut-spirit-gem-8": 20.67159321510593,
-    "uncut-spirit-gem-14": 6.574801070900991,
-    "uncut-spirit-gem-13": 0,
-    "uncut-skill-gem-18": 0.20889091585769293,
-    "uncut-support-gem-5": 0.023824916145444266,
-    "uncut-support-gem-1": 0,
-    "ailiths-chimes": 0,
+    "greater-mind-rune": 0.09999999998727507,
+    "greater-rune-of-tithing": 32.00000000059383,
+    "hedgewitch-assandras-rune-of-wisdom": 2.087288802072312,
+    "thane-myrks-rune-of-summer": 0.5000000000212083,
+    "greater-iron-rune": 0.20331320682952517,
+    "lesser-adept-rune": 0,
+    "craiceanns-rune-of-warding": 0.43885998033962603,
+    "farruls-rune-of-the-hunt": 0.16471570371264985,
+    "essence-of-abyss": 2.0285007180463923,
+    "essence-of-insanity": 0.3333333333333333,
+    "greater-essence-of-abrasion": 0.43563153585338826,
+    "perfect-essence-of-seeking": 0,
+    "perfect-essence-of-sorcery": 1.6346991165966842,
+    "greater-essence-of-haste": 1.7832700184950592,
+    "essence-of-hysteria": 1.907071088896057,
+    "perfect-essence-of-ice": 0.35444191750738774,
+    "lesser-essence-of-flames": 0,
+    "perfect-essence-of-grounding": 0.31843722423214177,
+    "essence-of-horror": 22.200000000398713,
+    "greater-essence-of-electricity": 0,
+    "perfect-essence-of-the-mind": 0.5233927520659598,
+    "essence-of-alacrity": 25.991519477045188,
+    "perfect-essence-of-the-infinite": 0.36893844400626263,
+    "perfect-essence-of-enhancement": 5.917656532325693,
+    "estazuntis-soul-core-of-convalescence": 0.41146052968566754,
+    "soul-core-of-tzamoto": 0.40976421361681675,
+    "soul-core-of-quipolatl": 2.0000000000424163,
+    "tacatis-soul-core-of-affliction": 0.5000000000212083,
+    "atmohuas-soul-core-of-retreat": 0,
+    "tzamotos-soul-core-of-ferocity": 0.3162066375823786,
+    "soul-core-of-atmohua": 0,
+    "soul-core-of-zalatl": 2.2532727945316022,
+    "exotic-coinage": 0.19300842896243986,
+    "omen-of-the-ancients": 0,
+    "omen-of-bartering": 0.027608374232740544,
+    "omen-of-putrefaction": 0.007756495555504127,
+    "omen-of-the-blessed": 2.112899248523042,
+    "omen-of-catalysing-exaltation": 0.14866454717626623,
+    "omen-of-dextral-exaltation": 0.3484357208156477,
+    "omen-of-amelioration": 0.19983715738989677,
+    "omen-of-sanctification": 4.502071151083943,
+    "omen-of-corruption": 0.6999934699685764,
+    "omen-of-the-sovereign": 5.231574352545611,
+    "omen-of-sinistral-erasure": 63.11904762021407,
+    "omen-of-recombination": 0.14037311378011644,
+    "omen-of-whittling": 58.06097561084289,
+    "omen-of-dextral-necromancy": 0.014012475840314481,
+    "omen-of-the-blackblooded": 0.32562423680754166,
+    "omen-of-chaotic-monsters": 0.19181552745269484,
+    "omen-of-chaotic-rarity": 0.052015847280053644,
+    "omen-of-the-liege": 0.12022006555530423,
+    "xeshts-reliquary-key": 26.00000000046658,
+    "the-arbiters-reliquary-key": 93.50000000176028,
+    "ritualistic-reliquary-key": 5.000000000084833,
+    "the-trialmasters-reliquary-key": 0,
+    "skittering-catalyst": 0.8079807735911073,
+    "tuls-catalyst": 0.23673689874560877,
+    "chayulas-catalyst": 0.0992984134855493,
+    "neural-catalyst": 1.710331130707935,
+    "amanamus-gaze": 1.3651161515445356,
+    "preserved-collarbone": 0.11724391580232454,
+    "gnawed-rib": 0,
+    "preserved-rib": 0.024661004996265303,
+    "gnawed-collarbone": 0,
+    "ancient-rib": 25.421052632054458,
+    "kurgals-gaze": 0.6994067745076339,
+    "uncut-skill-gem-20": 0.7052444894680033,
+    "uncut-spirit-gem-9": 7.9082617613251225,
+    "uncut-spirit-gem-7": 1.6666666667090833,
+    "uncut-support-gem-4": 1.9919743850346687,
+    "uncut-skill-gem-3": 0,
+    "uncut-support-gem-3": 0.8518559285518724,
+    "uncut-spirit-gem-20": 23.71428571470988,
+    "uncut-spirit-gem-17": 0.4274570862844928,
+    "uncut-skill-gem-13": 0.9863187524940513,
+    "uncut-spirit-gem-16": 3.3288511518809765,
+    "uncut-support-gem-2": 0.3094192647186661,
+    "uncut-spirit-gem-14": 2.7933296075472893,
+    "uncut-spirit-gem-13": 0.2549452130748214,
+    "uncut-skill-gem-18": 0.327468093958548,
+    "uncut-support-gem-5": 0.027908019767423915,
+    "ailiths-chimes": 0.5538434700996488,
+    "ahns-citadel": 0,
     "arjuns-medal": 0,
-    "doedres-undoing": 2.5328413582293687,
-    "khatals-rejuvenation": 7.647058823526916,
+    "doedres-undoing": 5.233184433687,
+    "khatals-rejuvenation": 7.428571428698678,
+    "uruks-smelting": 0.8564221129964112,
     "tacatis-ire": 0,
-    "atziris-impatience": 1.2249867202065403,
-    "uhtreds-augury": 325.0000000002546,
-    "kaoms-madness": 0,
-    "tecrods-revenge": 3.0425817615756126,
-    "hayoxis-fulmination": 4.857142857136797,
-    "tuls-stillness": 175.00000000012727,
-    "uhtreds-omen": 127.00000000008487,
-    "diallas-desire": 2.03919145651002,
-    "eshs-radiance": 68.66666666670909,
-    "concentrated-liquid-fear": 0.08418373503042166,
-    "liquid-disgust": 0.4468265922603703,
-    "quipolatls-thesis": 3.324553717687043,
-    "orb-of-extraction": 5.866638426934169,
-    "architects-orb": 0.7611269574467937,
-    "ancient-infuser": 0.8733430843778612,
-    "vaal-infuser": 0.2719888442578988,
-    "vaal-cultivation-orb": 5.84448553531944,
-    "serpent-idol": 2.0,
-    "rabbit-idol": 3.2727272727465584,
-    "idol-of-sirrius": 11.579814196838617,
-    "fox-idol": 11.415398072418762,
-    "primary-calamity-fragment": 18.578651685422102,
-    "cowardly-fate": 26.830769230773146,
-    "tertiary-calamity-fragment": 16.699115044272567,
-    "secondary-calamity-fragment": 17.65775401070177,
-    "runic-splinter": 0.31955195960708993,
-    "weathered-crisis-fragment": 2.064943431269874,
-    "deadly-fate": 27.028169014092875,
-    "thane-grannells-rune-of-mastery": 3.7742127419839484,
-    "farruls-rune-of-the-chase": 0.12845031759194822,
-    "courtesan-mannans-rune-of-cruelty": 0.2234930587377186,
-    "saqawals-rune-of-the-sky": 0.24785823440712798,
-    "greater-vision-rune": 0.13465980486665022,
-    "thane-lelds-rune-of-spring": 0.2880567613679337,
-    "fenumus-rune-of-spinning": 0.26456292231946277,
-    "craiceanns-rune-of-recovery": 0,
-    "iron-rune": 8.876184666522178,
-    "greater-desert-rune": 0.13656897370081753,
-    "perfect-essence-of-ruin": 0,
+    "atziris-impatience": 1.2576697560293597,
+    "uhtreds-augury": 326.25000000609737,
+    "amanamus-tithe": 0,
+    "hayoxis-fulmination": 5.000000000084833,
+    "tuls-stillness": 152.0000000028419,
+    "uhtreds-omen": 121.50000000226927,
+    "diallas-desire": 1.8110182855839065,
+    "eshs-radiance": 62.333333334478574,
+    "zarokhs-refrain": 0,
+    "zarokhs-revolt": 1.4043322008371848,
+    "concentrated-liquid-fear": 0.5398956506809086,
+    "quipolatls-thesis": 1.157355377304738,
+    "architects-orb": 0.6477607787926605,
+    "ancient-infuser": 1.1974091364737145,
+    "jiquanis-thesis": 0.7142857142857143,
+    "vaal-infuser": 0.30829759213794794,
+    "vaal-cultivation-orb": 5.72896026242772,
+    "rabbit-idol": 3.099676815354513,
+    "idol-of-sirrius": 11.170541052153466,
+    "ox-idol": 0,
+    "idol-of-thruldana": 1.490516637398226,
+    "fox-idol": 7.529411764848102,
+    "primary-calamity-fragment": 19.6575793915196,
+    "cowardly-fate": 26.387855291944717,
+    "tertiary-calamity-fragment": 22.221989248851884,
+    "secondary-calamity-fragment": 34.75480041874475,
+    "runic-splinter": 0.364513094433454,
+    "weathered-crisis-fragment": 2.857274487032297,
+    "deadly-fate": 27.419354839222777,
+    "countess-seskes-rune-of-archery": 0.4583660946534853,
+    "greater-inspiration-rune": 0.17237267235113787,
+    "farruls-rune-of-the-chase": 0.027274763695355152,
+    "saqawals-rune-of-the-sky": 0.37102428112694963,
+    "greater-vision-rune": 0.16995593553694804,
+    "greater-resolve-rune": 2.9685214680448495,
+    "greater-rune-of-leadership": 0,
+    "fenumus-rune-of-spinning": 0.48051175746512875,
+    "storm-rune": 0.33266819335412917,
+    "fenumus-rune-of-agony": 0,
+    "iron-rune": 3.0000000000424163,
+    "thane-girts-rune-of-wildness": 1.0,
+    "essence-of-sorcery": 3.96635228699152,
     "perfect-essence-of-opulence": 0,
-    "greater-essence-of-grounding": 1.175207752440727,
-    "greater-essence-of-insulation": 0,
+    "perfect-essence-of-electricity": 0,
+    "perfect-essence-of-command": 0,
+    "perfect-essence-of-thawing": 0,
     "essence-of-delirium": 0,
-    "perfect-essence-of-abrasion": 27.896539784252717,
-    "perfect-essence-of-battle": 0.4199889415799173,
-    "perfect-essence-of-haste": 2.2611125939192522,
+    "perfect-essence-of-alacrity": 2.210444073567673,
+    "perfect-essence-of-abrasion": 0,
+    "perfect-essence-of-battle": 1.5218622686049672,
+    "greater-essence-of-opulence": 0.05209942654496346,
+    "perfect-essence-of-haste": 0.47600585721746336,
     "greater-essence-of-flames": 0,
-    "xipocados-soul-core-of-dominion": 0,
+    "greater-essence-of-alacrity": 2.9747642151805502,
+    "essence-of-electricity": 1.0,
     "soul-core-of-opiloti": 0,
-    "topotantes-soul-core-of-dampening": 0.6531869904507851,
-    "cholotls-soul-core-of-war": 0,
-    "xopecs-soul-core-of-power": 7.941038835923525,
-    "soul-core-of-azcapa": 2.393475999178823,
-    "soul-core-of-citaqualotl": 0.6526140196357731,
-    "soul-core-of-ticaba": 0,
-    "soul-core-of-tacati": 0.19925424645786552,
-    "soul-core-of-jiquani": 3.6035461744541952,
-    "soul-core-of-zantipi": 3.9580174902478413,
-    "broken-circle-artifact": 0.00828228331218007,
-    "black-scythe-artifact": 0.019103377482089897,
-    "omen-of-abyssal-favours": 2.8052250535559473,
-    "omen-of-light": 73.17084639505103,
-    "omen-of-chance": 10.000000000000002,
-    "omen-of-dextral-erasure": 48.980343912042336,
-    "omen-of-sinistral-exaltation": 0.2409646021847211,
+    "soul-core-of-azcapa": 1.3214285714391756,
+    "soul-core-of-citaqualotl": 0.5539262186255304,
+    "soul-core-of-ticaba": 0.2068976990701266,
+    "quipolatls-soul-core-of-flow": 0.9898898836764853,
+    "soul-core-of-tacati": 0.1925078592181812,
+    "soul-core-of-jiquani": 2.068327273851331,
+    "guatelitzis-soul-core-of-endurance": 2.0000000000424163,
+    "broken-circle-artifact": 0,
+    "black-scythe-artifact": 0.016467905144363717,
+    "sun-artifact": 0,
+    "omen-of-abyssal-favours": 2.9751315636270563,
+    "omen-of-light": 72.218430035486,
+    "omen-of-refreshment": 0.03293465780483759,
+    "omen-of-secret-compartments": 0,
+    "omen-of-chance": 10.600000000178149,
+    "omen-of-dextral-erasure": 54.166666667663456,
+    "omen-of-sinistral-exaltation": 0.3181125156634184,
     "omen-of-gambling": 0,
-    "petition-splinter": 0.012705839663330876,
+    "petition-splinter": 0.011366701779297394,
     "omen-of-the-hunt": 0,
-    "omen-of-dextral-annulment": 54.22992700733659,
-    "omen-of-chaotic-quantity": 0.12531220809399765,
-    "omen-of-dextral-crystallisation": 3.7747851824325767,
-    "omen-of-sinistral-necromancy": 0.04471315575818189,
-    "omen-of-sinistral-annulment": 58.01382488483291,
-    "omen-of-answered-prayers": 1.0,
-    "omen-of-greater-exaltation": 0.06831336454434936,
-    "omen-of-sinistral-crystallisation": 0.720405078052101,
-    "twilight-reliquary-key": 0,
-    "against-the-darkness": 0,
-    "olroths-reliquary-key": 0,
-    "tangmazus-reliquary-key": 226.0000000001697,
-    "adaptive-catalyst": 0.14211280572450785,
-    "reaver-catalyst": 0.44953766776539217,
-    "uul-netols-catalyst": 0.11612217551524995,
-    "eshs-catalyst": 0.7354540334658777,
-    "sibilant-catalyst": 0.9423837649656691,
-    "carapace-catalyst": 0.26369036159441944,
-    "xophs-catalyst": 0.2517115594652766,
-    "flesh-catalyst": 0.2327424251149611,
-    "ancient-jawbone": 68.76712328771774,
-    "ancient-collarbone": 100.11764705888095,
-    "preserved-jawbone": 0.028804211278300237,
-    "preserved-cranium": 2.301833486467831,
-    "abyss-key": 0.8045840172035819,
-    "tecrods-gaze": 94.81250000008221,
-    "uncut-spirit-gem-18": 0.9113761305436765,
-    "uncut-skill-gem-15": 1.3303230558737038,
-    "uncut-skill-gem-19": 0,
-    "uncut-spirit-gem-5": 5.455424798304127,
-    "uncut-spirit-gem-15": 3.187510078020026,
-    "uncut-skill-gem-14": 0.3480033568096607,
-    "uncut-spirit-gem-19": 1.6362012312778746,
-    "uncut-spirit-gem-4": 18.478792938859975,
-    "rigwalds-ferocity": 202.10000000016547,
-    "guatelitzis-ablation": 0,
-    "arbiters-ignition": 18.996195991249284,
-    "rakiatas-flow": 184.3571428572853,
-    "morganas-tempest": 0,
-    "garukhans-resolve": 554.0000000004243,
+    "omen-of-dextral-annulment": 73.65789473820278,
+    "omen-of-chaotic-quantity": 0.23655932259211981,
+    "omen-of-dextral-crystallisation": 4.397439162866313,
+    "omen-of-sinistral-necromancy": 0.02207604109776435,
+    "omen-of-sinistral-annulment": 69.0000000012725,
+    "omen-of-answered-prayers": 1.2843052368285912,
+    "omen-of-greater-exaltation": 0.054895722884247385,
+    "omen-of-sinistral-crystallisation": 0.8819701965216965,
+    "tangmazus-reliquary-key": 300.000000005599,
+    "adaptive-catalyst": 0.0898933479718671,
+    "reaver-catalyst": 0.5174073892507806,
+    "uul-netols-catalyst": 0.061818232809228914,
+    "eshs-catalyst": 0.2759457405830426,
+    "sibilant-catalyst": 0.8457849960188054,
+    "carapace-catalyst": 0.10991006098360839,
+    "xophs-catalyst": 0.36556030192596534,
+    "flesh-catalyst": 0.309526897523209,
+    "ancient-jawbone": 70.05481444873003,
+    "gnawed-jawbone": 0.2329914176532379,
+    "ancient-collarbone": 100.33333333519965,
+    "preserved-jawbone": 0.05831729968019254,
+    "preserved-cranium": 3.0803839191888422,
+    "abyss-key": 0.37485254577296473,
+    "tecrods-gaze": 103.50000000192995,
+    "uncut-skill-gem-6": 0.3718455268817964,
+    "uncut-skill-gem-12": 0,
+    "uncut-skill-gem-7": 9.094360677981335,
+    "uncut-spirit-gem-18": 0.8964251199065909,
+    "uncut-skill-gem-5": 3.852915710695664,
+    "uncut-spirit-gem-12": 0.5846172989599776,
+    "uncut-skill-gem-17": 1.4948061576622953,
+    "uncut-skill-gem-19": 0.12112001150651909,
+    "uncut-spirit-gem-5": 6.059704883085307,
+    "uncut-spirit-gem-15": 2.6050017235474416,
+    "uncut-skill-gem-14": 1.4050978084187076,
+    "uncut-spirit-gem-19": 1.2295593400714933,
+    "uncut-spirit-gem-6": 0,
+    "uncut-spirit-gem-4": 5.95833779591538,
+    "rigwalds-ferocity": 183.5714285748643,
+    "arbiters-ignition": 10.833320408260615,
+    "rakiatas-flow": 171.71428571750937,
+    "garukhans-resolve": 699.0000000130643,
     "vilentas-propulsion": 0,
-    "ataluis-bloodletting": 59.074074074111785,
-    "siones-temper": 0,
-    "oisins-oath": 0.4751504894270106,
-    "kulemaks-dominion": 0,
-    "uhtreds-exodus": 131.50000000010607,
+    "daressos-passion": 0,
+    "ataluis-bloodletting": 55.88235294221942,
+    "siones-temper": 7.201639514475044,
+    "oisins-oath": 0,
+    "uhtreds-exodus": 113.50000000209961,
     "arakaalis-lust": 0,
-    "ixchels-torment": 1.0,
-    "uul-netols-embrace": 129.62500000007955,
-    "dominus-grasp": 241.38130719749083,
+    "ixchels-torment": 4.000000000084833,
+    "uul-netols-embrace": 166.1666666697843,
+    "dominus-grasp": 0,
+    "romiras-requital": 0.23898630506588786,
     "varashtas-blessing": 0,
-    "bhatairs-vengeance": 0.1917682355954435,
-    "xophs-pyre": 14.833333333354547,
-    "brutus-brain": 0.9889589522957003,
-    "liquid-envy": 0.1791954107914136,
-    "concentrated-liquid-suffering": 1.641477092256944,
-    "concentrated-liquid-isolation": 4.7162703027923385,
-    "liquid-despair": 0.08928460305446963,
-    "vaal-siphoner": 0,
-    "crystallised-corruption": 2.681136299862408,
-    "core-destabiliser": 0.04871999591076024,
-    "guatelitzis-thesis": 2.0,
-    "cat-idol": 0,
-    "idol-of-ralakesh": 5.464259946118317,
-    "primate-idol": 4.254892364176627,
-    "idol-of-egrin": 2.0,
-    "idol-of-eeshta": 7.722809958468629
+    "bhatairs-vengeance": 0,
+    "xophs-pyre": 13.285714285968785,
+    "brutus-brain": 0.9132684036591996,
+    "concentrated-liquid-suffering": 1.430014493120454,
+    "concentrated-liquid-isolation": 5.802854340082434,
+    "crystallised-corruption": 2.6590428036114666,
+    "citaqualotls-thesis": 0.3333333333333333,
+    "core-destabiliser": 0.07995971057607534,
+    "guatelitzis-thesis": 2.0000000000424163,
+    "idol-of-ralakesh": 4.9856576561231085,
+    "stag-idol": 0,
+    "idol-of-egrin": 0.4916582419964967,
+    "idol-of-eeshta": 8.88356125977151,
+    "bear-idol": 0.24999999998939587
   },
   "listings": [
+    {
+      "item_id": "75b55da2e7acb7ee19ca833fc5c20392fcd8e33e14d6d2ad8a552e330ade68de",
+      "item_name": "Demon March",
+      "base_type": "Tasalian Greaves",
+      "rarity": "Rare",
+      "listed_price": 5,
+      "currency": "divine",
+      "div_equivalent": 5,
+      "indexed": "2026-03-26T01:32:26Z",
+      "stash": "Cheap",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9CYXNldHlwZXMvQm9vdHNTdHIwNiIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4c3e83f5cc/BootsStr06.png",
+      "ilvl": 82,
+      "corrupted": true,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "100% increased [Armour|Armour]",
+        "+129 to maximum Life",
+        "+8% to [Resistances|Fire Resistance]",
+        "6.4 Life Regeneration per second"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "35% increased Movement Speed"
+      ],
+      "fractured_mods": [
+        "+38% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]"
+      ],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Tasalian Greaves",
+      "properties": [
+        {
+          "name": "Boots",
+          "values": [],
+          "displayMode": 0
+        },
+        {
+          "name": "[Quality]",
+          "values": [
+            [
+              "+25%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        },
+        {
+          "name": "[Armour]",
+          "values": [
+            [
+              "699",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 16
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune",
+          "item": "rune"
+        },
+        {
+          "group": 1,
+          "type": "rune",
+          "item": "rune"
+        }
+      ],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": true,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Fate of the Vaal",
+          "id": "c2a39266dba1cbb72a9752681085322dab6d3999328ec0fa873573dc515641ba",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+10 to maximum Life",
+            "+10 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "socket": 0
+        },
+        {
+          "realm": "poe2",
+          "verified": true,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Fate of the Vaal",
+          "id": "1e5c1d44b682a0fb87ccc6b3742c3a40f1f0ff714d7f40786a4df959c330d5ea",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+10 to maximum Life",
+            "+10 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "socket": 1
+        }
+      ],
+      "rune_mods": [
+        "36% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]",
+        "[ShamanOnlyMods|Bonded]: +20 to maximum Life",
+        "[ShamanOnlyMods|Bonded]: +20 to maximum Mana"
+      ],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "Impregnable",
+            "tier": "P1",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1062208444",
+                "min": "92",
+                "max": "100"
+              }
+            ]
+          },
+          {
+            "name": "of the Hydra",
+            "tier": "S4",
+            "level": 26,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3325883026",
+                "min": "6.1",
+                "max": "9"
+              }
+            ]
+          },
+          {
+            "name": "of the Whelpling",
+            "tier": "S8",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3372524247",
+                "min": "6",
+                "max": "10"
+              }
+            ]
+          },
+          {
+            "name": "Athlete's",
+            "tier": "P1",
+            "level": 60,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3299347043",
+                "min": "120",
+                "max": "149"
+              }
+            ]
+          }
+        ],
+        "fractured": [
+          {
+            "name": "of Furring",
+            "tier": "S1",
+            "level": 66,
+            "magnitudes": [
+              {
+                "hash": "fractured.stat_3362812763",
+                "min": "38",
+                "max": "43"
+              }
+            ]
+          }
+        ],
+        "desecrated": [
+          {
+            "name": "Hellion's",
+            "tier": "P1",
+            "level": 82,
+            "magnitudes": [
+              {
+                "hash": "desecrated.stat_2250533757",
+                "min": "35",
+                "max": "35"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1062208444",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3299347043",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3372524247",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3325883026",
+            [
+              1
+            ]
+          ]
+        ],
+        "fractured": [
+          [
+            "fractured.stat_3362812763",
+            [
+              0
+            ]
+          ]
+        ],
+        "rune": [
+          [
+            "rune.stat_3523867985",
+            null
+          ],
+          [
+            "rune.stat_2280525771",
+            null
+          ],
+          [
+            "rune.stat_2926029365",
+            null
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_2250533757",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
     {
       "item_id": "0dfe78ac105cc0b385f725fc3d41c4efa4601c520a33cf4c2b310e06226ad74e",
       "item_name": "Sorrow Spark",
@@ -982,352 +1345,6 @@
         "desecrated": [
           [
             "desecrated.stat_2250533757",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "item_id": "26a2be3f1f5ebce4fdc63f2800ee244ce5cd41f387e7f417f21e07a8f9489046",
-      "item_name": "Rune Spur",
-      "base_type": "Tasalian Greaves",
-      "rarity": "Rare",
-      "listed_price": 399,
-      "currency": "divine",
-      "div_equivalent": 399,
-      "indexed": "2026-03-24T23:10:07Z",
-      "stash": "Pricy",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9CYXNldHlwZXMvQm9vdHNTdHIwNiIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4c3e83f5cc/BootsStr06.png",
-      "ilvl": 82,
-      "corrupted": true,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "+160 to [Armour|Armour]",
-        "+41% to [Resistances|Fire Resistance]",
-        "+31% to [Resistances|Cold Resistance]",
-        "60% increased effect of Socketed Items"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "99% increased [Armour|Armour]"
-      ],
-      "fractured_mods": [
-        "35% increased Movement Speed"
-      ],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Tasalian Greaves",
-      "properties": [
-        {
-          "name": "Boots",
-          "values": [],
-          "displayMode": 0
-        },
-        {
-          "name": "[Quality]",
-          "values": [
-            [
-              "+25%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        },
-        {
-          "name": "[Armour]",
-          "values": [
-            [
-              "1265",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 16
-        }
-      ],
-      "sockets": [
-        {
-          "group": 0,
-          "type": "rune",
-          "item": "rune"
-        },
-        {
-          "group": 1,
-          "type": "rune",
-          "item": "rune"
-        }
-      ],
-      "socketed_items": [
-        {
-          "realm": "poe2",
-          "verified": true,
-          "w": 1,
-          "h": 1,
-          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
-          "stackSize": 1,
-          "maxStackSize": 10,
-          "league": "Fate of the Vaal",
-          "id": "21185241996a7a7d0713071a573e85df5e95c14ebc336d4e32c25d21add95f24",
-          "name": "",
-          "typeLine": "Greater Iron Rune",
-          "baseType": "Greater Iron Rune",
-          "ilvl": 0,
-          "identified": true,
-          "properties": [
-            {
-              "name": "Stack Size",
-              "values": [
-                [
-                  "1/10",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 32
-            },
-            {
-              "name": "[Rune|Rune]",
-              "values": [],
-              "displayMode": 0
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Level",
-              "values": [
-                [
-                  "30",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 62
-            }
-          ],
-          "explicitMods": [
-            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
-            "Wand or Staff: 30% increased [Spell] Damage",
-            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
-          ],
-          "bondedMods": [
-            "[ShamanOnlyMods|Bonded]:",
-            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
-            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
-            "Armour:",
-            "+10 to maximum Life",
-            "+10 to maximum Mana"
-          ],
-          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
-          "frameType": 5,
-          "socket": 0
-        },
-        {
-          "realm": "poe2",
-          "verified": true,
-          "w": 1,
-          "h": 1,
-          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
-          "stackSize": 1,
-          "maxStackSize": 10,
-          "league": "Fate of the Vaal",
-          "id": "49a0a495ba77259e697b4c0178a8f503e931cea92580d4e6f5854ca3714570df",
-          "name": "",
-          "typeLine": "Greater Iron Rune",
-          "baseType": "Greater Iron Rune",
-          "ilvl": 0,
-          "identified": true,
-          "properties": [
-            {
-              "name": "Stack Size",
-              "values": [
-                [
-                  "1/10",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 32
-            },
-            {
-              "name": "[Rune|Rune]",
-              "values": [],
-              "displayMode": 0
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Level",
-              "values": [
-                [
-                  "30",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 62
-            }
-          ],
-          "explicitMods": [
-            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
-            "Wand or Staff: 30% increased [Spell] Damage",
-            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
-          ],
-          "bondedMods": [
-            "[ShamanOnlyMods|Bonded]:",
-            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
-            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
-            "Armour:",
-            "+10 to maximum Life",
-            "+10 to maximum Mana"
-          ],
-          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
-          "frameType": 5,
-          "socket": 1
-        }
-      ],
-      "rune_mods": [
-        "56% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]",
-        "[ShamanOnlyMods|Bonded]: +32 to maximum Life",
-        "[ShamanOnlyMods|Bonded]: +32 to maximum Mana"
-      ],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "of Tzteosh",
-            "tier": "S1",
-            "level": 82,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3372524247",
-                "min": "41",
-                "max": "45"
-              }
-            ]
-          },
-          {
-            "name": "Encased",
-            "tier": "P1",
-            "level": 54,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3484657501",
-                "min": "123",
-                "max": "160"
-              }
-            ]
-          },
-          {
-            "name": "of the Polar Bear",
-            "tier": "S3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_4220027924",
-                "min": "31",
-                "max": "35"
-              }
-            ]
-          },
-          {
-            "name": "of the Essence",
-            "tier": "S0",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_2081918629",
-                "min": "60",
-                "max": "60"
-              }
-            ]
-          }
-        ],
-        "fractured": [
-          {
-            "name": "Hellion's",
-            "tier": "P1",
-            "level": 82,
-            "magnitudes": [
-              {
-                "hash": "fractured.stat_2250533757",
-                "min": "35",
-                "max": "35"
-              }
-            ]
-          }
-        ],
-        "desecrated": [
-          {
-            "name": "Impregnable",
-            "tier": "P1",
-            "level": 65,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_1062208444",
-                "min": "92",
-                "max": "100"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_3484657501",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_3372524247",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_4220027924",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_2081918629",
-            [
-              3
-            ]
-          ]
-        ],
-        "fractured": [
-          [
-            "fractured.stat_2250533757",
-            [
-              0
-            ]
-          ]
-        ],
-        "rune": [
-          [
-            "rune.stat_3523867985",
-            null
-          ],
-          [
-            "rune.stat_2280525771",
-            null
-          ],
-          [
-            "rune.stat_2926029365",
-            null
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_1062208444",
             [
               0
             ]
@@ -5365,7 +5382,7 @@
       "rarity": "Rare",
       "listed_price": 3,
       "currency": "mirror",
-      "div_equivalent": 23825.15,
+      "div_equivalent": 23554.56,
       "indexed": "2026-03-23T21:38:38Z",
       "stash": "Pricy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9CYXNldHlwZXMvV2FuZDEzIiwidyI6MSwiaCI6Mywic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/eafbb19c97/Wand13.png",
@@ -5850,6 +5867,215 @@
     }
   ],
   "recent_sales": [
+    {
+      "timestamp": "2026-03-25T19:34:10+00:00",
+      "item_name": "Rune Spur",
+      "base_type": "Tasalian Greaves",
+      "rarity": "Rare",
+      "sale_price": 399,
+      "currency": "divine",
+      "div_equivalent": 399,
+      "item_id": "26a2be3f1f5ebce4fdc63f2800ee244ce5cd41f387e7f417f21e07a8f9489046",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9CYXNldHlwZXMvQm9vdHNTdHIwNiIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4c3e83f5cc/BootsStr06.png",
+      "ilvl": 82,
+      "corrupted": true,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "+160 to [Armour|Armour]",
+        "+41% to [Resistances|Fire Resistance]",
+        "+31% to [Resistances|Cold Resistance]",
+        "60% increased effect of Socketed Items"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "99% increased [Armour|Armour]"
+      ],
+      "fractured_mods": [
+        "35% increased Movement Speed"
+      ],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Tasalian Greaves",
+      "properties": [
+        {
+          "name": "Boots",
+          "values": [],
+          "displayMode": 0
+        },
+        {
+          "name": "[Quality]",
+          "values": [
+            [
+              "+25%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        },
+        {
+          "name": "[Armour]",
+          "values": [
+            [
+              "1265",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 16
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune",
+          "item": "rune"
+        },
+        {
+          "group": 1,
+          "type": "rune",
+          "item": "rune"
+        }
+      ],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Fate of the Vaal",
+          "id": "21185241996a7a7d0713071a573e85df5e95c14ebc336d4e32c25d21add95f24",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+10 to maximum Life",
+            "+10 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "socket": 0
+        },
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Fate of the Vaal",
+          "id": "49a0a495ba77259e697b4c0178a8f503e931cea92580d4e6f5854ca3714570df",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+10 to maximum Life",
+            "+10 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "socket": 1
+        }
+      ],
+      "rune_mods": [
+        "56% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]",
+        "[ShamanOnlyMods|Bonded]: +32 to maximum Life",
+        "[ShamanOnlyMods|Bonded]: +32 to maximum Mana"
+      ],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-03-25T12:04:46+00:00",
       "item_name": "Apocalypse Urge",
@@ -16549,326 +16775,49 @@
       "granted_skills": [],
       "extended_mods": {},
       "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-02-19T22:14:43+00:00",
-      "item_name": "Phoenix March",
-      "base_type": "Vaal Greaves",
-      "rarity": "Rare",
-      "sale_price": 1999,
-      "currency": "divine",
-      "div_equivalent": 1999,
-      "item_id": "d0d23592debc01c05d60680e8fb2c51e7a628bd3240451b1a3af7f31d4838305",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9CYXNldHlwZXMvQm9vdHNTdHIwNSIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3bc62e552f/BootsStr05.png",
-      "ilvl": 82,
-      "corrupted": true,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "35% increased Movement Speed",
-        "100% increased [Armour|Armour]",
-        "+45% to [Resistances|Cold Resistance]",
-        "60% increased effect of Socketed Items"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "+136 to maximum Life"
-      ],
-      "fractured_mods": [
-        "+42% to [Resistances|Lightning Resistance]"
-      ],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Vaal Greaves",
-      "properties": [
-        {
-          "name": "Boots",
-          "values": [],
-          "displayMode": 0
-        },
-        {
-          "name": "[Quality]",
-          "values": [
-            [
-              "+25%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        },
-        {
-          "name": "[Armour]",
-          "values": [
-            [
-              "777",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 16
-        }
-      ],
-      "sockets": [
-        {
-          "group": 0,
-          "type": "rune",
-          "item": "rune"
-        },
-        {
-          "group": 1,
-          "type": "rune",
-          "item": "rune"
-        },
-        {
-          "group": 2,
-          "type": "rune",
-          "item": "rune"
-        }
-      ],
-      "socketed_items": [
-        {
-          "realm": "poe2",
-          "verified": false,
-          "w": 1,
-          "h": 1,
-          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
-          "stackSize": 1,
-          "maxStackSize": 10,
-          "league": "Fate of the Vaal",
-          "id": "28f6684b6252712137b7269007cd6ed1876702ddab4a1b508358a15a2f56e02c",
-          "name": "",
-          "typeLine": "Greater Iron Rune",
-          "baseType": "Greater Iron Rune",
-          "ilvl": 0,
-          "identified": true,
-          "properties": [
-            {
-              "name": "Stack Size",
-              "values": [
-                [
-                  "1/10",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 32
-            },
-            {
-              "name": "[Rune|Rune]",
-              "values": [],
-              "displayMode": 0
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Level",
-              "values": [
-                [
-                  "30",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 62
-            }
-          ],
-          "explicitMods": [
-            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
-            "Wand or Staff: 30% increased [Spell] Damage",
-            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
-          ],
-          "bondedMods": [
-            "[ShamanOnlyMods|Bonded]:",
-            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
-            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
-            "Armour:",
-            "+10 to maximum Life",
-            "+10 to maximum Mana"
-          ],
-          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
-          "frameType": 5,
-          "socket": 0
-        },
-        {
-          "realm": "poe2",
-          "verified": false,
-          "w": 1,
-          "h": 1,
-          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
-          "stackSize": 1,
-          "maxStackSize": 10,
-          "league": "Fate of the Vaal",
-          "id": "8a6aff1c151e6fa0fb3ed3c38c28bae5d3b8356bca226ab9066d767b0e167585",
-          "name": "",
-          "typeLine": "Greater Iron Rune",
-          "baseType": "Greater Iron Rune",
-          "ilvl": 0,
-          "identified": true,
-          "properties": [
-            {
-              "name": "Stack Size",
-              "values": [
-                [
-                  "1/10",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 32
-            },
-            {
-              "name": "[Rune|Rune]",
-              "values": [],
-              "displayMode": 0
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Level",
-              "values": [
-                [
-                  "30",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 62
-            }
-          ],
-          "explicitMods": [
-            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
-            "Wand or Staff: 30% increased [Spell] Damage",
-            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
-          ],
-          "bondedMods": [
-            "[ShamanOnlyMods|Bonded]:",
-            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
-            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
-            "Armour:",
-            "+10 to maximum Life",
-            "+10 to maximum Mana"
-          ],
-          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
-          "frameType": 5,
-          "socket": 1
-        },
-        {
-          "realm": "poe2",
-          "verified": false,
-          "w": 1,
-          "h": 1,
-          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
-          "stackSize": 1,
-          "maxStackSize": 10,
-          "league": "Fate of the Vaal",
-          "id": "0a6a4de7c897298b4cb59f34c984db0ed96781952a5676add2b2827b9d3e7d60",
-          "name": "",
-          "typeLine": "Greater Iron Rune",
-          "baseType": "Greater Iron Rune",
-          "ilvl": 0,
-          "identified": true,
-          "properties": [
-            {
-              "name": "Stack Size",
-              "values": [
-                [
-                  "1/10",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 32
-            },
-            {
-              "name": "[Rune|Rune]",
-              "values": [],
-              "displayMode": 0
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Level",
-              "values": [
-                [
-                  "30",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 62
-            }
-          ],
-          "explicitMods": [
-            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
-            "Wand or Staff: 30% increased [Spell] Damage",
-            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
-          ],
-          "bondedMods": [
-            "[ShamanOnlyMods|Bonded]:",
-            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
-            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
-            "Armour:",
-            "+10 to maximum Life",
-            "+10 to maximum Mana"
-          ],
-          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
-          "frameType": 5,
-          "socket": 2
-        }
-      ],
-      "rune_mods": [
-        "84% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]",
-        "[ShamanOnlyMods|Bonded]: +48 to maximum Life",
-        "[ShamanOnlyMods|Bonded]: +48 to maximum Mana"
-      ],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
     }
   ],
   "fund": {
     "total_units": 1287.736306725537,
-    "unit_price": 60.687611,
+    "unit_price": 59.492511,
     "hwm": 74.308101,
     "haircut": 0.85,
     "perf_fee_pct": 0.25,
     "total_deposited": 2040.63,
-    "total_profit": 76109.01,
+    "total_profit": 74570.04,
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd",
     "currencies": {
-      "divine": 14107,
-      "omen-of-light": 5,
-      "fracturing-orb": 2,
-      "perfect-exalted-orb": 47,
+      "divine": 13588,
+      "omen-of-light": 3,
+      "fracturing-orb": 0,
+      "perfect-exalted-orb": 32,
       "perfect-chaos-orb": 8,
-      "greater-chaos-orb": 476,
+      "greater-chaos-orb": 238,
       "perfect-jewellers-orb": 15,
       "architects-orb": 45,
       "crystallised-corruption": 11,
-      "vaal-infuser": 97,
+      "vaal-infuser": 89,
       "preserved-cranium": 10,
       "reaver-catalyst": 0,
-      "omen-of-corruption": 56,
+      "omen-of-corruption": 55,
       "omen-of-whittling": 11,
       "omen-of-dextral-annulment": 0,
       "omen-of-dextral-erasure": 0,
       "omen-of-sinistral-erasure": 0,
-      "omen-of-sinistral-exaltation": 25,
-      "omen-of-dextral-exaltation": 12,
-      "omen-of-sinistral-crystallisation": 1,
+      "omen-of-sinistral-exaltation": 19,
+      "omen-of-dextral-exaltation": 6,
+      "omen-of-sinistral-crystallisation": 11,
       "omen-of-dextral-crystallisation": 6,
       "uncut-skill-gem-20": 35,
       "omen-of-abyssal-favours": 5,
       "ancient-jawbone": 1,
       "mirror": 3,
-      "ancient-rib": 0,
+      "ancient-rib": 1,
       "omen-of-sanctification": 0,
-      "essence-of-abyss": 4,
-      "annul": 321,
-      "perfect-orb-of-augmentation": 2,
-      "essence-of-horror": 1
+      "essence-of-abyss": 2,
+      "annul": 293,
+      "perfect-orb-of-augmentation": 114,
+      "essence-of-horror": 0
     }
   },
   "investors": [
@@ -16877,9 +16826,9 @@
       "hash": "2ab61af1d45185eab09e328c5aacef3c2c7ff88e732e8e986e5abf98c87978ee",
       "units": 346.12757501284887,
       "deposited": 0,
-      "value": 21005.66,
+      "value": 20592.0,
       "share": 0.268788,
-      "profit": 21005.66,
+      "profit": 20592.0,
       "pct_change": null,
       "pending": null,
       "history": []
@@ -16889,10 +16838,10 @@
       "hash": "80b671a2485579906fbf77a73c26b38178eb125509ee1a7b51fb1bda166354f2",
       "units": 286.8989501902178,
       "deposited": 710.11,
-      "value": 17411.21,
+      "value": 17068.34,
       "share": 0.222793,
-      "profit": 16701.1,
-      "pct_change": 2351.9,
+      "profit": 16358.23,
+      "pct_change": 2303.6,
       "pending": null,
       "history": [
         {
@@ -16950,10 +16899,10 @@
       "hash": "51245d534a58ede45deb777821332cf7f53c1af3d5b1e6f045d89b1cd64fb16a",
       "units": 357.19347898501957,
       "deposited": 1033.0,
-      "value": 21677.22,
+      "value": 21250.34,
       "share": 0.277381,
-      "profit": 20644.22,
-      "pct_change": 1998.5,
+      "profit": 20217.34,
+      "pct_change": 1957.1,
       "pending": null,
       "history": [
         {
@@ -16981,10 +16930,10 @@
       "hash": "6e1f84dec565236f08699612c33f84160ba8a01ac21ea47e85ca46ef7d8cfd7f",
       "units": 297.51630253745105,
       "deposited": 297.52,
-      "value": 18055.55,
+      "value": 17699.99,
       "share": 0.231038,
-      "profit": 17758.03,
-      "pct_change": 5968.7,
+      "profit": 17402.47,
+      "pct_change": 5849.2,
       "pending": null,
       "history": [
         {
@@ -17013,6 +16962,10 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lWYWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/72bc84396c/CurrencyVaal.png",
       "name": "Vaal Orb"
     },
+    "whetstone": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/18715ea7be/CurrencyWeaponQuality.png",
+      "name": "Blacksmith's Whetstone"
+    },
     "chaos": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
       "name": "Chaos Orb"
@@ -17029,6 +16982,10 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
       "name": "Exalted Orb"
     },
+    "bauble": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lGbGFza1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1cec279e01/CurrencyFlaskQuality.png",
+      "name": "Glassblower's Bauble"
+    },
     "perfect-jewellers-orb": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ac6398e6a0/CurrencyRerollSocketNumbers03.png",
       "name": "Perfect Jeweller's Orb"
@@ -17041,29 +16998,17 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lHZW1RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f4bace18d7/CurrencyGemQuality.png",
       "name": "Gemcutter's Prism"
     },
-    "greater-orb-of-transmutation": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png",
-      "name": "Greater Orb of Transmutation"
-    },
-    "whetstone": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/18715ea7be/CurrencyWeaponQuality.png",
-      "name": "Blacksmith's Whetstone"
-    },
-    "transmute": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png",
-      "name": "Orb of Transmutation"
-    },
-    "alch": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9SYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9b80b44821/CurrencyUpgradeToRare.png",
-      "name": "Orb of Alchemy"
-    },
-    "etcher": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25NYWdpY1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/516e8f1131/CurrencyWeaponMagicQuality.png",
-      "name": "Arcanist's Etcher"
+    "greater-jewellers-orb": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7dd6ee75be/CurrencyRerollSocketNumbers02.png",
+      "name": "Greater Jeweller's Orb"
     },
     "aug": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png",
       "name": "Orb of Augmentation"
+    },
+    "etcher": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25NYWdpY1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/516e8f1131/CurrencyWeaponMagicQuality.png",
+      "name": "Arcanist's Etcher"
     },
     "scrap": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBcm1vdXJRdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d5868f596d/CurrencyArmourQuality.png",
@@ -17077,17 +17022,21 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
       "name": "Greater Chaos Orb"
     },
+    "perfect-regal-orb": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
+      "name": "Perfect Regal Orb"
+    },
     "perfect-chaos-orb": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
       "name": "Perfect Chaos Orb"
     },
+    "transmute": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png",
+      "name": "Orb of Transmutation"
+    },
     "wisdom": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJZGVudGlmaWNhdGlvbiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/884f7bc58b/CurrencyIdentification.png",
       "name": "Scroll of Wisdom"
-    },
-    "greater-jewellers-orb": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7dd6ee75be/CurrencyRerollSocketNumbers02.png",
-      "name": "Greater Jeweller's Orb"
     },
     "greater-exalted-orb": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
@@ -17113,17 +17062,13 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9VbmlxdWUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/93c6cc8d5b/CurrencyUpgradeToUnique.png",
       "name": "Orb of Chance"
     },
-    "perfect-regal-orb": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
-      "name": "Perfect Regal Orb"
-    },
     "regal": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
       "name": "Regal Orb"
     },
-    "bauble": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lGbGFza1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1cec279e01/CurrencyFlaskQuality.png",
-      "name": "Glassblower's Bauble"
+    "lesser-jewellers-orb": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b0b9a43ed8/CurrencyRerollSocketNumbers01.png",
+      "name": "Lesser Jeweller's Orb"
     },
     "mirror": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lEdXBsaWNhdGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/26bc31680e/CurrencyDuplicate.png",
@@ -17133,9 +17078,13 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGluZWtvcmFzTG9jayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab2163ae06/HinekorasLock.png",
       "name": "Hinekora's Lock"
     },
-    "lesser-jewellers-orb": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b0b9a43ed8/CurrencyRerollSocketNumbers01.png",
-      "name": "Lesser Jeweller's Orb"
+    "alch": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9SYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9b80b44821/CurrencyUpgradeToRare.png",
+      "name": "Orb of Alchemy"
+    },
+    "regal-shard": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmVTaGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e4128abe92/CurrencyUpgradeMagicToRareShard.png",
+      "name": "Regal Shard"
     },
     "greater-regal-orb": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
@@ -17157,9 +17106,21 @@
       "icon": "https://web.poecdn.com//gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9EZWxpcml1bVNwbGludGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/296e6ffc57/DeliriumSplinter.png",
       "name": "Simulacrum Splinter"
     },
+    "rite-of-passage": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5QXptZXJpIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cf47ea370f/TwilightOrderReliquaryKeyAzmeri.png",
+      "name": "Azmeri Reliquary Key"
+    },
     "victorious-fate": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0270951a73/TrialmasterKey3.png",
       "name": "Victorious Fate"
+    },
+    "primary-calamity-fragment": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9VYmVyUGlubmFjbGVLZXkxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/fc0875d40b/UberPinnacleKey1.png",
+      "name": "Primary Calamity Fragment"
+    },
+    "cowardly-fate": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/661ab60074/TrialmasterKey1.png",
+      "name": "Cowardly Fate"
     },
     "tertiary-calamity-fragment": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9VYmVyUGlubmFjbGVLZXkzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/29665daa60/UberPinnacleKey3.png",
@@ -17177,6 +17138,10 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVRpZXIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/47c9eb3f9e/LightningRuneTier2.png",
       "name": "Greater Storm Rune"
     },
+    "lesser-glacial-rune": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/69c7e6d2a3/ColdRuneTier1.png",
+      "name": "Lesser Glacial Rune"
+    },
     "greater-rune-of-alacrity": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWwzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/633300b884/LightningRuneSpecial3.png",
       "name": "Greater Rune of Alacrity"
@@ -17189,13 +17154,21 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/49619b701f/ManaRuneTier2.png",
       "name": "Greater Mind Rune"
     },
+    "desert-rune": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/eeabf0e7a0/FireRune.png",
+      "name": "Desert Rune"
+    },
     "greater-rune-of-tithing": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWwyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/369dd670ba/LightningRuneSpecial2.png",
       "name": "Greater Rune of Tithing"
     },
-    "lesser-storm-rune": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVRpZXIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c84f26f318/LightningRuneTier1.png",
-      "name": "Lesser Storm Rune"
+    "body-rune": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a09dcb651b/LifeRune.png",
+      "name": "Body Rune"
+    },
+    "farruls-rune-of-grace": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1ca9b19776/NewRune4.png",
+      "name": "Farrul's Rune of Grace"
     },
     "lady-hestras-rune-of-winter": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE4Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/709f1d7a0e/NewRune18.png",
@@ -17221,6 +17194,10 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5fdc6a72ed/EnhanceRuneTier2.png",
       "name": "Greater Iron Rune"
     },
+    "lesser-adept-rune": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRGV4UnVuZVRpZXIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/1a9c8cae19/DexRuneTier1.png",
+      "name": "Lesser Adept Rune"
+    },
     "lesser-iron-rune": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/719e7a07b9/EnhanceRuneTier1.png",
       "name": "Lesser Iron Rune"
@@ -17232,6 +17209,10 @@
     "greater-rebirth-rune": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJlY292ZXJ5UnVuZVRpZXIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/41b22fb4e5/LifeRecoveryRuneTier2.png",
       "name": "Greater Rebirth Rune"
+    },
+    "adept-rune": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRGV4UnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/efa54e5585/DexRune.png",
+      "name": "Adept Rune"
     },
     "craiceanns-rune-of-warding": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/677fca20e0/NewRune6.png",
@@ -17253,21 +17234,9 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJlY292ZXJ5UnVuZVRpZXIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9c6cc572d8/ManaRecoveryRuneTier2.png",
       "name": "Greater Inspiration Rune"
     },
-    "fenumus-rune-of-draining": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE2Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4753a65a2a/NewRune16.png",
-      "name": "Fenumus' Rune of Draining"
-    },
-    "saqawals-rune-of-erosion": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTgiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/63347aa4f1/NewRune8.png",
-      "name": "Saqawal's Rune of Erosion"
-    },
     "farruls-rune-of-the-chase": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5029b70d64/NewRune5.png",
       "name": "Farrul's Rune of the Chase"
-    },
-    "inspiration-rune": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJlY292ZXJ5UnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5154db8cf8/ManaRecoveryRune.png",
-      "name": "Inspiration Rune"
     },
     "the-greatwolfs-rune-of-willpower": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6228f14146/NewRune21.png",
@@ -17293,13 +17262,13 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BYnlzc2FsRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3a286394d4/AbyssalEssence.png",
       "name": "Essence of the Abyss"
     },
-    "essence-of-opulence": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9SYXJpdHlSZXNpc3RhbmNlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1b79acb619/RarityResistanceEssence.png",
-      "name": "Essence of Opulence"
-    },
     "essence-of-insanity": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlSW5zYW5pdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2231419c93/CorruptedEssenceInsanity.png",
       "name": "Essence of Insanity"
+    },
+    "essence-of-abrasion": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e52cd05eeb/PhysicalEssence.png",
+      "name": "Essence of Abrasion"
     },
     "greater-essence-of-the-mind": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTWFuYUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f9e17e6d47/GreaterManaEssence.png",
@@ -17317,13 +17286,21 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUGh5c2ljYWxFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a28c932def/GreaterPhysicalEssence.png",
       "name": "Greater Essence of Abrasion"
     },
+    "perfect-essence-of-seeking": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Dcml0aWNhbEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3d5125e9d6/CriticalEssencePerfect.png",
+      "name": "Perfect Essence of Seeking"
+    },
+    "lesser-essence-of-sorcery": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlTGVzc2VyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8b5c055fc7/CasterEssenceLesser.png",
+      "name": "Lesser Essence of Sorcery"
+    },
+    "lesser-essence-of-abrasion": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/21723a9133/PhysicalEssenceLesser.png",
+      "name": "Lesser Essence of Abrasion"
+    },
     "perfect-essence-of-flames": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d5669e7c9c/FireEssencePerfect.png",
       "name": "Perfect Essence of Flames"
-    },
-    "lesser-essence-of-the-infinite": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRyaWJ1dGVFc3NlbmNlTGVzc2VyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6110d3af93/AttributeEssenceLesser.png",
-      "name": "Lesser Essence of the Infinite"
     },
     "perfect-essence-of-sorcery": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5aa3698010/CasterEssencePerfect.png",
@@ -17332,10 +17309,6 @@
     "greater-essence-of-haste": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyU3BlZWRFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5a72f95c24/GreaterSpeedEssence.png",
       "name": "Greater Essence of Haste"
-    },
-    "lesser-essence-of-thawing": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkUmVzaXN0YW5jZUVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5d324717c4/ColdResistanceEssenceLesser.png",
-      "name": "Lesser Essence of Thawing"
     },
     "essence-of-hysteria": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlSHlzdGVyaWEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/91e94f1413/CorruptedEssenceHysteria.png",
@@ -17353,21 +17326,13 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7150f695c2/AllyEssence.png",
       "name": "Essence of Command"
     },
+    "lesser-essence-of-flames": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlRXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2e190c2f7f/FireEssenceLesser.png",
+      "name": "Lesser Essence of Flames"
+    },
     "greater-essence-of-thawing": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ29sZFJlc2lzdGFuY2VFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/acdbacca0f/GreaterColdResistanceEssence.png",
       "name": "Greater Essence of Thawing"
-    },
-    "essence-of-grounding": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdSZXNpc3RhbmNlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f752fa5ed2/LightningResistanceEssence.png",
-      "name": "Essence of Grounding"
-    },
-    "essence-of-haste": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/affda36f07/SpeedEssence.png",
-      "name": "Essence of Haste"
-    },
-    "lesser-essence-of-the-body": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWZlRXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/fb88bb3951/LifeEssenceLesser.png",
-      "name": "Lesser Essence of the Body"
     },
     "perfect-essence-of-grounding": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdSZXNpc3RhbmNlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/10c362c717/LightningResistanceEssencePerfect.png",
@@ -17385,6 +17350,10 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NYW5hRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/84410174b2/ManaEssencePerfect.png",
       "name": "Perfect Essence of the Mind"
     },
+    "essence-of-alacrity": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZENhc3RlckVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2a866d411b/SpeedCasterEssence.png",
+      "name": "Essence of Alacrity"
+    },
     "essence-of-the-mind": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NYW5hRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c881e6273c/ManaEssence.png",
       "name": "Essence of the Mind"
@@ -17401,6 +17370,18 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRGVmZW5jZXNFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a0ed2df82c/GreaterDefencesEssence.png",
       "name": "Greater Essence of Enhancement"
     },
+    "perfect-essence-of-ruin": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ab17828e71/ChaosEssencePerfect.png",
+      "name": "Perfect Essence of Ruin"
+    },
+    "essence-of-sorcery": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6bb099115a/CasterEssence.png",
+      "name": "Essence of Sorcery"
+    },
+    "essence-of-the-infinite": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRyaWJ1dGVFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/58f9516082/AttributeEssence.png",
+      "name": "Essence of the Infinite"
+    },
     "perfect-essence-of-opulence": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9SYXJpdHlSZXNpc3RhbmNlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/86dd0d0b4d/RarityResistanceEssencePerfect.png",
       "name": "Perfect Essence of Opulence"
@@ -17409,21 +17390,21 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8c53c73716/LightningEssencePerfect.png",
       "name": "Perfect Essence of Electricity"
     },
-    "essence-of-flames": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/add6c12f64/FireEssence.png",
-      "name": "Essence of Flames"
-    },
     "perfect-essence-of-command": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0e06dceedc/AllyEssencePerfect.png",
       "name": "Perfect Essence of Command"
     },
-    "greater-essence-of-grounding": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlnaHRuaW5nUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/fd9d91c76a/GreaterLightningResistanceEssence.png",
-      "name": "Greater Essence of Grounding"
+    "perfect-essence-of-thawing": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkUmVzaXN0YW5jZUVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/71b05376d6/ColdResistanceEssencePerfect.png",
+      "name": "Perfect Essence of Thawing"
     },
     "greater-essence-of-insulation": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZVJlc2lzdGFuY2VFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e5b663f414/GreaterFireResistanceEssence.png",
       "name": "Greater Essence of Insulation"
+    },
+    "greater-essence-of-the-body": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlmZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8906b401fe/GreaterLifeEssence.png",
+      "name": "Greater Essence of the Body"
     },
     "perfect-essence-of-the-body": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWZlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/09083af8bb/LifeEssencePerfect.png",
@@ -17444,10 +17425,6 @@
     "hayoxis-soul-core-of-heatproofing": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlSWNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6d8455bff0/NewSoulCoreIce.png",
       "name": "Hayoxi's Soul Core of Heatproofing"
-    },
-    "opilotis-soul-core-of-assault": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlRnJlbnp5Q2hhcmdlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ce5c1bdfdc/NewSoulCoreFrenzyCharge.png",
-      "name": "Opiloti's Soul Core of Assault"
     },
     "soul-core-of-quipolatl": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVNwZWVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d4967ad0f1/GreaterSoulCoreSpeed.png",
@@ -17473,45 +17450,25 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlUmFnZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7bbacc1706/NewSoulCoreRage.png",
       "name": "Tzamoto's Soul Core of Ferocity"
     },
-    "soul-core-of-xopec": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUxpZ2h0bmluZyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3dffadfa9a/GreaterSoulCoreLightning.png",
-      "name": "Soul Core of Xopec"
+    "soul-core-of-atmohua": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVN0cmVuZ3RoIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/1b37135049/GreaterSoulCoreStrength.png",
+      "name": "Soul Core of Atmohua"
     },
     "soul-core-of-zalatl": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZU1hbmEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1437190de2/GreaterSoulCoreMana.png",
       "name": "Soul Core of Zalatl"
     },
-    "soul-core-of-puhuarte": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUZpcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6390ebeaa6/GreaterSoulCoreFire.png",
-      "name": "Soul Core of Puhuarte"
-    },
     "citaqualotls-soul-core-of-foulness": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlQ2hhb3MyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/002059f8f5/NewSoulCoreChaos2.png",
       "name": "Citaqualotl's Soul Core of Foulness"
-    },
-    "xipocados-soul-core-of-dominion": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlTWluaW9uIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b1e7975db2/NewSoulCoreMinion.png",
-      "name": "Xipocado's Soul Core of Dominion"
     },
     "soul-core-of-opiloti": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVBoeXNpY2FsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/366f87b8f2/GreaterSoulCorePhysical.png",
       "name": "Soul Core of Opiloti"
     },
-    "topotantes-soul-core-of-dampening": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlRmlyZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3657368a8c/NewSoulCoreFire.png",
-      "name": "Topotante's Soul Core of Dampening"
-    },
     "cholotls-soul-core-of-war": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlUHJvamVjdGlsZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/dfc35bed7f/NewSoulCoreProjectile.png",
       "name": "Cholotl's Soul Core of War"
-    },
-    "xopecs-soul-core-of-power": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlUG93ZXJDaGFyZ2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/083d39a63b/NewSoulCorePowerCharge.png",
-      "name": "Xopec's Soul Core of Power"
-    },
-    "soul-core-of-azcapa": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVdlYWx0aFJhcml0eSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6a69033a04/GreaterSoulCoreWealthRarity.png",
-      "name": "Soul Core of Azcapa"
     },
     "order-artifact": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/47a41c9782/Rune13.png",
@@ -17621,25 +17578,29 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/213474d1d5/VoodooOmens1Blue.png",
       "name": "Omen of Refreshment"
     },
-    "omen-of-secret-compartments": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0RGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/a152f2714f/VoodooOmens4Dark.png",
-      "name": "Omen of Secret Compartments"
-    },
-    "omen-of-dextral-erasure": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6e2bb52963/VoodooOmens3Dark.png",
-      "name": "Omen of Dextral Erasure"
-    },
     "omen-of-sinistral-exaltation": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6d316b47ee/VoodooOmens2Yellow.png",
       "name": "Omen of Sinistral Exaltation"
+    },
+    "omen-of-gambling": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbkdhbWJsZU5vR29sZENvc3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/90225aff24/OmenGambleNoGoldCost.png",
+      "name": "Omen of Gambling"
     },
     "petition-splinter": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUml0dWFsL05ld1JpdHVhbFNwbGludGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e88f32bf38/NewRitualSplinter.png",
       "name": "Petition Splinter"
     },
+    "xeshts-reliquary-key": {
+      "icon": "https://web.poecdn.com//gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5QnJlYWNoIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/83298eda09/TwilightOrderReliquaryKeyBreach.png",
+      "name": "Xesht's Reliquary Key"
+    },
     "the-arbiters-reliquary-key": {
       "icon": "https://web.poecdn.com//gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5UGlubmFjbGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/fdcef1c9d4/TwilightOrderReliquaryKeyPinnacle.png",
       "name": "The Arbiter's Reliquary Key"
+    },
+    "ritualistic-reliquary-key": {
+      "icon": "https://web.poecdn.com//gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5Uml0dWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/515e217711/TwilightOrderReliquaryKeyRitual.png",
+      "name": "Ritualistic Reliquary Key"
     },
     "the-trialmasters-reliquary-key": {
       "icon": "https://web.poecdn.com//gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5VWx0aW1hdHVtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/33b76f482f/TwilightOrderReliquaryKeyUltimatum.png",
@@ -17697,6 +17658,10 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3NhbEV5ZVNvY2tldGFibGVzL1VsYW1hbnNHYXplIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b39b0a03bc/UlamansGaze.png",
       "name": "Ulaman's Gaze"
     },
+    "gnawed-rib": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvR25hd2VkUmlicyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b0581454e6/GnawedRibs.png",
+      "name": "Gnawed Rib"
+    },
     "preserved-rib": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkUmlicyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3676729ba0/PreservedRibs.png",
       "name": "Preserved Rib"
@@ -17716,6 +17681,10 @@
     "gnawed-jawbone": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvR25hd2VkSmF3Ym9uZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6d343a5e8d/GnawedJawbone.png",
       "name": "Gnawed Jawbone"
+    },
+    "ancient-collarbone": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvQW5jaWVudENsYXZpY2xlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/86b2c7a29a/AncientClavicle.png",
+      "name": "Ancient Collarbone"
     },
     "preserved-jawbone": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkSmF3Ym9uZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2bb7939b21/PreservedJawbone.png",
@@ -17797,10 +17766,6 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFN1cHBvcnRHZW0iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d1ffe1c951/UncutSupportGem.png",
       "name": "Uncut Support Gem (Level 2)"
     },
-    "uncut-spirit-gem-8": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
-      "name": "Uncut Spirit Gem (Level 8)"
-    },
     "uncut-spirit-gem-14": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
       "name": "Uncut Spirit Gem (Level 14)"
@@ -17881,6 +17846,10 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VLaGF0YWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e67d6a908e/LineageKhatal.png",
       "name": "Khatal's Rejuvenation"
     },
+    "artificers-shard": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRFcXVpcG1lbnRTb2NrZXRTaGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/cdcdd8bf3f/CurrencyAddEquipmentSocketShard.png",
+      "name": "Artificer's Shard"
+    },
     "uruks-smelting": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VBcm1vdXJCcmVhayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/821e3c1334/LineageArmourBreak.png",
       "name": "Uruk's Smelting"
@@ -17889,13 +17858,13 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VUYWNhdGkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d5ded1baa6/LineageTacati.png",
       "name": "Tacati's Ire"
     },
-    "cirels-cultivation": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0dyZWF0d29vZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9d2739c22d/Greatwood.png",
-      "name": "Cirel's Cultivation"
-    },
     "atziris-impatience": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0F0emlyaUltcGF0aWVuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9598c10260/AtziriImpatience.png",
       "name": "Atziri's Impatience"
+    },
+    "einhars-beastrite": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VFaW5oYXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/aec9088873/LineageEinhar.png",
+      "name": "Einhar's Beastrite"
     },
     "uhtreds-augury": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VVaHRyZWRHcmVhdGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/207f49bf94/LineageUhtredGreater.png",
@@ -17949,6 +17918,10 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1phcm9raHNSZXZvbHQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a611b32c57/ZarokhsRevolt.png",
       "name": "Zarokh's Revolt"
     },
+    "rigwalds-ferocity": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1JpZ3dhbGQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a053a2b077/Rigwald.png",
+      "name": "Rigwald's Ferocity"
+    },
     "zerphis-infamy": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1plcnBoaXNMZWdhY3kiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/3b039ea679/ZerphisLegacy.png",
       "name": "Zerphi's Infamy"
@@ -17965,9 +17938,9 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1Jha2lhdGEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/20a70b7bd3/Rakiata.png",
       "name": "Rakiata's Flow"
     },
-    "garukhans-resolve": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0dhcnVraGFuIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/392773e9fd/Garukhan.png",
-      "name": "Garukhan's Resolve"
+    "morganas-tempest": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL01vcmdhbmFzVGVtcGVzdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/55ddb1bfc8/MorganasTempest.png",
+      "name": "Morgana's Tempest"
     },
     "vilentas-propulsion": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VWaWxlbnRhIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/abda900f3c/LineageVilenta.png",
@@ -17977,6 +17950,10 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0FieXNzS3VyZ2FsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3fbc251a84/AbyssKurgal.png",
       "name": "Kurgal's Leash"
     },
+    "daressos-passion": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VEYXJlc3NvIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/31805870df/LineageDaresso.png",
+      "name": "Daresso's Passion"
+    },
     "atziris-allure": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VBdHppcmkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/422053dc32/LineageAtziri.png",
       "name": "Atziri's Allure"
@@ -17984,10 +17961,6 @@
     "kalisas-crescendo": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VLYWxpc2FDaG9ydXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1d60b0db2f/LineageKalisaChorus.png",
       "name": "Kalisa's Crescendo"
-    },
-    "xibaquas-rending": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VYaWJhcXVhIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e4e4642563/LineageXibaqua.png",
-      "name": "Xibaqua's Rending"
     },
     "siones-temper": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1dpbGRzaGFyZHMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6d700adf17/Wildshards.png",
@@ -18041,6 +18014,10 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvbkFuY2llbnRJbmZ1c2lvbiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7d23730590/IncursionAncientInfusion.png",
       "name": "Ancient Infuser"
     },
+    "jiquanis-thesis": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUGVyZmVjdFNvdWxDb3Jlcy9Tb3VsQ29yZVNvdWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a45ab2bca2/SoulCoreSoul.png",
+      "name": "Jiquani's Thesis"
+    },
     "vaal-infuser": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvblZhYWxJbmZ1c2VyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4086f16d49/IncursionVaalInfuser.png",
       "name": "Vaal Infuser"
@@ -18073,10 +18050,6 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVdvbGZTcGVjaWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/53db9f9ba3/AzmeriSocketableWolfSpecial.png",
       "name": "Idol of Sirrius"
     },
-    "idol-of-grold": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUJlYXJTcGVjaWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/363a2de335/AzmeriSocketableBearSpecial.png",
-      "name": "Idol of Grold"
-    },
     "ox-idol": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU94Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5ebdb092f5/AzmeriSocketableOx.png",
       "name": "Ox Idol"
@@ -18093,21 +18066,21 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVdvbGYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c0deeb6d94/AzmeriSocketableWolf.png",
       "name": "Wolf Idol"
     },
+    "cat-idol": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUNhdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3d5bc70405/AzmeriSocketableCat.png",
+      "name": "Cat Idol"
+    },
     "idol-of-ralakesh": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU1vbmtleVNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8ffc9986a0/AzmeriSocketableMonkeySpecial.png",
       "name": "Idol of Ralakesh"
     },
+    "stag-idol": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVN0YWciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2a0668f95a/AzmeriSocketableStag.png",
+      "name": "Stag Idol"
+    },
     "primate-idol": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU1vbmtleSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/77a4554895/AzmeriSocketableMonkey.png",
       "name": "Primate Idol"
-    },
-    "primary-calamity-fragment": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9VYmVyUGlubmFjbGVLZXkxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/fc0875d40b/UberPinnacleKey1.png",
-      "name": "Primary Calamity Fragment"
-    },
-    "cowardly-fate": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/661ab60074/TrialmasterKey1.png",
-      "name": "Cowardly Fate"
     },
     "weathered-crisis-fragment": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/32e6544250/PinnacleKey3.png",
@@ -18117,22 +18090,6 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/cccae44832/TrialmasterKey2.png",
       "name": "Deadly Fate"
     },
-    "fenumus-rune-of-spinning": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d0e9100877/NewRune13.png",
-      "name": "Fenumus' Rune of Spinning"
-    },
-    "iron-rune": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cfeb426ee0/EnhanceRune.png",
-      "name": "Iron Rune"
-    },
-    "thane-lelds-rune-of-spring": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b2966e8da7/NewRune19.png",
-      "name": "Thane Leld's Rune of Spring"
-    },
-    "craiceanns-rune-of-recovery": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEwIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/96c722e7d3/NewRune10.png",
-      "name": "Craiceann's Rune of Recovery"
-    },
     "greater-desert-rune": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2c6986b94c/FireRuneTier2.png",
       "name": "Greater Desert Rune"
@@ -18141,45 +18098,81 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWwxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/81a3fe75a5/LightningRuneSpecial1.png",
       "name": "Greater Rune of Leadership"
     },
-    "greater-robust-rune": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lVGllcjMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bb0d433340/StrengthRuneTier3.png",
-      "name": "Greater Robust Rune"
+    "fenumus-rune-of-spinning": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d0e9100877/NewRune13.png",
+      "name": "Fenumus' Rune of Spinning"
     },
-    "glacial-rune": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/499bfe179a/ColdRune.png",
-      "name": "Glacial Rune"
-    },
-    "greater-adept-rune": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRGV4UnVuZVRpZXIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cf55763192/DexRuneTier3.png",
-      "name": "Greater Adept Rune"
-    },
-    "lesser-desert-rune": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/fdc8d95dd7/FireRuneTier1.png",
-      "name": "Lesser Desert Rune"
+    "storm-rune": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/98319b3998/LightningRune.png",
+      "name": "Storm Rune"
     },
     "fenumus-rune-of-agony": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b8711ef6c2/NewRune3.png",
       "name": "Fenumus' Rune of Agony"
     },
+    "iron-rune": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cfeb426ee0/EnhanceRune.png",
+      "name": "Iron Rune"
+    },
     "thane-girts-rune-of-wildness": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE1Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d76b01cd40/NewRune15.png",
       "name": "Thane Girt's Rune of Wildness"
     },
-    "perfect-essence-of-battle": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4e86ee5d8d/AttackEssencePerfect.png",
-      "name": "Perfect Essence of Battle"
+    "greater-robust-rune": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lVGllcjMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bb0d433340/StrengthRuneTier3.png",
+      "name": "Greater Robust Rune"
+    },
+    "thane-lelds-rune-of-spring": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b2966e8da7/NewRune19.png",
+      "name": "Thane Leld's Rune of Spring"
+    },
+    "glacial-rune": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/499bfe179a/ColdRune.png",
+      "name": "Glacial Rune"
+    },
+    "resolve-rune": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvSW50UnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d988cf54fc/IntRune.png",
+      "name": "Resolve Rune"
+    },
+    "greater-adept-rune": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRGV4UnVuZVRpZXIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cf55763192/DexRuneTier3.png",
+      "name": "Greater Adept Rune"
+    },
+    "craiceanns-rune-of-recovery": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEwIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/96c722e7d3/NewRune10.png",
+      "name": "Craiceann's Rune of Recovery"
+    },
+    "lesser-desert-rune": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/fdc8d95dd7/FireRuneTier1.png",
+      "name": "Lesser Desert Rune"
     },
     "essence-of-delirium": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlRGVsaXJpdW0iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d67329e6ed/CorruptedEssenceDelirium.png",
       "name": "Essence of Delirium"
     },
+    "perfect-essence-of-battle": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4e86ee5d8d/AttackEssencePerfect.png",
+      "name": "Perfect Essence of Battle"
+    },
+    "greater-essence-of-opulence": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUmFyaXR5UmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/dfc7c22676/GreaterRarityResistanceEssence.png",
+      "name": "Greater Essence of Opulence"
+    },
+    "essence-of-enhancement": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EZWZlbmNlc0Vzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e1e5c1ccb8/DefencesEssence.png",
+      "name": "Essence of Enhancement"
+    },
+    "lesser-essence-of-the-mind": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NYW5hRXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/35a1d11465/ManaEssenceLesser.png",
+      "name": "Lesser Essence of the Mind"
+    },
     "perfect-essence-of-haste": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/93df0c5b25/SpeedEssencePerfect.png",
       "name": "Perfect Essence of Haste"
     },
-    "perfect-essence-of-ruin": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ab17828e71/ChaosEssencePerfect.png",
-      "name": "Perfect Essence of Ruin"
+    "perfect-essence-of-alacrity": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZENhc3RlckVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/7108cba28f/SpeedCasterEssencePerfect.png",
+      "name": "Perfect Essence of Alacrity"
     },
     "perfect-essence-of-abrasion": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9690e5eb39/PhysicalEssencePerfect.png",
@@ -18189,25 +18182,41 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9b8d6e7b4e/GreaterFireEssence.png",
       "name": "Greater Essence of Flames"
     },
-    "perfect-essence-of-alacrity": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZENhc3RlckVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/7108cba28f/SpeedCasterEssencePerfect.png",
-      "name": "Perfect Essence of Alacrity"
+    "greater-essence-of-alacrity": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyU3BlZWRDYXN0ZXJFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b77c25162f/GreaterSpeedCasterEssence.png",
+      "name": "Greater Essence of Alacrity"
     },
-    "greater-essence-of-opulence": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUmFyaXR5UmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/dfc7c22676/GreaterRarityResistanceEssence.png",
-      "name": "Greater Essence of Opulence"
+    "essence-of-electricity": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2c3725fdad/LightningEssence.png",
+      "name": "Essence of Electricity"
+    },
+    "essence-of-battle": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3cece29e19/AttackEssence.png",
+      "name": "Essence of Battle"
     },
     "greater-essence-of-command": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQWxseUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/55b6ba3361/GreaterAllyEssence.png",
       "name": "Greater Essence of Command"
     },
-    "greater-essence-of-alacrity": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyU3BlZWRDYXN0ZXJFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b77c25162f/GreaterSpeedCasterEssence.png",
-      "name": "Greater Essence of Alacrity"
+    "greater-essence-of-ruin": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2hhb3NFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5c71ec7418/GreaterChaosEssence.png",
+      "name": "Greater Essence of Ruin"
+    },
+    "quipolatls-soul-core-of-flow": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlVGltZUNvb2xkb3duIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/dab6d943f3/NewSoulCoreTimeCooldown.png",
+      "name": "Quipolatl's Soul Core of Flow"
+    },
+    "soul-core-of-azcapa": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVdlYWx0aFJhcml0eSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6a69033a04/GreaterSoulCoreWealthRarity.png",
+      "name": "Soul Core of Azcapa"
     },
     "soul-core-of-citaqualotl": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1NvdWxDb3JlUGh5c2ljYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f48f9f0c62/SoulCorePhysical.png",
       "name": "Soul Core of Citaqualotl"
+    },
+    "soul-core-of-ticaba": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b453416064/GreaterSoulCoreCrit.png",
+      "name": "Soul Core of Ticaba"
     },
     "soul-core-of-tacati": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNoYW9zIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cd9c4fb0a7/GreaterSoulCoreChaos.png",
@@ -18217,25 +18226,25 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUxpZmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bb83a9f337/GreaterSoulCoreLife.png",
       "name": "Soul Core of Jiquani"
     },
-    "soul-core-of-ticaba": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b453416064/GreaterSoulCoreCrit.png",
-      "name": "Soul Core of Ticaba"
-    },
-    "soul-core-of-zantipi": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZWludCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/bf932f7001/GreaterSoulCoreint.png",
-      "name": "Soul Core of Zantipi"
+    "guatelitzis-soul-core-of-endurance": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlRW5kdXJhbmNlQ2hhcmdlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8da8c1e799/NewSoulCoreEnduranceCharge.png",
+      "name": "Guatelitzi's Soul Core of Endurance"
     },
     "soul-core-of-topotante": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVRyaUVsZW1lbnQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ae7a949b3a/GreaterSoulCoreTriElement.png",
       "name": "Soul Core of Topotante"
     },
-    "quipolatls-soul-core-of-flow": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlVGltZUNvb2xkb3duIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/dab6d943f3/NewSoulCoreTimeCooldown.png",
-      "name": "Quipolatl's Soul Core of Flow"
+    "soul-core-of-zantipi": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZWludCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/bf932f7001/GreaterSoulCoreint.png",
+      "name": "Soul Core of Zantipi"
     },
-    "guatelitzis-soul-core-of-endurance": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlRW5kdXJhbmNlQ2hhcmdlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8da8c1e799/NewSoulCoreEnduranceCharge.png",
-      "name": "Guatelitzi's Soul Core of Endurance"
+    "omen-of-sinistral-necromancy": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NBZGRQcmVmaXhlcyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1c0a646414/OmenOnAbyssAddPrefixes.png",
+      "name": "Omen of Sinistral Necromancy"
+    },
+    "omen-of-secret-compartments": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0RGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/a152f2714f/VoodooOmens4Dark.png",
+      "name": "Omen of Secret Compartments"
     },
     "omen-of-dextral-annulment": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d901658529/VoodooOmens3Purple.png",
@@ -18261,17 +18270,13 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhbmNlTm90RGVzdHJveSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/461b794959/OmenOnChanceNotDestroy.png",
       "name": "Omen of Chance"
     },
-    "omen-of-gambling": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbkdhbWJsZU5vR29sZENvc3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/90225aff24/OmenGambleNoGoldCost.png",
-      "name": "Omen of Gambling"
+    "omen-of-dextral-erasure": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6e2bb52963/VoodooOmens3Dark.png",
+      "name": "Omen of Dextral Erasure"
     },
     "omen-of-the-hunt": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0R3JlZW4iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4800eedd0e/VoodooOmens4Green.png",
       "name": "Omen of the Hunt"
-    },
-    "omen-of-sinistral-necromancy": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NBZGRQcmVmaXhlcyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1c0a646414/OmenOnAbyssAddPrefixes.png",
-      "name": "Omen of Sinistral Necromancy"
     },
     "omen-of-sinistral-annulment": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b9eaf38592/VoodooOmens2Purple.png",
@@ -18285,25 +18290,17 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0UHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bed352248c/VoodooOmens4Purple.png",
       "name": "Omen of Reinforcements"
     },
-    "against-the-darkness": {
-      "icon": "https://web.poecdn.com//gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5U2FuY3R1bTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/67f96bbfc0/TwilightOrderReliquaryKeySanctum2.png",
-      "name": "Zarokh's Reliquary Key: Against the Darkness"
-    },
-    "olroths-reliquary-key": {
-      "icon": "https://web.poecdn.com//gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5RXhwZWRpdGlvbiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/58817f4ede/TwilightOrderReliquaryKeyExpedition.png",
-      "name": "Olroth's Reliquary Key"
-    },
     "tangmazus-reliquary-key": {
       "icon": "https://web.poecdn.com//gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5RGVsaXJpdW0iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5f25b754e5/TwilightOrderReliquaryKeyDelirium.png",
       "name": "Tangmazu's Reliquary Key"
     },
-    "carapace-catalyst": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0RGVmZW5jZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/568ca70b04/BreachCatalystDefences.png",
-      "name": "Carapace Catalyst"
-    },
     "xophs-catalyst": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0RmlyZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/05b1999374/BreachCatalystFire.png",
       "name": "Xoph's Catalyst"
+    },
+    "carapace-catalyst": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0RGVmZW5jZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/568ca70b04/BreachCatalystDefences.png",
+      "name": "Carapace Catalyst"
     },
     "flesh-catalyst": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0TGlmZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/06ec489870/BreachCatalystLife.png",
@@ -18313,21 +18310,17 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvQW5jaWVudEphd2JvbmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bff68187a6/AncientJawbone.png",
       "name": "Ancient Jawbone"
     },
-    "ancient-collarbone": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvQW5jaWVudENsYXZpY2xlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/86b2c7a29a/AncientClavicle.png",
-      "name": "Ancient Collarbone"
-    },
     "tecrods-gaze": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3NhbEV5ZVNvY2tldGFibGVzL1RlY3JvZHNHYXplIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ef2a9355b4/TecrodsGaze.png",
       "name": "Tecrod's Gaze"
     },
-    "uncut-skill-gem-19": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
-      "name": "Uncut Skill Gem (Level 19)"
-    },
     "uncut-spirit-gem-19": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
       "name": "Uncut Spirit Gem (Level 19)"
+    },
+    "uncut-skill-gem-19": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
+      "name": "Uncut Skill Gem (Level 19)"
     },
     "uncut-spirit-gem-5": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
@@ -18341,6 +18334,10 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
       "name": "Uncut Skill Gem (Level 14)"
     },
+    "uncut-spirit-gem-6": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
+      "name": "Uncut Spirit Gem (Level 6)"
+    },
     "uncut-spirit-gem-4": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
       "name": "Uncut Spirit Gem (Level 4)"
@@ -18353,45 +18350,33 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
       "name": "Uncut Skill Gem (Level 8)"
     },
-    "uncut-spirit-gem-6": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
-      "name": "Uncut Spirit Gem (Level 6)"
-    },
-    "arakaalis-lust": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VBcmFrYWFsaSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/be37cb2c77/LineageArakaali.png",
-      "name": "Arakaali's Lust"
-    },
-    "bhatairs-vengeance": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1NoYXR0ZXJlZEZhbmciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ed794a9e4b/ShatteredFang.png",
-      "name": "Bhatair's Vengeance"
-    },
-    "rigwalds-ferocity": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1JpZ3dhbGQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a053a2b077/Rigwald.png",
-      "name": "Rigwald's Ferocity"
-    },
     "ataluis-bloodletting": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VMaWZldGFwIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4d9a20ab28/LineageLifetap.png",
       "name": "Atalui's Bloodletting"
-    },
-    "brutus-brain": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VNZWF0c2hpZWxkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/115edf7e2f/LineageMeatshield.png",
-      "name": "Brutus' Brain"
-    },
-    "morganas-tempest": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL01vcmdhbmFzVGVtcGVzdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/55ddb1bfc8/MorganasTempest.png",
-      "name": "Morgana's Tempest"
     },
     "oisins-oath": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1dhbGtlcm9mdGhlV2lsZHMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/50c27082f9/WalkeroftheWilds.png",
       "name": "Ois\u00edn's Oath"
     },
-    "kulemaks-dominion": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VLdWxlbWFrU3BpcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7f63599d16/LineageKulemakSpire.png",
-      "name": "Kulemak's Dominion"
+    "bhatairs-vengeance": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1NoYXR0ZXJlZEZhbmciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ed794a9e4b/ShatteredFang.png",
+      "name": "Bhatair's Vengeance"
+    },
+    "brutus-brain": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VNZWF0c2hpZWxkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/115edf7e2f/LineageMeatshield.png",
+      "name": "Brutus' Brain"
+    },
+    "garukhans-resolve": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0dhcnVraGFuIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/392773e9fd/Garukhan.png",
+      "name": "Garukhan's Resolve"
     },
     "uhtreds-exodus": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VVaHRyZWRMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b286006915/LineageUhtredLesser.png",
       "name": "Uhtred's Exodus"
+    },
+    "arakaalis-lust": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VBcmFrYWFsaSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/be37cb2c77/LineageArakaali.png",
+      "name": "Arakaali's Lust"
     },
     "ixchels-torment": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1RyaWFsbWFzdGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/231195f1b3/Trialmaster.png",
@@ -18405,6 +18390,10 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VNZXJjeSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/38123ca95d/LineageMercy.png",
       "name": "Dominus' Grasp"
     },
+    "romiras-requital": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VSb21pcmEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/62c07d95f0/LineageRomira.png",
+      "name": "Romira's Requital"
+    },
     "varashtas-blessing": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VEamlubiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/62882cee00/LineageDjinn.png",
       "name": "Varashta's Blessing"
@@ -18417,9 +18406,9 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0F6YWRpYW4iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a77457eef2/Azadian.png",
       "name": "Ratha's Assault"
     },
-    "romiras-requital": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VSb21pcmEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/62c07d95f0/LineageRomira.png",
-      "name": "Romira's Requital"
+    "paquates-pact": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1BhcXVhdGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/48c3b0fca2/Paquate.png",
+      "name": "Paquate's Pact"
     },
     "liquid-despair": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRGVzcGFpciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c676bf7dae/DistilledDespair.png",
@@ -18429,29 +18418,33 @@
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlsdXRlZERpc3RpbGxlZElyZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/623d6e522b/DilutedDistilledIre.png",
       "name": "Diluted Liquid Ire"
     },
+    "citaqualotls-thesis": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUGVyZmVjdFNvdWxDb3Jlcy9Tb3VsQ29yZVNhY3JpZmljZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3992461883/SoulCoreSacrifice.png",
+      "name": "Citaqualotl's Thesis"
+    },
     "guatelitzis-thesis": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUGVyZmVjdFNvdWxDb3Jlcy9Tb3VsQ29yZUJsb29kIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/eaea6fa77d/SoulCoreBlood.png",
       "name": "Guatelitzi's Thesis"
-    },
-    "idol-of-egrin": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUNhdFNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/16657ca6fc/AzmeriSocketableCatSpecial.png",
-      "name": "Idol of Egrin"
-    },
-    "cat-idol": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUNhdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3d5bc70405/AzmeriSocketableCat.png",
-      "name": "Cat Idol"
-    },
-    "idol-of-eeshta": {
-      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU93bFNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8965465ce6/AzmeriSocketableOwlSpecial.png",
-      "name": "Idol of Eeshta"
     },
     "boar-idol": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUJvYXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5e04714fc6/AzmeriSocketableBoar.png",
       "name": "Boar Idol"
     },
+    "idol-of-eeshta": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU93bFNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8965465ce6/AzmeriSocketableOwlSpecial.png",
+      "name": "Idol of Eeshta"
+    },
+    "idol-of-egrin": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUNhdFNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/16657ca6fc/AzmeriSocketableCatSpecial.png",
+      "name": "Idol of Egrin"
+    },
     "bear-idol": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUJlYXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2d494d1054/AzmeriSocketableBear.png",
       "name": "Bear Idol"
+    },
+    "idol-of-maxarius": {
+      "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVN0YWdTcGVjaWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f012409342/AzmeriSocketableStagSpecial.png",
+      "name": "Idol of Maxarius"
     },
     "owl-idol": {
       "icon": "https://web.poecdn.com//gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU93bCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/dfe1212549/AzmeriSocketableOwl.png",
