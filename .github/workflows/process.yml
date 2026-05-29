@@ -6,6 +6,16 @@ on:
         description: 'JSON payload'
         required: true
         type: string
+  schedule:
+    # Every 8 hours at 00:00 / 08:00 / 16:00 UTC. Scheduled runs do a
+    # fetch-only batch (see the Process step's payload default).
+    - cron: '0 */8 * * *'
+
+# Serialize runs so a scheduled fetch and a manual console run never
+# push concurrently and conflict on the data files.
+concurrency:
+  group: fund-update
+  cancel-in-progress: false
 
 jobs:
   process:
@@ -29,4 +39,8 @@ jobs:
           echo "ACCOUNT=${{ secrets.ACCOUNT }}" >> .env
           echo "INVESTORS_KEY=${{ secrets.INVESTORS_KEY }}" >> .env
       - name: Process
-        run: python fetch_trades.py --batch '${{ inputs.payload }}' --push
+        # On manual dispatch, use the console-supplied payload. On a
+        # scheduled run there is no input, so default to a fetch-only batch.
+        env:
+          PAYLOAD: ${{ inputs.payload || '{"fetch":true}' }}
+        run: python fetch_trades.py --batch "$PAYLOAD" --push
