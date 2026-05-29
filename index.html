@@ -156,6 +156,7 @@ body {
 }
 
 /* --- Choreographed entrance --- */
+.hero-eyebrow,
 .hero-brand,
 .hero-value-wrap,
 .hero-stats-row,
@@ -165,7 +166,8 @@ body {
   animation: heroFadeIn 0.8s ease-out forwards;
 }
 
-.hero-brand         { animation-delay: 0.1s; }
+.hero-eyebrow       { animation-delay: 0.05s; }
+.hero-brand         { animation-delay: 0.15s; }
 .hero-value-wrap    { animation-delay: 0.35s; }
 .hero-stats-row     { animation-delay: 0.6s; }
 .hero-updated       { animation-delay: 0.85s; }
@@ -189,6 +191,37 @@ body {
 .hero-brand span {
   color: var(--accent);
   text-shadow: 0 0 30px rgba(201,168,76,0.2);
+}
+
+/* --- Hero eyebrow (league kicker above brand) ---
+   Colors drawn from the Return of the Ancients key art:
+   gold engraving fading into molten crimson/ember accents. */
+.hero-eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85em;
+  margin-bottom: 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  background: linear-gradient(100deg,
+    #d4a94b 0%, #e0b552 28%, #c95a30 74%, #a8331f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 10px rgba(201,90,48,0.22));
+}
+
+.hero-eyebrow::before,
+.hero-eyebrow::after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #c0512e;
+  box-shadow: 0 0 7px rgba(192,81,46,0.7);
 }
 
 /* --- Hero value --- */
@@ -1672,6 +1705,7 @@ body {
 
   .hero-orb { animation: none; }
 
+  .hero-eyebrow,
   .hero-brand,
   .hero-value-wrap,
   .hero-stats-row,
@@ -1704,6 +1738,8 @@ body {
   #hero { padding: 1.5rem; min-height: 100svh; }
 
   .hero-brand { font-size: 1rem; }
+
+  .hero-eyebrow { font-size: 0.6rem; letter-spacing: 0.2em; }
 
   .hero-stats-row { gap: 2rem; }
 
@@ -2405,6 +2441,7 @@ function renderDashboard(data) {
       <div class="hero-orb hero-orb--4"></div>
 
       <div class="hero-content">
+        <div class="hero-eyebrow">Return of the Ancients</div>
         <div class="hero-brand">The <span>Vault</span></div>
 
         <div class="hero-value-wrap">
