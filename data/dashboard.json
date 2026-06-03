@@ -1,432 +1,17 @@
 {
-  "updated_at": "2026-06-03T03:54:42.830812+00:00",
+  "updated_at": "2026-06-03T12:40:25.470977+00:00",
   "currencies": {
     "chaos": 1,
-    "divine": 15,
-    "exalted": 163
+    "divine": 23,
+    "exalted": 271
   },
   "raw_divines": 0,
-  "listed_value": 40,
-  "total_nav": 34.0,
-  "raw_nav": 40,
+  "listed_value": 32,
+  "total_nav": 27.2,
+  "raw_nav": 32,
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
-    {
-      "item_id": "a6781ad53f750d3cf0c6b56894d9959ab304190c35156798f4fa22f61058216d",
-      "item_name": "Dusk Caress",
-      "base_type": "Secured Wraps",
-      "rarity": "Rare",
-      "listed_price": 4,
-      "currency": "exalted",
-      "div_equivalent": "",
-      "indexed": "2026-06-03T02:44:54Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDA0IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f43ef07a0c/GlovesDexInt04.png",
-      "ilvl": 80,
-      "corrupted": true,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "Adds 24 to 32 [Cold] damage to [Attack|Attacks]",
-        "Adds 1 to 24 [Lightning] damage to [Attack|Attacks]",
-        "+146 to maximum Life",
-        "8% increased [ItemRarity|Rarity of Items] found",
-        "+28% to [Resistances|Fire Resistance]",
-        "+20% to [Resistances|Chaos Resistance]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Secured Wraps",
-      "properties": [
-        {
-          "name": "Gloves",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Quality]",
-          "values": [
-            [
-              "+24%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        },
-        {
-          "name": "[Evasion|Evasion Rating]",
-          "values": [
-            [
-              "117",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 17
-        },
-        {
-          "name": "[EnergyShield|Energy Shield]",
-          "values": [
-            [
-              "36",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 18
-        }
-      ],
-      "sockets": [
-        {
-          "group": 0,
-          "type": "rune"
-        }
-      ],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "desecrated": [
-          {
-            "name": "Athlete's",
-            "tier": "P1",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_3299347043",
-                "min": "120",
-                "max": "149"
-              }
-            ]
-          },
-          {
-            "name": "Crackling",
-            "tier": "P6",
-            "level": 33,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_1754445556",
-                "min": "1",
-                "max": "1"
-              },
-              {
-                "hash": "desecrated.stat_1754445556",
-                "min": "23",
-                "max": "27"
-              }
-            ]
-          },
-          {
-            "name": "Entombing",
-            "tier": "P1",
-            "level": 75,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_4067062424",
-                "min": "21",
-                "max": "24"
-              },
-              {
-                "hash": "desecrated.stat_4067062424",
-                "min": "32",
-                "max": "37"
-              }
-            ]
-          },
-          {
-            "name": "of Exile",
-            "tier": "S2",
-            "level": 68,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_2923486259",
-                "min": "20",
-                "max": "23"
-              }
-            ]
-          },
-          {
-            "name": "of the Furnace",
-            "tier": "S4",
-            "level": 48,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_3372524247",
-                "min": "26",
-                "max": "30"
-              }
-            ]
-          },
-          {
-            "name": "of Plunder",
-            "tier": "S3",
-            "level": 3,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_3917489142",
-                "min": "6",
-                "max": "10"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "desecrated": [
-          [
-            "desecrated.stat_4067062424",
-            [
-              2
-            ]
-          ],
-          [
-            "desecrated.stat_1754445556",
-            [
-              1
-            ]
-          ],
-          [
-            "desecrated.stat_3299347043",
-            [
-              0
-            ]
-          ],
-          [
-            "desecrated.stat_3917489142",
-            [
-              5
-            ]
-          ],
-          [
-            "desecrated.stat_3372524247",
-            [
-              4
-            ]
-          ],
-          [
-            "desecrated.stat_2923486259",
-            [
-              3
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "item_id": "b8baab0119f9dbb18f23cefb125c71c8d1ad8421f093c9e4172233a194578439",
-      "item_name": "Maelstr\u00f6m Paw",
-      "base_type": "Adorned Wraps",
-      "rarity": "Rare",
-      "listed_price": 5,
-      "currency": "exalted",
-      "div_equivalent": "",
-      "indexed": "2026-06-03T01:04:01Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bdc7c3c15d/GlovesDexInt03.png",
-      "ilvl": 67,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "Adds 13 to 23 [Physical|Physical] Damage to [Attack|Attacks]",
-        "Adds 17 to 31 [Fire] damage to [Attack|Attacks]",
-        "+12 to [Intelligence|Intelligence]",
-        "+17% to [Resistances|Cold Resistance]",
-        "+33% to [Resistances|Lightning Resistance]"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "+76 to [Evasion] Rating",
-        "+22 to maximum [EnergyShield|Energy Shield]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Adorned Wraps",
-      "properties": [
-        {
-          "name": "Gloves",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Evasion|Evasion Rating]",
-          "values": [
-            [
-              "150",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 17
-        },
-        {
-          "name": "[EnergyShield|Energy Shield]",
-          "values": [
-            [
-              "45",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 18
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "of the Maelstrom",
-            "tier": "S3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1671376347",
-                "min": "31",
-                "max": "35"
-              }
-            ]
-          },
-          {
-            "name": "Tempered",
-            "tier": "P2",
-            "level": 65,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3032590688",
-                "min": "10",
-                "max": "15"
-              },
-              {
-                "hash": "explicit.stat_3032590688",
-                "min": "18",
-                "max": "26"
-              }
-            ]
-          },
-          {
-            "name": "Incinerating",
-            "tier": "P3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "13",
-                "max": "19"
-              },
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "27",
-                "max": "32"
-              }
-            ]
-          },
-          {
-            "name": "of the Narwhal",
-            "tier": "S6",
-            "level": 26,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_4220027924",
-                "min": "16",
-                "max": "20"
-              }
-            ]
-          },
-          {
-            "name": "of the Student",
-            "tier": "S7",
-            "level": 11,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_328541901",
-                "min": "9",
-                "max": "12"
-              }
-            ]
-          }
-        ],
-        "desecrated": [
-          {
-            "name": "Cherub's",
-            "tier": "P1",
-            "level": 46,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_53045048",
-                "min": "65",
-                "max": "78"
-              },
-              {
-                "hash": "desecrated.stat_4052037485",
-                "min": "22",
-                "max": "25"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_3032590688",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_1573130764",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_328541901",
-            [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_4220027924",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_1671376347",
-            [
-              0
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_53045048",
-            [
-              0
-            ]
-          ],
-          [
-            "desecrated.stat_4052037485",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
     {
       "item_id": "adae1a6aab272f915249e4f05b741565e51513bf9ceb8a2557492400977119ff",
       "item_name": "Wrath Fist",
@@ -623,409 +208,6 @@
             "desecrated.stat_1050105434",
             [
               0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "item_id": "8a2ae39a6e6ffd9f53cdb35abbe3d422c1e59c503b2a7211535ac89de81a2ca4",
-      "item_name": "Fate Grip",
-      "base_type": "War Wraps",
-      "rarity": "Rare",
-      "listed_price": 5,
-      "currency": "exalted",
-      "div_equivalent": "",
-      "indexed": "2026-06-03T01:04:01Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDAxIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5595d33f3d/GlovesDexInt01.png",
-      "ilvl": 66,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "Adds 17 to 31 [Fire] damage to [Attack|Attacks]",
-        "Adds 14 to 23 [Cold] damage to [Attack|Attacks]",
-        "+26% to [Resistances|Cold Resistance]",
-        "+17% to [Resistances|Lightning Resistance]",
-        "Gain 38 Life per enemy killed"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "Adds 2 to 6 [Physical|Physical] Damage to [Attack|Attacks]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "War Wraps",
-      "properties": [
-        {
-          "name": "Gloves",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Evasion|Evasion Rating]",
-          "values": [
-            [
-              "94",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 17
-        },
-        {
-          "name": "[EnergyShield|Energy Shield]",
-          "values": [
-            [
-              "29",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 18
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "of the Storm",
-            "tier": "S6",
-            "level": 25,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1671376347",
-                "min": "16",
-                "max": "20"
-              }
-            ]
-          },
-          {
-            "name": "Incinerating",
-            "tier": "P3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "13",
-                "max": "19"
-              },
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "27",
-                "max": "32"
-              }
-            ]
-          },
-          {
-            "name": "of the Walrus",
-            "tier": "S4",
-            "level": 50,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_4220027924",
-                "min": "26",
-                "max": "30"
-              }
-            ]
-          },
-          {
-            "name": "Glaciated",
-            "tier": "P3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_4067062424",
-                "min": "14",
-                "max": "15"
-              },
-              {
-                "hash": "explicit.stat_4067062424",
-                "min": "22",
-                "max": "24"
-              }
-            ]
-          },
-          {
-            "name": "of Vanquishing",
-            "tier": "S4",
-            "level": 44,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3695891184",
-                "min": "29",
-                "max": "40"
-              }
-            ]
-          }
-        ],
-        "desecrated": [
-          {
-            "name": "Polished",
-            "tier": "P7",
-            "level": 16,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_3032590688",
-                "min": "2",
-                "max": "4"
-              },
-              {
-                "hash": "desecrated.stat_3032590688",
-                "min": "5",
-                "max": "8"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_1573130764",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_4067062424",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_4220027924",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_1671376347",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_3695891184",
-            [
-              4
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_3032590688",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "item_id": "63106d4b93df23043b8d344e1b2a4fbb6806e9db677b442f03332e135aaa2786",
-      "item_name": "Carrion Talons",
-      "base_type": "Runeforged Zealot Gauntlets",
-      "rarity": "Rare",
-      "listed_price": 5,
-      "currency": "exalted",
-      "div_equivalent": "",
-      "indexed": "2026-06-03T00:34:59Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc1N0ckRleDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2d6c10dfcb/GlovesStrDex03.png",
-      "ilvl": 64,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "70% increased [Armour|Armour] and [Evasion|Evasion]",
-        "Adds 13 to 19 [Fire] damage to [Attack|Attacks]",
-        "+130 to maximum Life",
-        "15% increased [Attack] Speed",
-        "+18% to [Resistances|Lightning Resistance]",
-        "Gain 17 Life per enemy killed"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 13,
-      "type_line": "Runeforged Zealot Gauntlets",
-      "properties": [
-        {
-          "name": "Gloves",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Armour]",
-          "values": [
-            [
-              "133",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 16
-        },
-        {
-          "name": "[Evasion|Evasion Rating]",
-          "values": [
-            [
-              "121",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 17
-        },
-        {
-          "name": "[Ward|Runic Ward]",
-          "values": [
-            [
-              "26",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 54
-        }
-      ],
-      "sockets": [
-        {
-          "group": 0,
-          "type": "rune"
-        }
-      ],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "Flaming",
-            "tier": "P5",
-            "level": 46,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "12",
-                "max": "13"
-              },
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "18",
-                "max": "20"
-              }
-            ]
-          },
-          {
-            "name": "of Renown",
-            "tier": "S1",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_681332047",
-                "min": "14",
-                "max": "16"
-              }
-            ]
-          },
-          {
-            "name": "of the Storm",
-            "tier": "S6",
-            "level": 25,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1671376347",
-                "min": "16",
-                "max": "20"
-              }
-            ]
-          },
-          {
-            "name": "Athlete's",
-            "tier": "P1",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3299347043",
-                "min": "120",
-                "max": "149"
-              }
-            ]
-          },
-          {
-            "name": "of Triumph",
-            "tier": "S6",
-            "level": 22,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3695891184",
-                "min": "10",
-                "max": "18"
-              }
-            ]
-          },
-          {
-            "name": "Duelist's",
-            "tier": "P3",
-            "level": 54,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_2451402625",
-                "min": "68",
-                "max": "79"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_2451402625",
-            [
-              5
-            ]
-          ],
-          [
-            "explicit.stat_1573130764",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_3299347043",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_681332047",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_1671376347",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_3695891184",
-            [
-              4
             ]
           ]
         ]
@@ -1642,382 +824,6 @@
       }
     },
     {
-      "item_id": "3a2c7445be60c42655a4b9b4f88e877da65c916c22f0c3137befd1d923113685",
-      "item_name": "Gale Caress",
-      "base_type": "Sirenscale Gloves",
-      "rarity": "Rare",
-      "listed_price": 44,
-      "currency": "exalted",
-      "div_equivalent": "",
-      "indexed": "2026-06-03T01:38:35Z",
-      "stash": "6",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0ludDA2IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/472c12ee59/GlovesInt06.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "Adds 8 to 20 [Physical|Physical] Damage to [Attack|Attacks]",
-        "Adds 21 to 36 [Cold] damage to [Attack|Attacks]",
-        "15% increased [CriticalDamageBonus|Critical Damage Bonus]",
-        "+37% to [Resistances|Lightning Resistance]",
-        "Gain 39 Mana per enemy killed"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "Adds 11 to 17 [Fire] damage to [Attack|Attacks]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Sirenscale Gloves",
-      "properties": [
-        {
-          "name": "Gloves",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[EnergyShield|Energy Shield]",
-          "values": [
-            [
-              "54",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 18
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "of Assimilation",
-            "tier": "S1",
-            "level": 78,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1368271171",
-                "min": "36",
-                "max": "45"
-              }
-            ]
-          },
-          {
-            "name": "Razor-sharp",
-            "tier": "P3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3032590688",
-                "min": "7",
-                "max": "11"
-              },
-              {
-                "hash": "explicit.stat_3032590688",
-                "min": "14",
-                "max": "20"
-              }
-            ]
-          },
-          {
-            "name": "Entombing",
-            "tier": "P1",
-            "level": 75,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_4067062424",
-                "min": "21",
-                "max": "24"
-              },
-              {
-                "hash": "explicit.stat_4067062424",
-                "min": "32",
-                "max": "37"
-              }
-            ]
-          },
-          {
-            "name": "of the Lightning",
-            "tier": "S2",
-            "level": 71,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1671376347",
-                "min": "36",
-                "max": "40"
-              }
-            ]
-          },
-          {
-            "name": "of Anger",
-            "tier": "S4",
-            "level": 21,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3556824919",
-                "min": "15",
-                "max": "19"
-              }
-            ]
-          }
-        ],
-        "desecrated": [
-          {
-            "name": "Burning",
-            "tier": "P6",
-            "level": 33,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_1573130764",
-                "min": "9",
-                "max": "11"
-              },
-              {
-                "hash": "desecrated.stat_1573130764",
-                "min": "14",
-                "max": "17"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_3032590688",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_4067062424",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_3556824919",
-            [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_1671376347",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_1368271171",
-            [
-              0
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_1573130764",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "item_id": "35b792cc4ba4c6d05fb3249b86ae351f6593ab18b3b11762064f83e0791c54bd",
-      "item_name": "Ambush Trail",
-      "base_type": "Sekhema Sandals",
-      "rarity": "Rare",
-      "listed_price": 45,
-      "currency": "exalted",
-      "div_equivalent": "",
-      "indexed": "2026-06-03T01:56:17Z",
-      "stash": "6",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9CYXNldHlwZXMvQm9vdHNJbnQwNiIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0fe23f857a/BootsInt06.png",
-      "ilvl": 84,
-      "corrupted": true,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "35% increased Movement Speed",
-        "+40 to maximum [EnergyShield|Energy Shield]",
-        "+82 to maximum Life",
-        "+23% to [Resistances|Fire Resistance]",
-        "+21% to [Resistances|Lightning Resistance]",
-        "+37 to [StunThreshold|Stun Threshold]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Sekhema Sandals",
-      "properties": [
-        {
-          "name": "Boots",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Quality]",
-          "values": [
-            [
-              "+20%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        },
-        {
-          "name": "[EnergyShield|Energy Shield]",
-          "values": [
-            [
-              "148",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 18
-        }
-      ],
-      "sockets": [
-        {
-          "group": 0,
-          "type": "rune"
-        }
-      ],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "desecrated": [
-          {
-            "name": "Radiating",
-            "tier": "P3",
-            "level": 33,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_4052037485",
-                "min": "36",
-                "max": "41"
-              }
-            ]
-          },
-          {
-            "name": "Hellion's",
-            "tier": "P1",
-            "level": 82,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_2250533757",
-                "min": "35",
-                "max": "35"
-              }
-            ]
-          },
-          {
-            "name": "Robust",
-            "tier": "P4",
-            "level": 38,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_3299347043",
-                "min": "70",
-                "max": "84"
-              }
-            ]
-          },
-          {
-            "name": "of Stone Skin",
-            "tier": "S9",
-            "level": 15,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_915769802",
-                "min": "30",
-                "max": "49"
-              }
-            ]
-          },
-          {
-            "name": "of the Thunderhead",
-            "tier": "S5",
-            "level": 37,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_1671376347",
-                "min": "21",
-                "max": "25"
-              }
-            ]
-          },
-          {
-            "name": "of the Kiln",
-            "tier": "S5",
-            "level": 36,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_3372524247",
-                "min": "21",
-                "max": "25"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "desecrated": [
-          [
-            "desecrated.stat_2250533757",
-            [
-              1
-            ]
-          ],
-          [
-            "desecrated.stat_4052037485",
-            [
-              0
-            ]
-          ],
-          [
-            "desecrated.stat_3299347043",
-            [
-              2
-            ]
-          ],
-          [
-            "desecrated.stat_3372524247",
-            [
-              5
-            ]
-          ],
-          [
-            "desecrated.stat_1671376347",
-            [
-              4
-            ]
-          ],
-          [
-            "desecrated.stat_915769802",
-            [
-              3
-            ]
-          ]
-        ]
-      }
-    },
-    {
       "item_id": "a73d56409119733cd7f1e72b540ec4cef37c8130dd4eb5a93227cb651bbe136c",
       "item_name": "Vortex Clasp",
       "base_type": "Long Belt",
@@ -2233,207 +1039,6 @@
       }
     },
     {
-      "item_id": "ea1799b498d0cf940fd39212524a834c3db1598472c4b779c62ab496b18dbbc2",
-      "item_name": "Hypnotic Caress",
-      "base_type": "Vaal Wraps",
-      "rarity": "Rare",
-      "listed_price": 2,
-      "currency": "divine",
-      "div_equivalent": 2,
-      "indexed": "2026-06-03T00:57:24Z",
-      "stash": "6",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bdc7c3c15d/GlovesDexInt03.png",
-      "ilvl": 79,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "Adds 14 to 22 [Physical|Physical] Damage to [Attack|Attacks]",
-        "Adds 2 to 39 [Lightning] damage to [Attack|Attacks]",
-        "+38% to [Resistances|Lightning Resistance]",
-        "Gain [Deflect|Deflection Rating] equal to 18% of [Evasion|Evasion Rating]",
-        "Gain 51 Life per enemy killed"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "+147 to maximum Life"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Vaal Wraps",
-      "properties": [
-        {
-          "name": "Gloves",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Evasion|Evasion Rating]",
-          "values": [
-            [
-              "90",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 17
-        },
-        {
-          "name": "[EnergyShield|Energy Shield]",
-          "values": [
-            [
-              "27",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 18
-        }
-      ],
-      "sockets": [
-        {
-          "group": 0,
-          "type": "rune"
-        }
-      ],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "Arcing",
-            "tier": "P4",
-            "level": 54,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1754445556",
-                "min": "1",
-                "max": "2"
-              },
-              {
-                "hash": "explicit.stat_1754445556",
-                "min": "33",
-                "max": "40"
-              }
-            ]
-          },
-          {
-            "name": "Flaring",
-            "tier": "P1",
-            "level": 75,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3032590688",
-                "min": "12",
-                "max": "19"
-              },
-              {
-                "hash": "explicit.stat_3032590688",
-                "min": "22",
-                "max": "32"
-              }
-            ]
-          },
-          {
-            "name": "of the Lightning",
-            "tier": "S2",
-            "level": 71,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1671376347",
-                "min": "36",
-                "max": "40"
-              }
-            ]
-          },
-          {
-            "name": "of Valour",
-            "tier": "S3",
-            "level": 55,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3695891184",
-                "min": "41",
-                "max": "53"
-              }
-            ]
-          },
-          {
-            "name": "of Diversion",
-            "tier": "S2",
-            "level": 48,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3033371881",
-                "min": "18",
-                "max": "20"
-              }
-            ]
-          }
-        ],
-        "desecrated": [
-          {
-            "name": "Athlete's",
-            "tier": "P1",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_3299347043",
-                "min": "120",
-                "max": "149"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_3032590688",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_1754445556",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_1671376347",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_3033371881",
-            [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_3695891184",
-            [
-              3
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_3299347043",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
       "item_id": "4fee13fbdb7755a2fa26f81328455cf39c42ec5086b85e34cbe306b505b761cb",
       "item_name": "Dire Clutches",
       "base_type": "Adorned Wraps",
@@ -2635,36 +1240,36 @@
       }
     },
     {
-      "item_id": "0afede2ed74d48e0ca03c01e29092b6b332bb692988294839d7d523e90aaab52",
-      "item_name": "Cataclysm Clutches",
-      "base_type": "Sirenscale Gloves",
+      "item_id": "ea1799b498d0cf940fd39212524a834c3db1598472c4b779c62ab496b18dbbc2",
+      "item_name": "Hypnotic Caress",
+      "base_type": "Vaal Wraps",
       "rarity": "Rare",
-      "listed_price": 8,
+      "listed_price": 2,
       "currency": "divine",
-      "div_equivalent": 8,
-      "indexed": "2026-06-03T01:38:35Z",
+      "div_equivalent": 2,
+      "indexed": "2026-06-03T00:57:24Z",
       "stash": "6",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0ludDA2IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/472c12ee59/GlovesInt06.png",
-      "ilvl": 80,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bdc7c3c15d/GlovesDexInt03.png",
+      "ilvl": 79,
       "corrupted": false,
       "double_corrupted": false,
       "sanctified": false,
       "implicit_mods": [],
       "explicit_mods": [
-        "Adds 23 to 37 [Cold] damage to [Attack|Attacks]",
-        "Adds 2 to 36 [Lightning] damage to [Attack|Attacks]",
-        "+30% to [Resistances|Fire Resistance]",
-        "+35% to [Resistances|Cold Resistance]",
-        "[ManaLeech|Leech] 6.71% of [Physical] [Attack] Damage as Mana"
+        "Adds 14 to 22 [Physical|Physical] Damage to [Attack|Attacks]",
+        "Adds 2 to 39 [Lightning] damage to [Attack|Attacks]",
+        "+38% to [Resistances|Lightning Resistance]",
+        "Gain [Deflect|Deflection Rating] equal to 18% of [Evasion|Evasion Rating]",
+        "Gain 51 Life per enemy killed"
       ],
       "enchant_mods": [],
       "desecrated_mods": [
-        "Adds 14 to 26 [Physical|Physical] Damage to [Attack|Attacks]"
+        "+147 to maximum Life"
       ],
       "fractured_mods": [],
       "flavour_text": [],
       "frame_type": 2,
-      "type_line": "Sirenscale Gloves",
+      "type_line": "Vaal Wraps",
       "properties": [
         {
           "name": "Gloves",
@@ -2673,10 +1278,21 @@
           "type": 109
         },
         {
+          "name": "[Evasion|Evasion Rating]",
+          "values": [
+            [
+              "90",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 17
+        },
+        {
           "name": "[EnergyShield|Energy Shield]",
           "values": [
             [
-              "54",
+              "27",
               0
             ]
           ],
@@ -2684,53 +1300,17 @@
           "type": 18
         }
       ],
-      "sockets": [],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
       "socketed_items": [],
       "rune_mods": [],
       "granted_skills": [],
       "extended_mods": {
         "explicit": [
-          {
-            "name": "of the Arid",
-            "tier": "S3",
-            "level": 38,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_707457662",
-                "min": "6",
-                "max": "6.9"
-              }
-            ]
-          },
-          {
-            "name": "Entombing",
-            "tier": "P1",
-            "level": 75,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_4067062424",
-                "min": "21",
-                "max": "24"
-              },
-              {
-                "hash": "explicit.stat_4067062424",
-                "min": "32",
-                "max": "37"
-              }
-            ]
-          },
-          {
-            "name": "of the Polar Bear",
-            "tier": "S3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_4220027924",
-                "min": "31",
-                "max": "35"
-              }
-            ]
-          },
           {
             "name": "Arcing",
             "tier": "P4",
@@ -2749,33 +1329,69 @@
             ]
           },
           {
-            "name": "of the Furnace",
-            "tier": "S4",
+            "name": "Flaring",
+            "tier": "P1",
+            "level": 75,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3032590688",
+                "min": "12",
+                "max": "19"
+              },
+              {
+                "hash": "explicit.stat_3032590688",
+                "min": "22",
+                "max": "32"
+              }
+            ]
+          },
+          {
+            "name": "of the Lightning",
+            "tier": "S2",
+            "level": 71,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1671376347",
+                "min": "36",
+                "max": "40"
+              }
+            ]
+          },
+          {
+            "name": "of Valour",
+            "tier": "S3",
+            "level": 55,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3695891184",
+                "min": "41",
+                "max": "53"
+              }
+            ]
+          },
+          {
+            "name": "of Diversion",
+            "tier": "S2",
             "level": 48,
             "magnitudes": [
               {
-                "hash": "explicit.stat_3372524247",
-                "min": "26",
-                "max": "30"
+                "hash": "explicit.stat_3033371881",
+                "min": "18",
+                "max": "20"
               }
             ]
           }
         ],
         "desecrated": [
           {
-            "name": "Tempered",
-            "tier": "P2",
-            "level": 65,
+            "name": "Athlete's",
+            "tier": "P1",
+            "level": 60,
             "magnitudes": [
               {
-                "hash": "desecrated.stat_3032590688",
-                "min": "10",
-                "max": "15"
-              },
-              {
-                "hash": "desecrated.stat_3032590688",
-                "min": "18",
-                "max": "26"
+                "hash": "desecrated.stat_3299347043",
+                "min": "120",
+                "max": "149"
               }
             ]
           }
@@ -2784,7 +1400,7 @@
       "extended_hashes": {
         "explicit": [
           [
-            "explicit.stat_4067062424",
+            "explicit.stat_3032590688",
             [
               1
             ]
@@ -2792,31 +1408,31 @@
           [
             "explicit.stat_1754445556",
             [
-              3
+              0
             ]
           ],
           [
-            "explicit.stat_3372524247",
-            [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_4220027924",
+            "explicit.stat_1671376347",
             [
               2
             ]
           ],
           [
-            "explicit.stat_707457662",
+            "explicit.stat_3033371881",
             [
-              0
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3695891184",
+            [
+              3
             ]
           ]
         ],
         "desecrated": [
           [
-            "desecrated.stat_3032590688",
+            "desecrated.stat_3299347043",
             [
               0
             ]
@@ -3286,6 +1902,488 @@
     }
   ],
   "recent_sales": [
+    {
+      "timestamp": "2026-06-03T12:15:57+00:00",
+      "item_name": "Fate Grip",
+      "base_type": "War Wraps",
+      "rarity": "Rare",
+      "sale_price": 5,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "item_id": "8a2ae39a6e6ffd9f53cdb35abbe3d422c1e59c503b2a7211535ac89de81a2ca4",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDAxIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5595d33f3d/GlovesDexInt01.png",
+      "ilvl": 66,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "Adds 17 to 31 [Fire] damage to [Attack|Attacks]",
+        "Adds 14 to 23 [Cold] damage to [Attack|Attacks]",
+        "+26% to [Resistances|Cold Resistance]",
+        "+17% to [Resistances|Lightning Resistance]",
+        "Gain 38 Life per enemy killed"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "Adds 2 to 6 [Physical|Physical] Damage to [Attack|Attacks]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "War Wraps",
+      "properties": [
+        {
+          "name": "Gloves",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Evasion|Evasion Rating]",
+          "values": [
+            [
+              "94",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 17
+        },
+        {
+          "name": "[EnergyShield|Energy Shield]",
+          "values": [
+            [
+              "29",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 18
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-06-03T11:45:10+00:00",
+      "item_name": "Cataclysm Clutches",
+      "base_type": "Sirenscale Gloves",
+      "rarity": "Rare",
+      "sale_price": 8,
+      "currency": "divine",
+      "div_equivalent": 8,
+      "item_id": "0afede2ed74d48e0ca03c01e29092b6b332bb692988294839d7d523e90aaab52",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0ludDA2IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/472c12ee59/GlovesInt06.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "Adds 23 to 37 [Cold] damage to [Attack|Attacks]",
+        "Adds 2 to 36 [Lightning] damage to [Attack|Attacks]",
+        "+30% to [Resistances|Fire Resistance]",
+        "+35% to [Resistances|Cold Resistance]",
+        "[ManaLeech|Leech] 6.71% of [Physical] [Attack] Damage as Mana"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "Adds 14 to 26 [Physical|Physical] Damage to [Attack|Attacks]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sirenscale Gloves",
+      "properties": [
+        {
+          "name": "Gloves",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[EnergyShield|Energy Shield]",
+          "values": [
+            [
+              "54",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 18
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-06-03T11:08:43+00:00",
+      "item_name": "Carrion Talons",
+      "base_type": "Runeforged Zealot Gauntlets",
+      "rarity": "Rare",
+      "sale_price": 5,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "item_id": "63106d4b93df23043b8d344e1b2a4fbb6806e9db677b442f03332e135aaa2786",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc1N0ckRleDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2d6c10dfcb/GlovesStrDex03.png",
+      "ilvl": 64,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "70% increased [Armour|Armour] and [Evasion|Evasion]",
+        "Adds 13 to 19 [Fire] damage to [Attack|Attacks]",
+        "+130 to maximum Life",
+        "15% increased [Attack] Speed",
+        "+18% to [Resistances|Lightning Resistance]",
+        "Gain 17 Life per enemy killed"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 13,
+      "type_line": "Runeforged Zealot Gauntlets",
+      "properties": [
+        {
+          "name": "Gloves",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Armour]",
+          "values": [
+            [
+              "133",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 16
+        },
+        {
+          "name": "[Evasion|Evasion Rating]",
+          "values": [
+            [
+              "121",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 17
+        },
+        {
+          "name": "[Ward|Runic Ward]",
+          "values": [
+            [
+              "26",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 54
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-06-03T06:17:37+00:00",
+      "item_name": "Ambush Trail",
+      "base_type": "Sekhema Sandals",
+      "rarity": "Rare",
+      "sale_price": 45,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "item_id": "35b792cc4ba4c6d05fb3249b86ae351f6593ab18b3b11762064f83e0791c54bd",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9CYXNldHlwZXMvQm9vdHNJbnQwNiIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0fe23f857a/BootsInt06.png",
+      "ilvl": 84,
+      "corrupted": true,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "35% increased Movement Speed",
+        "+40 to maximum [EnergyShield|Energy Shield]",
+        "+82 to maximum Life",
+        "+23% to [Resistances|Fire Resistance]",
+        "+21% to [Resistances|Lightning Resistance]",
+        "+37 to [StunThreshold|Stun Threshold]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sekhema Sandals",
+      "properties": [
+        {
+          "name": "Boots",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Quality]",
+          "values": [
+            [
+              "+20%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        },
+        {
+          "name": "[EnergyShield|Energy Shield]",
+          "values": [
+            [
+              "148",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 18
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-06-03T06:07:25+00:00",
+      "item_name": "Gale Caress",
+      "base_type": "Sirenscale Gloves",
+      "rarity": "Rare",
+      "sale_price": 44,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "item_id": "3a2c7445be60c42655a4b9b4f88e877da65c916c22f0c3137befd1d923113685",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0ludDA2IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/472c12ee59/GlovesInt06.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "Adds 8 to 20 [Physical|Physical] Damage to [Attack|Attacks]",
+        "Adds 21 to 36 [Cold] damage to [Attack|Attacks]",
+        "15% increased [CriticalDamageBonus|Critical Damage Bonus]",
+        "+37% to [Resistances|Lightning Resistance]",
+        "Gain 39 Mana per enemy killed"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "Adds 11 to 17 [Fire] damage to [Attack|Attacks]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sirenscale Gloves",
+      "properties": [
+        {
+          "name": "Gloves",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[EnergyShield|Energy Shield]",
+          "values": [
+            [
+              "54",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 18
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-06-03T04:27:51+00:00",
+      "item_name": "Maelstr\u00f6m Paw",
+      "base_type": "Adorned Wraps",
+      "rarity": "Rare",
+      "sale_price": 5,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "item_id": "b8baab0119f9dbb18f23cefb125c71c8d1ad8421f093c9e4172233a194578439",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bdc7c3c15d/GlovesDexInt03.png",
+      "ilvl": 67,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "Adds 13 to 23 [Physical|Physical] Damage to [Attack|Attacks]",
+        "Adds 17 to 31 [Fire] damage to [Attack|Attacks]",
+        "+12 to [Intelligence|Intelligence]",
+        "+17% to [Resistances|Cold Resistance]",
+        "+33% to [Resistances|Lightning Resistance]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "+76 to [Evasion] Rating",
+        "+22 to maximum [EnergyShield|Energy Shield]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Adorned Wraps",
+      "properties": [
+        {
+          "name": "Gloves",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Evasion|Evasion Rating]",
+          "values": [
+            [
+              "150",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 17
+        },
+        {
+          "name": "[EnergyShield|Energy Shield]",
+          "values": [
+            [
+              "45",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 18
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-06-03T04:27:34+00:00",
+      "item_name": "Dusk Caress",
+      "base_type": "Secured Wraps",
+      "rarity": "Rare",
+      "sale_price": 4,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "item_id": "a6781ad53f750d3cf0c6b56894d9959ab304190c35156798f4fa22f61058216d",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDA0IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f43ef07a0c/GlovesDexInt04.png",
+      "ilvl": 80,
+      "corrupted": true,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "Adds 24 to 32 [Cold] damage to [Attack|Attacks]",
+        "Adds 1 to 24 [Lightning] damage to [Attack|Attacks]",
+        "+146 to maximum Life",
+        "8% increased [ItemRarity|Rarity of Items] found",
+        "+28% to [Resistances|Fire Resistance]",
+        "+20% to [Resistances|Chaos Resistance]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Secured Wraps",
+      "properties": [
+        {
+          "name": "Gloves",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Quality]",
+          "values": [
+            [
+              "+24%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        },
+        {
+          "name": "[Evasion|Evasion Rating]",
+          "values": [
+            [
+              "117",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 17
+        },
+        {
+          "name": "[EnergyShield|Energy Shield]",
+          "values": [
+            [
+              "36",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 18
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-06-03T02:23:56+00:00",
       "item_name": "Grim Nails",
@@ -4573,8 +3671,8 @@
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd",
     "currencies": {
       "chaos": 1,
-      "divine": 15,
-      "exalted": 163
+      "divine": 23,
+      "exalted": 271
     }
   },
   "investors": [
