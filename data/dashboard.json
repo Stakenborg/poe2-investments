@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-04T03:48:51.205870+00:00",
+  "updated_at": "2026-06-04T10:59:07.440425+00:00",
   "currencies": {
     "chaos": 1,
     "divine": 32,
-    "exalted": 271
+    "exalted": 276
   },
   "raw_divines": 0,
-  "listed_value": 20,
-  "total_nav": 17.0,
-  "raw_nav": 20,
+  "listed_value": 17,
+  "total_nav": 14.45,
+  "raw_nav": 17,
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
@@ -212,83 +212,6 @@
           ]
         ]
       }
-    },
-    {
-      "item_id": "3fc18e79277af5e6fba30ba316ca4bea4c148f1421d2102e2364841a5bc2272d",
-      "item_name": "Repulsion",
-      "base_type": "Repulsion",
-      "rarity": "",
-      "listed_price": 5,
-      "currency": "exalted",
-      "div_equivalent": "",
-      "indexed": "2026-06-03T23:20:11Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvRXhwZWRpdGlvbk1hcmtvZlJlcHVsc2lvbkdlbSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c09c73ba99/ExpeditionMarkofRepulsionGem.png",
-      "ilvl": 0,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 4,
-      "type_line": "Repulsion",
-      "properties": [
-        {
-          "name": "[Spell], [Attack], [AoESkill|AoE], [Trigger], [Physical], [DurationSkill|Duration], [Curse], [Repeat|Repeatable]",
-          "values": [],
-          "displayMode": 0
-        },
-        {
-          "name": "Level",
-          "values": [
-            [
-              "20 (Max)",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 5
-        },
-        {
-          "name": "Cost",
-          "values": [
-            [
-              "116 Ward",
-              0
-            ]
-          ],
-          "displayMode": 0
-        },
-        {
-          "name": "Cast Time",
-          "values": [
-            [
-              "0.50s",
-              0
-            ]
-          ],
-          "displayMode": 0
-        }
-      ],
-      "sockets": [
-        {
-          "group": 0,
-          "type": "gem"
-        },
-        {
-          "group": 1,
-          "type": "gem"
-        }
-      ],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
     },
     {
       "item_id": "fcf30f8787f7f724d7ef78bb45afafd45d95e2685110414109ff0205268b5a73",
@@ -1248,215 +1171,14 @@
       }
     },
     {
-      "item_id": "4fee13fbdb7755a2fa26f81328455cf39c42ec5086b85e34cbe306b505b761cb",
-      "item_name": "Dire Clutches",
-      "base_type": "Adorned Wraps",
-      "rarity": "Rare",
-      "listed_price": 2,
-      "currency": "divine",
-      "div_equivalent": 2,
-      "indexed": "2026-06-03T00:57:24Z",
-      "stash": "6",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bdc7c3c15d/GlovesDexInt03.png",
-      "ilvl": 77,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "Adds 22 to 34 [Fire] damage to [Attack|Attacks]",
-        "Adds 14 to 24 [Cold] damage to [Attack|Attacks]",
-        "+40% to [Resistances|Fire Resistance]",
-        "+16% to [Resistances|Cold Resistance]",
-        "Gain 74 Life per enemy killed"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "Adds 8 to 13 [Physical|Physical] Damage to [Attack|Attacks]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Adorned Wraps",
-      "properties": [
-        {
-          "name": "Gloves",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Evasion|Evasion Rating]",
-          "values": [
-            [
-              "74",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 17
-        },
-        {
-          "name": "[EnergyShield|Energy Shield]",
-          "values": [
-            [
-              "23",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 18
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "Glaciated",
-            "tier": "P3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_4067062424",
-                "min": "14",
-                "max": "15"
-              },
-              {
-                "hash": "explicit.stat_4067062424",
-                "min": "22",
-                "max": "24"
-              }
-            ]
-          },
-          {
-            "name": "of Legend",
-            "tier": "S1",
-            "level": 77,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3695891184",
-                "min": "69",
-                "max": "84"
-              }
-            ]
-          },
-          {
-            "name": "of Magma",
-            "tier": "S2",
-            "level": 71,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_3372524247",
-                "min": "36",
-                "max": "40"
-              }
-            ]
-          },
-          {
-            "name": "Blasting",
-            "tier": "P2",
-            "level": 65,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "20",
-                "max": "24"
-              },
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "33",
-                "max": "36"
-              }
-            ]
-          },
-          {
-            "name": "of the Narwhal",
-            "tier": "S6",
-            "level": 26,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_4220027924",
-                "min": "16",
-                "max": "20"
-              }
-            ]
-          }
-        ],
-        "desecrated": [
-          {
-            "name": "Annealed",
-            "tier": "P4",
-            "level": 54,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_3032590688",
-                "min": "6",
-                "max": "10"
-              },
-              {
-                "hash": "desecrated.stat_3032590688",
-                "min": "12",
-                "max": "17"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_1573130764",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_4067062424",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_3372524247",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_4220027924",
-            [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_3695891184",
-            [
-              1
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_3032590688",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
       "item_id": "ea1799b498d0cf940fd39212524a834c3db1598472c4b779c62ab496b18dbbc2",
       "item_name": "Hypnotic Caress",
       "base_type": "Vaal Wraps",
       "rarity": "Rare",
-      "listed_price": 2,
+      "listed_price": 1,
       "currency": "divine",
-      "div_equivalent": 2,
-      "indexed": "2026-06-03T00:57:24Z",
+      "div_equivalent": 1,
+      "indexed": "2026-06-04T06:38:10Z",
       "stash": "6",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bdc7c3c15d/GlovesDexInt03.png",
       "ilvl": 79,
@@ -1650,14 +1372,215 @@
       }
     },
     {
+      "item_id": "4fee13fbdb7755a2fa26f81328455cf39c42ec5086b85e34cbe306b505b761cb",
+      "item_name": "Dire Clutches",
+      "base_type": "Adorned Wraps",
+      "rarity": "Rare",
+      "listed_price": 1,
+      "currency": "divine",
+      "div_equivalent": 1,
+      "indexed": "2026-06-04T06:38:10Z",
+      "stash": "6",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bdc7c3c15d/GlovesDexInt03.png",
+      "ilvl": 77,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "Adds 22 to 34 [Fire] damage to [Attack|Attacks]",
+        "Adds 14 to 24 [Cold] damage to [Attack|Attacks]",
+        "+40% to [Resistances|Fire Resistance]",
+        "+16% to [Resistances|Cold Resistance]",
+        "Gain 74 Life per enemy killed"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "Adds 8 to 13 [Physical|Physical] Damage to [Attack|Attacks]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Adorned Wraps",
+      "properties": [
+        {
+          "name": "Gloves",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Evasion|Evasion Rating]",
+          "values": [
+            [
+              "74",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 17
+        },
+        {
+          "name": "[EnergyShield|Energy Shield]",
+          "values": [
+            [
+              "23",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 18
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "Glaciated",
+            "tier": "P3",
+            "level": 60,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_4067062424",
+                "min": "14",
+                "max": "15"
+              },
+              {
+                "hash": "explicit.stat_4067062424",
+                "min": "22",
+                "max": "24"
+              }
+            ]
+          },
+          {
+            "name": "of Legend",
+            "tier": "S1",
+            "level": 77,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3695891184",
+                "min": "69",
+                "max": "84"
+              }
+            ]
+          },
+          {
+            "name": "of Magma",
+            "tier": "S2",
+            "level": 71,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3372524247",
+                "min": "36",
+                "max": "40"
+              }
+            ]
+          },
+          {
+            "name": "Blasting",
+            "tier": "P2",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1573130764",
+                "min": "20",
+                "max": "24"
+              },
+              {
+                "hash": "explicit.stat_1573130764",
+                "min": "33",
+                "max": "36"
+              }
+            ]
+          },
+          {
+            "name": "of the Narwhal",
+            "tier": "S6",
+            "level": 26,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_4220027924",
+                "min": "16",
+                "max": "20"
+              }
+            ]
+          }
+        ],
+        "desecrated": [
+          {
+            "name": "Annealed",
+            "tier": "P4",
+            "level": 54,
+            "magnitudes": [
+              {
+                "hash": "desecrated.stat_3032590688",
+                "min": "6",
+                "max": "10"
+              },
+              {
+                "hash": "desecrated.stat_3032590688",
+                "min": "12",
+                "max": "17"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1573130764",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_4067062424",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3372524247",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_4220027924",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3695891184",
+            [
+              1
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_3032590688",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "item_id": "1a1177a3adea7d3a32a2688bbd3efd2dac9f3a71b92892179bbd3e560196d846",
       "item_name": "Woe Knuckle",
       "base_type": "Ornate Mitts",
       "rarity": "Rare",
-      "listed_price": 15,
+      "listed_price": 14,
       "currency": "divine",
-      "div_equivalent": 15,
-      "indexed": "2026-06-03T23:20:11Z",
+      "div_equivalent": 14,
+      "indexed": "2026-06-04T06:38:10Z",
       "stash": "6",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc1N0cjA0IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/041d8df186/GlovesStr04.png",
       "ilvl": 75,
@@ -1841,6 +1764,82 @@
     }
   ],
   "recent_sales": [
+    {
+      "timestamp": "2026-06-04T04:55:10+00:00",
+      "item_name": "Repulsion",
+      "base_type": "Repulsion",
+      "rarity": "",
+      "sale_price": 5,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "item_id": "3fc18e79277af5e6fba30ba316ca4bea4c148f1421d2102e2364841a5bc2272d",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvRXhwZWRpdGlvbk1hcmtvZlJlcHVsc2lvbkdlbSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c09c73ba99/ExpeditionMarkofRepulsionGem.png",
+      "ilvl": 0,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 4,
+      "type_line": "Repulsion",
+      "properties": [
+        {
+          "name": "[Spell], [Attack], [AoESkill|AoE], [Trigger], [Physical], [DurationSkill|Duration], [Curse], [Repeat|Repeatable]",
+          "values": [],
+          "displayMode": 0
+        },
+        {
+          "name": "Level",
+          "values": [
+            [
+              "20 (Max)",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 5
+        },
+        {
+          "name": "Cost",
+          "values": [
+            [
+              "116 Ward",
+              0
+            ]
+          ],
+          "displayMode": 0
+        },
+        {
+          "name": "Cast Time",
+          "values": [
+            [
+              "0.50s",
+              0
+            ]
+          ],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "gem"
+        },
+        {
+          "group": 1,
+          "type": "gem"
+        }
+      ],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-06-03T13:38:19+00:00",
       "item_name": "Spirit Trail",
@@ -3752,7 +3751,7 @@
     "currencies": {
       "chaos": 1,
       "divine": 32,
-      "exalted": 271
+      "exalted": 276
     }
   },
   "investors": [
