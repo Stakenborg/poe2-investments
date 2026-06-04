@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-03T19:47:15.123242+00:00",
+  "updated_at": "2026-06-04T03:48:51.205870+00:00",
   "currencies": {
     "chaos": 1,
     "divine": 32,
     "exalted": 271
   },
   "raw_divines": 0,
-  "listed_value": 23,
-  "total_nav": 19.55,
-  "raw_nav": 23,
+  "listed_value": 20,
+  "total_nav": 17.0,
+  "raw_nav": 20,
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
@@ -17,10 +17,10 @@
       "item_name": "Wrath Fist",
       "base_type": "Vaal Wraps",
       "rarity": "Rare",
-      "listed_price": 5,
+      "listed_price": 2,
       "currency": "exalted",
       "div_equivalent": "",
-      "indexed": "2026-06-03T00:57:24Z",
+      "indexed": "2026-06-03T23:20:11Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bdc7c3c15d/GlovesDexInt03.png",
       "ilvl": 80,
@@ -214,14 +214,91 @@
       }
     },
     {
+      "item_id": "3fc18e79277af5e6fba30ba316ca4bea4c148f1421d2102e2364841a5bc2272d",
+      "item_name": "Repulsion",
+      "base_type": "Repulsion",
+      "rarity": "",
+      "listed_price": 5,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "indexed": "2026-06-03T23:20:11Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvRXhwZWRpdGlvbk1hcmtvZlJlcHVsc2lvbkdlbSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c09c73ba99/ExpeditionMarkofRepulsionGem.png",
+      "ilvl": 0,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 4,
+      "type_line": "Repulsion",
+      "properties": [
+        {
+          "name": "[Spell], [Attack], [AoESkill|AoE], [Trigger], [Physical], [DurationSkill|Duration], [Curse], [Repeat|Repeatable]",
+          "values": [],
+          "displayMode": 0
+        },
+        {
+          "name": "Level",
+          "values": [
+            [
+              "20 (Max)",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 5
+        },
+        {
+          "name": "Cost",
+          "values": [
+            [
+              "116 Ward",
+              0
+            ]
+          ],
+          "displayMode": 0
+        },
+        {
+          "name": "Cast Time",
+          "values": [
+            [
+              "0.50s",
+              0
+            ]
+          ],
+          "displayMode": 0
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "gem"
+        },
+        {
+          "group": 1,
+          "type": "gem"
+        }
+      ],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
       "item_id": "fcf30f8787f7f724d7ef78bb45afafd45d95e2685110414109ff0205268b5a73",
       "item_name": "Demon Talons",
       "base_type": "Secured Wraps",
       "rarity": "Rare",
-      "listed_price": 10,
+      "listed_price": 5,
       "currency": "exalted",
       "div_equivalent": "",
-      "indexed": "2026-06-03T00:34:59Z",
+      "indexed": "2026-06-03T23:20:11Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDA0IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f43ef07a0c/GlovesDexInt04.png",
       "ilvl": 82,
@@ -421,210 +498,14 @@
       }
     },
     {
-      "item_id": "bf118c5244c3bbca8512e28f161f40afd0018ec6043defd7585ac6cd24ef16d0",
-      "item_name": "Agony Fingers",
-      "base_type": "Cultist Gauntlets",
-      "rarity": "Rare",
-      "listed_price": 20,
-      "currency": "exalted",
-      "div_equivalent": "",
-      "indexed": "2026-06-03T01:37:14Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc1N0ckRleDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2d6c10dfcb/GlovesStrDex03.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "Adds 22 to 35 [Fire] damage to [Attack|Attacks]",
-        "Adds 1 to 47 [Lightning] damage to [Attack|Attacks]",
-        "+40% to [Resistances|Cold Resistance]",
-        "[LifeLeech|Leech] 8.89% of [Physical] [Attack] Damage as Life",
-        "[ManaLeech|Leech] 8.51% of [Physical] [Attack] Damage as Mana"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "41% increased [Armour|Armour] and [Evasion|Evasion]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Cultist Gauntlets",
-      "properties": [
-        {
-          "name": "Gloves",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Armour]",
-          "values": [
-            [
-              "138",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 16
-        },
-        {
-          "name": "[Evasion|Evasion Rating]",
-          "values": [
-            [
-              "127",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 17
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "of the Desperate",
-            "tier": "S1",
-            "level": 65,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_707457662",
-                "min": "8",
-                "max": "8.9"
-              }
-            ]
-          },
-          {
-            "name": "of the Lamprey",
-            "tier": "S2",
-            "level": 54,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_2557965901",
-                "min": "8",
-                "max": "8.9"
-              }
-            ]
-          },
-          {
-            "name": "of the Ice",
-            "tier": "S2",
-            "level": 71,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_4220027924",
-                "min": "36",
-                "max": "40"
-              }
-            ]
-          },
-          {
-            "name": "Blasting",
-            "tier": "P2",
-            "level": 65,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "20",
-                "max": "24"
-              },
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "33",
-                "max": "36"
-              }
-            ]
-          },
-          {
-            "name": "Shocking",
-            "tier": "P3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1754445556",
-                "min": "1",
-                "max": "2"
-              },
-              {
-                "hash": "explicit.stat_1754445556",
-                "min": "41",
-                "max": "47"
-              }
-            ]
-          }
-        ],
-        "desecrated": [
-          {
-            "name": "Brawler's",
-            "tier": "P6",
-            "level": 16,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_2451402625",
-                "min": "27",
-                "max": "42"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_1573130764",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_1754445556",
-            [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_4220027924",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_2557965901",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_707457662",
-            [
-              0
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_2451402625",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
       "item_id": "b76af3fcf9f2c73b82ca1498e7855212da375dcdf3e1398676a943c9aa29fd43",
       "item_name": "Woe Palm",
       "base_type": "Secured Wraps",
       "rarity": "Rare",
-      "listed_price": 25,
+      "listed_price": 15,
       "currency": "exalted",
       "div_equivalent": "",
-      "indexed": "2026-06-03T01:13:03Z",
+      "indexed": "2026-06-03T23:20:11Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDA0IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f43ef07a0c/GlovesDexInt04.png",
       "ilvl": 80,
@@ -818,6 +699,334 @@
             "desecrated.stat_4220027924",
             [
               5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "bf118c5244c3bbca8512e28f161f40afd0018ec6043defd7585ac6cd24ef16d0",
+      "item_name": "Agony Fingers",
+      "base_type": "Cultist Gauntlets",
+      "rarity": "Rare",
+      "listed_price": 15,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "indexed": "2026-06-03T23:20:11Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc1N0ckRleDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2d6c10dfcb/GlovesStrDex03.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "Adds 22 to 35 [Fire] damage to [Attack|Attacks]",
+        "Adds 1 to 47 [Lightning] damage to [Attack|Attacks]",
+        "+40% to [Resistances|Cold Resistance]",
+        "[LifeLeech|Leech] 8.89% of [Physical] [Attack] Damage as Life",
+        "[ManaLeech|Leech] 8.51% of [Physical] [Attack] Damage as Mana"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "41% increased [Armour|Armour] and [Evasion|Evasion]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Cultist Gauntlets",
+      "properties": [
+        {
+          "name": "Gloves",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Armour]",
+          "values": [
+            [
+              "138",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 16
+        },
+        {
+          "name": "[Evasion|Evasion Rating]",
+          "values": [
+            [
+              "127",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 17
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of the Desperate",
+            "tier": "S1",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_707457662",
+                "min": "8",
+                "max": "8.9"
+              }
+            ]
+          },
+          {
+            "name": "of the Lamprey",
+            "tier": "S2",
+            "level": 54,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_2557965901",
+                "min": "8",
+                "max": "8.9"
+              }
+            ]
+          },
+          {
+            "name": "of the Ice",
+            "tier": "S2",
+            "level": 71,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_4220027924",
+                "min": "36",
+                "max": "40"
+              }
+            ]
+          },
+          {
+            "name": "Blasting",
+            "tier": "P2",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1573130764",
+                "min": "20",
+                "max": "24"
+              },
+              {
+                "hash": "explicit.stat_1573130764",
+                "min": "33",
+                "max": "36"
+              }
+            ]
+          },
+          {
+            "name": "Shocking",
+            "tier": "P3",
+            "level": 60,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1754445556",
+                "min": "1",
+                "max": "2"
+              },
+              {
+                "hash": "explicit.stat_1754445556",
+                "min": "41",
+                "max": "47"
+              }
+            ]
+          }
+        ],
+        "desecrated": [
+          {
+            "name": "Brawler's",
+            "tier": "P6",
+            "level": 16,
+            "magnitudes": [
+              {
+                "hash": "desecrated.stat_2451402625",
+                "min": "27",
+                "max": "42"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1573130764",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1754445556",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_4220027924",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2557965901",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_707457662",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_2451402625",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "9e2ccc1ec0f9be5461e8e3b111a69bdd5b00826738df8a644b6a5f4d0ff4cb53",
+      "item_name": "Blight Salvation",
+      "base_type": "Paragon Greathelm",
+      "rarity": "Rare",
+      "listed_price": 30,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "indexed": "2026-06-03T23:20:11Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0Jhc2V0eXBlcy9IZWxtZXRTdHIwNSIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/39a19d746e/HelmetStr05.png",
+      "ilvl": 76,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "+301 to [Accuracy|Accuracy] Rating",
+        "25% increased [Critical|Critical Hit] Chance",
+        "+27% to [Resistances|Fire Resistance]",
+        "+40% of [Armour|Armour] also applies to [ElementalDamage|Elemental Damage]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Paragon Greathelm",
+      "properties": [
+        {
+          "name": "Helmet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Armour]",
+          "values": [
+            [
+              "357",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 16
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of the Furnace",
+            "tier": "S4",
+            "level": 48,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3372524247",
+                "min": "26",
+                "max": "30"
+              }
+            ]
+          },
+          {
+            "name": "of Furring",
+            "tier": "S1",
+            "level": 66,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3362812763",
+                "min": "38",
+                "max": "43"
+              }
+            ]
+          },
+          {
+            "name": "of Calamity",
+            "tier": "S2",
+            "level": 44,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_587431675",
+                "min": "25",
+                "max": "29"
+              }
+            ]
+          },
+          {
+            "name": "Hunter's",
+            "tier": "P3",
+            "level": 58,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_803737631",
+                "min": "237",
+                "max": "346"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_803737631",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_587431675",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3372524247",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3362812763",
+            [
+              1
             ]
           ]
         ]
@@ -1445,10 +1654,10 @@
       "item_name": "Woe Knuckle",
       "base_type": "Ornate Mitts",
       "rarity": "Rare",
-      "listed_price": 18,
+      "listed_price": 15,
       "currency": "divine",
-      "div_equivalent": 18,
-      "indexed": "2026-06-03T01:30:53Z",
+      "div_equivalent": 15,
+      "indexed": "2026-06-03T23:20:11Z",
       "stash": "6",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc1N0cjA0IiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/041d8df186/GlovesStr04.png",
       "ilvl": 75,
