@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T03:34:53.603898+00:00",
+  "updated_at": "2026-06-05T11:27:06.135775+00:00",
   "currencies": {
     "chaos": 1,
     "divine": 32,
@@ -220,202 +220,6 @@
       }
     },
     {
-      "item_id": "bf118c5244c3bbca8512e28f161f40afd0018ec6043defd7585ac6cd24ef16d0",
-      "item_name": "Agony Fingers",
-      "base_type": "Cultist Gauntlets",
-      "rarity": "Rare",
-      "listed_price": 10,
-      "currency": "exalted",
-      "div_equivalent": "",
-      "indexed": "2026-06-04T16:31:48Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc1N0ckRleDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2d6c10dfcb/GlovesStrDex03.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "Adds 22 to 35 [Fire] damage to [Attack|Attacks]",
-        "Adds 1 to 47 [Lightning] damage to [Attack|Attacks]",
-        "+40% to [Resistances|Cold Resistance]",
-        "[LifeLeech|Leech] 8.89% of [Physical] [Attack] Damage as Life",
-        "[ManaLeech|Leech] 8.51% of [Physical] [Attack] Damage as Mana"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "41% increased [Armour|Armour] and [Evasion|Evasion]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Cultist Gauntlets",
-      "properties": [
-        {
-          "name": "Gloves",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Armour]",
-          "values": [
-            [
-              "138",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 16
-        },
-        {
-          "name": "[Evasion|Evasion Rating]",
-          "values": [
-            [
-              "127",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 17
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "of the Desperate",
-            "tier": "S1",
-            "level": 65,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_707457662",
-                "min": "8",
-                "max": "8.9"
-              }
-            ]
-          },
-          {
-            "name": "of the Lamprey",
-            "tier": "S2",
-            "level": 54,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_2557965901",
-                "min": "8",
-                "max": "8.9"
-              }
-            ]
-          },
-          {
-            "name": "of the Ice",
-            "tier": "S2",
-            "level": 71,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_4220027924",
-                "min": "36",
-                "max": "40"
-              }
-            ]
-          },
-          {
-            "name": "Blasting",
-            "tier": "P2",
-            "level": 65,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "20",
-                "max": "24"
-              },
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "33",
-                "max": "36"
-              }
-            ]
-          },
-          {
-            "name": "Shocking",
-            "tier": "P3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1754445556",
-                "min": "1",
-                "max": "2"
-              },
-              {
-                "hash": "explicit.stat_1754445556",
-                "min": "41",
-                "max": "47"
-              }
-            ]
-          }
-        ],
-        "desecrated": [
-          {
-            "name": "Brawler's",
-            "tier": "P6",
-            "level": 16,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_2451402625",
-                "min": "27",
-                "max": "42"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_1573130764",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_1754445556",
-            [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_4220027924",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_2557965901",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_707457662",
-            [
-              0
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_2451402625",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
       "item_id": "b76af3fcf9f2c73b82ca1498e7855212da375dcdf3e1398676a943c9aa29fd43",
       "item_name": "Woe Palm",
       "base_type": "Secured Wraps",
@@ -617,6 +421,202 @@
             "desecrated.stat_4220027924",
             [
               5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "bf118c5244c3bbca8512e28f161f40afd0018ec6043defd7585ac6cd24ef16d0",
+      "item_name": "Agony Fingers",
+      "base_type": "Cultist Gauntlets",
+      "rarity": "Rare",
+      "listed_price": 10,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "indexed": "2026-06-04T16:31:48Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc1N0ckRleDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2d6c10dfcb/GlovesStrDex03.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "Adds 22 to 35 [Fire] damage to [Attack|Attacks]",
+        "Adds 1 to 47 [Lightning] damage to [Attack|Attacks]",
+        "+40% to [Resistances|Cold Resistance]",
+        "[LifeLeech|Leech] 8.89% of [Physical] [Attack] Damage as Life",
+        "[ManaLeech|Leech] 8.51% of [Physical] [Attack] Damage as Mana"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "41% increased [Armour|Armour] and [Evasion|Evasion]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Cultist Gauntlets",
+      "properties": [
+        {
+          "name": "Gloves",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Armour]",
+          "values": [
+            [
+              "138",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 16
+        },
+        {
+          "name": "[Evasion|Evasion Rating]",
+          "values": [
+            [
+              "127",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 17
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of the Desperate",
+            "tier": "S1",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_707457662",
+                "min": "8",
+                "max": "8.9"
+              }
+            ]
+          },
+          {
+            "name": "of the Lamprey",
+            "tier": "S2",
+            "level": 54,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_2557965901",
+                "min": "8",
+                "max": "8.9"
+              }
+            ]
+          },
+          {
+            "name": "of the Ice",
+            "tier": "S2",
+            "level": 71,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_4220027924",
+                "min": "36",
+                "max": "40"
+              }
+            ]
+          },
+          {
+            "name": "Blasting",
+            "tier": "P2",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1573130764",
+                "min": "20",
+                "max": "24"
+              },
+              {
+                "hash": "explicit.stat_1573130764",
+                "min": "33",
+                "max": "36"
+              }
+            ]
+          },
+          {
+            "name": "Shocking",
+            "tier": "P3",
+            "level": 60,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1754445556",
+                "min": "1",
+                "max": "2"
+              },
+              {
+                "hash": "explicit.stat_1754445556",
+                "min": "41",
+                "max": "47"
+              }
+            ]
+          }
+        ],
+        "desecrated": [
+          {
+            "name": "Brawler's",
+            "tier": "P6",
+            "level": 16,
+            "magnitudes": [
+              {
+                "hash": "desecrated.stat_2451402625",
+                "min": "27",
+                "max": "42"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1573130764",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1754445556",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_4220027924",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2557965901",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_707457662",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_2451402625",
+            [
+              0
             ]
           ]
         ]
