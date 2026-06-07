@@ -1,17 +1,213 @@
 {
-  "updated_at": "2026-06-07T03:41:37.323790+00:00",
+  "updated_at": "2026-06-07T10:28:04.095018+00:00",
   "currencies": {
     "chaos": 1,
-    "divine": 65,
-    "exalted": 360
+    "divine": 90,
+    "exalted": 395
   },
   "raw_divines": 0,
-  "listed_value": 0,
-  "total_nav": 0.0,
-  "raw_nav": 0,
+  "listed_value": 51,
+  "total_nav": 43.35,
+  "raw_nav": 51,
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
+    {
+      "item_id": "bf118c5244c3bbca8512e28f161f40afd0018ec6043defd7585ac6cd24ef16d0",
+      "item_name": "Agony Fingers",
+      "base_type": "Cultist Gauntlets",
+      "rarity": "Rare",
+      "listed_price": 5,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "indexed": "2026-06-06T00:42:57Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc1N0ckRleDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2d6c10dfcb/GlovesStrDex03.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "Adds 22 to 35 [Fire] damage to [Attack|Attacks]",
+        "Adds 1 to 47 [Lightning] damage to [Attack|Attacks]",
+        "+40% to [Resistances|Cold Resistance]",
+        "[LifeLeech|Leech] 8.89% of [Physical] [Attack] Damage as Life",
+        "[ManaLeech|Leech] 8.51% of [Physical] [Attack] Damage as Mana"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "41% increased [Armour|Armour] and [Evasion|Evasion]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Cultist Gauntlets",
+      "properties": [
+        {
+          "name": "Gloves",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Armour]",
+          "values": [
+            [
+              "138",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 16
+        },
+        {
+          "name": "[Evasion|Evasion Rating]",
+          "values": [
+            [
+              "127",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 17
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of the Desperate",
+            "tier": "S1",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_707457662",
+                "min": "8",
+                "max": "8.9"
+              }
+            ]
+          },
+          {
+            "name": "of the Lamprey",
+            "tier": "S2",
+            "level": 54,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_2557965901",
+                "min": "8",
+                "max": "8.9"
+              }
+            ]
+          },
+          {
+            "name": "of the Ice",
+            "tier": "S2",
+            "level": 71,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_4220027924",
+                "min": "36",
+                "max": "40"
+              }
+            ]
+          },
+          {
+            "name": "Blasting",
+            "tier": "P2",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1573130764",
+                "min": "20",
+                "max": "24"
+              },
+              {
+                "hash": "explicit.stat_1573130764",
+                "min": "33",
+                "max": "36"
+              }
+            ]
+          },
+          {
+            "name": "Shocking",
+            "tier": "P3",
+            "level": 60,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1754445556",
+                "min": "1",
+                "max": "2"
+              },
+              {
+                "hash": "explicit.stat_1754445556",
+                "min": "41",
+                "max": "47"
+              }
+            ]
+          }
+        ],
+        "desecrated": [
+          {
+            "name": "Brawler's",
+            "tier": "P6",
+            "level": 16,
+            "magnitudes": [
+              {
+                "hash": "desecrated.stat_2451402625",
+                "min": "27",
+                "max": "42"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1573130764",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1754445556",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_4220027924",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_2557965901",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_707457662",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_2451402625",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
     {
       "item_id": "b76af3fcf9f2c73b82ca1498e7855212da375dcdf3e1398676a943c9aa29fd43",
       "item_name": "Woe Palm",
@@ -214,202 +410,6 @@
             "desecrated.stat_4220027924",
             [
               5
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "item_id": "bf118c5244c3bbca8512e28f161f40afd0018ec6043defd7585ac6cd24ef16d0",
-      "item_name": "Agony Fingers",
-      "base_type": "Cultist Gauntlets",
-      "rarity": "Rare",
-      "listed_price": 5,
-      "currency": "exalted",
-      "div_equivalent": "",
-      "indexed": "2026-06-06T00:42:57Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc1N0ckRleDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2d6c10dfcb/GlovesStrDex03.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "Adds 22 to 35 [Fire] damage to [Attack|Attacks]",
-        "Adds 1 to 47 [Lightning] damage to [Attack|Attacks]",
-        "+40% to [Resistances|Cold Resistance]",
-        "[LifeLeech|Leech] 8.89% of [Physical] [Attack] Damage as Life",
-        "[ManaLeech|Leech] 8.51% of [Physical] [Attack] Damage as Mana"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "41% increased [Armour|Armour] and [Evasion|Evasion]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Cultist Gauntlets",
-      "properties": [
-        {
-          "name": "Gloves",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Armour]",
-          "values": [
-            [
-              "138",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 16
-        },
-        {
-          "name": "[Evasion|Evasion Rating]",
-          "values": [
-            [
-              "127",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 17
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "of the Desperate",
-            "tier": "S1",
-            "level": 65,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_707457662",
-                "min": "8",
-                "max": "8.9"
-              }
-            ]
-          },
-          {
-            "name": "of the Lamprey",
-            "tier": "S2",
-            "level": 54,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_2557965901",
-                "min": "8",
-                "max": "8.9"
-              }
-            ]
-          },
-          {
-            "name": "of the Ice",
-            "tier": "S2",
-            "level": 71,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_4220027924",
-                "min": "36",
-                "max": "40"
-              }
-            ]
-          },
-          {
-            "name": "Blasting",
-            "tier": "P2",
-            "level": 65,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "20",
-                "max": "24"
-              },
-              {
-                "hash": "explicit.stat_1573130764",
-                "min": "33",
-                "max": "36"
-              }
-            ]
-          },
-          {
-            "name": "Shocking",
-            "tier": "P3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1754445556",
-                "min": "1",
-                "max": "2"
-              },
-              {
-                "hash": "explicit.stat_1754445556",
-                "min": "41",
-                "max": "47"
-              }
-            ]
-          }
-        ],
-        "desecrated": [
-          {
-            "name": "Brawler's",
-            "tier": "P6",
-            "level": 16,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_2451402625",
-                "min": "27",
-                "max": "42"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_1573130764",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_1754445556",
-            [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_4220027924",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_2557965901",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_707457662",
-            [
-              0
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_2451402625",
-            [
-              0
             ]
           ]
         ]
@@ -915,10 +915,10 @@
       "item_name": "Hypnotic Caress",
       "base_type": "Vaal Wraps",
       "rarity": "Rare",
-      "listed_price": 40,
+      "listed_price": 30,
       "currency": "exalted",
       "div_equivalent": "",
-      "indexed": "2026-06-06T16:43:11Z",
+      "indexed": "2026-06-07T04:18:41Z",
       "stash": "6",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bdc7c3c15d/GlovesDexInt03.png",
       "ilvl": 79,
@@ -1116,10 +1116,10 @@
       "item_name": "Dire Clutches",
       "base_type": "Adorned Wraps",
       "rarity": "Rare",
-      "listed_price": 40,
+      "listed_price": 30,
       "currency": "exalted",
       "div_equivalent": "",
-      "indexed": "2026-06-06T16:43:11Z",
+      "indexed": "2026-06-07T04:19:12Z",
       "stash": "6",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQmFzZXR5cGVzL0dsb3Zlc0RleEludDAzIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bdc7c3c15d/GlovesDexInt03.png",
       "ilvl": 77,
@@ -1313,221 +1313,6 @@
       }
     },
     {
-      "item_id": "a73d56409119733cd7f1e72b540ec4cef37c8130dd4eb5a93227cb651bbe136c",
-      "item_name": "Vortex Clasp",
-      "base_type": "Long Belt",
-      "rarity": "Rare",
-      "listed_price": 40,
-      "currency": "exalted",
-      "div_equivalent": "",
-      "indexed": "2026-06-06T16:43:11Z",
-      "stash": "6",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmFzZXR5cGVzL0JlbHQwNCIsInciOjIsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4a30ba13fb/Belt04.png",
-      "ilvl": 82,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "19% increased [Charm] Effect Duration",
-        "Has 1 [Charm] Slot"
-      ],
-      "explicit_mods": [
-        "+11 to maximum Mana",
-        "32% increased [Charm] Effect Duration",
-        "+43% to [Resistances|Lightning Resistance]",
-        "16 to 18 [Physical|Physical] [Thorns|Thorns] damage"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "+9% to [Resistances|Chaos Resistance]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Long Belt",
-      "properties": [
-        {
-          "name": "Belt",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "explicit": [
-          {
-            "name": "of Ephij",
-            "tier": "S1",
-            "level": 82,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1671376347",
-                "min": "41",
-                "max": "45"
-              }
-            ]
-          },
-          {
-            "name": "Beryl",
-            "tier": "P9",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1050105434",
-                "min": "10",
-                "max": "14"
-              }
-            ]
-          },
-          {
-            "name": "Barbed",
-            "tier": "P5",
-            "level": 19,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_2881298780",
-                "min": "11",
-                "max": "16"
-              },
-              {
-                "hash": "explicit.stat_2881298780",
-                "min": "17",
-                "max": "23"
-              }
-            ]
-          },
-          {
-            "name": "Revolutionary",
-            "tier": "P1",
-            "level": 75,
-            "magnitudes": [
-              {
-                "hash": "explicit.stat_1389754388",
-                "min": "28",
-                "max": "33"
-              }
-            ]
-          }
-        ],
-        "implicit": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 25,
-            "magnitudes": [
-              {
-                "hash": "implicit.stat_1389754388",
-                "min": "15",
-                "max": "20"
-              }
-            ]
-          },
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "implicit.stat_1416292992",
-                "min": "1",
-                "max": "3"
-              }
-            ]
-          }
-        ],
-        "crafted": [
-          {
-            "name": "of the Volcano",
-            "tier": "S3",
-            "level": 60,
-            "magnitudes": [
-              {
-                "hash": "crafted.stat_3372524247",
-                "min": "31",
-                "max": "35"
-              }
-            ]
-          }
-        ],
-        "desecrated": [
-          {
-            "name": "of Banishment",
-            "tier": "S5",
-            "level": 30,
-            "magnitudes": [
-              {
-                "hash": "desecrated.stat_2923486259",
-                "min": "8",
-                "max": "11"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_1050105434",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_1389754388",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_1671376347",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_2881298780",
-            [
-              2
-            ]
-          ]
-        ],
-        "implicit": [
-          [
-            "implicit.stat_1389754388",
-            [
-              0
-            ]
-          ],
-          [
-            "implicit.stat_1416292992",
-            [
-              1
-            ]
-          ]
-        ],
-        "crafted": [
-          [
-            "crafted.stat_3372524247",
-            [
-              0
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_2923486259",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
       "item_id": "33e2d44c72d19a18507345e07020fbeeb6801ce8aeea5ef8f3e0ae7b61690d97",
       "item_name": "Cataclysm Shine",
       "base_type": "Emerald",
@@ -1647,9 +1432,3414 @@
           ]
         ]
       }
+    },
+    {
+      "item_id": "ec35af0240a9545924ced08e97632a2bb7fc96f2f5b8459e83e7b0b5b0c030be",
+      "item_name": "Foe Edge",
+      "base_type": "Stalking Spear",
+      "rarity": "Rare",
+      "listed_price": 2,
+      "currency": "divine",
+      "div_equivalent": 2,
+      "indexed": "2026-06-07T05:13:07Z",
+      "stash": "6",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3BlYXJzLzFIU3BlYXIwMyIsInciOjEsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d4c8557684/1HSpear03.png",
+      "ilvl": 82,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "16% chance to [Maim|Maim] on [HitDamage|Hit]"
+      ],
+      "explicit_mods": [
+        "162% increased [Physical] Damage",
+        "+215 to [Accuracy|Accuracy] Rating",
+        "30% reduced [Attributes|Attribute] Requirements",
+        "Grants 5 Life per Enemy [HitDamage|Hit]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "14% increased [Attack] Speed",
+        "[Companion|Companions] have 12% increased [Attack] Speed"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Stalking Spear",
+      "properties": [
+        {
+          "name": "[Spear]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Physical] Damage",
+          "values": [
+            [
+              "176-328",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 9
+        },
+        {
+          "name": "[Critical|Critical Hit] Chance",
+          "values": [
+            [
+              "5.00%",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 12
+        },
+        {
+          "name": "Attacks per Second",
+          "values": [
+            [
+              "1.77",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 13
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": true,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Runes of Aldur",
+          "id": "37cf16fe0f0cbdbf81b1de75b905276fe824a46794a1c1d72b2bc15e60836d48",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+20 to maximum Life",
+            "+20 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "frameTypeId": "Currency",
+          "socket": 0,
+          "socketedIcon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9SdW5lU29ja2V0RmlsbGVkIiwicmVhbG0iOiJwb2UyIn1d/d02d26cbf0/RuneSocketFilled.png"
+        },
+        {
+          "realm": "poe2",
+          "verified": true,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQmxhbmtHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/250ec3ed08/BlankGem.png",
+          "support": false,
+          "league": "Runes of Aldur",
+          "name": "",
+          "typeLine": "Spear Throw",
+          "baseType": "Spear Throw",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "[Attack], [AoESkill|AoE], [Projectile], [Repeat|Repeatable]",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "1",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 5
+            },
+            {
+              "name": "Attack Speed",
+              "values": [
+                [
+                  "70% of base",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Attack Damage",
+              "values": [
+                [
+                  "125%",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "weaponRequirements": [
+            {
+              "name": "",
+              "values": [
+                [
+                  "[Spear]",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 96
+            }
+          ],
+          "secDescrText": "Hurl your [Spear] with force. Consumes a [Charges|Frenzy Charge] if you have one to cause the [Spear] to explode at the end of its flight.",
+          "gemTabs": [
+            {
+              "name": "Spear Throw",
+              "pages": [
+                {
+                  "skillName": "Spear Throw"
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "232%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "stats": [
+                    "Explosion radius is 2 metres"
+                  ],
+                  "skillName": "Explosion"
+                }
+              ]
+            }
+          ],
+          "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png",
+          "descrText": "Skills can be managed in the Skills Panel.",
+          "frameType": 4,
+          "frameTypeId": "Gem"
+        }
+      ],
+      "rune_mods": [
+        "18% increased [Physical] Damage",
+        "[ShamanOnlyMods|Bonded]: 20% increased effect of [ArmourBreak|Fully Broken Armour]"
+      ],
+      "granted_skills": [
+        {
+          "name": "Grants Skill",
+          "values": [
+            [
+              "Spear Throw",
+              25
+            ]
+          ],
+          "displayMode": 0,
+          "icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png"
+        }
+      ],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "Tyrannical",
+            "tier": "P2",
+            "level": 75,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1509134228",
+                "min": "155",
+                "max": "169"
+              }
+            ]
+          },
+          {
+            "name": "of Nourishment",
+            "tier": "S1",
+            "level": 40,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_821021828",
+                "min": "5",
+                "max": "5"
+              }
+            ]
+          },
+          {
+            "name": "of the Skilled",
+            "tier": "S2",
+            "level": 52,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3639275092",
+                "min": "-30",
+                "max": "-30"
+              }
+            ]
+          },
+          {
+            "name": "Steady",
+            "tier": "P4",
+            "level": 48,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_691932474",
+                "min": "168",
+                "max": "236"
+              }
+            ]
+          }
+        ],
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": null
+          },
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_2763429652",
+                "min": "15",
+                "max": "25"
+              }
+            ]
+          }
+        ],
+        "crafted": [
+          {
+            "name": "Razor-sharp",
+            "tier": "P3",
+            "level": 60,
+            "magnitudes": [
+              {
+                "hash": "crafted.stat_1940865751",
+                "min": "16",
+                "max": "24"
+              },
+              {
+                "hash": "crafted.stat_1940865751",
+                "min": "28",
+                "max": "42"
+              }
+            ]
+          }
+        ],
+        "desecrated": [
+          {
+            "name": "of Amanamu",
+            "tier": "S1",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "desecrated.stat_210067635",
+                "min": "12",
+                "max": "18"
+              },
+              {
+                "hash": "desecrated.stat_666077204",
+                "min": "12",
+                "max": "18"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1509134228",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_691932474",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3639275092",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_821021828",
+            [
+              1
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2763429652",
+            [
+              1
+            ]
+          ]
+        ],
+        "crafted": [
+          [
+            "crafted.stat_1940865751",
+            [
+              0
+            ]
+          ]
+        ],
+        "rune": [
+          [
+            "rune.stat_1509134228",
+            null
+          ],
+          [
+            "rune.stat_1039491398",
+            null
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_210067635",
+            [
+              0
+            ]
+          ],
+          [
+            "desecrated.stat_666077204",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "fd7f34c90370d2f38e3a563e411f9e2838151bb64cf439cb7214651d117233d5",
+      "item_name": "Glyph Edge",
+      "base_type": "Stalking Spear",
+      "rarity": "Rare",
+      "listed_price": 2,
+      "currency": "divine",
+      "div_equivalent": 2,
+      "indexed": "2026-06-07T05:13:07Z",
+      "stash": "6",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3BlYXJzLzFIU3BlYXIwMyIsInciOjEsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d4c8557684/1HSpear03.png",
+      "ilvl": 78,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "24% chance to [Maim|Maim] on [HitDamage|Hit]"
+      ],
+      "explicit_mods": [
+        "160% increased [Physical] Damage",
+        "Adds 23 to 34 [Fire|Fire] Damage",
+        "Gain 17 Mana per enemy killed",
+        "29% increased [Stun|Stun] Duration"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "14% increased [Attack] Speed",
+        "[Companion|Companions] have 16% increased [Attack] Speed"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Stalking Spear",
+      "properties": [
+        {
+          "name": "[Spear]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Quality]",
+          "values": [
+            [
+              "+6%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        },
+        {
+          "name": "[Physical] Damage",
+          "values": [
+            [
+              "194-342",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 9
+        },
+        {
+          "name": "Fire Damage",
+          "values": [
+            [
+              "23-34",
+              4
+            ]
+          ],
+          "displayMode": 0,
+          "type": 10
+        },
+        {
+          "name": "[Critical|Critical Hit] Chance",
+          "values": [
+            [
+              "5.00%",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 12
+        },
+        {
+          "name": "Attacks per Second",
+          "values": [
+            [
+              "1.77",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 13
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": true,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Runes of Aldur",
+          "id": "15ebc1e7fdaa65d19bc228f41dbd55c1b5013a723dbbbd1fb8cbce97a55bc16c",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+20 to maximum Life",
+            "+20 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "frameTypeId": "Currency",
+          "socket": 0,
+          "socketedIcon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9SdW5lU29ja2V0RmlsbGVkIiwicmVhbG0iOiJwb2UyIn1d/d02d26cbf0/RuneSocketFilled.png"
+        },
+        {
+          "realm": "poe2",
+          "verified": true,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQmxhbmtHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/250ec3ed08/BlankGem.png",
+          "support": false,
+          "league": "Runes of Aldur",
+          "name": "",
+          "typeLine": "Spear Throw",
+          "baseType": "Spear Throw",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "[Attack], [AoESkill|AoE], [Projectile], [Repeat|Repeatable]",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "1",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 5
+            },
+            {
+              "name": "Attack Speed",
+              "values": [
+                [
+                  "70% of base",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Attack Damage",
+              "values": [
+                [
+                  "125%",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "weaponRequirements": [
+            {
+              "name": "",
+              "values": [
+                [
+                  "[Spear]",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 96
+            }
+          ],
+          "secDescrText": "Hurl your [Spear] with force. Consumes a [Charges|Frenzy Charge] if you have one to cause the [Spear] to explode at the end of its flight.",
+          "gemTabs": [
+            {
+              "name": "Spear Throw",
+              "pages": [
+                {
+                  "skillName": "Spear Throw"
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "232%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "stats": [
+                    "Explosion radius is 2 metres"
+                  ],
+                  "skillName": "Explosion"
+                }
+              ]
+            }
+          ],
+          "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png",
+          "descrText": "Skills can be managed in the Skills Panel.",
+          "frameType": 4,
+          "frameTypeId": "Gem"
+        }
+      ],
+      "rune_mods": [
+        "18% increased [Physical] Damage",
+        "[ShamanOnlyMods|Bonded]: 20% increased effect of [ArmourBreak|Fully Broken Armour]"
+      ],
+      "granted_skills": [
+        {
+          "name": "Grants Skill",
+          "values": [
+            [
+              "Spear Throw",
+              25
+            ]
+          ],
+          "displayMode": 0,
+          "icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png"
+        }
+      ],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of the Concussion",
+            "tier": "S1",
+            "level": 71,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_748522257",
+                "min": "27",
+                "max": "30"
+              }
+            ]
+          },
+          {
+            "name": "Tyrannical",
+            "tier": "P2",
+            "level": 75,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1509134228",
+                "min": "155",
+                "max": "169"
+              }
+            ]
+          },
+          {
+            "name": "of Consumption",
+            "tier": "S4",
+            "level": 45,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1368271171",
+                "min": "15",
+                "max": "20"
+              }
+            ]
+          },
+          {
+            "name": "Flaming",
+            "tier": "P6",
+            "level": 46,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_709508406",
+                "min": "20",
+                "max": "24"
+              },
+              {
+                "hash": "explicit.stat_709508406",
+                "min": "32",
+                "max": "37"
+              }
+            ]
+          }
+        ],
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": null
+          },
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_2763429652",
+                "min": "15",
+                "max": "25"
+              }
+            ]
+          }
+        ],
+        "crafted": [
+          {
+            "name": "Razor-sharp",
+            "tier": "P3",
+            "level": 60,
+            "magnitudes": [
+              {
+                "hash": "crafted.stat_1940865751",
+                "min": "16",
+                "max": "24"
+              },
+              {
+                "hash": "crafted.stat_1940865751",
+                "min": "28",
+                "max": "42"
+              }
+            ]
+          }
+        ],
+        "desecrated": [
+          {
+            "name": "of Amanamu",
+            "tier": "S1",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "desecrated.stat_210067635",
+                "min": "12",
+                "max": "18"
+              },
+              {
+                "hash": "desecrated.stat_666077204",
+                "min": "12",
+                "max": "18"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1509134228",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_709508406",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1368271171",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_748522257",
+            [
+              0
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2763429652",
+            [
+              1
+            ]
+          ]
+        ],
+        "crafted": [
+          [
+            "crafted.stat_1940865751",
+            [
+              0
+            ]
+          ]
+        ],
+        "rune": [
+          [
+            "rune.stat_1509134228",
+            null
+          ],
+          [
+            "rune.stat_1039491398",
+            null
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_210067635",
+            [
+              0
+            ]
+          ],
+          [
+            "desecrated.stat_666077204",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "3b3de823df594d16a2d07b35e310da9c459621957fbf594fc24ce04074dd5d70",
+      "item_name": "Eagle Edge",
+      "base_type": "Stalking Spear",
+      "rarity": "Rare",
+      "listed_price": 3,
+      "currency": "divine",
+      "div_equivalent": 3,
+      "indexed": "2026-06-07T04:55:25Z",
+      "stash": "6",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3BlYXJzLzFIU3BlYXIwMyIsInciOjEsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d4c8557684/1HSpear03.png",
+      "ilvl": 77,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "21% chance to [Maim|Maim] on [HitDamage|Hit]"
+      ],
+      "explicit_mods": [
+        "162% increased [Physical] Damage",
+        "77% increased [ElementalDamage|Elemental] Damage with [Attack|Attacks]",
+        "+33 to [Dexterity|Dexterity]",
+        "[LifeLeech|Leeches] 7.01% of [Physical|Physical] Damage as Life"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "14% increased [Attack] Speed",
+        "[Companion|Companions] have 12% increased [Attack] Speed"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Stalking Spear",
+      "properties": [
+        {
+          "name": "[Spear]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Physical] Damage",
+          "values": [
+            [
+              "179-336",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 9
+        },
+        {
+          "name": "[Critical|Critical Hit] Chance",
+          "values": [
+            [
+              "5.00%",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 12
+        },
+        {
+          "name": "Attacks per Second",
+          "values": [
+            [
+              "1.77",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 13
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": true,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Runes of Aldur",
+          "id": "4f0667328d6140567fd0560cb506cb0070c0a8207c18697987b47748e30b9681",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+20 to maximum Life",
+            "+20 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "frameTypeId": "Currency",
+          "socket": 0,
+          "socketedIcon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9SdW5lU29ja2V0RmlsbGVkIiwicmVhbG0iOiJwb2UyIn1d/d02d26cbf0/RuneSocketFilled.png"
+        },
+        {
+          "realm": "poe2",
+          "verified": true,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQmxhbmtHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/250ec3ed08/BlankGem.png",
+          "support": false,
+          "league": "Runes of Aldur",
+          "name": "",
+          "typeLine": "Spear Throw",
+          "baseType": "Spear Throw",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "[Attack], [AoESkill|AoE], [Projectile], [Repeat|Repeatable]",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "1",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 5
+            },
+            {
+              "name": "Attack Speed",
+              "values": [
+                [
+                  "70% of base",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Attack Damage",
+              "values": [
+                [
+                  "125%",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "weaponRequirements": [
+            {
+              "name": "",
+              "values": [
+                [
+                  "[Spear]",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 96
+            }
+          ],
+          "secDescrText": "Hurl your [Spear] with force. Consumes a [Charges|Frenzy Charge] if you have one to cause the [Spear] to explode at the end of its flight.",
+          "gemTabs": [
+            {
+              "name": "Spear Throw",
+              "pages": [
+                {
+                  "skillName": "Spear Throw"
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "232%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "stats": [
+                    "Explosion radius is 2 metres"
+                  ],
+                  "skillName": "Explosion"
+                }
+              ]
+            }
+          ],
+          "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png",
+          "descrText": "Skills can be managed in the Skills Panel.",
+          "frameType": 4,
+          "frameTypeId": "Gem"
+        }
+      ],
+      "rune_mods": [
+        "18% increased [Physical] Damage",
+        "[ShamanOnlyMods|Bonded]: 20% increased effect of [ArmourBreak|Fully Broken Armour]"
+      ],
+      "granted_skills": [
+        {
+          "name": "Grants Skill",
+          "values": [
+            [
+              "Spear Throw",
+              25
+            ]
+          ],
+          "displayMode": 0,
+          "icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png"
+        }
+      ],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "Tyrannical",
+            "tier": "P2",
+            "level": 75,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1509134228",
+                "min": "155",
+                "max": "169"
+              }
+            ]
+          },
+          {
+            "name": "of the Phantom",
+            "tier": "S1",
+            "level": 74,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_3261801346",
+                "min": "31",
+                "max": "33"
+              }
+            ]
+          },
+          {
+            "name": "Overpowering",
+            "tier": "P2",
+            "level": 60,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_387439868",
+                "min": "73",
+                "max": "86"
+              }
+            ]
+          },
+          {
+            "name": "of the Remora",
+            "tier": "S3",
+            "level": 38,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_55876295",
+                "min": "7",
+                "max": "7.9"
+              }
+            ]
+          }
+        ],
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": null
+          },
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_2763429652",
+                "min": "15",
+                "max": "25"
+              }
+            ]
+          }
+        ],
+        "crafted": [
+          {
+            "name": "Razor-sharp",
+            "tier": "P3",
+            "level": 60,
+            "magnitudes": [
+              {
+                "hash": "crafted.stat_1940865751",
+                "min": "16",
+                "max": "24"
+              },
+              {
+                "hash": "crafted.stat_1940865751",
+                "min": "28",
+                "max": "42"
+              }
+            ]
+          }
+        ],
+        "desecrated": [
+          {
+            "name": "of Amanamu",
+            "tier": "S1",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "desecrated.stat_210067635",
+                "min": "12",
+                "max": "18"
+              },
+              {
+                "hash": "desecrated.stat_666077204",
+                "min": "12",
+                "max": "18"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1509134228",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_387439868",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3261801346",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_55876295",
+            [
+              3
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2763429652",
+            [
+              1
+            ]
+          ]
+        ],
+        "crafted": [
+          [
+            "crafted.stat_1940865751",
+            [
+              0
+            ]
+          ]
+        ],
+        "rune": [
+          [
+            "rune.stat_1509134228",
+            null
+          ],
+          [
+            "rune.stat_1039491398",
+            null
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_210067635",
+            [
+              0
+            ]
+          ],
+          [
+            "desecrated.stat_666077204",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "a347706875988fec159228a3b3635e8bf1b4b4a5ebf0a0e6466d6070e4b9500a",
+      "item_name": "Victory Edge",
+      "base_type": "Stalking Spear",
+      "rarity": "Rare",
+      "listed_price": 10,
+      "currency": "divine",
+      "div_equivalent": 10,
+      "indexed": "2026-06-07T05:04:20Z",
+      "stash": "6",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3BlYXJzLzFIU3BlYXIwMyIsInciOjEsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d4c8557684/1HSpear03.png",
+      "ilvl": 81,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "24% chance to [Maim|Maim] on [HitDamage|Hit]"
+      ],
+      "explicit_mods": [
+        "159% increased [Physical] Damage",
+        "+48 to [Accuracy|Accuracy] Rating",
+        "97% increased [ElementalDamage|Elemental] Damage with [Attack|Attacks]",
+        "Gain 23 Mana per enemy killed",
+        "15% increased [LightRadius|Light Radius]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "15% increased [Attack] Speed",
+        "[Companion|Companions] have 17% increased [Attack] Speed"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Stalking Spear",
+      "properties": [
+        {
+          "name": "[Spear]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Physical] Damage",
+          "values": [
+            [
+              "186-335",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 9
+        },
+        {
+          "name": "[Critical|Critical Hit] Chance",
+          "values": [
+            [
+              "5.00%",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 12
+        },
+        {
+          "name": "Attacks per Second",
+          "values": [
+            [
+              "1.79",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 13
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": true,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Runes of Aldur",
+          "id": "8bc713d8e6bca23b4b8f5fe48a51a971fb1bb170e30a9b1a26259c08a8c2e9e9",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+20 to maximum Life",
+            "+20 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "frameTypeId": "Currency",
+          "socket": 0,
+          "socketedIcon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9SdW5lU29ja2V0RmlsbGVkIiwicmVhbG0iOiJwb2UyIn1d/d02d26cbf0/RuneSocketFilled.png"
+        },
+        {
+          "realm": "poe2",
+          "verified": true,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQmxhbmtHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/250ec3ed08/BlankGem.png",
+          "support": false,
+          "league": "Runes of Aldur",
+          "name": "",
+          "typeLine": "Spear Throw",
+          "baseType": "Spear Throw",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "[Attack], [AoESkill|AoE], [Projectile], [Repeat|Repeatable]",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "1",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 5
+            },
+            {
+              "name": "Attack Speed",
+              "values": [
+                [
+                  "70% of base",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Attack Damage",
+              "values": [
+                [
+                  "125%",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "weaponRequirements": [
+            {
+              "name": "",
+              "values": [
+                [
+                  "[Spear]",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 96
+            }
+          ],
+          "secDescrText": "Hurl your [Spear] with force. Consumes a [Charges|Frenzy Charge] if you have one to cause the [Spear] to explode at the end of its flight.",
+          "gemTabs": [
+            {
+              "name": "Spear Throw",
+              "pages": [
+                {
+                  "skillName": "Spear Throw"
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "232%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "stats": [
+                    "Explosion radius is 2 metres"
+                  ],
+                  "skillName": "Explosion"
+                }
+              ]
+            }
+          ],
+          "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png",
+          "descrText": "Skills can be managed in the Skills Panel.",
+          "frameType": 4,
+          "frameTypeId": "Gem"
+        }
+      ],
+      "rune_mods": [
+        "18% increased [Physical] Damage",
+        "[ShamanOnlyMods|Bonded]: 20% increased effect of [ArmourBreak|Fully Broken Armour]"
+      ],
+      "granted_skills": [
+        {
+          "name": "Grants Skill",
+          "values": [
+            [
+              "Spear Throw",
+              25
+            ]
+          ],
+          "displayMode": 0,
+          "icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png"
+        }
+      ],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of Radiance",
+            "tier": "S1",
+            "level": 30,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_691932474",
+                "min": "41",
+                "max": "60"
+              },
+              {
+                "hash": "explicit.stat_1263695895",
+                "min": "15",
+                "max": "15"
+              }
+            ]
+          },
+          {
+            "name": "Tyrannical",
+            "tier": "P2",
+            "level": 75,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1509134228",
+                "min": "155",
+                "max": "169"
+              }
+            ]
+          },
+          {
+            "name": "of Siphoning",
+            "tier": "S3",
+            "level": 56,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1368271171",
+                "min": "21",
+                "max": "27"
+              }
+            ]
+          },
+          {
+            "name": "Devastating",
+            "tier": "P1",
+            "level": 81,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_387439868",
+                "min": "87",
+                "max": "100"
+              }
+            ]
+          }
+        ],
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": null
+          },
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_2763429652",
+                "min": "15",
+                "max": "25"
+              }
+            ]
+          }
+        ],
+        "crafted": [
+          {
+            "name": "Razor-sharp",
+            "tier": "P3",
+            "level": 60,
+            "magnitudes": [
+              {
+                "hash": "crafted.stat_1940865751",
+                "min": "16",
+                "max": "24"
+              },
+              {
+                "hash": "crafted.stat_1940865751",
+                "min": "28",
+                "max": "42"
+              }
+            ]
+          }
+        ],
+        "desecrated": [
+          {
+            "name": "of Amanamu",
+            "tier": "S1",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "desecrated.stat_210067635",
+                "min": "12",
+                "max": "18"
+              },
+              {
+                "hash": "desecrated.stat_666077204",
+                "min": "12",
+                "max": "18"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1509134228",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_691932474",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_387439868",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1368271171",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1263695895",
+            [
+              0
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2763429652",
+            [
+              1
+            ]
+          ]
+        ],
+        "crafted": [
+          [
+            "crafted.stat_1940865751",
+            [
+              0
+            ]
+          ]
+        ],
+        "rune": [
+          [
+            "rune.stat_1509134228",
+            null
+          ],
+          [
+            "rune.stat_1039491398",
+            null
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_210067635",
+            [
+              0
+            ]
+          ],
+          [
+            "desecrated.stat_666077204",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "a109bbe1697653f0f71a4045a12f60359dd818d7776efbe53f8c0f2ad5e17db4",
+      "item_name": "Dread Edge",
+      "base_type": "Stalking Spear",
+      "rarity": "Rare",
+      "listed_price": 34,
+      "currency": "divine",
+      "div_equivalent": 34,
+      "indexed": "2026-06-07T05:04:20Z",
+      "stash": "6",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3BlYXJzLzFIU3BlYXIwMyIsInciOjEsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d4c8557684/1HSpear03.png",
+      "ilvl": 81,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "23% chance to [Maim|Maim] on [HitDamage|Hit]"
+      ],
+      "explicit_mods": [
+        "216% increased [Physical] Damage",
+        "+112 to [Accuracy|Accuracy] Rating",
+        "+25 to [Strength|Strength]",
+        "Gain 45 Mana per enemy killed"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "17% increased [Attack] Speed",
+        "[Companion|Companions] have 18% increased [Attack] Speed"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Stalking Spear",
+      "properties": [
+        {
+          "name": "[Spear]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Physical] Damage",
+          "values": [
+            [
+              "239-407",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 9
+        },
+        {
+          "name": "[Critical|Critical Hit] Chance",
+          "values": [
+            [
+              "5.00%",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 12
+        },
+        {
+          "name": "Attacks per Second",
+          "values": [
+            [
+              "1.81",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 13
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": true,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVFbmhhbmNlIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/21cf0ab567/PerfectRuneEnhance.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Runes of Aldur",
+          "id": "367703091275a6b53630b1670e4d892d1f756020b34e982dd7a5d051e9a0402f",
+          "name": "",
+          "typeLine": "Perfect Iron Rune",
+          "baseType": "Perfect Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "50",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 20% increased [Physical] Damage",
+            "Wand or Staff: 35% increased [Spell] Damage",
+            "Armour: 20% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+20 to maximum Life",
+            "+20 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "frameTypeId": "Currency",
+          "socket": 0,
+          "socketedIcon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9FbmRnYW1lUnVuZVNvY2tldEZpbGxlZCIsInJlYWxtIjoicG9lMiJ9XQ/bf6782a224/EndgameRuneSocketFilled.png"
+        },
+        {
+          "realm": "poe2",
+          "verified": true,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQmxhbmtHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/250ec3ed08/BlankGem.png",
+          "support": false,
+          "league": "Runes of Aldur",
+          "name": "",
+          "typeLine": "Spear Throw",
+          "baseType": "Spear Throw",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "[Attack], [AoESkill|AoE], [Projectile], [Repeat|Repeatable]",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "1",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 5
+            },
+            {
+              "name": "Attack Speed",
+              "values": [
+                [
+                  "70% of base",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Attack Damage",
+              "values": [
+                [
+                  "125%",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "weaponRequirements": [
+            {
+              "name": "",
+              "values": [
+                [
+                  "[Spear]",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 96
+            }
+          ],
+          "secDescrText": "Hurl your [Spear] with force. Consumes a [Charges|Frenzy Charge] if you have one to cause the [Spear] to explode at the end of its flight.",
+          "gemTabs": [
+            {
+              "name": "Spear Throw",
+              "pages": [
+                {
+                  "skillName": "Spear Throw"
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "232%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "stats": [
+                    "Explosion radius is 2 metres"
+                  ],
+                  "skillName": "Explosion"
+                }
+              ]
+            }
+          ],
+          "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png",
+          "descrText": "Skills can be managed in the Skills Panel.",
+          "frameType": 4,
+          "frameTypeId": "Gem"
+        }
+      ],
+      "rune_mods": [
+        "20% increased [Physical] Damage",
+        "[ShamanOnlyMods|Bonded]: 20% increased effect of [ArmourBreak|Fully Broken Armour]"
+      ],
+      "granted_skills": [
+        {
+          "name": "Grants Skill",
+          "values": [
+            [
+              "Spear Throw",
+              25
+            ]
+          ],
+          "displayMode": 0,
+          "icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png"
+        }
+      ],
+      "extended_mods": {
+        "explicit": [
+          {
+            "name": "of Assimilation",
+            "tier": "S1",
+            "level": 78,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1368271171",
+                "min": "36",
+                "max": "45"
+              }
+            ]
+          },
+          {
+            "name": "Tyrannical",
+            "tier": "P2",
+            "level": 75,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1509134228",
+                "min": "155",
+                "max": "169"
+              }
+            ]
+          },
+          {
+            "name": "Champion's",
+            "tier": "P4",
+            "level": 54,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_1509134228",
+                "min": "45",
+                "max": "54"
+              },
+              {
+                "hash": "explicit.stat_691932474",
+                "min": "98",
+                "max": "123"
+              }
+            ]
+          },
+          {
+            "name": "of the Goliath",
+            "tier": "S3",
+            "level": 55,
+            "magnitudes": [
+              {
+                "hash": "explicit.stat_4080418644",
+                "min": "25",
+                "max": "27"
+              }
+            ]
+          }
+        ],
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": null
+          },
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_2763429652",
+                "min": "15",
+                "max": "25"
+              }
+            ]
+          }
+        ],
+        "crafted": [
+          {
+            "name": "Razor-sharp",
+            "tier": "P3",
+            "level": 60,
+            "magnitudes": [
+              {
+                "hash": "crafted.stat_1940865751",
+                "min": "16",
+                "max": "24"
+              },
+              {
+                "hash": "crafted.stat_1940865751",
+                "min": "28",
+                "max": "42"
+              }
+            ]
+          }
+        ],
+        "desecrated": [
+          {
+            "name": "of Amanamu",
+            "tier": "S1",
+            "level": 65,
+            "magnitudes": [
+              {
+                "hash": "desecrated.stat_210067635",
+                "min": "12",
+                "max": "18"
+              },
+              {
+                "hash": "desecrated.stat_666077204",
+                "min": "12",
+                "max": "18"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1509134228",
+            [
+              1,
+              2
+            ]
+          ],
+          [
+            "explicit.stat_691932474",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_4080418644",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1368271171",
+            [
+              0
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2763429652",
+            [
+              1
+            ]
+          ]
+        ],
+        "crafted": [
+          [
+            "crafted.stat_1940865751",
+            [
+              0
+            ]
+          ]
+        ],
+        "rune": [
+          [
+            "rune.stat_1509134228",
+            null
+          ],
+          [
+            "rune.stat_1039491398",
+            null
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_210067635",
+            [
+              0
+            ]
+          ],
+          [
+            "desecrated.stat_666077204",
+            [
+              0
+            ]
+          ]
+        ]
+      }
     }
   ],
   "recent_sales": [
+    {
+      "timestamp": "2026-06-07T08:13:33+00:00",
+      "item_name": "Vortex Clasp",
+      "base_type": "Long Belt",
+      "rarity": "Rare",
+      "sale_price": 30,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "item_id": "a73d56409119733cd7f1e72b540ec4cef37c8130dd4eb5a93227cb651bbe136c",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmFzZXR5cGVzL0JlbHQwNCIsInciOjIsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4a30ba13fb/Belt04.png",
+      "ilvl": 82,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "19% increased [Charm] Effect Duration",
+        "Has 1 [Charm] Slot"
+      ],
+      "explicit_mods": [
+        "+11 to maximum Mana",
+        "32% increased [Charm] Effect Duration",
+        "+43% to [Resistances|Lightning Resistance]",
+        "16 to 18 [Physical|Physical] [Thorns|Thorns] damage"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "+9% to [Resistances|Chaos Resistance]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Long Belt",
+      "properties": [
+        {
+          "name": "Belt",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-06-07T07:37:46+00:00",
+      "item_name": "Fate Edge",
+      "base_type": "Stalking Spear",
+      "rarity": "Rare",
+      "sale_price": 2,
+      "currency": "divine",
+      "div_equivalent": 2,
+      "item_id": "8dbc18cdd38b7e0b73da01e15f5ca5f902e7e6d74f712d5997eb73a2879402c8",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3BlYXJzLzFIU3BlYXIwMyIsInciOjEsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d4c8557684/1HSpear03.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "21% chance to [Maim|Maim] on [HitDamage|Hit]"
+      ],
+      "explicit_mods": [
+        "162% increased [Physical] Damage",
+        "+311 to [Accuracy|Accuracy] Rating",
+        "[LifeLeech|Leeches] 9.8% of [Physical|Physical] Damage as Life",
+        "Causes 74% increased [Stun|Stun] Buildup"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "15% increased [Attack] Speed",
+        "[Companion|Companions] have 17% increased [Attack] Speed"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Stalking Spear",
+      "properties": [
+        {
+          "name": "[Spear]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Physical] Damage",
+          "values": [
+            [
+              "190-322",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 9
+        },
+        {
+          "name": "[Critical|Critical Hit] Chance",
+          "values": [
+            [
+              "5.00%",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 12
+        },
+        {
+          "name": "Attacks per Second",
+          "values": [
+            [
+              "1.79",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 13
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Runes of Aldur",
+          "id": "f6d3dfef6b7833a4e7e2c9d64494cf5592bf3bbf32d22699a86267f287c7e5f5",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+20 to maximum Life",
+            "+20 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "frameTypeId": "Currency",
+          "socket": 0,
+          "socketedIcon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9SdW5lU29ja2V0RmlsbGVkIiwicmVhbG0iOiJwb2UyIn1d/d02d26cbf0/RuneSocketFilled.png"
+        },
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQmxhbmtHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/250ec3ed08/BlankGem.png",
+          "support": false,
+          "league": "Runes of Aldur",
+          "name": "",
+          "typeLine": "Spear Throw",
+          "baseType": "Spear Throw",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "[Attack], [AoESkill|AoE], [Projectile], [Repeat|Repeatable]",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "1",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 5
+            },
+            {
+              "name": "Attack Speed",
+              "values": [
+                [
+                  "70% of base",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Attack Damage",
+              "values": [
+                [
+                  "125%",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "weaponRequirements": [
+            {
+              "name": "",
+              "values": [
+                [
+                  "[Spear]",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 96
+            }
+          ],
+          "secDescrText": "Hurl your [Spear] with force. Consumes a [Charges|Frenzy Charge] if you have one to cause the [Spear] to explode at the end of its flight.",
+          "gemTabs": [
+            {
+              "name": "Spear Throw",
+              "pages": [
+                {
+                  "skillName": "Spear Throw"
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "232%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "stats": [
+                    "Explosion radius is 2 metres"
+                  ],
+                  "skillName": "Explosion"
+                }
+              ]
+            }
+          ],
+          "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png",
+          "descrText": "Skills can be managed in the Skills Panel.",
+          "frameType": 4,
+          "frameTypeId": "Gem"
+        }
+      ],
+      "rune_mods": [
+        "18% increased [Physical] Damage",
+        "[ShamanOnlyMods|Bonded]: 20% increased effect of [ArmourBreak|Fully Broken Armour]"
+      ],
+      "granted_skills": [
+        {
+          "name": "Grants Skill",
+          "values": [
+            [
+              "Spear Throw",
+              25
+            ]
+          ],
+          "displayMode": 0,
+          "icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png"
+        }
+      ],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-06-07T06:35:28+00:00",
+      "item_name": "Brimstone Edge",
+      "base_type": "Stalking Spear",
+      "rarity": "Rare",
+      "sale_price": 2,
+      "currency": "divine",
+      "div_equivalent": 2,
+      "item_id": "9eb44f9838d6dff1a129dd009e656ba773a16035c772a50869af6293322c92f3",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3BlYXJzLzFIU3BlYXIwMyIsInciOjEsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d4c8557684/1HSpear03.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "19% chance to [Maim|Maim] on [HitDamage|Hit]"
+      ],
+      "explicit_mods": [
+        "161% increased [Physical] Damage",
+        "+230 to [Accuracy|Accuracy] Rating",
+        "+32 to [Dexterity|Dexterity]",
+        "Causes 73% increased [Stun|Stun] Buildup"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "13% increased [Attack] Speed",
+        "[Companion|Companions] have 12% increased [Attack] Speed"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Stalking Spear",
+      "properties": [
+        {
+          "name": "[Spear]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Physical] Damage",
+          "values": [
+            [
+              "195-332",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 9
+        },
+        {
+          "name": "[Critical|Critical Hit] Chance",
+          "values": [
+            [
+              "5.00%",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 12
+        },
+        {
+          "name": "Attacks per Second",
+          "values": [
+            [
+              "1.75",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 13
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Runes of Aldur",
+          "id": "933c03d7f92a703bcb38a1ef7b060e853e1d1bfef4bb8d662c25d34aa1ea4819",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+20 to maximum Life",
+            "+20 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "frameTypeId": "Currency",
+          "socket": 0,
+          "socketedIcon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9SdW5lU29ja2V0RmlsbGVkIiwicmVhbG0iOiJwb2UyIn1d/d02d26cbf0/RuneSocketFilled.png"
+        },
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQmxhbmtHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/250ec3ed08/BlankGem.png",
+          "support": false,
+          "league": "Runes of Aldur",
+          "name": "",
+          "typeLine": "Spear Throw",
+          "baseType": "Spear Throw",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "[Attack], [AoESkill|AoE], [Projectile], [Repeat|Repeatable]",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "1",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 5
+            },
+            {
+              "name": "Attack Speed",
+              "values": [
+                [
+                  "70% of base",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Attack Damage",
+              "values": [
+                [
+                  "125%",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "weaponRequirements": [
+            {
+              "name": "",
+              "values": [
+                [
+                  "[Spear]",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 96
+            }
+          ],
+          "secDescrText": "Hurl your [Spear] with force. Consumes a [Charges|Frenzy Charge] if you have one to cause the [Spear] to explode at the end of its flight.",
+          "gemTabs": [
+            {
+              "name": "Spear Throw",
+              "pages": [
+                {
+                  "skillName": "Spear Throw"
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "232%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "stats": [
+                    "Explosion radius is 2 metres"
+                  ],
+                  "skillName": "Explosion"
+                }
+              ]
+            }
+          ],
+          "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png",
+          "descrText": "Skills can be managed in the Skills Panel.",
+          "frameType": 4,
+          "frameTypeId": "Gem"
+        }
+      ],
+      "rune_mods": [
+        "18% increased [Physical] Damage",
+        "[ShamanOnlyMods|Bonded]: 20% increased effect of [ArmourBreak|Fully Broken Armour]"
+      ],
+      "granted_skills": [
+        {
+          "name": "Grants Skill",
+          "values": [
+            [
+              "Spear Throw",
+              25
+            ]
+          ],
+          "displayMode": 0,
+          "icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png"
+        }
+      ],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-06-07T06:06:16+00:00",
+      "item_name": "Dire Edge",
+      "base_type": "Stalking Spear",
+      "rarity": "Rare",
+      "sale_price": 19,
+      "currency": "divine",
+      "div_equivalent": 19,
+      "item_id": "512664a6d559055a04e1e45ebea5cfe317a0ac480a148b6dffdd8bf7f367e767",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3BlYXJzLzFIU3BlYXIwMyIsInciOjEsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d4c8557684/1HSpear03.png",
+      "ilvl": 81,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "18% chance to [Maim|Maim] on [HitDamage|Hit]"
+      ],
+      "explicit_mods": [
+        "166% increased [Physical] Damage",
+        "Adds 74 to 113 [Cold|Cold] Damage",
+        "+49 to [Accuracy|Accuracy] Rating",
+        "Gain 32 Mana per enemy killed",
+        "15% increased [LightRadius|Light Radius]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "16% increased [Attack] Speed",
+        "[Companion|Companions] have 14% increased [Attack] Speed"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Stalking Spear",
+      "properties": [
+        {
+          "name": "[Spear]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Physical] Damage",
+          "values": [
+            [
+              "187-329",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 9
+        },
+        {
+          "name": "Cold Damage",
+          "values": [
+            [
+              "74-113",
+              5
+            ]
+          ],
+          "displayMode": 0,
+          "type": 10
+        },
+        {
+          "name": "[Critical|Critical Hit] Chance",
+          "values": [
+            [
+              "5.00%",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 12
+        },
+        {
+          "name": "Attacks per Second",
+          "values": [
+            [
+              "1.80",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 13
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Runes of Aldur",
+          "id": "a65e125089004e3c58530fcfc1ff2f5a0e49bdcbeb3ba40730871b54cd7eb244",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+20 to maximum Life",
+            "+20 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "frameTypeId": "Currency",
+          "socket": 0,
+          "socketedIcon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9SdW5lU29ja2V0RmlsbGVkIiwicmVhbG0iOiJwb2UyIn1d/d02d26cbf0/RuneSocketFilled.png"
+        },
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQmxhbmtHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/250ec3ed08/BlankGem.png",
+          "support": false,
+          "league": "Runes of Aldur",
+          "name": "",
+          "typeLine": "Spear Throw",
+          "baseType": "Spear Throw",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "[Attack], [AoESkill|AoE], [Projectile], [Repeat|Repeatable]",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "1",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 5
+            },
+            {
+              "name": "Attack Speed",
+              "values": [
+                [
+                  "70% of base",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Attack Damage",
+              "values": [
+                [
+                  "125%",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "weaponRequirements": [
+            {
+              "name": "",
+              "values": [
+                [
+                  "[Spear]",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 96
+            }
+          ],
+          "secDescrText": "Hurl your [Spear] with force. Consumes a [Charges|Frenzy Charge] if you have one to cause the [Spear] to explode at the end of its flight.",
+          "gemTabs": [
+            {
+              "name": "Spear Throw",
+              "pages": [
+                {
+                  "skillName": "Spear Throw"
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "232%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "stats": [
+                    "Explosion radius is 2 metres"
+                  ],
+                  "skillName": "Explosion"
+                }
+              ]
+            }
+          ],
+          "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png",
+          "descrText": "Skills can be managed in the Skills Panel.",
+          "frameType": 4,
+          "frameTypeId": "Gem"
+        }
+      ],
+      "rune_mods": [
+        "18% increased [Physical] Damage",
+        "[ShamanOnlyMods|Bonded]: 20% increased effect of [ArmourBreak|Fully Broken Armour]"
+      ],
+      "granted_skills": [
+        {
+          "name": "Grants Skill",
+          "values": [
+            [
+              "Spear Throw",
+              25
+            ]
+          ],
+          "displayMode": 0,
+          "icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png"
+        }
+      ],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-06-07T05:09:13+00:00",
+      "item_name": "Rune Edge",
+      "base_type": "Grand Spear",
+      "rarity": "Rare",
+      "sale_price": 2,
+      "currency": "divine",
+      "div_equivalent": 2,
+      "item_id": "0e58581ccf62ac2a4a5d1065cd896bc5bcceace1fb5b57ac6bd884884b0e5554",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3BlYXJzLzFIU3BlYXIwOCIsInciOjEsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5a253f3b56/1HSpear08.png",
+      "ilvl": 81,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "25% increased [Melee] [Strike] Range with this weapon"
+      ],
+      "explicit_mods": [
+        "169% increased [Physical] Damage",
+        "+522 to [Accuracy|Accuracy] Rating",
+        "Gain 35 Mana per enemy killed",
+        "Causes 55% increased [Stun|Stun] Buildup"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "18% increased [Attack] Speed",
+        "[Companion|Companions] have 16% increased [Attack] Speed"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Grand Spear",
+      "properties": [
+        {
+          "name": "[Spear]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Physical] Damage",
+          "values": [
+            [
+              "221-330",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 9
+        },
+        {
+          "name": "[Critical|Critical Hit] Chance",
+          "values": [
+            [
+              "5.00%",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 12
+        },
+        {
+          "name": "Attacks per Second",
+          "values": [
+            [
+              "1.65",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 13
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+          "stackSize": 1,
+          "maxStackSize": 10,
+          "league": "Runes of Aldur",
+          "id": "3b7905e049ebefdc7b2f8c6b09ef733ac93ab51603a45231b3ae7c1e3ca83ce4",
+          "name": "",
+          "typeLine": "Greater Iron Rune",
+          "baseType": "Greater Iron Rune",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "Stack Size",
+              "values": [
+                [
+                  "1/10",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 32
+            },
+            {
+              "name": "[Rune|Rune]",
+              "values": [],
+              "displayMode": 0
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 62
+            }
+          ],
+          "explicitMods": [
+            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
+            "Wand or Staff: 30% increased [Spell] Damage",
+            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
+          ],
+          "bondedMods": [
+            "[ShamanOnlyMods|Bonded]:",
+            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
+            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
+            "Armour:",
+            "+20 to maximum Life",
+            "+20 to maximum Mana"
+          ],
+          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
+          "frameType": 5,
+          "frameTypeId": "Currency",
+          "socket": 0,
+          "socketedIcon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9SdW5lU29ja2V0RmlsbGVkIiwicmVhbG0iOiJwb2UyIn1d/d02d26cbf0/RuneSocketFilled.png"
+        },
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQmxhbmtHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/250ec3ed08/BlankGem.png",
+          "support": false,
+          "league": "Runes of Aldur",
+          "name": "",
+          "typeLine": "Spear Throw",
+          "baseType": "Spear Throw",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "[Attack], [AoESkill|AoE], [Projectile], [Repeat|Repeatable]",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "1",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 5
+            },
+            {
+              "name": "Attack Speed",
+              "values": [
+                [
+                  "70% of base",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Attack Damage",
+              "values": [
+                [
+                  "125%",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "weaponRequirements": [
+            {
+              "name": "",
+              "values": [
+                [
+                  "[Spear]",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 96
+            }
+          ],
+          "secDescrText": "Hurl your [Spear] with force. Consumes a [Charges|Frenzy Charge] if you have one to cause the [Spear] to explode at the end of its flight.",
+          "gemTabs": [
+            {
+              "name": "Spear Throw",
+              "pages": [
+                {
+                  "skillName": "Spear Throw"
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "232%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "stats": [
+                    "Explosion radius is 2 metres"
+                  ],
+                  "skillName": "Explosion"
+                }
+              ]
+            }
+          ],
+          "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png",
+          "descrText": "Skills can be managed in the Skills Panel.",
+          "frameType": 4,
+          "frameTypeId": "Gem"
+        }
+      ],
+      "rune_mods": [
+        "18% increased [Physical] Damage",
+        "[ShamanOnlyMods|Bonded]: 20% increased effect of [ArmourBreak|Fully Broken Armour]"
+      ],
+      "granted_skills": [
+        {
+          "name": "Grants Skill",
+          "values": [
+            [
+              "Spear Throw",
+              25
+            ]
+          ],
+          "displayMode": 0,
+          "icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png"
+        }
+      ],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-06-07T04:33:17+00:00",
+      "item_name": "Utility Belt",
+      "base_type": "Utility Belt",
+      "rarity": "Normal",
+      "sale_price": 5,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "item_id": "d01a41a78d0c36e72f4912f12d0f4d73b8d835a24f5cdf3831d97e63e817c52b",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmFzZXR5cGVzL0JlbHQxMCIsInciOjIsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d95952e174/Belt10.png",
+      "ilvl": 79,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Has 2 [Charm] Slots",
+        "20% of [Flask|Flask] Recovery applied Instantly"
+      ],
+      "explicit_mods": [],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 0,
+      "type_line": "Utility Belt",
+      "properties": [
+        {
+          "name": "Belt",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-06-07T03:36:49+00:00",
       "item_name": "Foe Edge",
@@ -4386,8 +7576,8 @@
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd",
     "currencies": {
       "chaos": 1,
-      "divine": 65,
-      "exalted": 360
+      "divine": 90,
+      "exalted": 395
     }
   },
   "investors": [
