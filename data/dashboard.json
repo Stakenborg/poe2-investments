@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-30T03:28:54.959015+00:00",
+  "updated_at": "2026-06-30T10:55:14.802299+00:00",
   "currencies": {
     "chaos": 491,
-    "divine": 16079,
+    "divine": 16244,
     "exalted": 5658
   },
   "raw_divines": 0,
-  "listed_value": 1880,
-  "total_nav": 1598.0,
-  "raw_nav": 1880,
+  "listed_value": 1715,
+  "total_nav": 1457.75,
+  "raw_nav": 1715,
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
@@ -1265,239 +1265,6 @@
       }
     },
     {
-      "item_id": "910119942f081c5fe7e20086ce45a450296717fbd4958773eee5063776715570",
-      "item_name": "Empyrean Hold",
-      "base_type": "Sapphire Ring",
-      "rarity": "Rare",
-      "listed_price": 165,
-      "currency": "divine",
-      "div_equivalent": 165,
-      "indexed": "2026-06-29T02:14:32Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "+28% to [Resistances|Cold Resistance]"
-      ],
-      "explicit_mods": [
-        {
-          "description": "Adds 40 to 63 [Fire] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_1573130764",
-          "mods": [
-            {
-              "name": "Cremating",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "25",
-                  "max": "29"
-                },
-                {
-                  "min": "37",
-                  "max": "45"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Adds 30 to 50 [Cold] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_4067062424",
-          "mods": [
-            {
-              "name": "Entombing",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "21",
-                  "max": "24"
-                },
-                {
-                  "min": "32",
-                  "max": "37"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+31 to [Dexterity|Dexterity]",
-          "hash": "stat.explicit.stat_3261801346",
-          "mods": [
-            {
-              "name": "of the Phantom",
-              "tier": "S1",
-              "level": 74,
-              "magnitudes": [
-                {
-                  "min": "31",
-                  "max": "33"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+31 to [Intelligence|Intelligence]",
-          "hash": "stat.explicit.stat_328541901",
-          "mods": [
-            {
-              "name": "of the Virtuoso",
-              "tier": "S1",
-              "level": 74,
-              "magnitudes": [
-                {
-                  "min": "31",
-                  "max": "33"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+16% to all [ElementalDamage|Elemental] [Resistances]",
-          "hash": "stat.explicit.stat_2901986750",
-          "mods": [
-            {
-              "name": "of the Rainbow",
-              "tier": "S1",
-              "level": 68,
-              "magnitudes": [
-                {
-                  "min": "15",
-                  "max": "16"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Adds 21 to 39 [Physical|Physical] Damage to [Attack|Attacks]",
-          "hash": "stat.desecrated.stat_3032590688",
-          "flags": {
-            "desecrated": true
-          },
-          "mods": [
-            {
-              "name": "Flaring",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "12",
-                  "max": "19"
-                },
-                {
-                  "min": "22",
-                  "max": "32"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Sapphire Ring",
-      "properties": [
-        {
-          "name": "Ring",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "Quality (Attack Modifiers)",
-          "values": [
-            [
-              "+40%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "implicit": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 15,
-            "magnitudes": [
-              {
-                "hash": "implicit.stat_4220027924",
-                "min": "20",
-                "max": "30"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_1573130764",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_4067062424",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_3261801346",
-            [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_328541901",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_2901986750",
-            [
-              3
-            ]
-          ]
-        ],
-        "implicit": [
-          [
-            "implicit.stat_4220027924",
-            [
-              0
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_3032590688",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
       "item_id": "c25c77515dccb72e6c72775a4ea9be016620c2791913dbf101a8314ab1364832",
       "item_name": "Behemoth Spiral",
       "base_type": "Prismatic Ring",
@@ -2664,6 +2431,64 @@
     }
   ],
   "recent_sales": [
+    {
+      "timestamp": "2026-06-30T08:22:34+00:00",
+      "item_name": "Empyrean Hold",
+      "base_type": "Sapphire Ring",
+      "rarity": "Rare",
+      "sale_price": 165,
+      "currency": "divine",
+      "div_equivalent": 165,
+      "item_id": "910119942f081c5fe7e20086ce45a450296717fbd4958773eee5063776715570",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "+28% to [Resistances|Cold Resistance]"
+      ],
+      "explicit_mods": [
+        "Adds 40 to 63 [Fire] damage to [Attack|Attacks]",
+        "Adds 30 to 50 [Cold] damage to [Attack|Attacks]",
+        "+31 to [Dexterity|Dexterity]",
+        "+31 to [Intelligence|Intelligence]",
+        "+16% to all [ElementalDamage|Elemental] [Resistances]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "Adds 21 to 39 [Physical|Physical] Damage to [Attack|Attacks]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sapphire Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Attack Modifiers)",
+          "values": [
+            [
+              "+40%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-06-29T19:05:53+00:00",
       "item_name": "Eagle Turn",
@@ -5857,64 +5682,6 @@
       "granted_skills": [],
       "extended_mods": {},
       "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-06-24T21:46:08+00:00",
-      "item_name": "Wrath Whorl",
-      "base_type": "Ruby Ring",
-      "rarity": "Rare",
-      "sale_price": 199,
-      "currency": "divine",
-      "div_equivalent": 199,
-      "item_id": "c0dde79b366d155ddb7151b7b8a2987dc53a53e3c32a5ad04733c67a69d3685e",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1J1YnlSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4f0e6f99c1/RubyRing.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "+28% to [Resistances|Fire Resistance]"
-      ],
-      "explicit_mods": [
-        "Adds 32 to 50 [Cold] damage to [Attack|Attacks]",
-        "Adds 2 to 79 [Lightning] damage to [Attack|Attacks]",
-        "+30 to [Intelligence|Intelligence]",
-        "+33% to [Resistances|Fire Resistance]",
-        "+40% to [Resistances|Lightning Resistance]"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "Adds 36 to 56 [Fire] damage to [Attack|Attacks]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Ruby Ring",
-      "properties": [
-        {
-          "name": "Ring",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "Quality (Attack Modifiers)",
-          "values": [
-            [
-              "+40%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
     }
   ],
   "fund": {
@@ -5928,7 +5695,7 @@
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd",
     "currencies": {
       "chaos": 491,
-      "divine": 16079,
+      "divine": 16244,
       "exalted": 5658
     }
   },
