@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-01T17:52:42.979984+00:00",
+  "updated_at": "2026-07-02T03:22:56.327363+00:00",
   "currencies": {
     "chaos": 491,
-    "divine": 17794,
+    "divine": 18019,
     "exalted": 5658
   },
   "raw_divines": 0,
-  "listed_value": 2470,
-  "total_nav": 2099.5,
-  "raw_nav": 2470,
+  "listed_value": 3714,
+  "total_nav": 3156.9,
+  "raw_nav": 3714,
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
@@ -160,6 +160,472 @@
         "implicit": [
           [
             "implicit.stat_2369421690",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "9d74ba0849eb8f565542e9d95674b14a177361bd14a58db1c7bd75c2efc13b31",
+      "item_name": "Brood Nail",
+      "base_type": "Gold Ring",
+      "rarity": "Rare",
+      "listed_price": 110,
+      "currency": "divine",
+      "div_equivalent": 110,
+      "indexed": "2026-07-01T21:58:56Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL0dvbGRSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a138f2df65/GoldRing.png",
+      "ilvl": 81,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "12% increased [ItemRarity|Rarity of Items] found"
+      ],
+      "explicit_mods": [
+        {
+          "description": "Adds 33 to 51 [Cold] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_4067062424",
+          "mods": [
+            {
+              "name": "Entombing",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "21",
+                  "max": "24"
+                },
+                {
+                  "min": "32",
+                  "max": "37"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 1 to 96 [Lightning] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_1754445556",
+          "mods": [
+            {
+              "name": "Electrocuting",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "1",
+                  "max": "4"
+                },
+                {
+                  "min": "60",
+                  "max": "71"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+32 to [Intelligence|Intelligence]",
+          "hash": "stat.explicit.stat_328541901",
+          "mods": [
+            {
+              "name": "of the Virtuoso",
+              "tier": "S1",
+              "level": 74,
+              "magnitudes": [
+                {
+                  "min": "31",
+                  "max": "33"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+10% to all [ElementalDamage|Elemental] [Resistances]",
+          "hash": "stat.explicit.stat_2901986750",
+          "mods": [
+            {
+              "name": "of the Kaleidoscope",
+              "tier": "S3",
+              "level": 40,
+              "magnitudes": [
+                {
+                  "min": "9",
+                  "max": "11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "43% increased Mana Regeneration Rate",
+          "hash": "stat.explicit.stat_789117908",
+          "mods": [
+            {
+              "name": "of Bliss",
+              "tier": "S3",
+              "level": 42,
+              "magnitudes": [
+                {
+                  "min": "40",
+                  "max": "49"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 14 to 32 [Physical|Physical] Damage to [Attack|Attacks]",
+          "hash": "stat.desecrated.stat_3032590688",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "Tempered",
+              "tier": "P2",
+              "level": 65,
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "15"
+                },
+                {
+                  "min": "18",
+                  "max": "26"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Gold Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Attack Modifiers)",
+          "values": [
+            [
+              "+40%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 50,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_3917489142",
+                "min": "6",
+                "max": "15"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4067062424",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1754445556",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_328541901",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2901986750",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_789117908",
+            [
+              4
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_3917489142",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_3032590688",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "208a9b593301bd65a1a47af7185552756b6fec514be6962edaba4468c0be16d9",
+      "item_name": "Pandemonium Knuckle",
+      "base_type": "Prismatic Ring",
+      "rarity": "Rare",
+      "listed_price": 115,
+      "currency": "divine",
+      "div_equivalent": 115,
+      "indexed": "2026-07-01T17:54:23Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1ByaXNtYXRpY1JpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a9bd534c46/PrismaticRing.png",
+      "ilvl": 82,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "+8% to all [ElementalDamage|Elemental] [Resistances]"
+      ],
+      "explicit_mods": [
+        {
+          "description": "Adds 35 to 58 [Fire] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_1573130764",
+          "mods": [
+            {
+              "name": "Cremating",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "25",
+                  "max": "29"
+                },
+                {
+                  "min": "37",
+                  "max": "45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 29 to 51 [Cold] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_4067062424",
+          "mods": [
+            {
+              "name": "Entombing",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "21",
+                  "max": "24"
+                },
+                {
+                  "min": "32",
+                  "max": "37"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+35% to [Resistances|Cold Resistance]",
+          "hash": "stat.explicit.stat_4220027924",
+          "mods": [
+            {
+              "name": "of the Polar Bear",
+              "tier": "S3",
+              "level": 60,
+              "magnitudes": [
+                {
+                  "min": "31",
+                  "max": "35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+35% to [Resistances|Lightning Resistance]",
+          "hash": "stat.explicit.stat_1671376347",
+          "mods": [
+            {
+              "name": "of the Maelstrom",
+              "tier": "S3",
+              "level": 60,
+              "magnitudes": [
+                {
+                  "min": "31",
+                  "max": "35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "61% increased Mana Regeneration Rate",
+          "hash": "stat.explicit.stat_789117908",
+          "mods": [
+            {
+              "name": "of Nirvana",
+              "tier": "S1",
+              "level": 79,
+              "magnitudes": [
+                {
+                  "min": "60",
+                  "max": "69"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 16 to 33 [Physical|Physical] Damage to [Attack|Attacks]",
+          "hash": "stat.desecrated.stat_3032590688",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "Tempered",
+              "tier": "P2",
+              "level": 65,
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "15"
+                },
+                {
+                  "min": "18",
+                  "max": "26"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Prismatic Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Attack Modifiers)",
+          "values": [
+            [
+              "+40%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 44,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_2901986750",
+                "min": "7",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1573130764",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_4067062424",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4220027924",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1671376347",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_789117908",
+            [
+              2
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2901986750",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_3032590688",
             [
               0
             ]
@@ -406,26 +872,26 @@
       }
     },
     {
-      "item_id": "208a9b593301bd65a1a47af7185552756b6fec514be6962edaba4468c0be16d9",
-      "item_name": "Pandemonium Knuckle",
+      "item_id": "82253941416e5cb3eb3de4c61c2ac13257d22187c2cf241cab92a9d0478d5fee",
+      "item_name": "Corpse Spiral",
       "base_type": "Prismatic Ring",
       "rarity": "Rare",
-      "listed_price": 115,
+      "listed_price": 150,
       "currency": "divine",
-      "div_equivalent": 115,
-      "indexed": "2026-07-01T17:03:33Z",
+      "div_equivalent": 150,
+      "indexed": "2026-07-02T01:12:38Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1ByaXNtYXRpY1JpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a9bd534c46/PrismaticRing.png",
-      "ilvl": 82,
+      "ilvl": 81,
       "corrupted": false,
       "double_corrupted": false,
       "sanctified": false,
       "implicit_mods": [
-        "+8% to all [ElementalDamage|Elemental] [Resistances]"
+        "+7% to all [ElementalDamage|Elemental] [Resistances]"
       ],
       "explicit_mods": [
         {
-          "description": "Adds 35 to 58 [Fire] damage to [Attack|Attacks]",
+          "description": "Adds 36 to 60 [Fire] damage to [Attack|Attacks]",
           "hash": "stat.explicit.stat_1573130764",
           "mods": [
             {
@@ -446,7 +912,7 @@
           ]
         },
         {
-          "description": "Adds 29 to 51 [Cold] damage to [Attack|Attacks]",
+          "description": "Adds 29 to 49 [Cold] damage to [Attack|Attacks]",
           "hash": "stat.explicit.stat_4067062424",
           "mods": [
             {
@@ -467,75 +933,75 @@
           ]
         },
         {
-          "description": "+35% to [Resistances|Cold Resistance]",
-          "hash": "stat.explicit.stat_4220027924",
+          "description": "+27 to [Dexterity|Dexterity]",
+          "hash": "stat.explicit.stat_3261801346",
           "mods": [
             {
-              "name": "of the Polar Bear",
+              "name": "of the Leopard",
               "tier": "S3",
-              "level": 60,
+              "level": 55,
               "magnitudes": [
                 {
-                  "min": "31",
-                  "max": "35"
+                  "min": "25",
+                  "max": "27"
                 }
               ]
             }
           ]
         },
         {
-          "description": "+35% to [Resistances|Lightning Resistance]",
+          "description": "+27% to [Resistances|Lightning Resistance]",
           "hash": "stat.explicit.stat_1671376347",
           "mods": [
             {
-              "name": "of the Maelstrom",
-              "tier": "S3",
-              "level": 60,
+              "name": "of the Tempest",
+              "tier": "S4",
+              "level": 49,
               "magnitudes": [
                 {
-                  "min": "31",
-                  "max": "35"
+                  "min": "26",
+                  "max": "30"
                 }
               ]
             }
           ]
         },
         {
-          "description": "61% increased Mana Regeneration Rate",
-          "hash": "stat.explicit.stat_789117908",
+          "description": "Gain 50 Life per enemy killed",
+          "hash": "stat.explicit.stat_3695891184",
           "mods": [
             {
-              "name": "of Nirvana",
+              "name": "of Valour",
               "tier": "S1",
-              "level": 79,
+              "level": 55,
               "magnitudes": [
                 {
-                  "min": "60",
-                  "max": "69"
+                  "min": "41",
+                  "max": "53"
                 }
               ]
             }
           ]
         },
         {
-          "description": "Adds 16 to 33 [Physical|Physical] Damage to [Attack|Attacks]",
-          "hash": "stat.desecrated.stat_3032590688",
+          "description": "Adds 1 to 64 [Lightning] damage to [Attack|Attacks]",
+          "hash": "stat.desecrated.stat_1754445556",
           "flags": {
             "desecrated": true
           },
           "mods": [
             {
-              "name": "Tempered",
-              "tier": "P2",
-              "level": 65,
+              "name": "Shocking",
+              "tier": "P3",
+              "level": 60,
               "magnitudes": [
                 {
-                  "min": "10",
-                  "max": "15"
+                  "min": "1",
+                  "max": "2"
                 },
                 {
-                  "min": "18",
-                  "max": "26"
+                  "min": "41",
+                  "max": "47"
                 }
               ]
             }
@@ -592,29 +1058,29 @@
           [
             "explicit.stat_1573130764",
             [
-              1
+              0
             ]
           ],
           [
             "explicit.stat_4067062424",
             [
-              0
+              1
             ]
           ],
           [
-            "explicit.stat_4220027924",
-            [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_1671376347",
+            "explicit.stat_3261801346",
             [
               3
             ]
           ],
           [
-            "explicit.stat_789117908",
+            "explicit.stat_1671376347",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3695891184",
             [
               2
             ]
@@ -630,7 +1096,7 @@
         ],
         "desecrated": [
           [
-            "desecrated.stat_3032590688",
+            "desecrated.stat_1754445556",
             [
               0
             ]
@@ -646,7 +1112,7 @@
       "listed_price": 165,
       "currency": "divine",
       "div_equivalent": 165,
-      "indexed": "2026-07-01T13:09:23Z",
+      "indexed": "2026-07-01T17:54:23Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1ByaXNtYXRpY1JpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a9bd534c46/PrismaticRing.png",
       "ilvl": 81,
@@ -872,259 +1338,26 @@
       }
     },
     {
-      "item_id": "abfc90ca9197c44c96963745dbf56b1f369d36c03425f7c97ad199349abf363a",
-      "item_name": "Rune Band",
-      "base_type": "Topaz Ring",
-      "rarity": "Rare",
-      "listed_price": 225,
-      "currency": "divine",
-      "div_equivalent": 225,
-      "indexed": "2026-07-01T13:09:23Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1RvcGF6UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/83315d9397/TopazRing.png",
-      "ilvl": 79,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "+22% to [Resistances|Lightning Resistance]"
-      ],
-      "explicit_mods": [
-        {
-          "description": "Adds 33 to 47 [Cold] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_4067062424",
-          "mods": [
-            {
-              "name": "Entombing",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "21",
-                  "max": "24"
-                },
-                {
-                  "min": "32",
-                  "max": "37"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Adds 1 to 95 [Lightning] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_1754445556",
-          "mods": [
-            {
-              "name": "Electrocuting",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "1",
-                  "max": "4"
-                },
-                {
-                  "min": "60",
-                  "max": "71"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+29 to [Intelligence|Intelligence]",
-          "hash": "stat.explicit.stat_328541901",
-          "mods": [
-            {
-              "name": "of the Savant",
-              "tier": "S2",
-              "level": 66,
-              "magnitudes": [
-                {
-                  "min": "28",
-                  "max": "30"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+31% to [Resistances|Cold Resistance]",
-          "hash": "stat.explicit.stat_4220027924",
-          "mods": [
-            {
-              "name": "of the Polar Bear",
-              "tier": "S3",
-              "level": 60,
-              "magnitudes": [
-                {
-                  "min": "31",
-                  "max": "35"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+39% to [Resistances|Lightning Resistance]",
-          "hash": "stat.explicit.stat_1671376347",
-          "mods": [
-            {
-              "name": "of the Lightning",
-              "tier": "S2",
-              "level": 71,
-              "magnitudes": [
-                {
-                  "min": "36",
-                  "max": "40"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Adds 26 to 42 [Physical|Physical] Damage to [Attack|Attacks]",
-          "hash": "stat.desecrated.stat_3032590688",
-          "flags": {
-            "desecrated": true
-          },
-          "mods": [
-            {
-              "name": "Flaring",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "12",
-                  "max": "19"
-                },
-                {
-                  "min": "22",
-                  "max": "32"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Topaz Ring",
-      "properties": [
-        {
-          "name": "Ring",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "Quality (Attack Modifiers)",
-          "values": [
-            [
-              "+40%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "implicit": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 20,
-            "magnitudes": [
-              {
-                "hash": "implicit.stat_1671376347",
-                "min": "20",
-                "max": "30"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_4067062424",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_1754445556",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_328541901",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_4220027924",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_1671376347",
-            [
-              4
-            ]
-          ]
-        ],
-        "implicit": [
-          [
-            "implicit.stat_1671376347",
-            [
-              0
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_3032590688",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "item_id": "accea17adfee673bfef8b011148c632ece998a3edf6f66d6f249754ebd355dec",
-      "item_name": "Kraken Knot",
+      "item_id": "cfcd0aa416f474f81b30cb79a5243674e21532baab06ed6be10ea7c014355f67",
+      "item_name": "Kraken Hold",
       "base_type": "Sapphire Ring",
       "rarity": "Rare",
-      "listed_price": 250,
+      "listed_price": 170,
       "currency": "divine",
-      "div_equivalent": 250,
-      "indexed": "2026-07-01T13:09:23Z",
+      "div_equivalent": 170,
+      "indexed": "2026-07-01T17:54:23Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
-      "ilvl": 82,
+      "ilvl": 80,
       "corrupted": false,
       "double_corrupted": false,
       "sanctified": false,
       "implicit_mods": [
-        "+25% to [Resistances|Cold Resistance]"
+        "+23% to [Resistances|Cold Resistance]"
       ],
       "explicit_mods": [
         {
-          "description": "Adds 35 to 58 [Fire] damage to [Attack|Attacks]",
+          "description": "Adds 36 to 63 [Fire] damage to [Attack|Attacks]",
           "hash": "stat.explicit.stat_1573130764",
           "mods": [
             {
@@ -1145,83 +1378,8 @@
           ]
         },
         {
-          "description": "Adds 5 to 95 [Lightning] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_1754445556",
-          "mods": [
-            {
-              "name": "Electrocuting",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "1",
-                  "max": "4"
-                },
-                {
-                  "min": "60",
-                  "max": "71"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+26 to [Strength|Strength]",
-          "hash": "stat.explicit.stat_4080418644",
-          "mods": [
-            {
-              "name": "of the Goliath",
-              "tier": "S3",
-              "level": 55,
-              "magnitudes": [
-                {
-                  "min": "25",
-                  "max": "27"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+26% to [Resistances|Fire Resistance]",
-          "hash": "stat.explicit.stat_3372524247",
-          "mods": [
-            {
-              "name": "of the Furnace",
-              "tier": "S4",
-              "level": 48,
-              "magnitudes": [
-                {
-                  "min": "26",
-                  "max": "30"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+35% to [Resistances|Cold Resistance]",
-          "hash": "stat.explicit.stat_4220027924",
-          "mods": [
-            {
-              "name": "of the Polar Bear",
-              "tier": "S3",
-              "level": 60,
-              "magnitudes": [
-                {
-                  "min": "31",
-                  "max": "35"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Adds 33 to 47 [Cold] damage to [Attack|Attacks]",
-          "hash": "stat.desecrated.stat_4067062424",
-          "flags": {
-            "desecrated": true
-          },
+          "description": "Adds 30 to 47 [Cold] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_4067062424",
           "mods": [
             {
               "name": "Entombing",
@@ -1235,6 +1393,81 @@
                 {
                   "min": "32",
                   "max": "37"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+29 to [Strength|Strength]",
+          "hash": "stat.explicit.stat_4080418644",
+          "mods": [
+            {
+              "name": "of the Leviathan",
+              "tier": "S2",
+              "level": 66,
+              "magnitudes": [
+                {
+                  "min": "28",
+                  "max": "30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+32 to [Dexterity|Dexterity]",
+          "hash": "stat.explicit.stat_3261801346",
+          "mods": [
+            {
+              "name": "of the Phantom",
+              "tier": "S1",
+              "level": 74,
+              "magnitudes": [
+                {
+                  "min": "31",
+                  "max": "33"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+37% to [Resistances|Lightning Resistance]",
+          "hash": "stat.explicit.stat_1671376347",
+          "mods": [
+            {
+              "name": "of the Lightning",
+              "tier": "S2",
+              "level": 71,
+              "magnitudes": [
+                {
+                  "min": "36",
+                  "max": "40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 1 to 82 [Lightning] damage to [Attack|Attacks]",
+          "hash": "stat.desecrated.stat_1754445556",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "Discharging",
+              "tier": "P2",
+              "level": 65,
+              "magnitudes": [
+                {
+                  "min": "1",
+                  "max": "3"
+                },
+                {
+                  "min": "48",
+                  "max": "59"
                 }
               ]
             }
@@ -1295,7 +1528,7 @@
             ]
           ],
           [
-            "explicit.stat_1754445556",
+            "explicit.stat_4067062424",
             [
               0
             ]
@@ -1303,17 +1536,17 @@
           [
             "explicit.stat_4080418644",
             [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_3372524247",
-            [
               2
             ]
           ],
           [
-            "explicit.stat_4220027924",
+            "explicit.stat_3261801346",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_1671376347",
             [
               4
             ]
@@ -1329,7 +1562,240 @@
         ],
         "desecrated": [
           [
-            "desecrated.stat_4067062424",
+            "desecrated.stat_1754445556",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "7ac2741ddfab98e60c21e329f3b34fecb32cbcea3e005125441f238c163055ec",
+      "item_name": "Oblivion Grip",
+      "base_type": "Amethyst Ring",
+      "rarity": "Rare",
+      "listed_price": 225,
+      "currency": "divine",
+      "div_equivalent": 225,
+      "indexed": "2026-07-02T01:12:38Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL0FtZXRoeXN0UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/352427171d/AmethystRing.png",
+      "ilvl": 82,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "+10% to [Resistances|Chaos Resistance]"
+      ],
+      "explicit_mods": [
+        {
+          "description": "Adds 39 to 53 [Fire] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_1573130764",
+          "mods": [
+            {
+              "name": "Cremating",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "25",
+                  "max": "29"
+                },
+                {
+                  "min": "37",
+                  "max": "45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 32 to 50 [Cold] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_4067062424",
+          "mods": [
+            {
+              "name": "Entombing",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "21",
+                  "max": "24"
+                },
+                {
+                  "min": "32",
+                  "max": "37"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "21% increased Cast Speed",
+          "hash": "stat.explicit.stat_2891184298",
+          "mods": [
+            {
+              "name": "of Sortilege",
+              "tier": "S2",
+              "level": 51,
+              "magnitudes": [
+                {
+                  "min": "19",
+                  "max": "21"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+32% to [Resistances|Fire Resistance]",
+          "hash": "stat.explicit.stat_3372524247",
+          "mods": [
+            {
+              "name": "of the Volcano",
+              "tier": "S3",
+              "level": 60,
+              "magnitudes": [
+                {
+                  "min": "31",
+                  "max": "35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+23% to [Resistances|Cold Resistance]",
+          "hash": "stat.explicit.stat_4220027924",
+          "mods": [
+            {
+              "name": "of the Yeti",
+              "tier": "S5",
+              "level": 38,
+              "magnitudes": [
+                {
+                  "min": "21",
+                  "max": "25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 2 to 60 [Lightning] damage to [Attack|Attacks]",
+          "hash": "stat.desecrated.stat_1754445556",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "Shocking",
+              "tier": "P3",
+              "level": 60,
+              "magnitudes": [
+                {
+                  "min": "1",
+                  "max": "2"
+                },
+                {
+                  "min": "41",
+                  "max": "47"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Amethyst Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Attack Modifiers)",
+          "values": [
+            [
+              "+40%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 25,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_2923486259",
+                "min": "7",
+                "max": "13"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1573130764",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4067062424",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2891184298",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_3372524247",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_4220027924",
+            [
+              3
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2923486259",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_1754445556",
             [
               0
             ]
@@ -1345,7 +1811,7 @@
       "listed_price": 250,
       "currency": "divine",
       "div_equivalent": 250,
-      "indexed": "2026-07-01T13:09:23Z",
+      "indexed": "2026-07-01T17:54:23Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
       "ilvl": 81,
@@ -1571,6 +2037,239 @@
       }
     },
     {
+      "item_id": "accea17adfee673bfef8b011148c632ece998a3edf6f66d6f249754ebd355dec",
+      "item_name": "Kraken Knot",
+      "base_type": "Sapphire Ring",
+      "rarity": "Rare",
+      "listed_price": 250,
+      "currency": "divine",
+      "div_equivalent": 250,
+      "indexed": "2026-07-01T17:54:23Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
+      "ilvl": 82,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "+25% to [Resistances|Cold Resistance]"
+      ],
+      "explicit_mods": [
+        {
+          "description": "Adds 35 to 58 [Fire] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_1573130764",
+          "mods": [
+            {
+              "name": "Cremating",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "25",
+                  "max": "29"
+                },
+                {
+                  "min": "37",
+                  "max": "45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 5 to 95 [Lightning] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_1754445556",
+          "mods": [
+            {
+              "name": "Electrocuting",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "1",
+                  "max": "4"
+                },
+                {
+                  "min": "60",
+                  "max": "71"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+26 to [Strength|Strength]",
+          "hash": "stat.explicit.stat_4080418644",
+          "mods": [
+            {
+              "name": "of the Goliath",
+              "tier": "S3",
+              "level": 55,
+              "magnitudes": [
+                {
+                  "min": "25",
+                  "max": "27"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+26% to [Resistances|Fire Resistance]",
+          "hash": "stat.explicit.stat_3372524247",
+          "mods": [
+            {
+              "name": "of the Furnace",
+              "tier": "S4",
+              "level": 48,
+              "magnitudes": [
+                {
+                  "min": "26",
+                  "max": "30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+35% to [Resistances|Cold Resistance]",
+          "hash": "stat.explicit.stat_4220027924",
+          "mods": [
+            {
+              "name": "of the Polar Bear",
+              "tier": "S3",
+              "level": 60,
+              "magnitudes": [
+                {
+                  "min": "31",
+                  "max": "35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 33 to 47 [Cold] damage to [Attack|Attacks]",
+          "hash": "stat.desecrated.stat_4067062424",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "Entombing",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "21",
+                  "max": "24"
+                },
+                {
+                  "min": "32",
+                  "max": "37"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sapphire Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Attack Modifiers)",
+          "values": [
+            [
+              "+40%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 15,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_4220027924",
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_1573130764",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_1754445556",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4080418644",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_3372524247",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_4220027924",
+            [
+              4
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_4220027924",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_4067062424",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "item_id": "f4651804a630e40d8610be8aad0bb2408c898841f00ce5963eb64d4966b8e8d8",
       "item_name": "Viper Twirl",
       "base_type": "Ruby Ring",
@@ -1578,7 +2277,7 @@
       "listed_price": 285,
       "currency": "divine",
       "div_equivalent": 285,
-      "indexed": "2026-07-01T13:09:23Z",
+      "indexed": "2026-07-01T17:54:23Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1J1YnlSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4f0e6f99c1/RubyRing.png",
       "ilvl": 78,
@@ -1811,7 +2510,7 @@
       "listed_price": 315,
       "currency": "divine",
       "div_equivalent": 315,
-      "indexed": "2026-07-01T13:09:23Z",
+      "indexed": "2026-07-01T17:54:23Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1Vuc2V0UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/79ee559b51/UnsetRing.png",
       "ilvl": 82,
@@ -2037,6 +2736,239 @@
       }
     },
     {
+      "item_id": "3d1f37f708ee1cd277de01707c7e22cb373e6985163c7e8b980226e985cd1f0f",
+      "item_name": "Torment Turn",
+      "base_type": "Topaz Ring",
+      "rarity": "Rare",
+      "listed_price": 315,
+      "currency": "divine",
+      "div_equivalent": 315,
+      "indexed": "2026-07-02T02:21:28Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1RvcGF6UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/83315d9397/TopazRing.png",
+      "ilvl": 81,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "+27% to [Resistances|Lightning Resistance]"
+      ],
+      "explicit_mods": [
+        {
+          "description": "Adds 32 to 51 [Cold] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_4067062424",
+          "mods": [
+            {
+              "name": "Entombing",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "21",
+                  "max": "24"
+                },
+                {
+                  "min": "32",
+                  "max": "37"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 2 to 99 [Lightning] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_1754445556",
+          "mods": [
+            {
+              "name": "Electrocuting",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "1",
+                  "max": "4"
+                },
+                {
+                  "min": "60",
+                  "max": "71"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+33 to [Strength|Strength]",
+          "hash": "stat.explicit.stat_4080418644",
+          "mods": [
+            {
+              "name": "of the Titan",
+              "tier": "S1",
+              "level": 74,
+              "magnitudes": [
+                {
+                  "min": "31",
+                  "max": "33"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+33 to [Intelligence|Intelligence]",
+          "hash": "stat.explicit.stat_328541901",
+          "mods": [
+            {
+              "name": "of the Virtuoso",
+              "tier": "S1",
+              "level": 74,
+              "magnitudes": [
+                {
+                  "min": "31",
+                  "max": "33"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+16% to all [ElementalDamage|Elemental] [Resistances]",
+          "hash": "stat.explicit.stat_2901986750",
+          "mods": [
+            {
+              "name": "of the Rainbow",
+              "tier": "S1",
+              "level": 68,
+              "magnitudes": [
+                {
+                  "min": "15",
+                  "max": "16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 37 to 53 [Fire] damage to [Attack|Attacks]",
+          "hash": "stat.desecrated.stat_1573130764",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "Cremating",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "25",
+                  "max": "29"
+                },
+                {
+                  "min": "37",
+                  "max": "45"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Topaz Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Attack Modifiers)",
+          "values": [
+            [
+              "+40%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 20,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_1671376347",
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4067062424",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1754445556",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_4080418644",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_328541901",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2901986750",
+            [
+              4
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_1671376347",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_1573130764",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "item_id": "26629c1af38b28863f0def97ce272575cd2be2337da38efc040425e9c3a4e41e",
       "item_name": "Kraken Grasp",
       "base_type": "Sapphire Ring",
@@ -2044,7 +2976,7 @@
       "listed_price": 325,
       "currency": "divine",
       "div_equivalent": 325,
-      "indexed": "2026-07-01T13:09:23Z",
+      "indexed": "2026-07-01T17:54:23Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
       "ilvl": 80,
@@ -2501,9 +3433,300 @@
           ]
         ]
       }
+    },
+    {
+      "item_id": "33f56bebe93b445344e8c290df27835de07b758a3f5fbe66fff9c821829b3e1b",
+      "item_name": "Honour Gyre",
+      "base_type": "Ruby Ring",
+      "rarity": "Rare",
+      "listed_price": 499,
+      "currency": "divine",
+      "div_equivalent": 499,
+      "indexed": "2026-07-02T01:11:14Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1J1YnlSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4f0e6f99c1/RubyRing.png",
+      "ilvl": 79,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "+20% to [Resistances|Fire Resistance]"
+      ],
+      "explicit_mods": [
+        {
+          "description": "Adds 33 to 46 [Cold] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_4067062424",
+          "mods": [
+            {
+              "name": "Entombing",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "21",
+                  "max": "24"
+                },
+                {
+                  "min": "32",
+                  "max": "37"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 4 to 96 [Lightning] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_1754445556",
+          "mods": [
+            {
+              "name": "Electrocuting",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "1",
+                  "max": "4"
+                },
+                {
+                  "min": "60",
+                  "max": "71"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+14% to all [ElementalDamage|Elemental] [Resistances]",
+          "hash": "stat.explicit.stat_2901986750",
+          "mods": [
+            {
+              "name": "of Variegation",
+              "tier": "S2",
+              "level": 54,
+              "magnitudes": [
+                {
+                  "min": "12",
+                  "max": "14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+40% to [Resistances|Lightning Resistance]",
+          "hash": "stat.explicit.stat_1671376347",
+          "mods": [
+            {
+              "name": "of the Lightning",
+              "tier": "S2",
+              "level": 71,
+              "magnitudes": [
+                {
+                  "min": "36",
+                  "max": "40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+22% to [Resistances|Chaos Resistance]",
+          "hash": "stat.explicit.stat_2923486259",
+          "mods": [
+            {
+              "name": "of Exile",
+              "tier": "S2",
+              "level": 68,
+              "magnitudes": [
+                {
+                  "min": "20",
+                  "max": "23"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 32 to 47 [Fire] damage to [Attack|Attacks]",
+          "hash": "stat.desecrated.stat_1573130764",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "Blasting",
+              "tier": "P2",
+              "level": 65,
+              "magnitudes": [
+                {
+                  "min": "20",
+                  "max": "24"
+                },
+                {
+                  "min": "33",
+                  "max": "36"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Ruby Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Attack Modifiers)",
+          "values": [
+            [
+              "+40%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 10,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_3372524247",
+                "min": "20",
+                "max": "30"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_4067062424",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1754445556",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_2901986750",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_1671376347",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2923486259",
+            [
+              4
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_3372524247",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_1573130764",
+            [
+              0
+            ]
+          ]
+        ]
+      }
     }
   ],
   "recent_sales": [
+    {
+      "timestamp": "2026-07-02T01:54:31+00:00",
+      "item_name": "Rune Band",
+      "base_type": "Topaz Ring",
+      "rarity": "Rare",
+      "sale_price": 225,
+      "currency": "divine",
+      "div_equivalent": 225,
+      "item_id": "abfc90ca9197c44c96963745dbf56b1f369d36c03425f7c97ad199349abf363a",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1RvcGF6UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/83315d9397/TopazRing.png",
+      "ilvl": 79,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "+22% to [Resistances|Lightning Resistance]"
+      ],
+      "explicit_mods": [
+        "Adds 33 to 47 [Cold] damage to [Attack|Attacks]",
+        "Adds 1 to 95 [Lightning] damage to [Attack|Attacks]",
+        "+29 to [Intelligence|Intelligence]",
+        "+31% to [Resistances|Cold Resistance]",
+        "+39% to [Resistances|Lightning Resistance]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "Adds 26 to 42 [Physical|Physical] Damage to [Attack|Attacks]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Topaz Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Attack Modifiers)",
+          "values": [
+            [
+              "+40%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-07-01T16:35:13+00:00",
       "item_name": "Skull Band",
@@ -5356,287 +6579,6 @@
       "granted_skills": [],
       "extended_mods": {},
       "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-06-25T12:20:40+00:00",
-      "item_name": "Bramble Curtain",
-      "base_type": "Slipstrike Vest",
-      "rarity": "Rare",
-      "sale_price": 20,
-      "currency": "divine",
-      "div_equivalent": 20,
-      "item_id": "69a5a6b03a59215279d88b7c85e90db4e88f6149ed50bd93e62a916d0852c9e5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9CYXNldHlwZXMvQm9keURleDA2IiwidyI6MiwiaCI6Mywic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/dd53d7b8d1/BodyDex06.png",
-      "ilvl": 80,
-      "corrupted": true,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        "+299 to [Evasion] Rating",
-        "110% increased [Evasion|Evasion] Rating",
-        "+37% to [Resistances|Lightning Resistance]",
-        "+156 to [StunThreshold|Stun Threshold]",
-        "41% reduced [Poison|Poison] Duration on you"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "+70 to [Evasion] Rating",
-        "36% increased [Evasion|Evasion] Rating"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Slipstrike Vest",
-      "properties": [
-        {
-          "name": "Body Armour",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Quality]",
-          "values": [
-            [
-              "+20%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        },
-        {
-          "name": "[Evasion|Evasion Rating]",
-          "values": [
-            [
-              "3197",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 17
-        }
-      ],
-      "sockets": [
-        {
-          "group": 0,
-          "type": "rune"
-        },
-        {
-          "group": 1,
-          "type": "rune"
-        },
-        {
-          "group": 2,
-          "type": "rune"
-        }
-      ],
-      "socketed_items": [
-        {
-          "realm": "poe2",
-          "verified": false,
-          "w": 1,
-          "h": 1,
-          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
-          "stackSize": 1,
-          "maxStackSize": 10,
-          "league": "Runes of Aldur",
-          "id": "a62d718345caba3d5eb2b02d146e471401fb161929ac1fbb7153a142e32422ae",
-          "name": "",
-          "typeLine": "Greater Iron Rune",
-          "baseType": "Greater Iron Rune",
-          "ilvl": 0,
-          "identified": true,
-          "properties": [
-            {
-              "name": "Stack Size",
-              "values": [
-                [
-                  "1/10",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 32
-            },
-            {
-              "name": "[Rune|Rune]",
-              "values": [],
-              "displayMode": 0
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Level",
-              "values": [
-                [
-                  "30",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 62
-            }
-          ],
-          "explicitMods": [
-            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
-            "Wand or Staff: 30% increased [Spell] Damage",
-            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
-          ],
-          "bondedMods": [
-            "[ShamanOnlyMods|Bonded]:",
-            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
-            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
-            "Armour:",
-            "+20 to maximum Life",
-            "+20 to maximum Mana"
-          ],
-          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
-          "frameType": 5,
-          "frameTypeId": "Currency",
-          "socket": 0,
-          "socketedIcon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9SdW5lU29ja2V0RmlsbGVkIiwicmVhbG0iOiJwb2UyIn1d/d02d26cbf0/RuneSocketFilled.png"
-        },
-        {
-          "realm": "poe2",
-          "verified": false,
-          "w": 1,
-          "h": 1,
-          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
-          "stackSize": 1,
-          "maxStackSize": 10,
-          "league": "Runes of Aldur",
-          "id": "4325b42bcb3d2262bea985658efc73a4fab9124d4205f538083c7d9c21cd6dd3",
-          "name": "",
-          "typeLine": "Greater Iron Rune",
-          "baseType": "Greater Iron Rune",
-          "ilvl": 0,
-          "identified": true,
-          "properties": [
-            {
-              "name": "Stack Size",
-              "values": [
-                [
-                  "1/10",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 32
-            },
-            {
-              "name": "[Rune|Rune]",
-              "values": [],
-              "displayMode": 0
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Level",
-              "values": [
-                [
-                  "30",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 62
-            }
-          ],
-          "explicitMods": [
-            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
-            "Wand or Staff: 30% increased [Spell] Damage",
-            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
-          ],
-          "bondedMods": [
-            "[ShamanOnlyMods|Bonded]:",
-            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
-            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
-            "Armour:",
-            "+20 to maximum Life",
-            "+20 to maximum Mana"
-          ],
-          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
-          "frameType": 5,
-          "frameTypeId": "Currency",
-          "socket": 1,
-          "socketedIcon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9SdW5lU29ja2V0RmlsbGVkIiwicmVhbG0iOiJwb2UyIn1d/d02d26cbf0/RuneSocketFilled.png"
-        },
-        {
-          "realm": "poe2",
-          "verified": false,
-          "w": 1,
-          "h": 1,
-          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
-          "stackSize": 1,
-          "maxStackSize": 10,
-          "league": "Runes of Aldur",
-          "id": "62dfa705e97eaa9228dd3502a915568b1d1b847d856c1f9d4b35defafa44dda5",
-          "name": "",
-          "typeLine": "Greater Iron Rune",
-          "baseType": "Greater Iron Rune",
-          "ilvl": 0,
-          "identified": true,
-          "properties": [
-            {
-              "name": "Stack Size",
-              "values": [
-                [
-                  "1/10",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 32
-            },
-            {
-              "name": "[Rune|Rune]",
-              "values": [],
-              "displayMode": 0
-            }
-          ],
-          "requirements": [
-            {
-              "name": "Level",
-              "values": [
-                [
-                  "30",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 62
-            }
-          ],
-          "explicitMods": [
-            "[MartialWeapon|Martial Weapon]: 18% increased [Physical] Damage",
-            "Wand or Staff: 30% increased [Spell] Damage",
-            "Armour: 18% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]"
-          ],
-          "bondedMods": [
-            "[ShamanOnlyMods|Bonded]:",
-            "[MartialWeapon|Martial Weapon]: 20% increased effect of [ArmourBreak|Fully Broken Armour]",
-            "Wand or Staff: [ArmourBreak|Break] [Armour] on [Critical|Critical Hit] with [Spell|Spells] equal to 12% of [Physical|Physical] Damage dealt",
-            "Armour:",
-            "+20 to maximum Life",
-            "+20 to maximum Mana"
-          ],
-          "descrText": "Place into an empty [Augment] Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be retrieved but can be replaced by other [Augment] items.",
-          "frameType": 5,
-          "frameTypeId": "Currency",
-          "socket": 2,
-          "socketedIcon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9SdW5lU29ja2V0RmlsbGVkIiwicmVhbG0iOiJwb2UyIn1d/d02d26cbf0/RuneSocketFilled.png"
-        }
-      ],
-      "rune_mods": [
-        "54% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]",
-        "[ShamanOnlyMods|Bonded]: +60 to maximum Life",
-        "[ShamanOnlyMods|Bonded]: +60 to maximum Mana"
-      ],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
     }
   ],
   "fund": {
@@ -5650,7 +6592,7 @@
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd",
     "currencies": {
       "chaos": 491,
-      "divine": 17794,
+      "divine": 18019,
       "exalted": 5658
     }
   },
