@@ -1,17 +1,100 @@
 {
-  "updated_at": "2026-07-02T17:44:49.735506+00:00",
+  "updated_at": "2026-07-03T02:45:52.415508+00:00",
   "currencies": {
     "chaos": 491,
-    "divine": 18699,
+    "divine": 19039,
     "exalted": 5658
   },
   "raw_divines": 0,
-  "listed_value": 4014,
-  "total_nav": 3411.9,
-  "raw_nav": 4014,
+  "listed_value": 4253,
+  "total_nav": 3615.0499999999997,
+  "raw_nav": 4253,
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
+    {
+      "item_id": "8e2b76427bd8b79cbb1593ef4db4235874eb30159081f82c6e14ed3048893a05",
+      "item_name": "Utility Belt",
+      "base_type": "Utility Belt",
+      "rarity": "Normal",
+      "listed_price": 2,
+      "currency": "chaos",
+      "div_equivalent": "",
+      "indexed": "2026-07-03T01:22:38Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmFzZXR5cGVzL0JlbHQxMCIsInciOjIsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d95952e174/Belt10.png",
+      "ilvl": 82,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Has 1 [Charm] Slot",
+        "20% of [Flask|Flask] Recovery applied Instantly"
+      ],
+      "explicit_mods": [],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 0,
+      "type_line": "Utility Belt",
+      "properties": [
+        {
+          "name": "Belt",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 69,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_462041840",
+                "min": "20",
+                "max": "20"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_1416292992",
+                "min": "1",
+                "max": "3"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "implicit": [
+          [
+            "implicit.stat_1416292992",
+            [
+              1
+            ]
+          ],
+          [
+            "implicit.stat_462041840",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
     {
       "item_id": "21d34997bc18e20c29b520bd9ec9b003eb2b5b27f660f76e4789e497a22d8ab5",
       "item_name": "Ancient Rite",
@@ -168,136 +251,102 @@
       }
     },
     {
-      "item_id": "208a9b593301bd65a1a47af7185552756b6fec514be6962edaba4468c0be16d9",
-      "item_name": "Pandemonium Knuckle",
-      "base_type": "Prismatic Ring",
+      "item_id": "30c9f2562ff65a97cb5b5f3fbb856f590cafa18cb57d976f30f53c0d35a2318b",
+      "item_name": "Armageddon Eye",
+      "base_type": "Sapphire",
       "rarity": "Rare",
-      "listed_price": 115,
+      "listed_price": 135,
       "currency": "divine",
-      "div_equivalent": 115,
-      "indexed": "2026-07-02T13:17:37Z",
+      "div_equivalent": 135,
+      "indexed": "2026-07-03T02:14:06Z",
       "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1ByaXNtYXRpY1JpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a9bd534c46/PrismaticRing.png",
-      "ilvl": 82,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 81,
       "corrupted": false,
       "double_corrupted": false,
       "sanctified": false,
-      "implicit_mods": [
-        "+8% to all [ElementalDamage|Elemental] [Resistances]"
-      ],
+      "implicit_mods": [],
       "explicit_mods": [
         {
-          "description": "Adds 35 to 58 [Fire] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_1573130764",
+          "description": "10% increased [Spell] Damage",
+          "hash": "stat.explicit.stat_2974417149",
           "mods": [
             {
-              "name": "Cremating",
+              "name": "Mystic",
               "tier": "P1",
-              "level": 75,
               "magnitudes": [
                 {
-                  "min": "25",
-                  "max": "29"
-                },
-                {
-                  "min": "37",
-                  "max": "45"
+                  "min": "5",
+                  "max": "15"
                 }
               ]
             }
           ]
         },
         {
-          "description": "Adds 29 to 51 [Cold] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_4067062424",
+          "description": "20% increased [Critical|Critical Hit] Chance",
+          "hash": "stat.explicit.stat_587431675",
           "mods": [
             {
-              "name": "Entombing",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "21",
-                  "max": "24"
-                },
-                {
-                  "min": "32",
-                  "max": "37"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+35% to [Resistances|Cold Resistance]",
-          "hash": "stat.explicit.stat_4220027924",
-          "mods": [
-            {
-              "name": "of the Polar Bear",
-              "tier": "S3",
-              "level": 60,
-              "magnitudes": [
-                {
-                  "min": "31",
-                  "max": "35"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+35% to [Resistances|Lightning Resistance]",
-          "hash": "stat.explicit.stat_1671376347",
-          "mods": [
-            {
-              "name": "of the Maelstrom",
-              "tier": "S3",
-              "level": 60,
-              "magnitudes": [
-                {
-                  "min": "31",
-                  "max": "35"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "61% increased Mana Regeneration Rate",
-          "hash": "stat.explicit.stat_789117908",
-          "mods": [
-            {
-              "name": "of Nirvana",
+              "name": "of Annihilation",
               "tier": "S1",
-              "level": 79,
               "magnitudes": [
                 {
-                  "min": "60",
-                  "max": "69"
+                  "min": "5",
+                  "max": "15"
                 }
               ]
             }
           ]
         },
         {
-          "description": "Adds 16 to 33 [Physical|Physical] Damage to [Attack|Attacks]",
-          "hash": "stat.desecrated.stat_3032590688",
+          "description": "26% increased [CriticalDamageBonus|Critical Damage Bonus]",
+          "hash": "stat.explicit.stat_3556824919",
+          "mods": [
+            {
+              "name": "of Potency",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "31% increased [CriticalDamageBonus|Critical Spell Damage Bonus]",
+          "hash": "stat.desecrated.stat_274716455",
           "flags": {
             "desecrated": true
           },
           "mods": [
             {
-              "name": "Tempered",
-              "tier": "P2",
-              "level": 65,
+              "name": "of Unmaking",
+              "tier": "S1",
               "magnitudes": [
                 {
                   "min": "10",
-                  "max": "15"
-                },
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "56% increased Effect of Suffixes",
+          "hash": "stat.crafted.stat_2475221757",
+          "flags": {
+            "crafted": true
+          },
+          "mods": [
+            {
+              "tier": "P0",
+              "magnitudes": [
                 {
-                  "min": "18",
-                  "max": "26"
+                  "min": "40",
+                  "max": "60"
                 }
               ]
             }
@@ -309,82 +358,44 @@
       "fractured_mods": [],
       "flavour_text": [],
       "frame_type": 2,
-      "type_line": "Prismatic Ring",
+      "type_line": "Sapphire",
       "properties": [
         {
-          "name": "Ring",
+          "name": "[Jewel]",
           "values": [],
           "displayMode": 0,
           "type": 109
-        },
-        {
-          "name": "Quality (Attack Modifiers)",
-          "values": [
-            [
-              "+40%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
         }
       ],
       "sockets": [],
       "socketed_items": [],
       "rune_mods": [],
       "granted_skills": [],
-      "extended_mods": {
-        "implicit": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 44,
-            "magnitudes": [
-              {
-                "hash": "implicit.stat_2901986750",
-                "min": "7",
-                "max": "10"
-              }
-            ]
-          }
-        ]
-      },
+      "extended_mods": {},
       "extended_hashes": {
         "explicit": [
           [
-            "explicit.stat_1573130764",
+            "explicit.stat_2974417149",
             [
-              1
+              2
             ]
           ],
           [
-            "explicit.stat_4067062424",
+            "explicit.stat_587431675",
             [
               0
             ]
           ],
           [
-            "explicit.stat_4220027924",
+            "explicit.stat_3556824919",
             [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_1671376347",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_789117908",
-            [
-              2
+              1
             ]
           ]
         ],
-        "implicit": [
+        "crafted": [
           [
-            "implicit.stat_2901986750",
+            "crafted.stat_2475221757",
             [
               0
             ]
@@ -392,7 +403,7 @@
         ],
         "desecrated": [
           [
-            "desecrated.stat_3032590688",
+            "desecrated.stat_274716455",
             [
               0
             ]
@@ -405,10 +416,10 @@
       "item_name": "Corpse Spiral",
       "base_type": "Prismatic Ring",
       "rarity": "Rare",
-      "listed_price": 150,
+      "listed_price": 145,
       "currency": "divine",
-      "div_equivalent": 150,
-      "indexed": "2026-07-02T13:17:37Z",
+      "div_equivalent": 145,
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1ByaXNtYXRpY1JpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a9bd534c46/PrismaticRing.png",
       "ilvl": 81,
@@ -634,47 +645,47 @@
       }
     },
     {
-      "item_id": "ef67fb00aafed55bca6aa5c5f4d895985f127ee4d53fc98762e2958412533ecf",
-      "item_name": "Ghoul Circle",
-      "base_type": "Prismatic Ring",
+      "item_id": "28c8d01634d34d325f54a2e1d6d1efe5aa4deccc6a5f06c6851ce5f66286f256",
+      "item_name": "Torment Loop",
+      "base_type": "Sapphire Ring",
       "rarity": "Rare",
-      "listed_price": 165,
+      "listed_price": 150,
       "currency": "divine",
-      "div_equivalent": 165,
-      "indexed": "2026-07-02T13:17:37Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1ByaXNtYXRpY1JpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a9bd534c46/PrismaticRing.png",
-      "ilvl": 81,
+      "div_equivalent": 150,
+      "indexed": "2026-07-03T02:01:07Z",
+      "stash": "6",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
+      "ilvl": 82,
       "corrupted": false,
       "double_corrupted": false,
       "sanctified": false,
       "implicit_mods": [
-        "+7% to all [ElementalDamage|Elemental] [Resistances]"
+        "+25% to [Resistances|Cold Resistance]"
       ],
       "explicit_mods": [
         {
-          "description": "Adds 22 to 42 [Physical|Physical] Damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_3032590688",
+          "description": "Adds 37 to 61 [Fire] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_1573130764",
           "mods": [
             {
-              "name": "Flaring",
+              "name": "Cremating",
               "tier": "P1",
               "level": 75,
               "magnitudes": [
                 {
-                  "min": "12",
-                  "max": "19"
+                  "min": "25",
+                  "max": "29"
                 },
                 {
-                  "min": "22",
-                  "max": "32"
+                  "min": "37",
+                  "max": "45"
                 }
               ]
             }
           ]
         },
         {
-          "description": "Adds 5 to 99 [Lightning] damage to [Attack|Attacks]",
+          "description": "Adds 4 to 92 [Lightning] damage to [Attack|Attacks]",
           "hash": "stat.explicit.stat_1754445556",
           "mods": [
             {
@@ -695,24 +706,7 @@
           ]
         },
         {
-          "description": "+32 to [Dexterity|Dexterity]",
-          "hash": "stat.explicit.stat_3261801346",
-          "mods": [
-            {
-              "name": "of the Phantom",
-              "tier": "S1",
-              "level": 74,
-              "magnitudes": [
-                {
-                  "min": "31",
-                  "max": "33"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+22% to [Resistances|Cold Resistance]",
+          "description": "+25% to [Resistances|Cold Resistance]",
           "hash": "stat.explicit.stat_4220027924",
           "mods": [
             {
@@ -729,41 +723,58 @@
           ]
         },
         {
-          "description": "+29% to [Resistances|Lightning Resistance]",
+          "description": "+22% to [Resistances|Lightning Resistance]",
           "hash": "stat.explicit.stat_1671376347",
           "mods": [
             {
-              "name": "of the Tempest",
-              "tier": "S4",
-              "level": 49,
+              "name": "of the Thunderhead",
+              "tier": "S5",
+              "level": 37,
               "magnitudes": [
                 {
-                  "min": "26",
-                  "max": "30"
+                  "min": "21",
+                  "max": "25"
                 }
               ]
             }
           ]
         },
         {
-          "description": "Adds 40 to 61 [Fire] damage to [Attack|Attacks]",
-          "hash": "stat.desecrated.stat_1573130764",
+          "description": "[LifeLeech|Leech] 10.66% of [Physical] [Attack] Damage as Life",
+          "hash": "stat.explicit.stat_2557965901",
+          "mods": [
+            {
+              "name": "of the Remora",
+              "tier": "S1",
+              "level": 38,
+              "magnitudes": [
+                {
+                  "min": "7",
+                  "max": "7.9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 26 to 40 [Physical|Physical] Damage to [Attack|Attacks]",
+          "hash": "stat.desecrated.stat_3032590688",
           "flags": {
             "desecrated": true
           },
           "mods": [
             {
-              "name": "Cremating",
+              "name": "Flaring",
               "tier": "P1",
               "level": 75,
               "magnitudes": [
                 {
-                  "min": "25",
-                  "max": "29"
+                  "min": "12",
+                  "max": "19"
                 },
                 {
-                  "min": "37",
-                  "max": "45"
+                  "min": "22",
+                  "max": "32"
                 }
               ]
             }
@@ -775,7 +786,7 @@
       "fractured_mods": [],
       "flavour_text": [],
       "frame_type": 2,
-      "type_line": "Prismatic Ring",
+      "type_line": "Sapphire Ring",
       "properties": [
         {
           "name": "Ring",
@@ -804,12 +815,12 @@
           {
             "name": "",
             "tier": "",
-            "level": 44,
+            "level": 15,
             "magnitudes": [
               {
-                "hash": "implicit.stat_2901986750",
-                "min": "7",
-                "max": "10"
+                "hash": "implicit.stat_4220027924",
+                "min": "20",
+                "max": "30"
               }
             ]
           }
@@ -818,39 +829,39 @@
       "extended_hashes": {
         "explicit": [
           [
-            "explicit.stat_3032590688",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_1754445556",
+            "explicit.stat_1573130764",
             [
               1
             ]
           ],
           [
-            "explicit.stat_3261801346",
+            "explicit.stat_1754445556",
             [
-              2
+              0
             ]
           ],
           [
             "explicit.stat_4220027924",
             [
-              4
+              3
             ]
           ],
           [
             "explicit.stat_1671376347",
             [
-              3
+              4
+            ]
+          ],
+          [
+            "explicit.stat_2557965901",
+            [
+              2
             ]
           ]
         ],
         "implicit": [
           [
-            "implicit.stat_2901986750",
+            "implicit.stat_4220027924",
             [
               0
             ]
@@ -858,7 +869,7 @@
         ],
         "desecrated": [
           [
-            "desecrated.stat_1573130764",
+            "desecrated.stat_3032590688",
             [
               0
             ]
@@ -871,10 +882,10 @@
       "item_name": "Horror Knot",
       "base_type": "Prismatic Ring",
       "rarity": "Rare",
-      "listed_price": 165,
+      "listed_price": 155,
       "currency": "divine",
-      "div_equivalent": 165,
-      "indexed": "2026-07-02T13:17:37Z",
+      "div_equivalent": 155,
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1ByaXNtYXRpY1JpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a9bd534c46/PrismaticRing.png",
       "ilvl": 81,
@@ -1100,6 +1111,239 @@
       }
     },
     {
+      "item_id": "ef67fb00aafed55bca6aa5c5f4d895985f127ee4d53fc98762e2958412533ecf",
+      "item_name": "Ghoul Circle",
+      "base_type": "Prismatic Ring",
+      "rarity": "Rare",
+      "listed_price": 165,
+      "currency": "divine",
+      "div_equivalent": 165,
+      "indexed": "2026-07-03T01:08:40Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1ByaXNtYXRpY1JpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a9bd534c46/PrismaticRing.png",
+      "ilvl": 81,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "+7% to all [ElementalDamage|Elemental] [Resistances]"
+      ],
+      "explicit_mods": [
+        {
+          "description": "Adds 22 to 42 [Physical|Physical] Damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_3032590688",
+          "mods": [
+            {
+              "name": "Flaring",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "12",
+                  "max": "19"
+                },
+                {
+                  "min": "22",
+                  "max": "32"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 5 to 99 [Lightning] damage to [Attack|Attacks]",
+          "hash": "stat.explicit.stat_1754445556",
+          "mods": [
+            {
+              "name": "Electrocuting",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "1",
+                  "max": "4"
+                },
+                {
+                  "min": "60",
+                  "max": "71"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+32 to [Dexterity|Dexterity]",
+          "hash": "stat.explicit.stat_3261801346",
+          "mods": [
+            {
+              "name": "of the Phantom",
+              "tier": "S1",
+              "level": 74,
+              "magnitudes": [
+                {
+                  "min": "31",
+                  "max": "33"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+22% to [Resistances|Cold Resistance]",
+          "hash": "stat.explicit.stat_4220027924",
+          "mods": [
+            {
+              "name": "of the Yeti",
+              "tier": "S5",
+              "level": 38,
+              "magnitudes": [
+                {
+                  "min": "21",
+                  "max": "25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "+29% to [Resistances|Lightning Resistance]",
+          "hash": "stat.explicit.stat_1671376347",
+          "mods": [
+            {
+              "name": "of the Tempest",
+              "tier": "S4",
+              "level": 49,
+              "magnitudes": [
+                {
+                  "min": "26",
+                  "max": "30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Adds 40 to 61 [Fire] damage to [Attack|Attacks]",
+          "hash": "stat.desecrated.stat_1573130764",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "Cremating",
+              "tier": "P1",
+              "level": 75,
+              "magnitudes": [
+                {
+                  "min": "25",
+                  "max": "29"
+                },
+                {
+                  "min": "37",
+                  "max": "45"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Prismatic Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Attack Modifiers)",
+          "values": [
+            [
+              "+40%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 44,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_2901986750",
+                "min": "7",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3032590688",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_1754445556",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3261801346",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_4220027924",
+            [
+              4
+            ]
+          ],
+          [
+            "explicit.stat_1671376347",
+            [
+              3
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2901986750",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_1573130764",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "item_id": "cfcd0aa416f474f81b30cb79a5243674e21532baab06ed6be10ea7c014355f67",
       "item_name": "Kraken Hold",
       "base_type": "Sapphire Ring",
@@ -1107,7 +1351,7 @@
       "listed_price": 170,
       "currency": "divine",
       "div_equivalent": 170,
-      "indexed": "2026-07-02T13:17:37Z",
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
       "ilvl": 80,
@@ -1337,10 +1581,10 @@
       "item_name": "Oblivion Grip",
       "base_type": "Amethyst Ring",
       "rarity": "Rare",
-      "listed_price": 225,
+      "listed_price": 210,
       "currency": "divine",
-      "div_equivalent": 225,
-      "indexed": "2026-07-02T13:17:37Z",
+      "div_equivalent": 210,
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL0FtZXRoeXN0UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/352427171d/AmethystRing.png",
       "ilvl": 82,
@@ -1570,10 +1814,10 @@
       "item_name": "Brood Gyre",
       "base_type": "Sapphire Ring",
       "rarity": "Rare",
-      "listed_price": 250,
+      "listed_price": 225,
       "currency": "divine",
-      "div_equivalent": 250,
-      "indexed": "2026-07-02T13:17:37Z",
+      "div_equivalent": 225,
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
       "ilvl": 81,
@@ -1799,6 +2043,178 @@
       }
     },
     {
+      "item_id": "60783017dea505159982d93a10e883a4d40f68a362f6629a349d1d55a59be808",
+      "item_name": "Damnation Hope",
+      "base_type": "Sapphire",
+      "rarity": "Rare",
+      "listed_price": 225,
+      "currency": "divine",
+      "div_equivalent": 225,
+      "indexed": "2026-07-03T02:14:06Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        {
+          "description": "16% increased [Spell] Damage",
+          "hash": "stat.explicit.stat_2974417149",
+          "mods": [
+            {
+              "name": "Mystic",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "5",
+                  "max": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "23% increased [Critical|Critical Hit] Chance",
+          "hash": "stat.explicit.stat_587431675",
+          "mods": [
+            {
+              "name": "of Annihilation",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "5",
+                  "max": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "30% increased [CriticalDamageBonus|Critical Damage Bonus]",
+          "hash": "stat.explicit.stat_3556824919",
+          "mods": [
+            {
+              "name": "of Potency",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "32% increased [CriticalDamageBonus|Critical Spell Damage Bonus]",
+          "hash": "stat.desecrated.stat_274716455",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "of Unmaking",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "58% increased Effect of Suffixes",
+          "hash": "stat.crafted.stat_2475221757",
+          "flags": {
+            "crafted": true
+          },
+          "mods": [
+            {
+              "tier": "P0",
+              "magnitudes": [
+                {
+                  "min": "40",
+                  "max": "60"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sapphire",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Caster Modifiers)",
+          "values": [
+            [
+              "+20%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2974417149",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_587431675",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3556824919",
+            [
+              1
+            ]
+          ]
+        ],
+        "crafted": [
+          [
+            "crafted.stat_2475221757",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_274716455",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "item_id": "accea17adfee673bfef8b011148c632ece998a3edf6f66d6f249754ebd355dec",
       "item_name": "Kraken Knot",
       "base_type": "Sapphire Ring",
@@ -1806,7 +2222,7 @@
       "listed_price": 250,
       "currency": "divine",
       "div_equivalent": 250,
-      "indexed": "2026-07-02T13:17:37Z",
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
       "ilvl": 82,
@@ -2039,7 +2455,7 @@
       "listed_price": 250,
       "currency": "divine",
       "div_equivalent": 250,
-      "indexed": "2026-07-02T13:17:37Z",
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1Vuc2V0UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/79ee559b51/UnsetRing.png",
       "ilvl": 78,
@@ -2269,10 +2685,10 @@
       "item_name": "Viper Twirl",
       "base_type": "Ruby Ring",
       "rarity": "Rare",
-      "listed_price": 285,
+      "listed_price": 275,
       "currency": "divine",
-      "div_equivalent": 285,
-      "indexed": "2026-07-02T13:17:37Z",
+      "div_equivalent": 275,
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1J1YnlSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4f0e6f99c1/RubyRing.png",
       "ilvl": 78,
@@ -2502,10 +2918,10 @@
       "item_name": "Ghoul Whorl",
       "base_type": "Unset Ring",
       "rarity": "Rare",
-      "listed_price": 315,
+      "listed_price": 299,
       "currency": "divine",
-      "div_equivalent": 315,
-      "indexed": "2026-07-02T13:17:37Z",
+      "div_equivalent": 299,
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1Vuc2V0UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/79ee559b51/UnsetRing.png",
       "ilvl": 82,
@@ -2738,7 +3154,7 @@
       "listed_price": 325,
       "currency": "divine",
       "div_equivalent": 325,
-      "indexed": "2026-07-02T13:17:37Z",
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
       "ilvl": 80,
@@ -2968,10 +3384,10 @@
       "item_name": "Rapture Twirl",
       "base_type": "Prismatic Ring",
       "rarity": "Rare",
-      "listed_price": 425,
+      "listed_price": 399,
       "currency": "divine",
-      "div_equivalent": 425,
-      "indexed": "2026-07-02T13:17:37Z",
+      "div_equivalent": 399,
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1ByaXNtYXRpY1JpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a9bd534c46/PrismaticRing.png",
       "ilvl": 81,
@@ -3201,10 +3617,10 @@
       "item_name": "Doom Nail",
       "base_type": "Topaz Ring",
       "rarity": "Rare",
-      "listed_price": 425,
+      "listed_price": 400,
       "currency": "divine",
-      "div_equivalent": 425,
-      "indexed": "2026-07-02T13:17:37Z",
+      "div_equivalent": 400,
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1RvcGF6UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/83315d9397/TopazRing.png",
       "ilvl": 82,
@@ -3434,10 +3850,10 @@
       "item_name": "Honour Gyre",
       "base_type": "Ruby Ring",
       "rarity": "Rare",
-      "listed_price": 499,
+      "listed_price": 475,
       "currency": "divine",
-      "div_equivalent": 499,
-      "indexed": "2026-07-02T13:17:37Z",
+      "div_equivalent": 475,
+      "indexed": "2026-07-03T01:08:40Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1J1YnlSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4f0e6f99c1/RubyRing.png",
       "ilvl": 79,
@@ -3664,6 +4080,165 @@
     }
   ],
   "recent_sales": [
+    {
+      "timestamp": "2026-07-03T02:23:53+00:00",
+      "item_name": "Dread Whorl",
+      "base_type": "Ruby Ring",
+      "rarity": "Rare",
+      "sale_price": 110,
+      "currency": "divine",
+      "div_equivalent": 110,
+      "item_id": "d37a3668ec54c1c28012ea0165f6e4760276b3476605f4bdfe7a95342c35fdd5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1J1YnlSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4f0e6f99c1/RubyRing.png",
+      "ilvl": 82,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "+30% to [Resistances|Fire Resistance]"
+      ],
+      "explicit_mods": [
+        "Adds 37 to 51 [Fire] damage to [Attack|Attacks]",
+        "Adds 33 to 46 [Cold] damage to [Attack|Attacks]",
+        "+29 to [Strength|Strength]",
+        "+32 to [Intelligence|Intelligence]",
+        "+14% to all [ElementalDamage|Elemental] [Resistances]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "Adds 16 to 30 [Physical|Physical] Damage to [Attack|Attacks]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Ruby Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Attack Modifiers)",
+          "values": [
+            [
+              "+40%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-03T01:58:39+00:00",
+      "item_name": "Chimeric Creed",
+      "base_type": "Sapphire",
+      "rarity": "Rare",
+      "sale_price": 115,
+      "currency": "divine",
+      "div_equivalent": 115,
+      "item_id": "e71a25d1b2b0adc51c09e59cb9f68e89c83555a832db7395fed8ceff7250fc5d",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 58,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "15% increased [Spell] Damage",
+        "18% increased [Critical|Critical Hit] Chance",
+        "25% increased [CriticalDamageBonus|Critical Damage Bonus]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "30% increased [CriticalDamageBonus|Critical Spell Damage Bonus]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sapphire",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-03T00:07:20+00:00",
+      "item_name": "Pandemonium Knuckle",
+      "base_type": "Prismatic Ring",
+      "rarity": "Rare",
+      "sale_price": 115,
+      "currency": "divine",
+      "div_equivalent": 115,
+      "item_id": "208a9b593301bd65a1a47af7185552756b6fec514be6962edaba4468c0be16d9",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1ByaXNtYXRpY1JpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a9bd534c46/PrismaticRing.png",
+      "ilvl": 82,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "+8% to all [ElementalDamage|Elemental] [Resistances]"
+      ],
+      "explicit_mods": [
+        "Adds 35 to 58 [Fire] damage to [Attack|Attacks]",
+        "Adds 29 to 51 [Cold] damage to [Attack|Attacks]",
+        "+35% to [Resistances|Cold Resistance]",
+        "+35% to [Resistances|Lightning Resistance]",
+        "61% increased Mana Regeneration Rate"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "Adds 16 to 33 [Physical|Physical] Damage to [Attack|Attacks]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Prismatic Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Attack Modifiers)",
+          "values": [
+            [
+              "+40%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-07-02T16:23:34+00:00",
       "item_name": "Brood Nail",
@@ -6388,197 +6963,6 @@
       "granted_skills": [],
       "extended_mods": {},
       "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-06-26T13:13:04+00:00",
-      "item_name": "Tyrannical Gemini Bow of Acclaim",
-      "base_type": "Gemini Bow",
-      "rarity": "Magic",
-      "sale_price": 4,
-      "currency": "divine",
-      "div_equivalent": 4,
-      "item_id": "d973c778a7638edc3ec38228a3ad10dbfbf412320ce8d49c044f238125f5fe5c",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Cb3dzL0Jhc2V0eXBlcy9Cb3cwNiIsInciOjIsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b0a606586d/Bow06.png",
-      "ilvl": 82,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "+50% [SurpassChance|Surpassing] chance to fire an additional Arrow"
-      ],
-      "explicit_mods": [
-        "168% increased [Physical] Damage",
-        "19% increased [Attack] Speed"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 1,
-      "type_line": "Tyrannical Gemini Bow of Acclaim",
-      "properties": [
-        {
-          "name": "[Bow]",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Physical] Damage",
-          "values": [
-            [
-              "105-193",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 9
-        },
-        {
-          "name": "[Critical|Critical Hit] Chance",
-          "values": [
-            [
-              "5.00%",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 12
-        },
-        {
-          "name": "Attacks per Second",
-          "values": [
-            [
-              "1.37",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 13
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-06-26T09:17:17+00:00",
-      "item_name": "Eagle Grasp",
-      "base_type": "Ruby Ring",
-      "rarity": "Rare",
-      "sale_price": 105,
-      "currency": "divine",
-      "div_equivalent": 105,
-      "item_id": "df1f989ba11c4e3f36c882c19e23af48d48bdde2e61f6975bb05d2cc5229021d",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1J1YnlSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4f0e6f99c1/RubyRing.png",
-      "ilvl": 81,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "+23% to [Resistances|Fire Resistance]"
-      ],
-      "explicit_mods": [
-        "Adds 37 to 58 [Fire] damage to [Attack|Attacks]",
-        "Adds 5 to 98 [Lightning] damage to [Attack|Attacks]",
-        "+11 to all [Attributes|Attributes]",
-        "+15% to all [ElementalDamage|Elemental] [Resistances]",
-        "[Spell|Spell] Skills have 9% increased Area of Effect"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "Adds 19 to 30 [Physical|Physical] Damage to [Attack|Attacks]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Ruby Ring",
-      "properties": [
-        {
-          "name": "Ring",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "Quality (Attack Modifiers)",
-          "values": [
-            [
-              "+40%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-06-26T08:12:16+00:00",
-      "item_name": "Doom Coil",
-      "base_type": "Sapphire Ring",
-      "rarity": "Rare",
-      "sale_price": 250,
-      "currency": "divine",
-      "div_equivalent": 250,
-      "item_id": "80325a5c3b94331fd7d9fae9eb867cda339a2ebbb75b74f8851983fe486e17de",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "+29% to [Resistances|Cold Resistance]"
-      ],
-      "explicit_mods": [
-        "Adds 40 to 60 [Fire] damage to [Attack|Attacks]",
-        "Adds 5 to 99 [Lightning] damage to [Attack|Attacks]",
-        "+27 to [Intelligence|Intelligence]",
-        "+12% to all [ElementalDamage|Elemental] [Resistances]",
-        "58% increased Mana Regeneration Rate"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "Adds 29 to 50 [Cold] damage to [Attack|Attacks]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Sapphire Ring",
-      "properties": [
-        {
-          "name": "Ring",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "Quality (Attack Modifiers)",
-          "values": [
-            [
-              "+40%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
     }
   ],
   "fund": {
@@ -6592,7 +6976,7 @@
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd",
     "currencies": {
       "chaos": 491,
-      "divine": 18699,
+      "divine": 19039,
       "exalted": 5658
     }
   },
