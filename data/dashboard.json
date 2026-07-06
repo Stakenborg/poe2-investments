@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-07-05T17:07:06.811305+00:00",
+  "updated_at": "2026-07-06T03:19:34.927543+00:00",
   "currencies": {
-    "chaos": 1032,
-    "divine": 23919,
+    "chaos": 1042,
+    "divine": 24108,
     "exalted": 7333
   },
   "raw_divines": 0,
-  "listed_value": 826,
-  "total_nav": 702.1,
-  "raw_nav": 826,
+  "listed_value": 889,
+  "total_nav": 755.65,
+  "raw_nav": 889,
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
     {
-      "item_id": "ef5c95972e05d9ec89cf4420ca4783342379cb7d5fc27172be504dfa554b830d",
-      "item_name": "Mythic Summons",
-      "base_type": "Breach Tablet",
+      "item_id": "a6b3420b972abe18e332f32aa73c43e245f7f912123d60fda15e7dabfe51df0e",
+      "item_name": "Ancient Challenge",
+      "base_type": "Abyss Tablet",
       "rarity": "Rare",
-      "listed_price": 2,
+      "listed_price": 3,
       "currency": "chaos",
       "div_equivalent": "",
-      "indexed": "2026-07-04T22:12:05Z",
+      "indexed": "2026-07-06T02:23:38Z",
       "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 81,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRBYnlzcyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/478e9f6ae2/PrecursorTabletAbyss.png",
+      "ilvl": 80,
       "corrupted": false,
       "double_corrupted": false,
       "sanctified": false,
       "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
+        "Adds [ContainsAbyss|Abysses] to a Map \n10 uses remaining"
       ],
       "explicit_mods": [
         {
@@ -48,31 +48,31 @@
           ]
         },
         {
-          "description": "[ContainsBreach|Breaches] in Map have 13% increased Pack Size",
-          "hash": "stat.explicit.stat_1210760818",
+          "description": "[ContainsAbyss|Abysses] in Map spawn 27% increased Monsters",
+          "hash": "stat.explicit.stat_944630113",
           "mods": [
             {
               "name": "of the Horde",
               "tier": "S1",
               "magnitudes": [
                 {
-                  "min": "5",
-                  "max": "15"
+                  "min": "20",
+                  "max": "30"
                 }
               ]
             }
           ]
         },
         {
-          "description": "15% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
-          "hash": "stat.explicit.stat_2895378479",
+          "description": "Map has 19% increased [MonsterRarity|Monster Rarity]",
+          "hash": "stat.explicit.stat_4142653832",
           "mods": [
             {
-              "name": "of the Hand",
-              "tier": "S1",
+              "name": "Abounding",
+              "tier": "P1",
               "magnitudes": [
                 {
-                  "min": "5",
+                  "min": "15",
                   "max": "20"
                 }
               ]
@@ -80,16 +80,16 @@
           ]
         },
         {
-          "description": "Map has 34% increased number of [Rarity|Rare] Monsters",
-          "hash": "stat.explicit.stat_3793155082",
+          "description": "Map has 97% increased chance to contain [Shrine|Shrines]",
+          "hash": "stat.explicit.stat_689816330",
           "mods": [
             {
-              "name": "Brimming",
-              "tier": "P1",
+              "name": "of Shrines",
+              "tier": "S1",
               "magnitudes": [
                 {
-                  "min": "25",
-                  "max": "35"
+                  "min": "70",
+                  "max": "100"
                 }
               ]
             }
@@ -101,7 +101,7 @@
       "fractured_mods": [],
       "flavour_text": [],
       "frame_type": 2,
-      "type_line": "Breach Tablet",
+      "type_line": "Abyss Tablet",
       "properties": [
         {
           "name": "Tablet",
@@ -122,7 +122,7 @@
             "level": 1,
             "magnitudes": [
               {
-                "hash": "implicit.stat_2219129443",
+                "hash": "implicit.stat_2369421690",
                 "min": "10",
                 "max": "10"
               }
@@ -135,31 +135,31 @@
           [
             "explicit.stat_2306002879",
             [
-              2
+              1
             ]
           ],
           [
-            "explicit.stat_1210760818",
+            "explicit.stat_944630113",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_4142653832",
             [
               3
             ]
           ],
           [
-            "explicit.stat_2895378479",
+            "explicit.stat_689816330",
             [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_3793155082",
-            [
-              0
+              2
             ]
           ]
         ],
         "implicit": [
           [
-            "implicit.stat_2219129443",
+            "implicit.stat_2369421690",
             [
               0
             ]
@@ -168,238 +168,87 @@
       }
     },
     {
-      "item_id": "058e53a8fef63df55142a34249924460a535753a55be24d859b1704757c23268",
-      "item_name": "Ancient Commandment",
-      "base_type": "Breach Tablet",
+      "item_id": "21df02f985ac04a9f953cb4060a9ec25912b7e4330c424291914a94f2ebf0e08",
+      "item_name": "Torment Pendant",
+      "base_type": "Lapis Amulet",
       "rarity": "Rare",
-      "listed_price": 2,
+      "listed_price": 7,
       "currency": "chaos",
       "div_equivalent": "",
-      "indexed": "2026-07-05T14:01:26Z",
+      "indexed": "2026-07-06T01:02:20Z",
       "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9CYXNldHlwZXMvTGFwaXNBbXVsZXQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/572eeaf30b/LapisAmulet.png",
       "ilvl": 80,
       "corrupted": false,
       "double_corrupted": false,
       "sanctified": false,
       "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
+        "+12 to [Intelligence|Intelligence]"
       ],
       "explicit_mods": [
         {
-          "description": "6% increased Pack Size in Map",
-          "hash": "stat.explicit.stat_2017682521",
+          "description": "40% increased [Evasion|Evasion Rating]",
+          "hash": "stat.explicit.stat_2106365538",
           "mods": [
             {
-              "name": "Breeding",
-              "tier": "P1",
+              "name": "Nightmare's",
+              "tier": "P2",
+              "level": 70,
               "magnitudes": [
                 {
-                  "min": "5",
-                  "max": "7"
+                  "min": "39",
+                  "max": "44"
                 }
               ]
             }
           ]
         },
         {
-          "description": "46% increased Quantity of Hiveblood found in Map",
-          "hash": "stat.explicit.stat_2778285247",
+          "description": "+3 to Level of all [Melee|Melee] Skills",
+          "hash": "stat.explicit.stat_9187492",
           "mods": [
             {
-              "name": "of the Flow",
+              "name": "of Battle",
               "tier": "S1",
+              "level": 75,
               "magnitudes": [
                 {
-                  "min": "30",
-                  "max": "60"
+                  "min": "3",
+                  "max": "3"
                 }
               ]
             }
           ]
         },
         {
-          "description": "11% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
-          "hash": "stat.explicit.stat_2895378479",
+          "description": "23% increased [CriticalDamageBonus|Critical Damage Bonus]",
+          "hash": "stat.explicit.stat_3556824919",
           "mods": [
             {
-              "name": "of the Hand",
-              "tier": "S1",
-              "magnitudes": [
-                {
-                  "min": "5",
-                  "max": "20"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Map has 35% increased [Rarity|Magic] Monsters",
-          "hash": "stat.explicit.stat_3873704640",
-          "mods": [
-            {
-              "name": "Teeming",
-              "tier": "P1",
-              "magnitudes": [
-                {
-                  "min": "30",
-                  "max": "40"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {
-        "implicit": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "implicit.stat_2219129443",
-                "min": "10",
-                "max": "10"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_2017682521",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_2778285247",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_2895378479",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_3873704640",
-            [
-              0
-            ]
-          ]
-        ],
-        "implicit": [
-          [
-            "implicit.stat_2219129443",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "item_id": "3302881117b9867d646a8fbb3d1e2b4bdfaaf9ba6b0ccb6abdded052b5f426e3",
-      "item_name": "Eerie Terraform",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "listed_price": 6,
-      "currency": "chaos",
-      "div_equivalent": "",
-      "indexed": "2026-07-05T14:01:26Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        {
-          "description": "5% increased Pack Size in Map",
-          "hash": "stat.explicit.stat_2017682521",
-          "mods": [
-            {
-              "name": "Breeding",
-              "tier": "P1",
-              "magnitudes": [
-                {
-                  "min": "5",
-                  "max": "7"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Unstable [ContainsBreach|Breaches] in Map have 24% increased chance to contain Vruun, Marshal of Xesht",
-          "hash": "stat.explicit.stat_2433436306",
-          "mods": [
-            {
-              "name": "of the Commander",
-              "tier": "S1",
+              "name": "of Rage",
+              "tier": "S4",
+              "level": 31,
               "magnitudes": [
                 {
                   "min": "20",
-                  "max": "50"
+                  "max": "24"
                 }
               ]
             }
           ]
         },
         {
-          "description": "54% increased Quantity of Hiveblood found in Map",
-          "hash": "stat.explicit.stat_2778285247",
+          "description": "+16% to all [ElementalDamage|Elemental] [Resistances]",
+          "hash": "stat.explicit.stat_2901986750",
           "mods": [
             {
-              "name": "of the Flow",
-              "tier": "S1",
+              "name": "of the Rainbow",
+              "tier": "S2",
+              "level": 68,
               "magnitudes": [
                 {
-                  "min": "30",
-                  "max": "60"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Monsters have 13% increased [MonsterEffectiveness|Effectiveness]",
-          "hash": "stat.explicit.stat_2065500219",
-          "mods": [
-            {
-              "name": "Challenger's",
-              "tier": "P1",
-              "magnitudes": [
-                {
-                  "min": "10",
-                  "max": "15"
+                  "min": "15",
+                  "max": "16"
                 }
               ]
             }
@@ -411,10 +260,10 @@
       "fractured_mods": [],
       "flavour_text": [],
       "frame_type": 2,
-      "type_line": "Breach Tablet",
+      "type_line": "Lapis Amulet",
       "properties": [
         {
-          "name": "Tablet",
+          "name": "Amulet",
           "values": [],
           "displayMode": 0,
           "type": 109
@@ -429,12 +278,12 @@
           {
             "name": "",
             "tier": "",
-            "level": 1,
+            "level": 10,
             "magnitudes": [
               {
-                "hash": "implicit.stat_2219129443",
+                "hash": "implicit.stat_328541901",
                 "min": "10",
-                "max": "10"
+                "max": "15"
               }
             ]
           }
@@ -443,25 +292,25 @@
       "extended_hashes": {
         "explicit": [
           [
-            "explicit.stat_2017682521",
+            "explicit.stat_2106365538",
             [
               3
             ]
           ],
           [
-            "explicit.stat_2433436306",
+            "explicit.stat_9187492",
             [
               2
             ]
           ],
           [
-            "explicit.stat_2778285247",
+            "explicit.stat_3556824919",
             [
               1
             ]
           ],
           [
-            "explicit.stat_2065500219",
+            "explicit.stat_2901986750",
             [
               0
             ]
@@ -469,7 +318,7 @@
         ],
         "implicit": [
           [
-            "implicit.stat_2219129443",
+            "implicit.stat_328541901",
             [
               0
             ]
@@ -640,7 +489,7 @@
       "listed_price": 2,
       "currency": "divine",
       "div_equivalent": 2,
-      "indexed": "2026-07-05T14:01:31Z",
+      "indexed": "2026-07-05T20:11:49Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
       "ilvl": 80,
@@ -1098,6 +947,469 @@
       }
     },
     {
+      "item_id": "d9135764611e9c86061ebc9b1085121f7fed22219f035a37f22e249f09bee797",
+      "item_name": "Cyclopean Project",
+      "base_type": "Abyss Tablet",
+      "rarity": "Rare",
+      "listed_price": 8,
+      "currency": "divine",
+      "div_equivalent": 8,
+      "indexed": "2026-07-06T02:23:38Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRBYnlzcyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/478e9f6ae2/PrecursorTabletAbyss.png",
+      "ilvl": 81,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds [ContainsAbyss|Abysses] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        {
+          "description": "30% increased chance for [ContainsAbyss|Abyssal] monsters in Map to have [AbyssalModifiers|Abyssal Modifiers]",
+          "hash": "stat.explicit.stat_2789248444",
+          "mods": [
+            {
+              "name": "of Dark Power",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "20",
+                  "max": "30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "[ContainsAbyss|Abyssal] Monsters have 9% increased [MonsterEffectiveness|Effectiveness] for each closed Pit, up to 100%",
+          "hash": "stat.explicit.stat_664606484",
+          "mods": [
+            {
+              "name": "of Escalation",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "8",
+                  "max": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "13% increased Experience gain in Map",
+          "hash": "stat.explicit.stat_57434274",
+          "mods": [
+            {
+              "name": "Elevated",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "12",
+                  "max": "18"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Map has 35% increased number of [Rarity|Rare] Monsters",
+          "hash": "stat.explicit.stat_3793155082",
+          "mods": [
+            {
+              "name": "Brimming",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "25",
+                  "max": "35"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Abyss Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_2369421690",
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2789248444",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_664606484",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_57434274",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3793155082",
+            [
+              3
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_2369421690",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "591eef45dc5b1a680754e533a4a662f4e3a7a5bd16d93b7cfee83db89c08c37a",
+      "item_name": "Transcendental Project",
+      "base_type": "Temple Tablet",
+      "rarity": "Rare",
+      "listed_price": 15,
+      "currency": "divine",
+      "div_equivalent": 15,
+      "indexed": "2026-07-06T01:08:29Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRJbmN1cnNpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9beb68ac5d/PrecursorTabletIncursion.png",
+      "ilvl": 79,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds [ContainsIncursion|Vaal Beacons] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        {
+          "description": "[Rarity|Unique] Monsters have 1 additional Rare [MonsterModifiers|Modifier]",
+          "hash": "stat.explicit.stat_3371085671",
+          "mods": [
+            {
+              "name": "of Contest",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "1",
+                  "max": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "41% increased chance [ContainsIncursion|Vaal Beacons] summon additional Monsters in Map",
+          "hash": "stat.explicit.stat_632698321",
+          "mods": [
+            {
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "25",
+                  "max": "50"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Monsters have 13% increased [MonsterEffectiveness|Effectiveness]",
+          "hash": "stat.explicit.stat_2065500219",
+          "mods": [
+            {
+              "name": "Challenger's",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Map has 19% increased [MonsterRarity|Monster Rarity]",
+          "hash": "stat.explicit.stat_4142653832",
+          "mods": [
+            {
+              "name": "Abounding",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "15",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Temple Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_3035440454",
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3371085671",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_632698321",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2065500219",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_4142653832",
+            [
+              1
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_3035440454",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "cb1dca9a512a3acf887a5a0cb9b2863c2ff3a681cb6e76c0c9aa90c94107a878",
+      "item_name": "Voidtouched Emblem",
+      "base_type": "Temple Tablet",
+      "rarity": "Rare",
+      "listed_price": 16,
+      "currency": "divine",
+      "div_equivalent": 16,
+      "indexed": "2026-07-06T01:14:33Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRJbmN1cnNpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9beb68ac5d/PrecursorTabletIncursion.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds [ContainsIncursion|Vaal Beacons] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        {
+          "description": "[Rarity|Unique] Monsters have 1 additional Rare [MonsterModifiers|Modifier]",
+          "hash": "stat.explicit.stat_3371085671",
+          "mods": [
+            {
+              "name": "of Contest",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "1",
+                  "max": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "38% increased chance [ContainsIncursion|Vaal Beacons] summon additional Monsters in Map",
+          "hash": "stat.explicit.stat_632698321",
+          "mods": [
+            {
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "25",
+                  "max": "50"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Monsters have 14% increased [MonsterEffectiveness|Effectiveness]",
+          "hash": "stat.explicit.stat_2065500219",
+          "mods": [
+            {
+              "name": "Challenger's",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Map has 27% increased number of [Rarity|Rare] Monsters",
+          "hash": "stat.explicit.stat_3793155082",
+          "mods": [
+            {
+              "name": "Brimming",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "25",
+                  "max": "35"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Temple Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_3035440454",
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_3371085671",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_632698321",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2065500219",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3793155082",
+            [
+              1
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_3035440454",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "item_id": "ef97688539e901264748c70b5ba50d1cc9a46e614a5dcc8629ad7e2bd8329f3c",
       "item_name": "Phoenix Mandate",
       "base_type": "Breach Tablet",
@@ -1253,77 +1565,50 @@
       }
     },
     {
-      "item_id": "889f24b441cd1fb9fdb9d0ca981ebd7166ff4072be04858b9f795c14f910f24e",
-      "item_name": "Rapture Finger",
-      "base_type": "Sapphire Ring",
+      "item_id": "cb2634751321e8f3cefd7e9c17b256958dcc2ad9df351b7597e5b0e333a0fb1d",
+      "item_name": "Planar Injunction",
+      "base_type": "Temple Tablet",
       "rarity": "Rare",
-      "listed_price": 95,
+      "listed_price": 38,
       "currency": "divine",
-      "div_equivalent": 95,
-      "indexed": "2026-07-05T14:01:26Z",
+      "div_equivalent": 38,
+      "indexed": "2026-07-06T01:18:04Z",
       "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRJbmN1cnNpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9beb68ac5d/PrecursorTabletIncursion.png",
       "ilvl": 80,
       "corrupted": false,
       "double_corrupted": false,
       "sanctified": false,
       "implicit_mods": [
-        "+30% to [Resistances|Cold Resistance]"
+        "Adds [ContainsIncursion|Vaal Beacons] to a Map \n10 uses remaining"
       ],
       "explicit_mods": [
         {
-          "description": "Adds 35 to 58 [Fire] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_1573130764",
+          "description": "[Rarity|Unique] Monsters have 1 additional Rare [MonsterModifiers|Modifier]",
+          "hash": "stat.explicit.stat_3371085671",
           "mods": [
             {
-              "name": "Cremating",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "25",
-                  "max": "29"
-                },
-                {
-                  "min": "37",
-                  "max": "45"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Adds 33 to 46 [Cold] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_4067062424",
-          "mods": [
-            {
-              "name": "Entombing",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "21",
-                  "max": "24"
-                },
-                {
-                  "min": "32",
-                  "max": "37"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "17% increased [ItemRarity|Rarity of Items] found",
-          "hash": "stat.explicit.stat_3917489142",
-          "mods": [
-            {
-              "name": "of Archaeology",
+              "name": "of Contest",
               "tier": "S1",
-              "level": 40,
               "magnitudes": [
                 {
-                  "min": "15",
+                  "min": "1",
+                  "max": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "18% increased Experience gain in Map",
+          "hash": "stat.explicit.stat_57434274",
+          "mods": [
+            {
+              "name": "Elevated",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "12",
                   "max": "18"
                 }
               ]
@@ -1331,58 +1616,31 @@
           ]
         },
         {
-          "description": "+28 to [Strength|Strength]",
-          "hash": "stat.explicit.stat_4080418644",
+          "description": "27% increased Gold found in Map",
+          "hash": "stat.explicit.stat_1276056105",
           "mods": [
             {
-              "name": "of the Leviathan",
-              "tier": "S2",
-              "level": 66,
+              "name": "Bountiful",
+              "tier": "P1",
               "magnitudes": [
                 {
-                  "min": "28",
-                  "max": "30"
+                  "min": "25",
+                  "max": "35"
                 }
               ]
             }
           ]
         },
         {
-          "description": "+30% to [Resistances|Lightning Resistance]",
-          "hash": "stat.explicit.stat_1671376347",
+          "description": "18% chance to add a [ContainsIncursion|Vaal Beacon] [Rarity|Unique] Monster to the Map",
+          "hash": "stat.explicit.stat_3591307827",
           "mods": [
             {
-              "name": "of the Tempest",
-              "tier": "S4",
-              "level": 49,
-              "magnitudes": [
-                {
-                  "min": "26",
-                  "max": "30"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Adds 18 to 25 [Physical|Physical] Damage to [Attack|Attacks]",
-          "hash": "stat.desecrated.stat_3032590688",
-          "flags": {
-            "desecrated": true
-          },
-          "mods": [
-            {
-              "name": "Tempered",
-              "tier": "P2",
-              "level": 65,
+              "tier": "S1",
               "magnitudes": [
                 {
                   "min": "10",
-                  "max": "15"
-                },
-                {
-                  "min": "18",
-                  "max": "26"
+                  "max": "25"
                 }
               ]
             }
@@ -1394,24 +1652,13 @@
       "fractured_mods": [],
       "flavour_text": [],
       "frame_type": 2,
-      "type_line": "Sapphire Ring",
+      "type_line": "Temple Tablet",
       "properties": [
         {
-          "name": "Ring",
+          "name": "Tablet",
           "values": [],
           "displayMode": 0,
           "type": 109
-        },
-        {
-          "name": "Quality (Attack Modifiers)",
-          "values": [
-            [
-              "+40%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
         }
       ],
       "sockets": [],
@@ -1423,12 +1670,12 @@
           {
             "name": "",
             "tier": "",
-            "level": 15,
+            "level": 1,
             "magnitudes": [
               {
-                "hash": "implicit.stat_4220027924",
-                "min": "20",
-                "max": "30"
+                "hash": "implicit.stat_3035440454",
+                "min": "10",
+                "max": "10"
               }
             ]
           }
@@ -1437,47 +1684,33 @@
       "extended_hashes": {
         "explicit": [
           [
-            "explicit.stat_1573130764",
+            "explicit.stat_3371085671",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_57434274",
             [
               2
             ]
           ],
           [
-            "explicit.stat_4067062424",
+            "explicit.stat_1276056105",
             [
               1
             ]
           ],
           [
-            "explicit.stat_3917489142",
+            "explicit.stat_3591307827",
             [
               3
-            ]
-          ],
-          [
-            "explicit.stat_4080418644",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_1671376347",
-            [
-              4
             ]
           ]
         ],
         "implicit": [
           [
-            "implicit.stat_4220027924",
-            [
-              0
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_3032590688",
+            "implicit.stat_3035440454",
             [
               0
             ]
@@ -1486,64 +1719,50 @@
       }
     },
     {
-      "item_id": "626a7d1af850db7302796cf2d3e2113965d363002227d70d3b4dd7362c3d9d34",
-      "item_name": "Oblivion Cut",
-      "base_type": "Sapphire",
+      "item_id": "c0b5a8cc2443066c646ef091ce5394d9784b02b4e5fedabaf9b28231aa9dfe7b",
+      "item_name": "Godless Dictate",
+      "base_type": "Temple Tablet",
       "rarity": "Rare",
-      "listed_price": 120,
+      "listed_price": 39,
       "currency": "divine",
-      "div_equivalent": 120,
-      "indexed": "2026-07-05T14:02:10Z",
+      "div_equivalent": 39,
+      "indexed": "2026-07-06T01:10:39Z",
       "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
-      "ilvl": 55,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRJbmN1cnNpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9beb68ac5d/PrecursorTabletIncursion.png",
+      "ilvl": 80,
       "corrupted": false,
       "double_corrupted": false,
       "sanctified": false,
-      "implicit_mods": [],
+      "implicit_mods": [
+        "Adds [ContainsIncursion|Vaal Beacons] to a Map \n10 uses remaining"
+      ],
       "explicit_mods": [
         {
-          "description": "31% increased [CriticalDamageBonus|Critical Damage Bonus]",
-          "hash": "stat.explicit.stat_3556824919",
+          "description": "[Rarity|Unique] Monsters have 1 additional Rare [MonsterModifiers|Modifier]",
+          "hash": "stat.explicit.stat_3371085671",
           "mods": [
             {
-              "name": "of Potency",
+              "name": "of Contest",
               "tier": "S1",
               "magnitudes": [
                 {
-                  "min": "10",
-                  "max": "20"
+                  "min": "1",
+                  "max": "1"
                 }
               ]
             }
           ]
         },
         {
-          "description": "29% increased [CriticalDamageBonus|Critical Spell Damage Bonus]",
-          "hash": "stat.explicit.stat_274716455",
+          "description": "13% increased Experience gain in Map",
+          "hash": "stat.explicit.stat_57434274",
           "mods": [
             {
-              "name": "of Unmaking",
-              "tier": "S1",
-              "magnitudes": [
-                {
-                  "min": "10",
-                  "max": "20"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "[Trigger|Triggered] [Spell|Spells] deal 12% increased [Spell] Damage",
-          "hash": "stat.explicit.stat_3067892458",
-          "mods": [
-            {
-              "name": "Triggered",
+              "name": "Elevated",
               "tier": "P1",
               "magnitudes": [
                 {
-                  "min": "10",
+                  "min": "12",
                   "max": "18"
                 }
               ]
@@ -1551,37 +1770,31 @@
           ]
         },
         {
-          "description": "18% increased [Critical|Critical Hit] Chance",
-          "hash": "stat.desecrated.stat_587431675",
-          "flags": {
-            "desecrated": true
-          },
+          "description": "16% chance to add a [ContainsIncursion|Vaal Beacon] [Rarity|Unique] Monster to the Map",
+          "hash": "stat.explicit.stat_3591307827",
           "mods": [
             {
-              "name": "of Annihilation",
               "tier": "S1",
               "magnitudes": [
                 {
-                  "min": "5",
-                  "max": "15"
+                  "min": "10",
+                  "max": "25"
                 }
               ]
             }
           ]
         },
         {
-          "description": "55% increased Effect of Suffixes",
-          "hash": "stat.crafted.stat_2475221757",
-          "flags": {
-            "crafted": true
-          },
+          "description": "Monsters have 14% increased [MonsterEffectiveness|Effectiveness]",
+          "hash": "stat.explicit.stat_2065500219",
           "mods": [
             {
-              "tier": "P0",
+              "name": "Challenger's",
+              "tier": "P1",
               "magnitudes": [
                 {
-                  "min": "40",
-                  "max": "60"
+                  "min": "10",
+                  "max": "15"
                 }
               ]
             }
@@ -1593,10 +1806,10 @@
       "fractured_mods": [],
       "flavour_text": [],
       "frame_type": 2,
-      "type_line": "Sapphire",
+      "type_line": "Temple Tablet",
       "properties": [
         {
-          "name": "[Jewel]",
+          "name": "Tablet",
           "values": [],
           "displayMode": 0,
           "type": 109
@@ -1606,39 +1819,206 @@
       "socketed_items": [],
       "rune_mods": [],
       "granted_skills": [],
-      "extended_mods": {},
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_3035440454",
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
       "extended_hashes": {
         "explicit": [
           [
-            "explicit.stat_3556824919",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_274716455",
+            "explicit.stat_3371085671",
             [
               1
             ]
           ],
           [
-            "explicit.stat_3067892458",
+            "explicit.stat_57434274",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_3591307827",
+            [
+              3
+            ]
+          ],
+          [
+            "explicit.stat_2065500219",
             [
               2
             ]
           ]
         ],
-        "crafted": [
+        "implicit": [
           [
-            "crafted.stat_2475221757",
+            "implicit.stat_3035440454",
             [
               0
             ]
           ]
-        ],
-        "desecrated": [
+        ]
+      }
+    },
+    {
+      "item_id": "96dbbc642c2e03bd646a42ccd56d5996bf5d870aca96546dcf3a048a08eb7ff0",
+      "item_name": "Mythic Inscription",
+      "base_type": "Temple Tablet",
+      "rarity": "Rare",
+      "listed_price": 49,
+      "currency": "divine",
+      "div_equivalent": 49,
+      "indexed": "2026-07-06T01:15:12Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRJbmN1cnNpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9beb68ac5d/PrecursorTabletIncursion.png",
+      "ilvl": 82,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds [ContainsIncursion|Vaal Beacons] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        {
+          "description": "[Rarity|Unique] Monsters have 1 additional Rare [MonsterModifiers|Modifier]",
+          "hash": "stat.explicit.stat_3371085671",
+          "mods": [
+            {
+              "name": "of Contest",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "1",
+                  "max": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "9% increased [Rarity] of Items found in Map",
+          "hash": "stat.explicit.stat_2306002879",
+          "mods": [
+            {
+              "name": "Collector's",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "8",
+                  "max": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Map contains 3 additional [Rarity|Rare] Chests",
+          "hash": "stat.explicit.stat_231864447",
+          "mods": [
+            {
+              "name": "Treasurer's",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "2",
+                  "max": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "24% chance to add a [ContainsIncursion|Vaal Beacon] [Rarity|Unique] Monster to the Map",
+          "hash": "stat.explicit.stat_3591307827",
+          "mods": [
+            {
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "25"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Temple Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {
+        "implicit": [
+          {
+            "name": "",
+            "tier": "",
+            "level": 1,
+            "magnitudes": [
+              {
+                "hash": "implicit.stat_3035440454",
+                "min": "10",
+                "max": "10"
+              }
+            ]
+          }
+        ]
+      },
+      "extended_hashes": {
+        "explicit": [
           [
-            "desecrated.stat_587431675",
+            "explicit.stat_3371085671",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_2306002879",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_231864447",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3591307827",
+            [
+              3
+            ]
+          ]
+        ],
+        "implicit": [
+          [
+            "implicit.stat_3035440454",
             [
               0
             ]
@@ -1651,10 +2031,10 @@
       "item_name": "Torment Loop",
       "base_type": "Sapphire Ring",
       "rarity": "Rare",
-      "listed_price": 125,
+      "listed_price": 115,
       "currency": "divine",
-      "div_equivalent": 125,
-      "indexed": "2026-07-05T14:01:26Z",
+      "div_equivalent": 115,
+      "indexed": "2026-07-06T01:20:31Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
       "ilvl": 82,
@@ -1884,10 +2264,10 @@
       "item_name": "Demon Eye",
       "base_type": "Unset Ring",
       "rarity": "Rare",
-      "listed_price": 150,
+      "listed_price": 135,
       "currency": "divine",
-      "div_equivalent": 150,
-      "indexed": "2026-07-05T14:01:26Z",
+      "div_equivalent": 135,
+      "indexed": "2026-07-06T01:20:31Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1Vuc2V0UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/79ee559b51/UnsetRing.png",
       "ilvl": 79,
@@ -2113,14 +2493,175 @@
       }
     },
     {
+      "item_id": "626a7d1af850db7302796cf2d3e2113965d363002227d70d3b4dd7362c3d9d34",
+      "item_name": "Oblivion Cut",
+      "base_type": "Sapphire",
+      "rarity": "Rare",
+      "listed_price": 154,
+      "currency": "divine",
+      "div_equivalent": 154,
+      "indexed": "2026-07-06T01:22:48Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 55,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        {
+          "description": "11% increased [Spell] Damage",
+          "hash": "stat.explicit.stat_2974417149",
+          "mods": [
+            {
+              "name": "Mystic",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "5",
+                  "max": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "32% increased [CriticalDamageBonus|Critical Damage Bonus]",
+          "hash": "stat.explicit.stat_3556824919",
+          "mods": [
+            {
+              "name": "of Potency",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "30% increased [CriticalDamageBonus|Critical Spell Damage Bonus]",
+          "hash": "stat.explicit.stat_274716455",
+          "mods": [
+            {
+              "name": "of Unmaking",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "19% increased [Critical|Critical Hit] Chance",
+          "hash": "stat.desecrated.stat_587431675",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "of Annihilation",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "5",
+                  "max": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "60% increased Effect of Suffixes",
+          "hash": "stat.crafted.stat_2475221757",
+          "flags": {
+            "crafted": true
+          },
+          "mods": [
+            {
+              "tier": "P0",
+              "magnitudes": [
+                {
+                  "min": "40",
+                  "max": "60"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sapphire",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2974417149",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_3556824919",
+            [
+              0
+            ]
+          ],
+          [
+            "explicit.stat_274716455",
+            [
+              1
+            ]
+          ]
+        ],
+        "crafted": [
+          [
+            "crafted.stat_2475221757",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_587431675",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "item_id": "1375ff69124f2ce2f3fa03c34bdc89cf86747a7959932373e0cc6f8ade8a57d6",
       "item_name": "Doom Nail",
       "base_type": "Topaz Ring",
       "rarity": "Rare",
-      "listed_price": 315,
+      "listed_price": 299,
       "currency": "divine",
-      "div_equivalent": 315,
-      "indexed": "2026-07-05T14:01:26Z",
+      "div_equivalent": 299,
+      "indexed": "2026-07-06T01:20:27Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1RvcGF6UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/83315d9397/TopazRing.png",
       "ilvl": 82,
@@ -2347,6 +2888,504 @@
     }
   ],
   "recent_sales": [
+    {
+      "timestamp": "2026-07-06T02:02:07+00:00",
+      "item_name": "Interdimensional Anthem",
+      "base_type": "Temple Tablet",
+      "rarity": "Rare",
+      "sale_price": 14,
+      "currency": "divine",
+      "div_equivalent": 14,
+      "item_id": "63ed5c3313ab30474621cf655db6307c9b95f387dc2ab77329b649f0ff218a9b",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRJbmN1cnNpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9beb68ac5d/PrecursorTabletIncursion.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds [ContainsIncursion|Vaal Beacons] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        "[Rarity|Unique] Monsters have 1 additional Rare [MonsterModifiers|Modifier]",
+        "38% increased chance [ContainsIncursion|Vaal Beacons] summon additional Monsters in Map",
+        "Map has 40% increased [Rarity|Magic] Monsters",
+        "Map has 16% increased [MonsterRarity|Monster Rarity]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Temple Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-06T02:00:43+00:00",
+      "item_name": "Otherworldly Emblem",
+      "base_type": "Irradiated Tablet",
+      "rarity": "Rare",
+      "sale_price": 10,
+      "currency": "divine",
+      "div_equivalent": 10,
+      "item_id": "b447bbbfef0cd446237e5250e171545e872f70bad77b94b300fe984f26e8862e",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRHZW5lcmljIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4fbc73f060/PrecursorTabletGeneric.png",
+      "ilvl": 81,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds [ContainsIrradiated|Irradiated] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        "18% increased Experience gain in Map",
+        "30% increased Quantity of [Waystone|Waystones] found in Map",
+        "Map has 28% increased number of [Rarity|Rare] Monsters",
+        "Map has 1 additional random Modifier"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Irradiated Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-06T01:21:01+00:00",
+      "item_name": "Mythical Anthem",
+      "base_type": "Temple Tablet",
+      "rarity": "Rare",
+      "sale_price": 13,
+      "currency": "divine",
+      "div_equivalent": 13,
+      "item_id": "8010cb89aaac37c5b845dcfd9e88f62d0d2b70e4216068f116a37b6e3fa1b3eb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRJbmN1cnNpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9beb68ac5d/PrecursorTabletIncursion.png",
+      "ilvl": 75,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds [ContainsIncursion|Vaal Beacons] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        "[Rarity|Unique] Monsters have 1 additional Rare [MonsterModifiers|Modifier]",
+        "27% increased chance [ContainsIncursion|Vaal Beacons] summon additional Monsters in Map",
+        "Monsters have 12% increased [MonsterEffectiveness|Effectiveness]",
+        "Map contains 1 additional [AzmeriSpirit|Azmeri Spirit]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Temple Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-06T01:19:42+00:00",
+      "item_name": "Mythic Emblem",
+      "base_type": "Temple Tablet",
+      "rarity": "Rare",
+      "sale_price": 13,
+      "currency": "divine",
+      "div_equivalent": 13,
+      "item_id": "e6684dad1e8d48ac3724a22ae16a13ed6c82e71dde8bccd2d4836ae7b7c9cec8",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRJbmN1cnNpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9beb68ac5d/PrecursorTabletIncursion.png",
+      "ilvl": 81,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds [ContainsIncursion|Vaal Beacons] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        "[Rarity|Unique] Monsters have 1 additional Rare [MonsterModifiers|Modifier]",
+        "17% increased Experience gain in Map",
+        "35% increased chance [ContainsIncursion|Vaal Beacons] summon additional Monsters in Map",
+        "Map has 31% increased [Rarity|Magic] Monsters"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Temple Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-06T01:19:28+00:00",
+      "item_name": "Transcendental League",
+      "base_type": "Temple Tablet",
+      "rarity": "Rare",
+      "sale_price": 12,
+      "currency": "divine",
+      "div_equivalent": 12,
+      "item_id": "19bca15a13193dccc4d6c0aac6f7c6417aa9780954313866f6eabcb69c23cb2c",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRJbmN1cnNpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9beb68ac5d/PrecursorTabletIncursion.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds [ContainsIncursion|Vaal Beacons] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        "[Rarity|Unique] Monsters have 1 additional Rare [MonsterModifiers|Modifier]",
+        "14% increased Experience gain in Map",
+        "28% increased Gold found in Map",
+        "26% increased chance [ContainsIncursion|Vaal Beacons] summon additional Monsters in Map"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Temple Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-06T01:18:00+00:00",
+      "item_name": "Transcendental Dictate",
+      "base_type": "Irradiated Tablet",
+      "rarity": "Rare",
+      "sale_price": 25,
+      "currency": "divine",
+      "div_equivalent": 25,
+      "item_id": "dba88ca1b769bbb0001c62712e48af901c32b6ba80eb3e91711eb2e8e3929275",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRHZW5lcmljIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4fbc73f060/PrecursorTabletGeneric.png",
+      "ilvl": 79,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds [ContainsIrradiated|Irradiated] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        "8% increased [Rarity] of Items found in Map",
+        "Monsters have 12% increased [MonsterEffectiveness|Effectiveness]",
+        "Map has 2 additional random Modifiers",
+        "Map has 81% increased chance to contain [Shrine|Shrines]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Irradiated Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-06T01:00:49+00:00",
+      "item_name": "Celestial Anthem",
+      "base_type": "Irradiated Tablet",
+      "rarity": "Rare",
+      "sale_price": 7,
+      "currency": "divine",
+      "div_equivalent": 7,
+      "item_id": "7be115f844688d87a23adc07692c1a33f7d254eff16ab6402512ea1caeacec7e",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRHZW5lcmljIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4fbc73f060/PrecursorTabletGeneric.png",
+      "ilvl": 81,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds [ContainsIrradiated|Irradiated] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        "11% increased [Rarity] of Items found in Map",
+        "Map contains an additional [Essence]",
+        "Map has 2 additional random Modifiers",
+        "Map has 74% increased chance to contain a [StoneSummoningCircle|Summoning Circle]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Irradiated Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-05T23:35:16+00:00",
+      "item_name": "Ancient Commandment",
+      "base_type": "Breach Tablet",
+      "rarity": "Rare",
+      "sale_price": 2,
+      "currency": "chaos",
+      "div_equivalent": "",
+      "item_id": "058e53a8fef63df55142a34249924460a535753a55be24d859b1704757c23268",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        "6% increased Pack Size in Map",
+        "46% increased Quantity of Hiveblood found in Map",
+        "11% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
+        "Map has 35% increased [Rarity|Magic] Monsters"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Breach Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-05T23:35:09+00:00",
+      "item_name": "Eerie Terraform",
+      "base_type": "Breach Tablet",
+      "rarity": "Rare",
+      "sale_price": 6,
+      "currency": "chaos",
+      "div_equivalent": "",
+      "item_id": "3302881117b9867d646a8fbb3d1e2b4bdfaaf9ba6b0ccb6abdded052b5f426e3",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        "5% increased Pack Size in Map",
+        "Unstable [ContainsBreach|Breaches] in Map have 24% increased chance to contain Vruun, Marshal of Xesht",
+        "54% increased Quantity of Hiveblood found in Map",
+        "Monsters have 13% increased [MonsterEffectiveness|Effectiveness]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Breach Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-05T23:35:03+00:00",
+      "item_name": "Mythic Summons",
+      "base_type": "Breach Tablet",
+      "rarity": "Rare",
+      "sale_price": 2,
+      "currency": "chaos",
+      "div_equivalent": "",
+      "item_id": "ef5c95972e05d9ec89cf4420ca4783342379cb7d5fc27172be504dfa554b830d",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
+      "ilvl": 81,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        "11% increased [Rarity] of Items found in Map",
+        "[ContainsBreach|Breaches] in Map have 13% increased Pack Size",
+        "15% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
+        "Map has 34% increased number of [Rarity|Rare] Monsters"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Breach Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-05T18:16:39+00:00",
+      "item_name": "Rapture Finger",
+      "base_type": "Sapphire Ring",
+      "rarity": "Rare",
+      "sale_price": 95,
+      "currency": "divine",
+      "div_equivalent": 95,
+      "item_id": "889f24b441cd1fb9fdb9d0ca981ebd7166ff4072be04858b9f795c14f910f24e",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "+30% to [Resistances|Cold Resistance]"
+      ],
+      "explicit_mods": [
+        "Adds 35 to 58 [Fire] damage to [Attack|Attacks]",
+        "Adds 33 to 46 [Cold] damage to [Attack|Attacks]",
+        "17% increased [ItemRarity|Rarity of Items] found",
+        "+28 to [Strength|Strength]",
+        "+30% to [Resistances|Lightning Resistance]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [
+        "Adds 18 to 25 [Physical|Physical] Damage to [Attack|Attacks]"
+      ],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sapphire Ring",
+      "properties": [
+        {
+          "name": "Ring",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Attack Modifiers)",
+          "values": [
+            [
+              "+40%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-07-05T16:56:17+00:00",
       "item_name": "Ancient Invocation",
@@ -4147,490 +5186,6 @@
       "granted_skills": [],
       "extended_mods": {},
       "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T02:25:21+00:00",
-      "item_name": "Celestial Inscription",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "sale_price": 13,
-      "currency": "divine",
-      "div_equivalent": 13,
-      "item_id": "6bb8f53930dc96204e7ce40de1ee00c412a1578a451f5423f497403ab7ec8e46",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "8% increased [Rarity] of Items found in Map",
-        "Monsters have 11% increased [MonsterEffectiveness|Effectiveness]",
-        "Map has 88% increased chance to contain [Shrine|Shrines]",
-        "Unstable [ContainsBreach|Breaches] in Map spawn 2 additional [Rarity|Rare] Monsters when Stabilised"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T02:24:51+00:00",
-      "item_name": "Godless Writ",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "sale_price": 3,
-      "currency": "divine",
-      "div_equivalent": 3,
-      "item_id": "48b9d6be98a7a02c813a20f9c713fa1da527ecc56fc404dba08614f936456806",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "[ContainsBreach|Breaches] in Map have 11% increased Pack Size",
-        "Map has 39% increased [Rarity|Magic] Monsters",
-        "Map has 34% increased number of [Rarity|Rare] Monsters",
-        "Unstable [ContainsBreach|Breaches] in Map spawn 3 additional [Rarity|Rare] Monsters when Stabilised"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T02:18:45+00:00",
-      "item_name": "Empyrean Liturgy",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "sale_price": 7,
-      "currency": "divine",
-      "div_equivalent": 7,
-      "item_id": "8e2ec195f34464b71c821ebeffa0726f99b97ed262b88f112fac640980aceded",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "Map contains 2 additional [Rarity|Rare] Chests",
-        "10% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
-        "Map has 31% increased number of [Rarity|Rare] Monsters",
-        "Unstable [ContainsBreach|Breaches] in Map spawn 3 additional [Rarity|Rare] Monsters when Stabilised"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T02:15:21+00:00",
-      "item_name": "Otherworldly Decree",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "sale_price": 50,
-      "currency": "chaos",
-      "div_equivalent": "",
-      "item_id": "802d3c030e16ce2890b391f4c298f0c9790f6a4886a86b8dc14d775aa83ea9e6",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "16% increased Experience gain in Map",
-        "40% increased Quantity of [Waystone|Waystones] found in Map",
-        "Monsters have 11% increased [MonsterEffectiveness|Effectiveness]",
-        "Unstable [ContainsBreach|Breaches] in Map spawn 3 additional [Rarity|Rare] Monsters when Stabilised"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T02:13:13+00:00",
-      "item_name": "Empyrean Law",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "sale_price": 6,
-      "currency": "divine",
-      "div_equivalent": 6,
-      "item_id": "60f8585b93fa81c65af73bc4425a1c12c70f3204b3a49a34709f2053b529e013",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 79,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "Map contains 3 additional [Rarity|Rare] Chests",
-        "12% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
-        "15% increased Experience gain in Map",
-        "Unstable [ContainsBreach|Breaches] in Map spawn 3 additional [Rarity|Rare] Monsters when Stabilised"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T02:04:54+00:00",
-      "item_name": "Godless Apex",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "sale_price": 23,
-      "currency": "divine",
-      "div_equivalent": 23,
-      "item_id": "6bbb55e7b35e2dd60fe2ea879e369d2459eeae7a4c30d553b849de5ccddbdcef",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 72,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "Map contains 3 additional [Rarity|Rare] Chests",
-        "7% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
-        "Monsters have 12% increased [MonsterEffectiveness|Effectiveness]",
-        "Unstable [ContainsBreach|Breaches] in Map spawn 3 additional [Rarity|Rare] Monsters when Stabilised"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T01:59:16+00:00",
-      "item_name": "Cyclopean Terraform",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "sale_price": 25,
-      "currency": "divine",
-      "div_equivalent": 25,
-      "item_id": "fe641017178f53dd6a009154ec93079a1f8894ac938f883073658b82c07aa4a0",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 79,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "13% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
-        "29% increased Gold found in Map",
-        "Monsters have 11% increased [MonsterEffectiveness|Effectiveness]",
-        "Unstable [ContainsBreach|Breaches] in Map spawn 3 additional [Rarity|Rare] Monsters when Stabilised"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T01:55:55+00:00",
-      "item_name": "Legendary Directive",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "sale_price": 3,
-      "currency": "chaos",
-      "div_equivalent": "",
-      "item_id": "26c387dca3da39957b19362009e73011adfedb3280e3626727cb077b8bf673ad",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "7% increased Pack Size in Map",
-        "6% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
-        "43% increased Quantity of [BreachWombgift|Wombgifts] found in Map",
-        "Monsters have 15% increased [MonsterEffectiveness|Effectiveness]"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T01:47:34+00:00",
-      "item_name": "Cyclopean Challenge",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "sale_price": 3,
-      "currency": "chaos",
-      "div_equivalent": "",
-      "item_id": "412ef3ccf29efef2537a45ca776598fd73e1d015bc5fb25b6397cb5aaa32cd99",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 82,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "6% increased Pack Size in Map",
-        "Unstable [ContainsBreach|Breaches] in Map have 33% increased chance to contain Vruun, Marshal of Xesht",
-        "6% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
-        "Monsters have 13% increased [MonsterEffectiveness|Effectiveness]"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T01:32:53+00:00",
-      "item_name": "Interdimensional Decree",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "sale_price": 10,
-      "currency": "divine",
-      "div_equivalent": 10,
-      "item_id": "7e75751ec0db8121c8a9ecfec3242f5a15f058c8cf8076f70b4a9eebd13ed3d2",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "8% increased [Rarity] of Items found in Map",
-        "11% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
-        "34% increased Gold found in Map",
-        "Unstable [ContainsBreach|Breaches] in Map spawn 3 additional [Rarity|Rare] Monsters when Stabilised"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T01:09:21+00:00",
-      "item_name": "Transcendental League",
-      "base_type": "Delirium Tablet",
-      "rarity": "Rare",
-      "sale_price": 18,
-      "currency": "divine",
-      "div_equivalent": 18,
-      "item_id": "7c7359f65b07370e7f7c38627401502b2f1c97b8e89a35c40f0ae970e1046b27",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXREZWxpcml1bSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8c2fac816e/PrecursorTabletDelirium.png",
-      "ilvl": 79,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds a [ContainsDelirium|Mirror of Delirium] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "[ContainsDelirium|Delirium Fog] in Map spawns 15% increased [FracturingMirror|Fracturing Mirrors]",
-        "24% increased Stack size of Simulacrum Splinters found in Map",
-        "13% increased Experience gain in Map",
-        "Map has 32% increased number of [Rarity|Rare] Monsters"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Delirium Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
     }
   ],
   "fund": {
@@ -4643,8 +5198,8 @@
     "total_profit": 0.0,
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd",
     "currencies": {
-      "chaos": 1032,
-      "divine": 23919,
+      "chaos": 1042,
+      "divine": 24108,
       "exalted": 7333
     }
   },
