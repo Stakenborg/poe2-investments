@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-07T10:53:16.725826+00:00",
+  "updated_at": "2026-07-07T17:57:15.365930+00:00",
   "currencies": {
     "chaos": 1076,
-    "divine": 24627,
+    "divine": 24652,
     "exalted": 7333
   },
   "raw_divines": 0,
-  "listed_value": 417,
-  "total_nav": 354.45,
-  "raw_nav": 417,
+  "listed_value": 460,
+  "total_nav": 391.0,
+  "raw_nav": 460,
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
@@ -17,10 +17,10 @@
       "item_name": "Voidtouched Myth",
       "base_type": "Breach Tablet",
       "rarity": "Rare",
-      "listed_price": 14,
+      "listed_price": 12,
       "currency": "chaos",
       "div_equivalent": "",
-      "indexed": "2026-07-06T23:27:44Z",
+      "indexed": "2026-07-07T12:48:36Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
       "ilvl": 81,
@@ -168,50 +168,32 @@
       }
     },
     {
-      "item_id": "6bb6cff761a28a51562aeab65240a1ceb911eef20514c3038d9f25290aec1286",
-      "item_name": "Transcendental Challenge",
-      "base_type": "Breach Tablet",
+      "item_id": "e8c1cf3e021d2a9cbe3036f68eb9fd43ac6eb1cdca9ebe8d47d1a24d4a48ad49",
+      "item_name": "Loath Heart",
+      "base_type": "Sapphire",
       "rarity": "Rare",
-      "listed_price": 27,
+      "listed_price": 100,
       "currency": "divine",
-      "div_equivalent": 27,
-      "indexed": "2026-07-06T23:27:44Z",
+      "div_equivalent": 100,
+      "indexed": "2026-07-07T12:48:36Z",
       "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 79,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 81,
       "corrupted": false,
       "double_corrupted": false,
       "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
+      "implicit_mods": [],
       "explicit_mods": [
         {
-          "description": "11% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
-          "hash": "stat.explicit.stat_2895378479",
+          "description": "11% increased [Spell] Damage",
+          "hash": "stat.explicit.stat_2974417149",
           "mods": [
             {
-              "name": "of the Hand",
-              "tier": "S1",
-              "magnitudes": [
-                {
-                  "min": "5",
-                  "max": "20"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Monsters have 12% increased [MonsterEffectiveness|Effectiveness]",
-          "hash": "stat.explicit.stat_2065500219",
-          "mods": [
-            {
-              "name": "Challenger's",
+              "name": "Mystic",
               "tier": "P1",
               "magnitudes": [
                 {
-                  "min": "10",
+                  "min": "5",
                   "max": "15"
                 }
               ]
@@ -219,32 +201,69 @@
           ]
         },
         {
-          "description": "Map has 37% increased [Rarity|Magic] Monsters",
-          "hash": "stat.explicit.stat_3873704640",
+          "description": "8% increased [Critical|Critical Hit] Chance",
+          "hash": "stat.explicit.stat_587431675",
           "mods": [
             {
-              "name": "Teeming",
-              "tier": "P1",
+              "name": "of Annihilation",
+              "tier": "S1",
               "magnitudes": [
                 {
-                  "min": "30",
-                  "max": "40"
+                  "min": "5",
+                  "max": "15"
                 }
               ]
             }
           ]
         },
         {
-          "description": "Unstable [ContainsBreach|Breaches] in Map spawn 3 additional [Rarity|Rare] Monsters when Stabilised",
-          "hash": "stat.explicit.stat_3762913035",
+          "description": "23% increased [CriticalDamageBonus|Critical Spell Damage Bonus]",
+          "hash": "stat.explicit.stat_274716455",
           "mods": [
             {
-              "name": "of the Invasion",
+              "name": "of Unmaking",
               "tier": "S1",
               "magnitudes": [
                 {
-                  "min": "1",
-                  "max": "3"
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "26% increased [CriticalDamageBonus|Critical Damage Bonus]",
+          "hash": "stat.desecrated.stat_3556824919",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "of Potency",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "46% increased Effect of Suffixes",
+          "hash": "stat.crafted.stat_2475221757",
+          "flags": {
+            "crafted": true
+          },
+          "mods": [
+            {
+              "tier": "P0",
+              "magnitudes": [
+                {
+                  "min": "40",
+                  "max": "60"
                 }
               ]
             }
@@ -256,10 +275,10 @@
       "fractured_mods": [],
       "flavour_text": [],
       "frame_type": 2,
-      "type_line": "Breach Tablet",
+      "type_line": "Sapphire",
       "properties": [
         {
-          "name": "Tablet",
+          "name": "[Jewel]",
           "values": [],
           "displayMode": 0,
           "type": 109
@@ -269,52 +288,39 @@
       "socketed_items": [],
       "rune_mods": [],
       "granted_skills": [],
-      "extended_mods": {
-        "implicit": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "implicit.stat_2219129443",
-                "min": "10",
-                "max": "10"
-              }
-            ]
-          }
-        ]
-      },
+      "extended_mods": {},
       "extended_hashes": {
         "explicit": [
           [
-            "explicit.stat_2895378479",
+            "explicit.stat_2974417149",
+            [
+              2
+            ]
+          ],
+          [
+            "explicit.stat_587431675",
             [
               1
             ]
           ],
           [
-            "explicit.stat_2065500219",
-            [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_3873704640",
+            "explicit.stat_274716455",
             [
               0
             ]
-          ],
+          ]
+        ],
+        "crafted": [
           [
-            "explicit.stat_3762913035",
+            "crafted.stat_2475221757",
             [
-              2
+              0
             ]
           ]
         ],
-        "implicit": [
+        "desecrated": [
           [
-            "implicit.stat_2219129443",
+            "desecrated.stat_3556824919",
             [
               0
             ]
@@ -327,10 +333,10 @@
       "item_name": "Demon Eye",
       "base_type": "Unset Ring",
       "rarity": "Rare",
-      "listed_price": 115,
+      "listed_price": 110,
       "currency": "divine",
-      "div_equivalent": 115,
-      "indexed": "2026-07-06T23:27:44Z",
+      "div_equivalent": 110,
+      "indexed": "2026-07-07T12:48:36Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1Vuc2V0UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/79ee559b51/UnsetRing.png",
       "ilvl": 79,
@@ -560,10 +566,10 @@
       "item_name": "Doom Nail",
       "base_type": "Topaz Ring",
       "rarity": "Rare",
-      "listed_price": 275,
+      "listed_price": 250,
       "currency": "divine",
-      "div_equivalent": 275,
-      "indexed": "2026-07-06T23:27:44Z",
+      "div_equivalent": 250,
+      "indexed": "2026-07-07T12:48:36Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1RvcGF6UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/83315d9397/TopazRing.png",
       "ilvl": 82,
@@ -790,6 +796,50 @@
     }
   ],
   "recent_sales": [
+    {
+      "timestamp": "2026-07-07T14:25:50+00:00",
+      "item_name": "Transcendental Challenge",
+      "base_type": "Breach Tablet",
+      "rarity": "Rare",
+      "sale_price": 25,
+      "currency": "divine",
+      "div_equivalent": 25,
+      "item_id": "6bb6cff761a28a51562aeab65240a1ceb911eef20514c3038d9f25290aec1286",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
+      "ilvl": 79,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [
+        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
+      ],
+      "explicit_mods": [
+        "11% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
+        "Monsters have 12% increased [MonsterEffectiveness|Effectiveness]",
+        "Map has 37% increased [Rarity|Magic] Monsters",
+        "Unstable [ContainsBreach|Breaches] in Map spawn 3 additional [Rarity|Rare] Monsters when Stabilised"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Breach Tablet",
+      "properties": [
+        {
+          "name": "Tablet",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-07-07T08:03:09+00:00",
       "item_name": "Phoenix Mandate",
@@ -3052,50 +3102,6 @@
       "granted_skills": [],
       "extended_mods": {},
       "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T11:12:04+00:00",
-      "item_name": "Cyclopean Decree",
-      "base_type": "Delirium Tablet",
-      "rarity": "Rare",
-      "sale_price": 1,
-      "currency": "divine",
-      "div_equivalent": 1,
-      "item_id": "5e48d27b47c15609b957ca34b37c268d2c09542b7ddf8a519431fe626628ff74",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXREZWxpcml1bSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8c2fac816e/PrecursorTabletDelirium.png",
-      "ilvl": 82,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds a [ContainsDelirium|Mirror of Delirium] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "11% increased [Rarity] of Items found in Map",
-        "[ContainsDelirium|Delirium] Encounters in Map are 25% more likely to spawn [Rarity|Unique] Bosses",
-        "[ContainsDelirium|Delirium Fog] in Map spawns 28% increased [FracturingMirror|Fracturing Mirrors]",
-        "Monsters have 11% increased [MonsterEffectiveness|Effectiveness]"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Delirium Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
     }
   ],
   "fund": {
@@ -3109,7 +3115,7 @@
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd",
     "currencies": {
       "chaos": 1076,
-      "divine": 24627,
+      "divine": 24652,
       "exalted": 7333
     }
   },
