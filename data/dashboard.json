@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-08T02:29:48.274207+00:00",
+  "updated_at": "2026-07-08T10:14:22.274893+00:00",
   "currencies": {
-    "chaos": 1076,
+    "chaos": 1081,
     "divine": 24652,
-    "exalted": 7333
+    "exalted": 7533
   },
   "raw_divines": 0,
   "listed_value": 382,
@@ -12,510 +12,6 @@
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
-    {
-      "item_id": "40232c7d8b82685e7e58e919f5951dd795da5e955562311b6d69d4399693a922",
-      "item_name": "Sunsplinter",
-      "base_type": "Array Buckler",
-      "rarity": "Unique",
-      "listed_price": 200,
-      "currency": "exalted",
-      "div_equivalent": "",
-      "indexed": "2026-07-08T02:11:38Z",
-      "stash": "5",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvT2ZmaGFuZC9TaGllbGRzL1VuaXF1ZXMvU3Vuc3BsaW50ZXIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/40019131cb/Sunsplinter.png",
-      "ilvl": 83,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [
-        {
-          "description": "200% increased [Evasion|Evasion] Rating",
-          "hash": "stat.explicit.stat_124859000",
-          "mods": [
-            {
-              "magnitudes": [
-                {
-                  "min": "100",
-                  "max": "300"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+1 to Level of all [Fire] Skills",
-          "hash": "stat.explicit.stat_599749213",
-          "mods": [
-            {
-              "magnitudes": [
-                {
-                  "min": "1",
-                  "max": "1"
-                },
-                {
-                  "min": "2",
-                  "max": "2"
-                },
-                {
-                  "min": "3",
-                  "max": "3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+2 to Level of all [Cold] Skills",
-          "hash": "stat.explicit.stat_1078455967",
-          "mods": [
-            {
-              "magnitudes": [
-                {
-                  "min": "1",
-                  "max": "1"
-                },
-                {
-                  "min": "2",
-                  "max": "2"
-                },
-                {
-                  "min": "3",
-                  "max": "3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+3 to Level of all [Lightning] Skills",
-          "hash": "stat.explicit.stat_1147690586",
-          "mods": [
-            {
-              "magnitudes": [
-                {
-                  "min": "1",
-                  "max": "1"
-                },
-                {
-                  "min": "2",
-                  "max": "2"
-                },
-                {
-                  "min": "3",
-                  "max": "3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+2% to [MaximumResistances|Maximum Fire Resistance]",
-          "hash": "stat.explicit.stat_4095671657",
-          "mods": [
-            {
-              "magnitudes": [
-                {
-                  "min": "2",
-                  "max": "2"
-                },
-                {
-                  "min": "3",
-                  "max": "3"
-                },
-                {
-                  "min": "1",
-                  "max": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+3% to [MaximumResistances|Maximum Cold Resistance]",
-          "hash": "stat.explicit.stat_3676141501",
-          "mods": [
-            {
-              "magnitudes": [
-                {
-                  "min": "2",
-                  "max": "2"
-                },
-                {
-                  "min": "3",
-                  "max": "3"
-                },
-                {
-                  "min": "1",
-                  "max": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+1% to [MaximumResistances|Maximum Lightning Resistance]",
-          "hash": "stat.explicit.stat_1011760251",
-          "mods": [
-            {
-              "magnitudes": [
-                {
-                  "min": "2",
-                  "max": "2"
-                },
-                {
-                  "min": "3",
-                  "max": "3"
-                },
-                {
-                  "min": "1",
-                  "max": "1"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [
-        "\"Lundara held back the hordes, while Solerai rose to split the sky.\r",
-        "With a single stroke, she ended the Winter of the World.\"\r",
-        "- Wranga, tale-woman of the Wahida akhara"
-      ],
-      "frame_type": 3,
-      "type_line": "Array Buckler",
-      "properties": [
-        {
-          "name": "[Buckler]",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Quality]",
-          "values": [
-            [
-              "+6%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        },
-        {
-          "name": "[Block] chance",
-          "values": [
-            [
-              "20%",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 15
-        },
-        {
-          "name": "[Evasion|Evasion Rating]",
-          "values": [
-            [
-              "401",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 17
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [
-        {
-          "realm": "poe2",
-          "verified": true,
-          "w": 1,
-          "h": 1,
-          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQmxhbmtHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/250ec3ed08/BlankGem.png",
-          "support": false,
-          "league": "Runes of Aldur",
-          "gemSockets": [
-            "W",
-            "W",
-            "W",
-            "W"
-          ],
-          "sockets": [
-            {
-              "group": 0,
-              "type": "gem"
-            },
-            {
-              "group": 1,
-              "type": "gem"
-            },
-            {
-              "group": 2,
-              "type": "gem"
-            },
-            {
-              "group": 3,
-              "type": "gem"
-            }
-          ],
-          "name": "",
-          "typeLine": "Parry",
-          "baseType": "Parry",
-          "ilvl": 0,
-          "identified": true,
-          "properties": [
-            {
-              "name": "[Attack], [Melee], [Physical], [DurationSkill|Duration], [Channelling]",
-              "values": [],
-              "displayMode": 0
-            },
-            {
-              "name": "Cost",
-              "values": [
-                [
-                  "0 Mana, 0 Mana per second",
-                  0
-                ]
-              ],
-              "displayMode": 0
-            },
-            {
-              "name": "Attack Time",
-              "values": [
-                [
-                  "0.75s",
-                  0
-                ]
-              ],
-              "displayMode": 0
-            },
-            {
-              "name": "[Critical|Critical Hit] Chance",
-              "values": [
-                [
-                  "5.00%",
-                  0
-                ]
-              ],
-              "displayMode": 0
-            },
-            {
-              "name": "Attack Damage",
-              "values": [
-                [
-                  "65%",
-                  0
-                ]
-              ],
-              "displayMode": 0
-            }
-          ],
-          "weaponRequirements": [
-            {
-              "name": "",
-              "values": [
-                [
-                  "[Buckler]",
-                  0
-                ]
-              ],
-              "displayMode": 0,
-              "type": 96
-            }
-          ],
-          "secDescrText": "Ready your [Buckler] to parry the next [HitDamage|Hit] you would take, [Block|Blocking] the [HitDamage|Hit] and retaliating with a quick sweep that leaves enemies off balance, causing them to take massively increased [Attack] damage for a short duration. Parrying causes you to accumulate [HeavyStunPlayer|Heavy Stun] buildup. You cannot [Evasion|Evade] a [HitDamage|Hit] you could parry, but [Evasion] instead grants an equal chance to avoid this [HeavyStunPlayer|Heavy Stun] buildup.",
-          "gemTabs": [
-            {
-              "name": "Parry",
-              "pages": [
-                {
-                  "stats": [
-                    "Can't be [Evasion|Evaded]",
-                    "400% more [Stun] buildup",
-                    "Can [Block] [HitDamage|Damage] from enemies within 1 metre",
-                    "Can [Block] [Projectile] [HitDamage|Damage] from enemies within 1.5 metres",
-                    "[ParriedDebuff|Parried Debuff] makes targets take 50% more [Attack] Damage",
-                    "[ParriedDebuff|Parried] [Debuff] duration is 2 seconds",
-                    "3 to 4 Added [Physical] Damage per 5 [Evasion|Evasion Rating] on [Buckler]"
-                  ],
-                  "skillName": "Parry"
-                }
-              ]
-            }
-          ],
-          "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NCdWNrbGVyUGFycnkiLCJyZWFsbSI6InBvZTIifV0/9931e012bd/HuntressBucklerParry.png",
-          "descrText": "Skills can be managed in the Skills Panel.",
-          "frameType": 4,
-          "frameTypeId": "Gem",
-          "socketedItems": []
-        }
-      ],
-      "rune_mods": [],
-      "granted_skills": [
-        {
-          "name": "Grants Skill",
-          "values": [
-            [
-              "Parry",
-              25
-            ]
-          ],
-          "displayMode": 0,
-          "icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NCdWNrbGVyUGFycnkiLCJyZWFsbSI6InBvZTIifV0/9931e012bd/HuntressBucklerParry.png"
-        }
-      ],
-      "extended_mods": {},
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_124859000",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_599749213",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_1078455967",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_1147690586",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_4095671657",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_3676141501",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_1011760251",
-            [
-              2
-            ]
-          ]
-        ],
-        "skill": [
-          [
-            "skill.parry",
-            null
-          ]
-        ]
-      }
-    },
-    {
-      "item_id": "dfd2360441ac97a35d0951b94dc7dc415e5fa7106fcc8c9dbe26c7bae9f84695",
-      "item_name": "Exceptional Desolate Crossbow",
-      "base_type": "Desolate Crossbow",
-      "rarity": "Normal",
-      "listed_price": 5,
-      "currency": "chaos",
-      "div_equivalent": "",
-      "indexed": "2026-07-08T02:05:28Z",
-      "stash": "6",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Dcm9zc2Jvd3MvMkhDcm9zc2JvdzA4IiwidyI6MiwiaCI6NCwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4d19c2367c/2HCrossbow08.png",
-      "ilvl": 83,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [],
-      "explicit_mods": [],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 0,
-      "type_line": "Exceptional Desolate Crossbow",
-      "properties": [
-        {
-          "name": "[Crossbow]",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "[Physical] Damage",
-          "values": [
-            [
-              "33-132",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 9
-        },
-        {
-          "name": "[Critical|Critical Hit] Chance",
-          "values": [
-            [
-              "5.00%",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 12
-        },
-        {
-          "name": "Attacks per Second",
-          "values": [
-            [
-              "1.60",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 13
-        },
-        {
-          "name": "Reload Time",
-          "values": [
-            [
-              "0.80",
-              0
-            ]
-          ],
-          "displayMode": 0,
-          "type": 97
-        }
-      ],
-      "sockets": [
-        {
-          "group": 0,
-          "type": "rune"
-        },
-        {
-          "group": 1,
-          "type": "rune"
-        },
-        {
-          "group": 2,
-          "type": "rune"
-        }
-      ],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
     {
       "item_id": "9a05749ed0cc9930de8b7387227a71175dbdb95a547180769ed72ce9f9380ce2",
       "item_name": "Voidtouched Myth",
@@ -1294,6 +790,318 @@
     }
   ],
   "recent_sales": [
+    {
+      "timestamp": "2026-07-08T03:45:07+00:00",
+      "item_name": "Sunsplinter",
+      "base_type": "Array Buckler",
+      "rarity": "Unique",
+      "sale_price": 200,
+      "currency": "exalted",
+      "div_equivalent": "",
+      "item_id": "40232c7d8b82685e7e58e919f5951dd795da5e955562311b6d69d4399693a922",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvT2ZmaGFuZC9TaGllbGRzL1VuaXF1ZXMvU3Vuc3BsaW50ZXIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/40019131cb/Sunsplinter.png",
+      "ilvl": 83,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        "200% increased [Evasion|Evasion] Rating",
+        "+1 to Level of all [Fire] Skills",
+        "+2 to Level of all [Cold] Skills",
+        "+3 to Level of all [Lightning] Skills",
+        "+2% to [MaximumResistances|Maximum Fire Resistance]",
+        "+3% to [MaximumResistances|Maximum Cold Resistance]",
+        "+1% to [MaximumResistances|Maximum Lightning Resistance]"
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [
+        "\"Lundara held back the hordes, while Solerai rose to split the sky.\r",
+        "With a single stroke, she ended the Winter of the World.\"\r",
+        "- Wranga, tale-woman of the Wahida akhara"
+      ],
+      "frame_type": 3,
+      "type_line": "Array Buckler",
+      "properties": [
+        {
+          "name": "[Buckler]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Quality]",
+          "values": [
+            [
+              "+6%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        },
+        {
+          "name": "[Block] chance",
+          "values": [
+            [
+              "20%",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 15
+        },
+        {
+          "name": "[Evasion|Evasion Rating]",
+          "values": [
+            [
+              "401",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 17
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [
+        {
+          "realm": "poe2",
+          "verified": false,
+          "w": 1,
+          "h": 1,
+          "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQmxhbmtHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/250ec3ed08/BlankGem.png",
+          "support": false,
+          "league": "Runes of Aldur",
+          "gemSockets": [
+            "W",
+            "W",
+            "W",
+            "W"
+          ],
+          "sockets": [
+            {
+              "group": 0,
+              "type": "gem"
+            },
+            {
+              "group": 1,
+              "type": "gem"
+            },
+            {
+              "group": 2,
+              "type": "gem"
+            },
+            {
+              "group": 3,
+              "type": "gem"
+            }
+          ],
+          "name": "",
+          "typeLine": "Parry",
+          "baseType": "Parry",
+          "ilvl": 0,
+          "identified": true,
+          "properties": [
+            {
+              "name": "[Attack], [Melee], [Physical], [DurationSkill|Duration], [Channelling]",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Cost",
+              "values": [
+                [
+                  "0 Mana, 0 Mana per second",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Attack Time",
+              "values": [
+                [
+                  "0.75s",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "[Critical|Critical Hit] Chance",
+              "values": [
+                [
+                  "5.00%",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Attack Damage",
+              "values": [
+                [
+                  "65%",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "weaponRequirements": [
+            {
+              "name": "",
+              "values": [
+                [
+                  "[Buckler]",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 96
+            }
+          ],
+          "secDescrText": "Ready your [Buckler] to parry the next [HitDamage|Hit] you would take, [Block|Blocking] the [HitDamage|Hit] and retaliating with a quick sweep that leaves enemies off balance, causing them to take massively increased [Attack] damage for a short duration. Parrying causes you to accumulate [HeavyStunPlayer|Heavy Stun] buildup. You cannot [Evasion|Evade] a [HitDamage|Hit] you could parry, but [Evasion] instead grants an equal chance to avoid this [HeavyStunPlayer|Heavy Stun] buildup.",
+          "gemTabs": [
+            {
+              "name": "Parry",
+              "pages": [
+                {
+                  "stats": [
+                    "Can't be [Evasion|Evaded]",
+                    "400% more [Stun] buildup",
+                    "Can [Block] [HitDamage|Damage] from enemies within 1 metre",
+                    "Can [Block] [Projectile] [HitDamage|Damage] from enemies within 1.5 metres",
+                    "[ParriedDebuff|Parried Debuff] makes targets take 50% more [Attack] Damage",
+                    "[ParriedDebuff|Parried] [Debuff] duration is 2 seconds",
+                    "3 to 4 Added [Physical] Damage per 5 [Evasion|Evasion Rating] on [Buckler]"
+                  ],
+                  "skillName": "Parry"
+                }
+              ]
+            }
+          ],
+          "gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NCdWNrbGVyUGFycnkiLCJyZWFsbSI6InBvZTIifV0/9931e012bd/HuntressBucklerParry.png",
+          "descrText": "Skills can be managed in the Skills Panel.",
+          "frameType": 4,
+          "frameTypeId": "Gem",
+          "socketedItems": []
+        }
+      ],
+      "rune_mods": [],
+      "granted_skills": [
+        {
+          "name": "Grants Skill",
+          "values": [
+            [
+              "Parry",
+              25
+            ]
+          ],
+          "displayMode": 0,
+          "icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NCdWNrbGVyUGFycnkiLCJyZWFsbSI6InBvZTIifV0/9931e012bd/HuntressBucklerParry.png"
+        }
+      ],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
+    {
+      "timestamp": "2026-07-08T03:01:20+00:00",
+      "item_name": "Exceptional Desolate Crossbow",
+      "base_type": "Desolate Crossbow",
+      "rarity": "Normal",
+      "sale_price": 5,
+      "currency": "chaos",
+      "div_equivalent": "",
+      "item_id": "dfd2360441ac97a35d0951b94dc7dc415e5fa7106fcc8c9dbe26c7bae9f84695",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Dcm9zc2Jvd3MvMkhDcm9zc2JvdzA4IiwidyI6MiwiaCI6NCwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4d19c2367c/2HCrossbow08.png",
+      "ilvl": 83,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 0,
+      "type_line": "Exceptional Desolate Crossbow",
+      "properties": [
+        {
+          "name": "[Crossbow]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "[Physical] Damage",
+          "values": [
+            [
+              "33-132",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 9
+        },
+        {
+          "name": "[Critical|Critical Hit] Chance",
+          "values": [
+            [
+              "5.00%",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 12
+        },
+        {
+          "name": "Attacks per Second",
+          "values": [
+            [
+              "1.60",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 13
+        },
+        {
+          "name": "Reload Time",
+          "values": [
+            [
+              "0.80",
+              0
+            ]
+          ],
+          "displayMode": 0,
+          "type": 97
+        }
+      ],
+      "sockets": [
+        {
+          "group": 0,
+          "type": "rune"
+        },
+        {
+          "group": 1,
+          "type": "rune"
+        },
+        {
+          "group": 2,
+          "type": "rune"
+        }
+      ],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-07-07T14:25:50+00:00",
       "item_name": "Transcendental Challenge",
@@ -3512,94 +3320,6 @@
       "granted_skills": [],
       "extended_mods": {},
       "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T11:32:24+00:00",
-      "item_name": "Mythical Emblem",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "sale_price": 17,
-      "currency": "chaos",
-      "div_equivalent": "",
-      "item_id": "47684eb437d51bd7e2ea121e2ee7d43f6e7cc6497c5286ce4df86ff070bfcb46",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "33% increased Quantity of Hiveblood found in Map",
-        "44% increased Quantity of [BreachWombgift|Wombgifts] found in Map",
-        "30% increased Gold found in Map",
-        "Map has 15% increased [MonsterRarity|Monster Rarity]"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T11:28:22+00:00",
-      "item_name": "Empyrean Dictate",
-      "base_type": "Breach Tablet",
-      "rarity": "Rare",
-      "sale_price": 7,
-      "currency": "divine",
-      "div_equivalent": 7,
-      "item_id": "cb653d36ee11962af169f8fd947af64d85461698dd537d8ec1fa240dae3ae438",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
-      "ilvl": 81,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "7% increased Pack Size in Map",
-        "37% increased Quantity of [Waystone|Waystones] found in Map",
-        "Monsters have 11% increased [MonsterEffectiveness|Effectiveness]",
-        "Unstable [ContainsBreach|Breaches] in Map spawn 3 additional [Rarity|Rare] Monsters when Stabilised"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Breach Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
     }
   ],
   "fund": {
@@ -3612,9 +3332,9 @@
     "total_profit": 0.0,
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd",
     "currencies": {
-      "chaos": 1076,
+      "chaos": 1081,
       "divine": 24652,
-      "exalted": 7333
+      "exalted": 7533
     }
   },
   "investors": [
