@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-10T17:45:42.702754+00:00",
+  "updated_at": "2026-07-11T02:27:42.548810+00:00",
   "currencies": {
     "chaos": 1081,
-    "divine": 24659,
+    "divine": 24934,
     "exalted": 7533
   },
   "raw_divines": 0,
-  "listed_value": 375,
-  "total_nav": 318.75,
-  "raw_nav": 375,
+  "listed_value": 1184,
+  "total_nav": 1006.4,
+  "raw_nav": 1184,
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
@@ -17,10 +17,10 @@
       "item_name": "Voidtouched Myth",
       "base_type": "Breach Tablet",
       "rarity": "Rare",
-      "listed_price": 10,
+      "listed_price": 8,
       "currency": "chaos",
       "div_equivalent": "",
-      "indexed": "2026-07-08T01:52:12Z",
+      "indexed": "2026-07-11T02:22:46Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
       "ilvl": 81,
@@ -172,10 +172,10 @@
       "item_name": "Demon Eye",
       "base_type": "Unset Ring",
       "rarity": "Rare",
-      "listed_price": 100,
+      "listed_price": 85,
       "currency": "divine",
-      "div_equivalent": 100,
-      "indexed": "2026-07-08T01:52:12Z",
+      "div_equivalent": 85,
+      "indexed": "2026-07-11T02:22:46Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1Vuc2V0UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/79ee559b51/UnsetRing.png",
       "ilvl": 79,
@@ -401,15 +401,525 @@
       }
     },
     {
-      "item_id": "1375ff69124f2ce2f3fa03c34bdc89cf86747a7959932373e0cc6f8ade8a57d6",
+      "item_id": "cc3a1ac931c0aaca56a736f795933418827d660bd663198839b618531886aceb",
+      "item_name": "Rapture Spark",
+      "base_type": "Sapphire",
+      "rarity": "Rare",
+      "listed_price": 235,
+      "currency": "divine",
+      "div_equivalent": 235,
+      "indexed": "2026-07-11T02:20:00Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 80,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        {
+          "description": "31% increased [CriticalDamageBonus|Critical Spell Damage Bonus]",
+          "hash": "stat.fractured.stat_274716455",
+          "flags": {
+            "fractured": true
+          },
+          "mods": [
+            {
+              "name": "of Unmaking",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "12% increased [Spell] Damage",
+          "hash": "stat.explicit.stat_2974417149",
+          "mods": [
+            {
+              "name": "Mystic",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "5",
+                  "max": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "28% increased [CriticalDamageBonus|Critical Damage Bonus]",
+          "hash": "stat.explicit.stat_3556824919",
+          "mods": [
+            {
+              "name": "of Potency",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "21% increased [Critical|Critical Hit Chance] for [Spell|Spells]",
+          "hash": "stat.desecrated.stat_737908626",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "of Annihilating",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "5",
+                  "max": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "56% increased Effect of Suffixes",
+          "hash": "stat.crafted.stat_2475221757",
+          "flags": {
+            "crafted": true
+          },
+          "mods": [
+            {
+              "tier": "P0",
+              "magnitudes": [
+                {
+                  "min": "40",
+                  "max": "60"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sapphire",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2974417149",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3556824919",
+            [
+              0
+            ]
+          ]
+        ],
+        "fractured": [
+          [
+            "fractured.stat_274716455",
+            [
+              0
+            ]
+          ]
+        ],
+        "crafted": [
+          [
+            "crafted.stat_2475221757",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_737908626",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "d48235f2d6d31bccdfa5428b31ca28eafeb1b8497cc79ba3c2e452551f9f7a7e",
+      "item_name": "Glyph Glisten",
+      "base_type": "Sapphire",
+      "rarity": "Rare",
+      "listed_price": 265,
+      "currency": "divine",
+      "div_equivalent": 265,
+      "indexed": "2026-07-11T02:22:46Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 82,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        {
+          "description": "32% increased [CriticalDamageBonus|Critical Spell Damage Bonus]",
+          "hash": "stat.fractured.stat_274716455",
+          "flags": {
+            "fractured": true
+          },
+          "mods": [
+            {
+              "name": "of Unmaking",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "8% increased [Spell] Damage",
+          "hash": "stat.explicit.stat_2974417149",
+          "mods": [
+            {
+              "name": "Mystic",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "5",
+                  "max": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "27% increased [CriticalDamageBonus|Critical Damage Bonus]",
+          "hash": "stat.explicit.stat_3556824919",
+          "mods": [
+            {
+              "name": "of Potency",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "22% increased [Critical|Critical Hit Chance] for [Spell|Spells]",
+          "hash": "stat.desecrated.stat_737908626",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "of Annihilating",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "5",
+                  "max": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "60% increased Effect of Suffixes",
+          "hash": "stat.crafted.stat_2475221757",
+          "flags": {
+            "crafted": true
+          },
+          "mods": [
+            {
+              "tier": "P0",
+              "magnitudes": [
+                {
+                  "min": "40",
+                  "max": "60"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sapphire",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2974417149",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3556824919",
+            [
+              0
+            ]
+          ]
+        ],
+        "fractured": [
+          [
+            "fractured.stat_274716455",
+            [
+              0
+            ]
+          ]
+        ],
+        "crafted": [
+          [
+            "crafted.stat_2475221757",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_737908626",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "item_id": "f7aec849757cff54998708804bbf1e296fef9381d94cd70ea1c5339cfc5cbc8a",
+      "item_name": "Oblivion Cut",
+      "base_type": "Sapphire",
+      "rarity": "Rare",
+      "listed_price": 599,
+      "currency": "divine",
+      "div_equivalent": 599,
+      "indexed": "2026-07-11T02:22:46Z",
+      "stash": "5",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
+      "ilvl": 79,
+      "corrupted": false,
+      "double_corrupted": false,
+      "sanctified": false,
+      "implicit_mods": [],
+      "explicit_mods": [
+        {
+          "description": "35% increased [CriticalDamageBonus|Critical Spell Damage Bonus]",
+          "hash": "stat.fractured.stat_274716455",
+          "flags": {
+            "fractured": true
+          },
+          "mods": [
+            {
+              "name": "of Unmaking",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "18% increased [Spell] Damage",
+          "hash": "stat.explicit.stat_2974417149",
+          "mods": [
+            {
+              "name": "Mystic",
+              "tier": "P1",
+              "magnitudes": [
+                {
+                  "min": "5",
+                  "max": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "30% increased [CriticalDamageBonus|Critical Damage Bonus]",
+          "hash": "stat.explicit.stat_3556824919",
+          "mods": [
+            {
+              "name": "of Potency",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "23% increased [Critical|Critical Hit Chance] for [Spell|Spells]",
+          "hash": "stat.desecrated.stat_737908626",
+          "flags": {
+            "desecrated": true
+          },
+          "mods": [
+            {
+              "name": "of Annihilating",
+              "tier": "S1",
+              "magnitudes": [
+                {
+                  "min": "5",
+                  "max": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "58% increased Effect of Suffixes",
+          "hash": "stat.crafted.stat_2475221757",
+          "flags": {
+            "crafted": true
+          },
+          "mods": [
+            {
+              "tier": "P0",
+              "magnitudes": [
+                {
+                  "min": "40",
+                  "max": "60"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "enchant_mods": [],
+      "desecrated_mods": [],
+      "fractured_mods": [],
+      "flavour_text": [],
+      "frame_type": 2,
+      "type_line": "Sapphire",
+      "properties": [
+        {
+          "name": "[Jewel]",
+          "values": [],
+          "displayMode": 0,
+          "type": 109
+        },
+        {
+          "name": "Quality (Caster Modifiers)",
+          "values": [
+            [
+              "+20%",
+              1
+            ]
+          ],
+          "displayMode": 0,
+          "type": 6
+        }
+      ],
+      "sockets": [],
+      "socketed_items": [],
+      "rune_mods": [],
+      "granted_skills": [],
+      "extended_mods": {},
+      "extended_hashes": {
+        "explicit": [
+          [
+            "explicit.stat_2974417149",
+            [
+              1
+            ]
+          ],
+          [
+            "explicit.stat_3556824919",
+            [
+              0
+            ]
+          ]
+        ],
+        "fractured": [
+          [
+            "fractured.stat_274716455",
+            [
+              0
+            ]
+          ]
+        ],
+        "crafted": [
+          [
+            "crafted.stat_2475221757",
+            [
+              0
+            ]
+          ]
+        ],
+        "desecrated": [
+          [
+            "desecrated.stat_737908626",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "recent_sales": [
+    {
+      "timestamp": "2026-07-10T19:15:37+00:00",
       "item_name": "Doom Nail",
       "base_type": "Topaz Ring",
       "rarity": "Rare",
-      "listed_price": 275,
+      "sale_price": 275,
       "currency": "divine",
       "div_equivalent": 275,
-      "indexed": "2026-07-08T01:52:12Z",
-      "stash": "5",
+      "item_id": "1375ff69124f2ce2f3fa03c34bdc89cf86747a7959932373e0cc6f8ade8a57d6",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1RvcGF6UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/83315d9397/TopazRing.png",
       "ilvl": 82,
       "corrupted": false,
@@ -419,126 +929,16 @@
         "+24% to [Resistances|Lightning Resistance]"
       ],
       "explicit_mods": [
-        {
-          "description": "Adds 40 to 63 [Fire] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_1573130764",
-          "mods": [
-            {
-              "name": "Cremating",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "25",
-                  "max": "29"
-                },
-                {
-                  "min": "37",
-                  "max": "45"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Adds 23 to 36 [Cold] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_4067062424",
-          "mods": [
-            {
-              "name": "Polar",
-              "tier": "P2",
-              "level": 65,
-              "magnitudes": [
-                {
-                  "min": "16",
-                  "max": "20"
-                },
-                {
-                  "min": "25",
-                  "max": "31"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Adds 5 to 96 [Lightning] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_1754445556",
-          "mods": [
-            {
-              "name": "Electrocuting",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "1",
-                  "max": "4"
-                },
-                {
-                  "min": "60",
-                  "max": "71"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "17% increased [ItemRarity|Rarity of Items] found",
-          "hash": "stat.explicit.stat_3917489142",
-          "mods": [
-            {
-              "name": "of Archaeology",
-              "tier": "S1",
-              "level": 40,
-              "magnitudes": [
-                {
-                  "min": "15",
-                  "max": "18"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+31 to [Strength|Strength]",
-          "hash": "stat.explicit.stat_4080418644",
-          "mods": [
-            {
-              "name": "of the Titan",
-              "tier": "S1",
-              "level": 74,
-              "magnitudes": [
-                {
-                  "min": "31",
-                  "max": "33"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+40% to [Resistances|Cold Resistance]",
-          "hash": "stat.desecrated.stat_4220027924",
-          "flags": {
-            "desecrated": true
-          },
-          "mods": [
-            {
-              "name": "of the Ice",
-              "tier": "S2",
-              "level": 71,
-              "magnitudes": [
-                {
-                  "min": "36",
-                  "max": "40"
-                }
-              ]
-            }
-          ]
-        }
+        "Adds 40 to 63 [Fire] damage to [Attack|Attacks]",
+        "Adds 23 to 36 [Cold] damage to [Attack|Attacks]",
+        "Adds 5 to 96 [Lightning] damage to [Attack|Attacks]",
+        "17% increased [ItemRarity|Rarity of Items] found",
+        "+31 to [Strength|Strength]"
       ],
       "enchant_mods": [],
-      "desecrated_mods": [],
+      "desecrated_mods": [
+        "+40% to [Resistances|Cold Resistance]"
+      ],
       "fractured_mods": [],
       "flavour_text": [],
       "frame_type": 2,
@@ -566,75 +966,9 @@
       "socketed_items": [],
       "rune_mods": [],
       "granted_skills": [],
-      "extended_mods": {
-        "implicit": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 20,
-            "magnitudes": [
-              {
-                "hash": "implicit.stat_1671376347",
-                "min": "20",
-                "max": "30"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_1573130764",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_4067062424",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_1754445556",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_3917489142",
-            [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_4080418644",
-            [
-              3
-            ]
-          ]
-        ],
-        "implicit": [
-          [
-            "implicit.stat_1671376347",
-            [
-              0
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_4220027924",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    }
-  ],
-  "recent_sales": [
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-07-09T13:29:49+00:00",
       "item_name": "Transcendental Edict",
@@ -3093,64 +3427,6 @@
       "granted_skills": [],
       "extended_mods": {},
       "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T13:33:49+00:00",
-      "item_name": "Kraken Grasp",
-      "base_type": "Sapphire Ring",
-      "rarity": "Rare",
-      "sale_price": 265,
-      "currency": "divine",
-      "div_equivalent": 265,
-      "item_id": "26629c1af38b28863f0def97ce272575cd2be2337da38efc040425e9c3a4e41e",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1NhcHBoaXJlUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14608c24b1/SapphireRing.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "+23% to [Resistances|Cold Resistance]"
-      ],
-      "explicit_mods": [
-        "Adds 37 to 63 [Fire] damage to [Attack|Attacks]",
-        "Adds 30 to 50 [Cold] damage to [Attack|Attacks]",
-        "+14% to all [ElementalDamage|Elemental] [Resistances]",
-        "+35% to [Resistances|Fire Resistance]",
-        "Gain 26 Mana per enemy killed"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "Adds 2 to 81 [Lightning] damage to [Attack|Attacks]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Sapphire Ring",
-      "properties": [
-        {
-          "name": "Ring",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "Quality (Attack Modifiers)",
-          "values": [
-            [
-              "+40%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
     }
   ],
   "fund": {
@@ -3164,7 +3440,7 @@
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd",
     "currencies": {
       "chaos": 1081,
-      "divine": 24659,
+      "divine": 24934,
       "exalted": 7533
     }
   },
