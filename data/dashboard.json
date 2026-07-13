@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-13T02:34:43.528316+00:00",
+  "updated_at": "2026-07-13T10:58:21.547732+00:00",
   "currencies": {
     "chaos": 1081,
-    "divine": 25668,
+    "divine": 25913,
     "exalted": 7533
   },
   "raw_divines": 0,
-  "listed_value": 329,
-  "total_nav": 279.65,
-  "raw_nav": 329,
+  "listed_value": 245,
+  "total_nav": 208.25,
+  "raw_nav": 245,
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
@@ -17,10 +17,10 @@
       "item_name": "Voidtouched Myth",
       "base_type": "Breach Tablet",
       "rarity": "Rare",
-      "listed_price": 8,
+      "listed_price": 7,
       "currency": "chaos",
       "div_equivalent": "",
-      "indexed": "2026-07-11T02:22:46Z",
+      "indexed": "2026-07-13T02:40:16Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXRCcmVhY2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b45b6e660e/PrecursorTabletBreach.png",
       "ilvl": 81,
@@ -172,10 +172,10 @@
       "item_name": "Demon Eye",
       "base_type": "Unset Ring",
       "rarity": "Rare",
-      "listed_price": 80,
+      "listed_price": 245,
       "currency": "divine",
-      "div_equivalent": 80,
-      "indexed": "2026-07-12T14:53:25Z",
+      "div_equivalent": 245,
+      "indexed": "2026-07-13T02:41:45Z",
       "stash": "5",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1Vuc2V0UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/79ee559b51/UnsetRing.png",
       "ilvl": 79,
@@ -229,16 +229,16 @@
           ]
         },
         {
-          "description": "18% increased [Critical|Critical Hit Chance] for [Spell|Spells]",
-          "hash": "stat.explicit.stat_737908626",
+          "description": "15% increased [ItemRarity|Rarity of Items] found",
+          "hash": "stat.explicit.stat_3917489142",
           "mods": [
             {
-              "name": "of Calamity",
-              "tier": "S0",
-              "level": 58,
+              "name": "of Archaeology",
+              "tier": "S1",
+              "level": 40,
               "magnitudes": [
                 {
-                  "min": "16",
+                  "min": "15",
                   "max": "18"
                 }
               ]
@@ -246,34 +246,34 @@
           ]
         },
         {
-          "description": "17% increased [CriticalDamageBonus|Critical Spell Damage Bonus]",
-          "hash": "stat.explicit.stat_274716455",
+          "description": "+34% to [Resistances|Cold Resistance]",
+          "hash": "stat.explicit.stat_4220027924",
           "mods": [
             {
-              "name": "of Rage",
-              "tier": "S0",
-              "level": 44,
+              "name": "of the Polar Bear",
+              "tier": "S3",
+              "level": 60,
               "magnitudes": [
                 {
-                  "min": "14",
-                  "max": "17"
+                  "min": "31",
+                  "max": "35"
                 }
               ]
             }
           ]
         },
         {
-          "description": "[LifeLeech|Leech] 9.88% of [Physical] [Attack] Damage as Life",
-          "hash": "stat.explicit.stat_2557965901",
+          "description": "60% increased Mana Regeneration Rate",
+          "hash": "stat.explicit.stat_789117908",
           "mods": [
             {
-              "name": "of the Remora",
+              "name": "of Nirvana",
               "tier": "S1",
-              "level": 38,
+              "level": 79,
               "magnitudes": [
                 {
-                  "min": "7",
-                  "max": "7.9"
+                  "min": "60",
+                  "max": "69"
                 }
               ]
             }
@@ -354,31 +354,31 @@
           [
             "explicit.stat_1573130764",
             [
-              2
+              0
             ]
           ],
           [
             "explicit.stat_1754445556",
             [
-              3
-            ]
-          ],
-          [
-            "explicit.stat_737908626",
-            [
               1
             ]
           ],
           [
-            "explicit.stat_274716455",
+            "explicit.stat_3917489142",
             [
-              0
+              4
             ]
           ],
           [
-            "explicit.stat_2557965901",
+            "explicit.stat_4220027924",
             [
-              4
+              2
+            ]
+          ],
+          [
+            "explicit.stat_789117908",
+            [
+              3
             ]
           ]
         ],
@@ -399,17 +399,18 @@
           ]
         ]
       }
-    },
+    }
+  ],
+  "recent_sales": [
     {
-      "item_id": "d48235f2d6d31bccdfa5428b31ca28eafeb1b8497cc79ba3c2e452551f9f7a7e",
+      "timestamp": "2026-07-13T07:26:00+00:00",
       "item_name": "Glyph Glisten",
       "base_type": "Sapphire",
       "rarity": "Rare",
-      "listed_price": 249,
+      "sale_price": 245,
       "currency": "divine",
-      "div_equivalent": 249,
-      "indexed": "2026-07-12T01:13:09Z",
-      "stash": "5",
+      "div_equivalent": 245,
+      "item_id": "d48235f2d6d31bccdfa5428b31ca28eafeb1b8497cc79ba3c2e452551f9f7a7e",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NhcHBoaXJlSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/976a8c1642/SapphireJewel.png",
       "ilvl": 82,
       "corrupted": false,
@@ -417,98 +418,16 @@
       "sanctified": false,
       "implicit_mods": [],
       "explicit_mods": [
-        {
-          "description": "32% increased [CriticalDamageBonus|Critical Spell Damage Bonus]",
-          "hash": "stat.fractured.stat_274716455",
-          "flags": {
-            "fractured": true
-          },
-          "mods": [
-            {
-              "name": "of Unmaking",
-              "tier": "S1",
-              "magnitudes": [
-                {
-                  "min": "10",
-                  "max": "20"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "8% increased [Spell] Damage",
-          "hash": "stat.explicit.stat_2974417149",
-          "mods": [
-            {
-              "name": "Mystic",
-              "tier": "P1",
-              "magnitudes": [
-                {
-                  "min": "5",
-                  "max": "15"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "27% increased [CriticalDamageBonus|Critical Damage Bonus]",
-          "hash": "stat.explicit.stat_3556824919",
-          "mods": [
-            {
-              "name": "of Potency",
-              "tier": "S1",
-              "magnitudes": [
-                {
-                  "min": "10",
-                  "max": "20"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "22% increased [Critical|Critical Hit Chance] for [Spell|Spells]",
-          "hash": "stat.desecrated.stat_737908626",
-          "flags": {
-            "desecrated": true
-          },
-          "mods": [
-            {
-              "name": "of Annihilating",
-              "tier": "S1",
-              "magnitudes": [
-                {
-                  "min": "5",
-                  "max": "15"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "60% increased Effect of Suffixes",
-          "hash": "stat.crafted.stat_2475221757",
-          "flags": {
-            "crafted": true
-          },
-          "mods": [
-            {
-              "tier": "P0",
-              "magnitudes": [
-                {
-                  "min": "40",
-                  "max": "60"
-                }
-              ]
-            }
-          ]
-        }
+        "8% increased [Spell] Damage",
+        "27% increased [CriticalDamageBonus|Critical Damage Bonus]"
       ],
       "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
+      "desecrated_mods": [
+        "22% increased [Critical|Critical Hit Chance] for [Spell|Spells]"
+      ],
+      "fractured_mods": [
+        "32% increased [CriticalDamageBonus|Critical Spell Damage Bonus]"
+      ],
       "flavour_text": [],
       "frame_type": 2,
       "type_line": "Sapphire",
@@ -525,49 +444,8 @@
       "rune_mods": [],
       "granted_skills": [],
       "extended_mods": {},
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_2974417149",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_3556824919",
-            [
-              0
-            ]
-          ]
-        ],
-        "fractured": [
-          [
-            "fractured.stat_274716455",
-            [
-              0
-            ]
-          ]
-        ],
-        "crafted": [
-          [
-            "crafted.stat_2475221757",
-            [
-              0
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_737908626",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    }
-  ],
-  "recent_sales": [
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-07-12T18:52:38+00:00",
       "item_name": "Oblivion Cut",
@@ -3051,50 +2929,6 @@
       "granted_skills": [],
       "extended_mods": {},
       "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T14:05:18+00:00",
-      "item_name": "Planar Decree",
-      "base_type": "Delirium Tablet",
-      "rarity": "Rare",
-      "sale_price": 1,
-      "currency": "divine",
-      "div_equivalent": 1,
-      "item_id": "92ad007deeb1fd306710162d51526e30aee40c6075e3f1dc7a839cf57ae7bab8",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yVGFibGV0cy9QcmVjdXJzb3JUYWJsZXREZWxpcml1bSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8c2fac816e/PrecursorTabletDelirium.png",
-      "ilvl": 80,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "Adds a [ContainsDelirium|Mirror of Delirium] to a Map \n10 uses remaining"
-      ],
-      "explicit_mods": [
-        "18% increased Stack size of Simulacrum Splinters found in Map",
-        "Map has 27% increased number of [Rarity|Rare] Monsters",
-        "Map has 20% increased [MonsterRarity|Monster Rarity]",
-        "Map has 84% increased chance to contain a [StoneSummoningCircle|Summoning Circle]"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Delirium Tablet",
-      "properties": [
-        {
-          "name": "Tablet",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
     }
   ],
   "fund": {
@@ -3108,7 +2942,7 @@
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd",
     "currencies": {
       "chaos": 1081,
-      "divine": 25668,
+      "divine": 25913,
       "exalted": 7533
     }
   },
