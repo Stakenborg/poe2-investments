@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-23T17:19:47.116881+00:00",
+  "updated_at": "2026-07-24T02:28:43.008375+00:00",
   "currencies": {
     "chaos": 1081,
-    "divine": 25913,
+    "divine": 26112,
     "exalted": 7533
   },
   "raw_divines": 0,
-  "listed_value": 199,
-  "total_nav": 169.15,
-  "raw_nav": 199,
+  "listed_value": 0,
+  "total_nav": 0.0,
+  "raw_nav": 0,
   "haircut": 0.85,
   "exchange_rates": {},
   "listings": [
@@ -166,17 +166,18 @@
           ]
         ]
       }
-    },
+    }
+  ],
+  "recent_sales": [
     {
-      "item_id": "8d1f83103c936233aee9583d5f206d8526799ebafcc0d1a35a8d33afa9c6b2e3",
+      "timestamp": "2026-07-24T00:59:15+00:00",
       "item_name": "Demon Eye",
       "base_type": "Unset Ring",
       "rarity": "Rare",
-      "listed_price": 199,
+      "sale_price": 199,
       "currency": "divine",
       "div_equivalent": 199,
-      "indexed": "2026-07-23T09:06:10Z",
-      "stash": "5",
+      "item_id": "8d1f83103c936233aee9583d5f206d8526799ebafcc0d1a35a8d33afa9c6b2e3",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL1Vuc2V0UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/79ee559b51/UnsetRing.png",
       "ilvl": 79,
       "corrupted": false,
@@ -186,126 +187,16 @@
         "Grants 1 additional Skill Slot"
       ],
       "explicit_mods": [
-        {
-          "description": "Adds 36 to 57 [Fire] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_1573130764",
-          "mods": [
-            {
-              "name": "Cremating",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "25",
-                  "max": "29"
-                },
-                {
-                  "min": "37",
-                  "max": "45"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Adds 5 to 92 [Lightning] damage to [Attack|Attacks]",
-          "hash": "stat.explicit.stat_1754445556",
-          "mods": [
-            {
-              "name": "Electrocuting",
-              "tier": "P1",
-              "level": 75,
-              "magnitudes": [
-                {
-                  "min": "1",
-                  "max": "4"
-                },
-                {
-                  "min": "60",
-                  "max": "71"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "15% increased [ItemRarity|Rarity of Items] found",
-          "hash": "stat.explicit.stat_3917489142",
-          "mods": [
-            {
-              "name": "of Archaeology",
-              "tier": "S1",
-              "level": 40,
-              "magnitudes": [
-                {
-                  "min": "15",
-                  "max": "18"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "+34% to [Resistances|Cold Resistance]",
-          "hash": "stat.explicit.stat_4220027924",
-          "mods": [
-            {
-              "name": "of the Polar Bear",
-              "tier": "S3",
-              "level": 60,
-              "magnitudes": [
-                {
-                  "min": "31",
-                  "max": "35"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "60% increased Mana Regeneration Rate",
-          "hash": "stat.explicit.stat_789117908",
-          "mods": [
-            {
-              "name": "of Nirvana",
-              "tier": "S1",
-              "level": 79,
-              "magnitudes": [
-                {
-                  "min": "60",
-                  "max": "69"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Adds 18 to 25 [Physical|Physical] Damage to [Attack|Attacks]",
-          "hash": "stat.desecrated.stat_3032590688",
-          "flags": {
-            "desecrated": true
-          },
-          "mods": [
-            {
-              "name": "Tempered",
-              "tier": "P2",
-              "level": 65,
-              "magnitudes": [
-                {
-                  "min": "10",
-                  "max": "15"
-                },
-                {
-                  "min": "18",
-                  "max": "26"
-                }
-              ]
-            }
-          ]
-        }
+        "Adds 36 to 57 [Fire] damage to [Attack|Attacks]",
+        "Adds 5 to 92 [Lightning] damage to [Attack|Attacks]",
+        "15% increased [ItemRarity|Rarity of Items] found",
+        "+34% to [Resistances|Cold Resistance]",
+        "60% increased Mana Regeneration Rate"
       ],
       "enchant_mods": [],
-      "desecrated_mods": [],
+      "desecrated_mods": [
+        "Adds 18 to 25 [Physical|Physical] Damage to [Attack|Attacks]"
+      ],
       "fractured_mods": [],
       "flavour_text": [],
       "frame_type": 2,
@@ -333,75 +224,9 @@
       "socketed_items": [],
       "rune_mods": [],
       "granted_skills": [],
-      "extended_mods": {
-        "implicit": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 56,
-            "magnitudes": [
-              {
-                "hash": "implicit.stat_958696139",
-                "min": "1",
-                "max": "1"
-              }
-            ]
-          }
-        ]
-      },
-      "extended_hashes": {
-        "explicit": [
-          [
-            "explicit.stat_1573130764",
-            [
-              0
-            ]
-          ],
-          [
-            "explicit.stat_1754445556",
-            [
-              1
-            ]
-          ],
-          [
-            "explicit.stat_3917489142",
-            [
-              4
-            ]
-          ],
-          [
-            "explicit.stat_4220027924",
-            [
-              2
-            ]
-          ],
-          [
-            "explicit.stat_789117908",
-            [
-              3
-            ]
-          ]
-        ],
-        "implicit": [
-          [
-            "implicit.stat_958696139",
-            [
-              0
-            ]
-          ]
-        ],
-        "desecrated": [
-          [
-            "desecrated.stat_3032590688",
-            [
-              0
-            ]
-          ]
-        ]
-      }
-    }
-  ],
-  "recent_sales": [
+      "extended_mods": {},
+      "extended_hashes": {}
+    },
     {
       "timestamp": "2026-07-13T07:26:00+00:00",
       "item_name": "Glyph Glisten",
@@ -2871,64 +2696,6 @@
       "granted_skills": [],
       "extended_mods": {},
       "extended_hashes": {}
-    },
-    {
-      "timestamp": "2026-07-05T14:14:58+00:00",
-      "item_name": "Oblivion Grip",
-      "base_type": "Amethyst Ring",
-      "rarity": "Rare",
-      "sale_price": 150,
-      "currency": "divine",
-      "div_equivalent": 150,
-      "item_id": "7ac2741ddfab98e60c21e329f3b34fecb32cbcea3e005125441f238c163055ec",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmFzZXR5cGVzL0FtZXRoeXN0UmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/352427171d/AmethystRing.png",
-      "ilvl": 82,
-      "corrupted": false,
-      "double_corrupted": false,
-      "sanctified": false,
-      "implicit_mods": [
-        "+10% to [Resistances|Chaos Resistance]"
-      ],
-      "explicit_mods": [
-        "Adds 39 to 53 [Fire] damage to [Attack|Attacks]",
-        "Adds 32 to 50 [Cold] damage to [Attack|Attacks]",
-        "21% increased Cast Speed",
-        "+32% to [Resistances|Fire Resistance]",
-        "+23% to [Resistances|Cold Resistance]"
-      ],
-      "enchant_mods": [],
-      "desecrated_mods": [
-        "Adds 2 to 60 [Lightning] damage to [Attack|Attacks]"
-      ],
-      "fractured_mods": [],
-      "flavour_text": [],
-      "frame_type": 2,
-      "type_line": "Amethyst Ring",
-      "properties": [
-        {
-          "name": "Ring",
-          "values": [],
-          "displayMode": 0,
-          "type": 109
-        },
-        {
-          "name": "Quality (Attack Modifiers)",
-          "values": [
-            [
-              "+40%",
-              1
-            ]
-          ],
-          "displayMode": 0,
-          "type": 6
-        }
-      ],
-      "sockets": [],
-      "socketed_items": [],
-      "rune_mods": [],
-      "granted_skills": [],
-      "extended_mods": {},
-      "extended_hashes": {}
     }
   ],
   "fund": {
@@ -2942,7 +2709,7 @@
     "discord_webhook": "https://discord.com/api/webhooks/1469910282355740872/NrOgitOZwLEKDt-yfoNwt6Ty9ThTxRemWMYLxOICdql_0gJyBpJjv44VV7szK99qhapd",
     "currencies": {
       "chaos": 1081,
-      "divine": 25913,
+      "divine": 26112,
       "exalted": 7533
     }
   },
