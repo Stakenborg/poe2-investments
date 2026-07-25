@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T17:27:48.004346+00:00",
+  "updated_at": "2026-07-25T02:27:15.948658+00:00",
   "currencies": {
     "chaos": 1081,
     "divine": 26112,
@@ -28,11 +28,26 @@
       "double_corrupted": false,
       "sanctified": false,
       "implicit_mods": [
-        "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining"
+        {
+          "description": "Adds an [ContainsBreach|Otherworldy Breach] to a Map \n10 uses remaining",
+          "domain": "implicit",
+          "hash": "stat.implicit.stat_2219129443",
+          "mods": [
+            {
+              "magnitudes": [
+                {
+                  "min": "10",
+                  "max": "10"
+                }
+              ]
+            }
+          ]
+        }
       ],
       "explicit_mods": [
         {
           "description": "16% increased [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] [ContainsBreach|Breach] Monsters in Map",
+          "domain": "explicit",
           "hash": "stat.explicit.stat_2895378479",
           "mods": [
             {
@@ -49,6 +64,7 @@
         },
         {
           "description": "47% increased Quantity of [BreachWombgift|Wombgifts] found in Map",
+          "domain": "explicit",
           "hash": "stat.explicit.stat_472809816",
           "mods": [
             {
@@ -65,6 +81,7 @@
         },
         {
           "description": "16% increased Experience gain in Map",
+          "domain": "explicit",
           "hash": "stat.explicit.stat_57434274",
           "mods": [
             {
@@ -81,6 +98,7 @@
         },
         {
           "description": "Map has 20% increased [MonsterRarity|Monster Rarity]",
+          "domain": "explicit",
           "hash": "stat.explicit.stat_4142653832",
           "mods": [
             {
@@ -114,22 +132,7 @@
       "socketed_items": [],
       "rune_mods": [],
       "granted_skills": [],
-      "extended_mods": {
-        "implicit": [
-          {
-            "name": "",
-            "tier": "",
-            "level": 1,
-            "magnitudes": [
-              {
-                "hash": "implicit.stat_2219129443",
-                "min": "10",
-                "max": "10"
-              }
-            ]
-          }
-        ]
-      },
+      "extended_mods": {},
       "extended_hashes": {
         "explicit": [
           [
